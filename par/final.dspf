@@ -3,7 +3,7 @@
 *
 *|DSPF 1.0
 *
-*|VENDOR "Silicon Perspective, A Cadence Company"
+*|VENDOR "Cadence Design Systems, Inc."
 *|PROGRAM "FirstEncounter System"
 *|DIVIDER /
 *|DELIMITER :
@@ -17,1523 +17,1277 @@
 *
 *|GROUND_NET 0
 *
-*|NET n18 0.000107PF
-*|I (U6:A U6 A I 0.001551PF 21.108 22.055)
-*|I (U5:Y U5 Y O 0.000000PF 20.520 22.290)
-*|S (n18_3 20.805 22.038)
-*|S (n18_2 20.805 21.945)
-C1_17 U6:A 0 0.000023PF
-C2_17 n18_3 0 0.000029PF
-C3_17 n18_2 0 0.000030PF
-C4_17 U5:Y 0 0.000024PF
-R1_17 U5:Y n18_2 1.666154
-R2_17 n18_2 n18_3 0.540769
-R3_17 n18_3 U6:A 1.636923
+*|NET n21 0.000209PF
+*|I (U17:A U17 A I 0.001551PF 21.488 33.045)
+*|I (U16:Y U16 Y O 0.000000PF 20.900 32.810)
+*|S (n21_2 21.375 33.345)
+*|S (n21_3 21.375 33.345)
+*|S (n21_4 21.375 33.155)
+*|S (n21_5 21.465 33.155)
+*|S (n21_6 21.465 33.060)
+C1_10 U16:Y 0 0.000030PF
+C2_10 U17:A 0 0.000042PF
+C3_10 n21_2 0 0.000051PF
+C4_10 n21_3 0 0.000031PF
+C5_10 n21_4 0 0.000018PF
+C6_10 n21_5 0 0.000012PF
+C7_10 n21_6 0 0.000025PF
+R1_10 n21_6 U17:A 4.000000
+R2_10 n21_6 n21_5 0.339286
+R3_10 n21_4 n21_5 0.321429
+R4_10 n21_4 n21_3 0.678571
+R5_10 n21_2 n21_3 4.000000
+R6_10 U16:Y n21_2 2.776923
 
-*|NET n24 0.000238PF
-*|I (U20:A U20 A I 0.001551PF 22.247 26.995)
-*|I (U19:Y U19 Y O 0.000000PF 20.900 27.230)
-*|S (n24_3 21.945 26.885)
-*|S (n24_2 21.945 26.977)
-C1_23 U19:Y 0 0.000090PF
-C2_23 n24_3 0 0.000096PF
-C3_23 n24_2 0 0.000029PF
-C4_23 U20:A 0 0.000023PF
-R1_23 n24_2 U20:A 1.636923
-R2_23 n24_3 n24_2 0.540769
-R3_23 U19:Y n24_3 6.109231
-
-*|NET n26 0.000290PF
-*|I (U21:Y U21 Y O 0.000000PF 20.235 27.835)
-*|I (U19:A U19 A I 0.001551PF 20.727 26.995)
-*|S (n26_6 20.425 26.980)
-*|S (n26_5 20.425 27.075)
-*|S (n26_4 20.235 27.075)
-*|S (n26_3 20.235 27.075)
-*|S (n26_2 20.235 27.835)
-C1_25 U19:A 0 0.000030PF
-C2_25 n26_6 0 0.000036PF
-C3_25 n26_5 0 0.000026PF
-C4_25 n26_4 0 0.000041PF
-C5_25 n26_3 0 0.000058PF
-C6_25 n26_2 0 0.000058PF
-C7_25 U21:Y 0 0.000042PF
-R1_25 U21:Y n26_2 4.000000
-R2_25 n26_3 n26_2 2.714286
-R3_25 n26_3 n26_4 4.000000
-R4_25 n26_4 n26_5 1.110769
-R5_25 n26_6 n26_5 0.555385
-R6_25 n26_6 U19:A 1.636923
-
-*|NET n19 0.000258PF
-*|I (U6:Y U6 Y O 0.000000PF 21.280 22.290)
-*|I (talker_str_1xsync_unitxmeta_reg_reg:D talker_str_1xsync_unitxmeta_reg_reg
-*+ D I 0.001996PF 21.090 23.511)
-*|S (n19_4 21.090 23.370)
-*|S (n19_3 21.090 22.372)
-*|S (n19_2 21.280 22.372)
-C1_18 talker_str_1xsync_unitxmeta_reg_reg:D 0 0.000042PF
-C2_18 n19_4 0 0.000075PF
-C3_18 n19_3 0 0.000069PF
-C4_18 n19_2 0 0.000031PF
-C5_18 U6:Y 0 0.000042PF
-R1_18 U6:Y n19_2 4.000000
-R2_18 n19_3 n19_2 0.678571
-R3_18 n19_3 n19_4 3.562500
-R4_18 n19_4 talker_str_1xsync_unitxmeta_reg_reg:D 4.000000
-
-*|NET n25 0.002045PF
-*|I (U20:Y U20 Y O 0.000000PF 22.420 27.230)
-*|I (listener_str_1xfsm_unitxack_buf_reg_reg:D
-*+ listener_str_1xfsm_unitxack_buf_reg_reg D I 0.001996PF 20.710 31.589)
-*|S (n25_7 22.420 27.312)
-*|S (n25_6 22.420 29.735)
-*|S (n25_5 22.420 29.735)
-*|S (n25_4 20.705 29.735)
-*|S (n25_3 20.705 29.735)
-*|S (n25_2 20.705 31.445)
-C1_24 U20:Y 0 0.000042PF
-C2_24 n25_7 0 0.000184PF
-C3_24 n25_6 0 0.000184PF
-C4_24 n25_5 0 0.000698PF
-C5_24 n25_4 0 0.000698PF
-C6_24 n25_3 0 0.000099PF
-C7_24 n25_2 0 0.000099PF
-C8_24 listener_str_1xfsm_unitxack_buf_reg_reg:D 0 0.000042PF
-R1_24 listener_str_1xfsm_unitxack_buf_reg_reg:D n25_2 4.000000
-R2_24 n25_3 n25_2 6.107143
-R3_24 n25_3 n25_4 4.000000
-R4_24 n25_4 n25_5 10.026154
-R5_24 n25_5 n25_6 4.000000
-R6_24 n25_7 n25_6 8.651786
-R7_24 n25_7 U20:Y 4.000000
-
-*|NET n17 0.000395PF
-*|I (U4:Y U4 Y O 0.000000PF 23.655 21.945)
-*|I (U2:A U2 A I 0.001551PF 22.628 22.055)
-*|S (n17_6 22.610 22.038)
-*|S (n17_5 22.895 22.038)
-*|S (n17_4 22.895 21.945)
-*|S (n17_3 23.085 21.945)
-*|S (n17_2 23.085 21.945)
-C1_16 U2:A 0 0.000042PF
-C2_16 n17_6 0 0.000037PF
-C3_16 n17_5 0 0.000024PF
-C4_16 n17_4 0 0.000018PF
-C5_16 n17_3 0 0.000031PF
-C6_16 n17_2 0 0.000133PF
-C7_16 U4:Y 0 0.000112PF
-R1_16 n17_2 U4:Y 3.332308
-R2_16 n17_2 n17_3 4.000000
-R3_16 n17_4 n17_3 0.678571
-R4_16 n17_4 n17_5 0.330357
-R5_16 n17_6 n17_5 1.017857
-R6_16 n17_6 U2:A 4.000000
-
-*|NET ack_out 0.001115PF
-*|I (U15:A U15 A I 0.001539PF 23.387 26.585)
-*|I (listener_str_1xfsm_unitxack_buf_reg_reg:Q
-*+ listener_str_1xfsm_unitxack_buf_reg_reg Q O 0.000000PF 24.225 32.205)
-*|S (ack_out_8 24.130 30.685)
-*|S (ack_out_7 23.845 30.685)
-*|S (ack_out_6 23.845 29.735)
-*|S (ack_out_5 23.845 29.735)
-*|S (ack_out_4 23.420 29.735)
-*|S (ack_out_3 23.420 29.735)
-*|S (ack_out_2 23.420 26.600)
-C1_2 listener_str_1xfsm_unitxack_buf_reg_reg:Q 0 0.000042PF
-C2_2 ack_out_8 0 0.000037PF
-C3_2 ack_out_7 0 0.000121PF
-C4_2 ack_out_6 0 0.000122PF
-C5_2 ack_out_5 0 0.000191PF
-C6_2 ack_out_4 0 0.000191PF
-C7_2 ack_out_3 0 0.000185PF
-C8_2 ack_out_2 0 0.000185PF
-C9_2 U15:A 0 0.000042PF
-R1_2 U15:A ack_out_2 4.000000
-R2_2 ack_out_2 ack_out_3 11.196429
-R3_2 ack_out_3 ack_out_4 4.000000
-R4_2 ack_out_4 ack_out_5 2.484615
-R5_2 ack_out_5 ack_out_6 4.000000
-R6_2 ack_out_6 ack_out_7 3.392857
-R7_2 ack_out_7 ack_out_8 1.017857
-R8_2 ack_out_8 listener_str_1xfsm_unitxack_buf_reg_reg:Q 4.000000
-
-*|NET n21 0.000830PF
-*|I (U17:A U17 A I 0.001551PF 24.527 31.935)
-*|I (U16:Y U16 Y O 0.000000PF 26.980 27.870)
-*|S (n21_4 24.505 28.595)
-*|S (n21_3 24.505 28.595)
-*|S (n21_2 24.505 31.918)
-C1_20 U16:Y 0 0.000168PF
-C2_20 n21_4 0 0.000199PF
-C3_20 n21_3 0 0.000211PF
-C4_20 n21_2 0 0.000211PF
-C5_20 U17:A 0 0.000042PF
-R1_20 U17:A n21_2 4.000000
-R2_20 n21_3 n21_2 11.866071
-R3_20 n21_3 n21_4 4.000000
-R4_20 n21_4 U16:Y 14.469231
-
-*|NET talker_str_1xsync_unitxmeta_reg 0.000274PF
-*|I (U4:A U4 A I 0.001539PF 24.148 21.645)
-*|I (talker_str_1xsync_unitxmeta_reg_reg:Q talker_str_1xsync_unitxmeta_reg_reg
-*+ Q O 0.000000PF 24.605 22.895)
-*|S (talker_str_1xsync_unitxmeta_reg_6 24.605 22.848)
-*|S (talker_str_1xsync_unitxmeta_reg_5 24.605 21.755)
-*|S (talker_str_1xsync_unitxmeta_reg_4 24.605 21.755)
-*|S (talker_str_1xsync_unitxmeta_reg_3 24.415 21.755)
-*|S (talker_str_1xsync_unitxmeta_reg_2 24.415 21.660)
-C1_45 talker_str_1xsync_unitxmeta_reg_reg:Q 0 0.000042PF
-C2_45 talker_str_1xsync_unitxmeta_reg_6 0 0.000067PF
-C3_45 talker_str_1xsync_unitxmeta_reg_5 0 0.000067PF
-C4_45 talker_str_1xsync_unitxmeta_reg_4 0 0.000035PF
-C5_45 talker_str_1xsync_unitxmeta_reg_3 0 0.000021PF
-C6_45 talker_str_1xsync_unitxmeta_reg_2 0 0.000024PF
-C7_45 U4:A 0 0.000018PF
-R1_45 U4:A talker_str_1xsync_unitxmeta_reg_2 1.373846
-R2_45 talker_str_1xsync_unitxmeta_reg_2 talker_str_1xsync_unitxmeta_reg_3
-+ 0.555385
-R3_45 talker_str_1xsync_unitxmeta_reg_3 talker_str_1xsync_unitxmeta_reg_4
-+ 1.110769
-R4_45 talker_str_1xsync_unitxmeta_reg_4 talker_str_1xsync_unitxmeta_reg_5
-+ 4.000000
-R5_45 talker_str_1xsync_unitxmeta_reg_5 talker_str_1xsync_unitxmeta_reg_6
-+ 3.901786
-R6_45 talker_str_1xsync_unitxmeta_reg_6 talker_str_1xsync_unitxmeta_reg_reg:Q
-+ 4.000000
-
-*|NET n27 0.000301PF
-*|I (U23:A U23 A I 0.001551PF 24.907 23.165)
-*|I (U22:Y U22 Y O 0.000000PF 25.840 22.930)
-*|S (n27_5 24.890 23.180)
-*|S (n27_4 25.365 23.180)
-*|S (n27_3 25.365 23.465)
-*|S (n27_2 25.365 23.465)
-C1_26 U23:A 0 0.000042PF
-C2_26 n27_5 0 0.000049PF
-C3_26 n27_4 0 0.000059PF
-C4_26 n27_3 0 0.000047PF
-C5_26 n27_2 0 0.000068PF
-C6_26 U22:Y 0 0.000036PF
-R1_26 n27_2 U22:Y 2.776923
-R2_26 n27_2 n27_3 4.000000
-R3_26 n27_4 n27_3 1.017857
-R4_26 n27_5 n27_4 1.696429
-R5_26 n27_5 U23:A 4.000000
-
-*|NET reset1 0.002876PF
-*|P (reset1 I 0.000000PF 25.365 54.960)
-*|I (FE_OCP_RBC3_reset1:A FE_OCP_RBC3_reset1 A I 0.002673PF 25.293 31.575)
-*|S (reset1_4 25.365 34.485)
-*|S (reset1_3 25.270 34.485)
-*|S (reset1_2 25.270 31.635)
-C1_35 reset1 0 0.001202PF
-C2_35 reset1_4 0 0.001208PF
-C3_35 reset1_3 0 0.000205PF
-C4_35 reset1_2 0 0.000218PF
-C5_35 FE_OCP_RBC3_reset1:A 0 0.000042PF
-R1_35 FE_OCP_RBC3_reset1:A reset1_2 4.000000
-R2_35 reset1_2 reset1_3 10.178571
-R3_35 reset1_3 reset1_4 0.339286
-R4_35 reset1_4 reset1 73.000000
-
-*|NET listener_str_1xreq_sync 0.001940PF
-*|I (U21:A U21 A I 0.001539PF 20.727 28.515)
-*|I (listener_str_1xsync_unitxsync_reg_reg:Q
-*+ listener_str_1xsync_unitxsync_reg_reg Q O 0.000000PF 25.745 32.775)
-*|S (listener_str_1xreq_sync_9 25.745 32.727)
-*|S (listener_str_1xreq_sync_8 25.745 30.685)
-*|S (listener_str_1xreq_sync_7 25.555 30.685)
-*|S (listener_str_1xreq_sync_6 25.555 29.545)
-*|S (listener_str_1xreq_sync_5 25.555 29.545)
-*|S (listener_str_1xreq_sync_4 20.760 29.545)
-*|S (listener_str_1xreq_sync_3 20.760 29.545)
-*|S (listener_str_1xreq_sync_2 20.760 28.515)
-C1_9 listener_str_1xsync_unitxsync_reg_reg:Q 0 0.000042PF
-C2_9 listener_str_1xreq_sync_9 0 0.000136PF
-C3_9 listener_str_1xreq_sync_8 0 0.000130PF
-C4_9 listener_str_1xreq_sync_7 0 0.000106PF
-C5_9 listener_str_1xreq_sync_6 0 0.000113PF
-C6_9 listener_str_1xreq_sync_5 0 0.000600PF
-C7_9 listener_str_1xreq_sync_4 0 0.000600PF
-C8_9 listener_str_1xreq_sync_3 0 0.000091PF
-C9_9 listener_str_1xreq_sync_2 0 0.000082PF
-C10_9 U21:A 0 0.000042PF
-R1_9 U21:A listener_str_1xreq_sync_2 4.000000
-R2_9 listener_str_1xreq_sync_2 listener_str_1xreq_sync_3 3.678571
-R3_9 listener_str_1xreq_sync_3 listener_str_1xreq_sync_4 4.000000
-R4_9 listener_str_1xreq_sync_4 listener_str_1xreq_sync_5 28.032307
-R5_9 listener_str_1xreq_sync_5 listener_str_1xreq_sync_6 4.000000
-R6_9 listener_str_1xreq_sync_6 listener_str_1xreq_sync_7 4.071429
-R7_9 listener_str_1xreq_sync_7 listener_str_1xreq_sync_8 0.678571
-R8_9 listener_str_1xreq_sync_8 listener_str_1xreq_sync_9 7.294643
-R9_9 listener_str_1xreq_sync_9 listener_str_1xsync_unitxsync_reg_reg:Q
-+ 4.000000
-
-*|NET n23 0.000639PF
-*|I (U18:Y U18 Y O 0.000000PF 25.935 30.305)
-*|I (U16:A U16 A I 0.001551PF 26.808 28.105)
-*|S (n23_6 25.935 30.305)
-*|S (n23_5 25.935 28.215)
-*|S (n23_4 25.935 28.215)
-*|S (n23_3 26.505 28.215)
-*|S (n23_2 26.505 28.120)
-C1_22 U18:Y 0 0.000042PF
-C2_22 n23_6 0 0.000178PF
-C3_22 n23_5 0 0.000178PF
-C4_22 n23_4 0 0.000095PF
-C5_22 n23_3 0 0.000080PF
-C6_22 n23_2 0 0.000036PF
-C7_22 U16:A 0 0.000030PF
-R1_22 n23_2 U16:A 1.636923
-R2_22 n23_2 n23_3 0.555385
-R3_22 n23_4 n23_3 3.332308
-R4_22 n23_4 n23_5 4.000000
-R5_22 n23_5 n23_6 7.464286
-R6_22 n23_6 U18:Y 4.000000
-
-*|NET clk2__L1_N0 0.000220PF
-*|I (clk2__L1_I0:Y clk2__L1_I0 Y O 0.000000PF 27.455 21.185)
-*|I (clk2__L2_I0:A clk2__L2_I0 A I 0.005092PF 26.797 23.595)
-*|S (clk2__L1_N0_3 26.865 23.560)
-*|S (clk2__L1_N0_2 26.865 22.372)
-C1_7 clk2__L2_I0:A 0 0.000042PF
-C2_7 clk2__L1_N0_3 0 0.000068PF
-C3_7 clk2__L1_N0_2 0 0.000068PF
-C4_7 clk2__L1_I0:Y 0 0.000042PF
-R1_7 clk2__L1_I0:Y clk2__L1_N0_2 4.000000
-R2_7 clk2__L1_N0_2 clk2__L1_N0_3 4.241071
-R3_7 clk2__L1_N0_3 clk2__L2_I0:A 4.000000
-
-*|NET n6 0.000805PF
-*|I (U8:A U8 A I 0.001551PF 27.948 26.995)
-*|I (U1:Y U1 Y O 0.000000PF 28.595 30.305)
-*|S (n6_7 28.595 30.305)
-*|S (n6_6 28.595 27.835)
-*|S (n6_5 28.595 27.835)
-*|S (n6_4 27.935 27.835)
-*|S (n6_3 27.935 27.835)
-*|S (n6_2 27.935 26.980)
-C1_29 U1:Y 0 0.000042PF
-C2_29 n6_7 0 0.000121PF
-C3_29 n6_6 0 0.000121PF
-C4_29 n6_5 0 0.000174PF
-C5_29 n6_4 0 0.000174PF
-C6_29 n6_3 0 0.000065PF
-C7_29 n6_2 0 0.000065PF
-C8_29 U8:A 0 0.000042PF
-R1_29 U8:A n6_2 4.000000
-R2_29 n6_2 n6_3 3.053571
-R3_29 n6_3 n6_4 4.000000
-R4_29 n6_4 n6_5 3.858461
-R5_29 n6_5 n6_6 4.000000
-R6_29 n6_6 n6_7 8.821429
-R7_29 n6_7 U1:Y 4.000000
-
-*|NET talker_str_1xfsm_unitxn7 0.000432PF
-*|I (U13:Y U13 Y O 0.000000PF 33.440 32.170)
-*|I (talker_str_1xfsm_unitxU11:B talker_str_1xfsm_unitxU11 B I 0.002764PF
-*+ 33.790 33.365)
-*|S (talker_str_1xfsm_unitxn7_6 33.725 32.205)
-*|S (talker_str_1xfsm_unitxn7_5 33.725 32.205)
-*|S (talker_str_1xfsm_unitxn7_4 33.725 32.585)
-*|S (talker_str_1xfsm_unitxn7_3 33.820 32.585)
-*|S (talker_str_1xfsm_unitxn7_2 33.820 33.345)
-C1_39 U13:Y 0 0.000065PF
-C2_39 talker_str_1xfsm_unitxn7_6 0 0.000097PF
-C3_39 talker_str_1xfsm_unitxn7_5 0 0.000041PF
-C4_39 talker_str_1xfsm_unitxn7_4 0 0.000028PF
-C5_39 talker_str_1xfsm_unitxn7_3 0 0.000073PF
-C6_39 talker_str_1xfsm_unitxn7_2 0 0.000086PF
-C7_39 talker_str_1xfsm_unitxU11:B 0 0.000042PF
-R1_39 talker_str_1xfsm_unitxU11:B talker_str_1xfsm_unitxn7_2 4.000000
-R2_39 talker_str_1xfsm_unitxn7_3 talker_str_1xfsm_unitxn7_2 2.714286
-R3_39 talker_str_1xfsm_unitxn7_4 talker_str_1xfsm_unitxn7_3 0.339286
-R4_39 talker_str_1xfsm_unitxn7_5 talker_str_1xfsm_unitxn7_4 1.357143
-R5_39 talker_str_1xfsm_unitxn7_5 talker_str_1xfsm_unitxn7_6 4.000000
-R6_39 U13:Y talker_str_1xfsm_unitxn7_6 1.666154
-
-*|NET n14 0.000764PF
-*|I (talker_str_1xsync_unitxsync_reg_reg:Q talker_str_1xsync_unitxsync_reg_reg
-*+ Q O 0.000000PF 35.245 22.325)
-*|I (U10:A U10 A I 0.001539PF 35.168 26.585)
-*|S (n14_5 35.245 22.372)
-*|S (n14_4 35.245 23.655)
-*|S (n14_3 35.200 23.655)
-*|S (n14_2 35.200 26.573)
-C1_13 talker_str_1xsync_unitxsync_reg_reg:Q 0 0.000042PF
-C2_13 n14_5 0 0.000121PF
-C3_13 n14_4 0 0.000105PF
-C4_13 n14_3 0 0.000215PF
-C5_13 n14_2 0 0.000240PF
-C6_13 U10:A 0 0.000042PF
-R1_13 U10:A n14_2 4.000000
-R2_13 n14_3 n14_2 10.419643
-R3_13 n14_3 n14_4 0.160714
-R4_13 n14_5 n14_4 4.580357
-R5_13 n14_5 talker_str_1xsync_unitxsync_reg_reg:Q 4.000000
-
-*|NET n15 0.001053PF
-*|I (U3:A U3 A I 0.001551PF 28.707 22.055)
-*|I (U2:Y U2 Y O 0.000000PF 22.800 22.290)
-*|S (n15_10 23.465 21.755)
-*|S (n15_9 23.465 21.755)
-*|S (n15_8 23.465 21.755)
-*|S (n15_7 28.215 21.755)
-*|S (n15_6 28.215 21.755)
-*|S (n15_5 28.215 21.755)
-*|S (n15_4 28.685 21.755)
-*|S (n15_3 28.685 21.755)
-*|S (n15_2 28.685 22.038)
-C1_14 U2:Y 0 0.000098PF
-C2_14 n15_10 0 0.000129PF
-C3_14 n15_9 0 0.000039PF
-C4_14 n15_8 0 0.000261PF
-C5_14 n15_7 0 0.000261PF
-C6_14 n15_6 0 0.000039PF
-C7_14 n15_5 0 0.000057PF
-C8_14 n15_4 0 0.000057PF
-C9_14 n15_3 0 0.000036PF
-C10_14 n15_2 0 0.000036PF
-C11_14 U3:A 0 0.000042PF
-R1_14 U3:A n15_2 4.000000
-R2_14 n15_3 n15_2 1.008929
-R3_14 n15_3 n15_4 4.000000
-R4_14 n15_5 n15_4 2.747692
-R5_14 n15_5 n15_6 4.000000
-R6_14 n15_6 n15_7 4.000000
-R7_14 n15_8 n15_7 16.964286
-R8_14 n15_8 n15_9 4.000000
-R9_14 n15_9 n15_10 4.000000
-R10_14 U2:Y n15_10 3.887692
-
-*|NET n16 0.000678PF
-*|I (U3:Y U3 Y O 0.000000PF 28.880 22.290)
-*|I (talker_str_1xsync_unitxsync_reg_reg:D talker_str_1xsync_unitxsync_reg_reg
-*+ D I 0.001996PF 31.730 21.709)
-*|S (n16_7 31.065 21.755)
-*|S (n16_6 31.065 21.755)
-*|S (n16_5 31.065 21.755)
-*|S (n16_4 31.445 21.755)
-*|S (n16_3 31.445 21.755)
-*|S (n16_2 31.730 21.755)
-C1_15 U3:Y 0 0.000167PF
-C2_15 n16_7 0 0.000199PF
-C3_15 n16_6 0 0.000039PF
-C4_15 n16_5 0 0.000074PF
-C5_15 n16_4 0 0.000074PF
-C6_15 n16_3 0 0.000037PF
-C7_15 n16_2 0 0.000046PF
-C8_15 talker_str_1xsync_unitxsync_reg_reg:D 0 0.000042PF
-R1_15 talker_str_1xsync_unitxsync_reg_reg:D n16_2 4.000000
-R2_15 n16_3 n16_2 1.017857
-R3_15 n16_3 n16_4 4.000000
-R4_15 n16_5 n16_4 1.357143
-R5_15 n16_5 n16_6 4.000000
-R6_15 n16_6 n16_7 4.000000
-R7_15 U3:Y n16_7 12.773846
-
-*|NET req_in 0.000815PF
-*|I (U24:A U24 A I 0.001539PF 27.567 23.575)
-*|I (talker_str_1xfsm_unitxreq_buf_reg_reg:Q
-*+ talker_str_1xfsm_unitxreq_buf_reg_reg Q O 0.000000PF 31.825 22.895)
-*|S (req_in_7 31.730 23.275)
-*|S (req_in_6 31.445 23.275)
-*|S (req_in_5 31.445 23.275)
-*|S (req_in_4 27.598 23.275)
-*|S (req_in_3 27.598 23.275)
-*|S (req_in_2 27.598 23.560)
-C1_34 talker_str_1xfsm_unitxreq_buf_reg_reg:Q 0 0.000042PF
-C2_34 req_in_7 0 0.000046PF
-C3_34 req_in_6 0 0.000047PF
-C4_34 req_in_5 0 0.000280PF
-C5_34 req_in_4 0 0.000280PF
-C6_34 req_in_3 0 0.000040PF
-C7_34 req_in_2 0 0.000039PF
-C8_34 U24:A 0 0.000042PF
-R1_34 U24:A req_in_2 4.000000
-R2_34 req_in_3 req_in_2 1.017857
-R3_34 req_in_3 req_in_4 4.000000
-R4_34 req_in_4 req_in_5 13.741071
-R5_34 req_in_5 req_in_6 4.000000
-R6_34 req_in_6 req_in_7 1.017857
-R7_34 req_in_7 talker_str_1xfsm_unitxreq_buf_reg_reg:Q 4.000000
-
-*|NET n29 0.000492PF
-*|I (U24:Y U24 Y O 0.000000PF 27.075 23.465)
-*|I (U22:A U22 A I 0.001551PF 25.668 23.165)
-*|S (n29_7 27.075 23.465)
-*|S (n29_6 27.075 23.465)
-*|S (n29_5 25.935 23.465)
-*|S (n29_4 25.935 23.465)
-*|S (n29_3 25.650 23.465)
-*|S (n29_2 25.650 23.180)
-C1_28 U24:Y 0 0.000042PF
-C2_28 n29_7 0 0.000039PF
-C3_28 n29_6 0 0.000123PF
-C4_28 n29_5 0 0.000113PF
-C5_28 n29_4 0 0.000037PF
-C6_28 n29_3 0 0.000048PF
-C7_28 n29_2 0 0.000049PF
-C8_28 U22:A 0 0.000042PF
-R1_28 U22:A n29_2 4.000000
-R2_28 n29_2 n29_3 1.017857
-R3_28 n29_3 n29_4 1.017857
-R4_28 n29_4 n29_5 4.000000
-R5_28 n29_5 n29_6 4.071429
-R6_28 n29_6 n29_7 4.000000
-R7_28 n29_7 U24:Y 4.000000
-
-*|NET n20 0.000938PF
-*|I (U15:Y U15 Y O 0.000000PF 22.895 25.365)
-*|I (U5:A U5 A I 0.001551PF 20.348 22.055)
-*|S (n20_11 22.705 25.365)
-*|S (n20_10 22.705 25.365)
-*|S (n20_9 22.705 24.605)
-*|S (n20_8 22.705 24.605)
-*|S (n20_7 20.805 24.605)
-*|S (n20_6 20.805 24.605)
-*|S (n20_5 20.805 24.605)
-*|S (n20_4 20.330 24.605)
-*|S (n20_3 20.330 24.605)
-*|S (n20_2 20.330 22.040)
-C1_19 U15:Y 0 0.000044PF
-C2_19 n20_11 0 0.000076PF
-C3_19 n20_10 0 0.000065PF
-C4_19 n20_9 0 0.000066PF
-C5_19 n20_8 0 0.000090PF
-C6_19 n20_7 0 0.000090PF
-C7_19 n20_6 0 0.000039PF
-C8_19 n20_5 0 0.000084PF
-C9_19 n20_4 0 0.000073PF
-C10_19 n20_3 0 0.000136PF
-C11_19 n20_2 0 0.000136PF
-C12_19 U5:A 0 0.000042PF
-R1_19 U5:A n20_2 4.000000
-R2_19 n20_2 n20_3 9.160714
-R3_19 n20_3 n20_4 4.000000
-R4_19 n20_4 n20_5 2.776923
-R5_19 n20_5 n20_6 4.000000
-R6_19 n20_6 n20_7 4.000000
-R7_19 n20_7 n20_8 6.785714
-R8_19 n20_8 n20_9 4.000000
-R9_19 n20_9 n20_10 2.714286
-R10_19 n20_10 n20_11 4.000000
-R11_19 n20_11 U15:Y 1.110769
-
-*|NET FE_OCP_RBN1_reset2 0.003491PF
-*|I (talker_str_1xsync_unitxmeta_reg_reg:R talker_str_1xsync_unitxmeta_reg_reg
-*+ R I 0.004970PF 24.035 24.605)
-*|I (talker_str_1xsync_unitxsync_reg_reg:R talker_str_1xsync_unitxsync_reg_reg
-*+ R I 0.004970PF 34.675 20.615)
-*|I (talker_str_1xfsm_unitxstate_reg_regx0x:R
-*+ talker_str_1xfsm_unitxstate_reg_regx0x R I 0.004970PF 32.015 25.555)
-*|I (talker_str_1xfsm_unitxstate_reg_regx1x:R
-*+ talker_str_1xfsm_unitxstate_reg_regx1x R I 0.004970PF 27.075 25.555)
-*|I (talker_str_1xfsm_unitxreq_buf_reg_reg:R
-*+ talker_str_1xfsm_unitxreq_buf_reg_reg R I 0.004970PF 31.255 24.605)
-*|I (FE_OCP_RBC1_reset2:Y FE_OCP_RBC1_reset2 Y O 0.000000PF 34.675 30.305)
-*|S (FE_OCP_RBN1_reset2_15 32.015 25.555)
-*|S (FE_OCP_RBN1_reset2_11 32.015 24.605)
-*|S (FE_OCP_RBN1_reset2_7 32.015 24.605)
-*|S (FE_OCP_RBN1_reset2_4 31.255 24.605)
-*|S (FE_OCP_RBN1_reset2_8 31.255 24.605)
-*|S (FE_OCP_RBN1_reset2_17 34.675 20.615)
-*|S (FE_OCP_RBN1_reset2_14 34.675 24.605)
-*|S (FE_OCP_RBN1_reset2_10 34.675 24.605)
-*|S (FE_OCP_RBN1_reset2_23 34.675 30.305)
-*|S (FE_OCP_RBN1_reset2_22 34.675 28.595)
-*|S (FE_OCP_RBN1_reset2_21 34.485 28.595)
-*|S (FE_OCP_RBN1_reset2_19 34.485 27.075)
-*|S (FE_OCP_RBN1_reset2_16 34.675 27.075)
-*|S (FE_OCP_RBN1_reset2_9 27.075 25.555)
-*|S (FE_OCP_RBN1_reset2_5 27.075 24.605)
-*|S (FE_OCP_RBN1_reset2_2 27.075 24.605)
-*|S (FE_OCP_RBN1_reset2_3 24.035 24.605)
-*|S (FE_OCP_RBN1_reset2_1 24.035 24.605)
-C1_0 talker_str_1xfsm_unitxstate_reg_regx0x:R 0 0.000042PF
-C2_0 FE_OCP_RBN1_reset2_15 0 0.000079PF
-C3_0 FE_OCP_RBN1_reset2_11 0 0.000080PF
-C4_0 FE_OCP_RBN1_reset2_7 0 0.000207PF
-C5_0 FE_OCP_RBN1_reset2_4 0 0.000302PF
-C6_0 FE_OCP_RBN1_reset2_8 0 0.000039PF
-C7_0 talker_str_1xfsm_unitxreq_buf_reg_reg:R 0 0.000042PF
-C8_0 talker_str_1xsync_unitxsync_reg_reg:R 0 0.000042PF
-C9_0 FE_OCP_RBN1_reset2_17 0 0.000201PF
-C10_0 FE_OCP_RBN1_reset2_14 0 0.000375PF
-C11_0 FE_OCP_RBN1_reset2_10 0 0.000170PF
-C12_0 FE_OCP_RBC1_reset2:Y 0 0.000042PF
-C13_0 FE_OCP_RBN1_reset2_23 0 0.000129PF
-C14_0 FE_OCP_RBN1_reset2_22 0 0.000122PF
-C15_0 FE_OCP_RBN1_reset2_21 0 0.000270PF
-C16_0 FE_OCP_RBN1_reset2_19 0 0.000270PF
-C17_0 FE_OCP_RBN1_reset2_16 0 0.000185PF
-C18_0 talker_str_1xfsm_unitxstate_reg_regx1x:R 0 0.000042PF
-C19_0 FE_OCP_RBN1_reset2_9 0 0.000061PF
-C20_0 FE_OCP_RBN1_reset2_5 0 0.000062PF
-C21_0 FE_OCP_RBN1_reset2_2 0 0.000443PF
-C22_0 talker_str_1xsync_unitxmeta_reg_reg:R 0 0.000042PF
-C23_0 FE_OCP_RBN1_reset2_3 0 0.000039PF
-C24_0 FE_OCP_RBN1_reset2_1 0 0.000209PF
-R1_0 FE_OCP_RBN1_reset2_1 FE_OCP_RBN1_reset2_2 10.857143
-R2_0 FE_OCP_RBN1_reset2_1 FE_OCP_RBN1_reset2_3 4.000000
-R3_0 FE_OCP_RBN1_reset2_2 FE_OCP_RBN1_reset2_4 14.928571
-R4_0 FE_OCP_RBN1_reset2_2 FE_OCP_RBN1_reset2_5 4.000000
-R5_0 FE_OCP_RBN1_reset2_3 talker_str_1xsync_unitxmeta_reg_reg:R 4.000000
-R6_0 FE_OCP_RBN1_reset2_4 FE_OCP_RBN1_reset2_7 2.714286
-R7_0 FE_OCP_RBN1_reset2_4 FE_OCP_RBN1_reset2_8 4.000000
-R8_0 FE_OCP_RBN1_reset2_5 FE_OCP_RBN1_reset2_9 3.392857
-R9_0 FE_OCP_RBN1_reset2_7 FE_OCP_RBN1_reset2_10 9.500000
-R10_0 FE_OCP_RBN1_reset2_7 FE_OCP_RBN1_reset2_11 4.000000
-R11_0 FE_OCP_RBN1_reset2_8 talker_str_1xfsm_unitxreq_buf_reg_reg:R 4.000000
-R12_0 FE_OCP_RBN1_reset2_9 talker_str_1xfsm_unitxstate_reg_regx1x:R 4.000000
-R13_0 FE_OCP_RBN1_reset2_10 FE_OCP_RBN1_reset2_14 4.000000
-R14_0 FE_OCP_RBN1_reset2_11 FE_OCP_RBN1_reset2_15 3.392857
-R15_0 FE_OCP_RBN1_reset2_14 FE_OCP_RBN1_reset2_16 8.821429
-R16_0 FE_OCP_RBN1_reset2_17 FE_OCP_RBN1_reset2_14 14.250000
-R17_0 FE_OCP_RBN1_reset2_15 talker_str_1xfsm_unitxstate_reg_regx0x:R 4.000000
-R18_0 FE_OCP_RBN1_reset2_19 FE_OCP_RBN1_reset2_16 0.678571
-R19_0 FE_OCP_RBN1_reset2_17 talker_str_1xsync_unitxsync_reg_reg:R 4.000000
-R20_0 FE_OCP_RBN1_reset2_19 FE_OCP_RBN1_reset2_21 5.428571
-R21_0 FE_OCP_RBN1_reset2_21 FE_OCP_RBN1_reset2_22 0.678571
-R22_0 FE_OCP_RBN1_reset2_22 FE_OCP_RBN1_reset2_23 6.107143
-R23_0 FE_OCP_RBN1_reset2_23 FE_OCP_RBC1_reset2:Y 4.000000
-
-*|NET n28 0.001388PF
-*|I (U23:Y U23 Y O 0.000000PF 25.080 22.930)
-*|I (listener_str_1xsync_unitxmeta_reg_reg:D
-*+ listener_str_1xsync_unitxmeta_reg_reg D I 0.001996PF 27.170 33.391)
-*|S (n28_10 25.365 24.225)
-*|S (n28_9 25.365 24.225)
-*|S (n28_8 25.365 25.745)
-*|S (n28_7 25.365 25.745)
-*|S (n28_6 27.075 25.745)
-*|S (n28_5 27.075 25.745)
-*|S (n28_4 27.075 30.115)
-*|S (n28_3 27.170 30.115)
-*|S (n28_2 27.170 33.250)
-C1_27 U23:Y 0 0.000022PF
-C2_27 n28_10 0 0.000053PF
-C3_27 n28_9 0 0.000095PF
-C4_27 n28_8 0 0.000096PF
-C5_27 n28_7 0 0.000138PF
-C6_27 n28_6 0 0.000138PF
-C7_27 n28_5 0 0.000266PF
-C8_27 n28_4 0 0.000243PF
-C9_27 n28_3 0 0.000141PF
-C10_27 n28_2 0 0.000154PF
-C11_27 listener_str_1xsync_unitxmeta_reg_reg:D 0 0.000042PF
-R1_27 listener_str_1xsync_unitxmeta_reg_reg:D n28_2 4.000000
-R2_27 n28_3 n28_2 11.196429
-R3_27 n28_4 n28_3 0.339286
-R4_27 n28_5 n28_4 15.607143
-R5_27 n28_5 n28_6 4.000000
-R6_27 n28_7 n28_6 6.107143
-R7_27 n28_7 n28_8 4.000000
-R8_27 n28_9 n28_8 5.428571
-R9_27 n28_9 n28_10 4.000000
-R10_27 U23:Y n28_10 1.666154
-
-*|NET n7 0.000796PF
-*|I (U8:Y U8 Y O 0.000000PF 28.120 27.230)
-*|I (talker_str_1xfsm_unitxstate_reg_regx0x:D
-*+ talker_str_1xfsm_unitxstate_reg_regx0x D I 0.001996PF 29.070 26.649)
-*|I (talker_str_1xfsm_unitxreq_buf_reg_reg:D
-*+ talker_str_1xfsm_unitxreq_buf_reg_reg D I 0.001996PF 28.310 23.511)
-*|S (n7_13 28.310 23.655)
-*|S (n7_12 28.310 24.985)
-*|S (n7_11 28.405 24.985)
-*|S (n7_10 28.405 25.935)
-*|S (n7_9 28.405 25.935)
-*|S (n7_7 28.405 26.695)
-*|S (n7_6 28.405 26.695)
-*|S (n7_5 28.405 26.695)
-*|S (n7_4 28.785 26.695)
-*|S (n7_3 28.785 26.695)
-*|S (n7_2 29.070 26.695)
-C1_30 talker_str_1xfsm_unitxreq_buf_reg_reg:D 0 0.000042PF
-C2_30 n7_13 0 0.000072PF
-C3_30 n7_12 0 0.000059PF
-C4_30 n7_11 0 0.000052PF
-C5_30 n7_10 0 0.000065PF
-C6_30 n7_9 0 0.000057PF
-C7_30 U8:Y 0 0.000050PF
-C8_30 n7_7 0 0.000057PF
-C9_30 n7_6 0 0.000039PF
-C10_30 n7_5 0 0.000090PF
-C11_30 n7_4 0 0.000090PF
-C12_30 n7_3 0 0.000037PF
-C13_30 n7_2 0 0.000046PF
-C14_30 talker_str_1xfsm_unitxstate_reg_regx0x:D 0 0.000042PF
-R1_30 talker_str_1xfsm_unitxstate_reg_regx0x:D n7_2 4.000000
-R2_30 n7_3 n7_2 1.017857
-R3_30 n7_3 n7_4 4.000000
-R4_30 n7_5 n7_4 1.357143
-R5_30 n7_5 n7_6 4.000000
-R6_30 n7_6 n7_7 4.000000
-R7_30 U8:Y n7_7 1.666154
-R8_30 U8:Y n7_9 1.666154
-R9_30 n7_9 n7_10 4.000000
-R10_30 n7_11 n7_10 3.392857
-R11_30 n7_12 n7_11 0.339286
-R12_30 n7_13 n7_12 4.750000
-R13_30 n7_13 talker_str_1xfsm_unitxreq_buf_reg_reg:D 4.000000
-
-*|NET talker_str_1xfsm_unitxstate_regx0x 0.000705PF
-*|I (U12:A U12 A I 0.001539PF 33.267 26.585)
-*|I (talker_str_1xfsm_unitxstate_reg_regx0x:Q
-*+ talker_str_1xfsm_unitxstate_reg_regx0x Q O 0.000000PF 32.585 27.265)
-*|S (talker_str_1xfsm_unitxstate_regx0x_7 32.585 27.170)
-*|S (talker_str_1xfsm_unitxstate_regx0x_6 32.585 26.885)
-*|S (talker_str_1xfsm_unitxstate_regx0x_5 32.585 26.885)
-*|S (talker_str_1xfsm_unitxstate_regx0x_4 33.297 26.885)
-*|S (talker_str_1xfsm_unitxstate_regx0x_3 33.297 26.885)
-*|S (talker_str_1xfsm_unitxstate_regx0x_2 33.297 26.600)
-C1_43 talker_str_1xfsm_unitxstate_reg_regx0x:Q 0 0.000042PF
-C2_43 talker_str_1xfsm_unitxstate_regx0x_7 0 0.000044PF
-C3_43 talker_str_1xfsm_unitxstate_regx0x_6 0 0.000044PF
-C4_43 talker_str_1xfsm_unitxstate_regx0x_5 0 0.000206PF
-C5_43 talker_str_1xfsm_unitxstate_regx0x_4 0 0.000206PF
-C6_43 talker_str_1xfsm_unitxstate_regx0x_3 0 0.000061PF
-C7_43 talker_str_1xfsm_unitxstate_regx0x_2 0 0.000061PF
-C8_43 U12:A 0 0.000042PF
-R1_43 U12:A talker_str_1xfsm_unitxstate_regx0x_2 4.000000
-R2_43 talker_str_1xfsm_unitxstate_regx0x_2
-+ talker_str_1xfsm_unitxstate_regx0x_3 1.017857
-R3_43 talker_str_1xfsm_unitxstate_regx0x_3
-+ talker_str_1xfsm_unitxstate_regx0x_4 4.000000
-R4_43 talker_str_1xfsm_unitxstate_regx0x_5
-+ talker_str_1xfsm_unitxstate_regx0x_4 2.544643
-R5_43 talker_str_1xfsm_unitxstate_regx0x_5
-+ talker_str_1xfsm_unitxstate_regx0x_6 4.000000
-R6_43 talker_str_1xfsm_unitxstate_regx0x_6
-+ talker_str_1xfsm_unitxstate_regx0x_7 1.017857
-R7_43 talker_str_1xfsm_unitxstate_regx0x_7
-+ talker_str_1xfsm_unitxstate_reg_regx0x:Q 4.000000
-
-*|NET talker_str_1xfsm_unitxstate_nextx1x 0.001693PF
-*|I (U7:Y U7 Y O 0.000000PF 34.205 25.879)
-*|I (talker_str_1xfsm_unitxstate_reg_regx1x:D
-*+ talker_str_1xfsm_unitxstate_reg_regx1x D I 0.001996PF 24.130 26.649)
-*|S (talker_str_1xfsm_unitxstate_nextx1x_8 34.200 27.075)
-*|S (talker_str_1xfsm_unitxstate_nextx1x_7 33.915 27.075)
-*|S (talker_str_1xfsm_unitxstate_nextx1x_6 33.915 27.075)
-*|S (talker_str_1xfsm_unitxstate_nextx1x_5 24.415 27.075)
-*|S (talker_str_1xfsm_unitxstate_nextx1x_4 24.415 27.075)
-*|S (talker_str_1xfsm_unitxstate_nextx1x_3 24.130 27.075)
-*|S (talker_str_1xfsm_unitxstate_nextx1x_2 24.130 26.790)
-C1_42 U7:Y 0 0.000042PF
-C2_42 talker_str_1xfsm_unitxstate_nextx1x_8 0 0.000046PF
-C3_42 talker_str_1xfsm_unitxstate_nextx1x_7 0 0.000047PF
-C4_42 talker_str_1xfsm_unitxstate_nextx1x_6 0 0.000705PF
-C5_42 talker_str_1xfsm_unitxstate_nextx1x_5 0 0.000695PF
-C6_42 talker_str_1xfsm_unitxstate_nextx1x_4 0 0.000037PF
-C7_42 talker_str_1xfsm_unitxstate_nextx1x_3 0 0.000039PF
-C8_42 talker_str_1xfsm_unitxstate_nextx1x_2 0 0.000040PF
-C9_42 talker_str_1xfsm_unitxstate_reg_regx1x:D 0 0.000042PF
-R1_42 talker_str_1xfsm_unitxstate_reg_regx1x:D
-+ talker_str_1xfsm_unitxstate_nextx1x_2 4.000000
-R2_42 talker_str_1xfsm_unitxstate_nextx1x_2
-+ talker_str_1xfsm_unitxstate_nextx1x_3 1.017857
-R3_42 talker_str_1xfsm_unitxstate_nextx1x_3
-+ talker_str_1xfsm_unitxstate_nextx1x_4 1.017857
-R4_42 talker_str_1xfsm_unitxstate_nextx1x_4
-+ talker_str_1xfsm_unitxstate_nextx1x_5 4.000000
-R5_42 talker_str_1xfsm_unitxstate_nextx1x_5
-+ talker_str_1xfsm_unitxstate_nextx1x_6 33.928571
-R6_42 talker_str_1xfsm_unitxstate_nextx1x_6
-+ talker_str_1xfsm_unitxstate_nextx1x_7 4.000000
-R7_42 talker_str_1xfsm_unitxstate_nextx1x_7
-+ talker_str_1xfsm_unitxstate_nextx1x_8 1.017857
-R8_42 talker_str_1xfsm_unitxstate_nextx1x_8 U7:Y 4.000000
-
-*|NET talker_str_1xfsm_unitxstate_regx1x 0.000636PF
-*|I (U11:A U11 A I 0.001539PF 29.848 28.515)
-*|I (talker_str_1xfsm_unitxstate_reg_regx1x:Q
-*+ talker_str_1xfsm_unitxstate_reg_regx1x Q O 0.000000PF 27.645 27.265)
-*|S (talker_str_1xfsm_unitxstate_regx1x_7 27.645 27.312)
-*|S (talker_str_1xfsm_unitxstate_regx1x_6 27.645 27.645)
-*|S (talker_str_1xfsm_unitxstate_regx1x_5 27.645 27.645)
-*|S (talker_str_1xfsm_unitxstate_regx1x_4 29.878 27.645)
-*|S (talker_str_1xfsm_unitxstate_regx1x_3 29.878 27.645)
-*|S (talker_str_1xfsm_unitxstate_regx1x_2 29.878 28.500)
-C1_44 talker_str_1xfsm_unitxstate_reg_regx1x:Q 0 0.000042PF
-C2_44 talker_str_1xfsm_unitxstate_regx1x_7 0 0.000059PF
-C3_44 talker_str_1xfsm_unitxstate_regx1x_6 0 0.000060PF
-C4_44 talker_str_1xfsm_unitxstate_regx1x_5 0 0.000145PF
-C5_44 talker_str_1xfsm_unitxstate_regx1x_4 0 0.000145PF
-C6_44 talker_str_1xfsm_unitxstate_regx1x_3 0 0.000072PF
-C7_44 talker_str_1xfsm_unitxstate_regx1x_2 0 0.000071PF
-C8_44 U11:A 0 0.000042PF
-R1_44 U11:A talker_str_1xfsm_unitxstate_regx1x_2 4.000000
-R2_44 talker_str_1xfsm_unitxstate_regx1x_3
-+ talker_str_1xfsm_unitxstate_regx1x_2 3.053571
-R3_44 talker_str_1xfsm_unitxstate_regx1x_3
-+ talker_str_1xfsm_unitxstate_regx1x_4 4.000000
-R4_44 talker_str_1xfsm_unitxstate_regx1x_5
-+ talker_str_1xfsm_unitxstate_regx1x_4 7.973214
-R5_44 talker_str_1xfsm_unitxstate_regx1x_5
-+ talker_str_1xfsm_unitxstate_regx1x_6 4.000000
-R6_44 talker_str_1xfsm_unitxstate_regx1x_7
-+ talker_str_1xfsm_unitxstate_regx1x_6 1.187500
-R7_44 talker_str_1xfsm_unitxstate_regx1x_7
-+ talker_str_1xfsm_unitxstate_reg_regx1x:Q 4.000000
-
-*|NET rcv 0.004363PF
-*|P (rcv O 0.000000PF 55.340 28.405)
-*|I (U13:A U13 A I 0.001551PF 33.267 31.935)
-*|I (U10:Y U10 Y O 0.000000PF 34.675 26.695)
-*|I (U7:A U7 A I 0.001798PF 33.625 26.635)
-*|S (rcv_3 33.590 26.695)
-*|S (rcv_5 33.915 26.695)
-*|S (rcv_7 33.915 26.695)
-*|S (rcv_8 34.485 26.695)
-*|S (rcv_9 34.485 26.695)
-*|S (rcv_10 34.485 26.695)
-*|S (rcv_12 34.675 27.265)
-*|S (rcv_13 34.675 28.405)
-*|S (rcv_14 34.675 28.405)
-*|S (rcv_15 35.245 28.405)
-*|S (rcv_16 35.245 28.405)
-*|S (rcv_17 35.245 28.405)
-*|S (rcv_2 33.300 31.918)
-*|S (rcv_1 33.590 31.918)
-C1_32 U7:A 0 0.000042PF
-C2_32 rcv_3 0 0.000387PF
-C3_32 rcv_5 0 0.000040PF
-C4_32 rcv_7 0 0.000056PF
-C5_32 rcv_8 0 0.000056PF
-C6_32 rcv_9 0 0.000039PF
-C7_32 rcv_10 0 0.000046PF
-C8_32 U10:Y 0 0.000056PF
-C9_32 rcv_12 0 0.000253PF
-C10_32 rcv_13 0 0.000253PF
-C11_32 rcv_14 0 0.000064PF
-C12_32 rcv_15 0 0.000064PF
-C13_32 rcv_16 0 0.000039PF
-C14_32 rcv_17 0 0.001268PF
-C15_32 rcv 0 0.001237PF
-C16_32 U13:A 0 0.000042PF
-C17_32 rcv_2 0 0.000046PF
-C18_32 rcv_1 0 0.000376PF
-R1_32 rcv_2 rcv_1 1.035714
-R2_32 rcv_3 rcv_1 18.651786
-R3_32 rcv_2 U13:A 4.000000
-R4_32 rcv_3 rcv_5 1.160714
-R5_32 rcv_3 U7:A 4.000000
-R6_32 rcv_5 rcv_7 4.000000
-R7_32 rcv_7 rcv_8 2.035714
-R8_32 rcv_8 rcv_9 4.000000
-R9_32 rcv_9 rcv_10 4.000000
-R10_32 rcv_10 U10:Y 1.110769
-R11_32 U10:Y rcv_12 4.000000
-R12_32 rcv_12 rcv_13 4.071429
-R13_32 rcv_13 rcv_14 4.000000
-R14_32 rcv_14 rcv_15 3.332308
-R15_32 rcv_15 rcv_16 4.000000
-R16_32 rcv_16 rcv_17 4.000000
-R17_32 rcv_17 rcv 71.642857
-
-*|NET ready 0.003616PF
-*|P (ready O 0.000000PF 55.340 31.255)
-*|I (talker_str_1xfsm_unitxU12:Y talker_str_1xfsm_unitxU12 Y O 0.000000PF
-*+ 32.108 31.275)
-*|S (ready_6 33.155 31.445)
-*|S (ready_5 33.155 31.445)
-*|S (ready_4 33.155 31.445)
-*|S (ready_3 47.025 31.445)
-*|S (ready_2 47.025 31.255)
-C1_33 talker_str_1xfsm_unitxU12:Y 0 0.000076PF
-C2_33 ready_6 0 0.000108PF
-C3_33 ready_5 0 0.000039PF
-C4_33 ready_4 0 0.001084PF
-C5_33 ready_3 0 0.001065PF
-C6_33 ready_2 0 0.000628PF
-C7_33 ready 0 0.000616PF
-R1_33 ready_2 ready 29.571429
-R2_33 ready_2 ready_3 0.678571
-R3_33 ready_4 ready_3 49.535714
-R4_33 ready_4 ready_5 4.000000
-R5_33 ready_5 ready_6 4.000000
-R6_33 talker_str_1xfsm_unitxU12:Y ready_6 6.094615
-
-*|NET n10 0.001363PF
-*|I (U11:Y U11 Y O 0.000000PF 29.355 29.735)
-*|I (U1:A U1 A I 0.002301PF 27.835 31.635)
-*|I (talker_str_1xfsm_unitxU13:A talker_str_1xfsm_unitxU13 A I 0.005396PF
-*+ 30.610 31.230)
-*|S (n10_8 29.355 29.735)
-*|S (n10_5 29.355 31.635)
-*|S (n10_2 29.355 31.635)
-*|S (n10_4 27.835 31.635)
-*|S (n10_7 27.835 31.635)
-*|S (n10_9 29.735 31.825)
-*|S (n10_6 29.735 31.825)
-*|S (n10_3 29.735 31.635)
-*|S (n10_1 29.735 31.635)
-C1_11 U11:Y 0 0.000042PF
-C2_11 n10_8 0 0.000088PF
-C3_11 n10_5 0 0.000089PF
-C4_11 n10_2 0 0.000463PF
-C5_11 n10_4 0 0.000351PF
-C6_11 n10_7 0 0.000039PF
-C7_11 U1:A 0 0.000042PF
-C8_11 talker_str_1xfsm_unitxU13:A 0 0.000012PF
-C9_11 n10_9 0 0.000044PF
-C10_11 n10_6 0 0.000030PF
-C11_11 n10_3 0 0.000031PF
-C12_11 n10_1 0 0.000133PF
-R1_11 n10_2 n10_1 1.357143
-R2_11 n10_1 n10_3 4.000000
-R3_11 n10_4 n10_2 5.428571
-R4_11 n10_2 n10_5 4.000000
-R5_11 n10_3 n10_6 0.678571
-R6_11 n10_4 n10_7 4.000000
-R7_11 n10_8 n10_5 6.785714
-R8_11 n10_6 n10_9 4.000000
-R9_11 n10_7 U1:A 4.000000
-R10_11 n10_8 U11:Y 4.000000
-R11_11 n10_9 talker_str_1xfsm_unitxU13:A 0.833077
-
-*|NET talker_str_1xfsm_unitxn8 0.001755PF
-*|I (U7:B U7 B I 0.001869PF 33.915 26.505)
-*|I (talker_str_1xfsm_unitxU12:B talker_str_1xfsm_unitxU12 B I 0.002365PF
-*+ 32.080 31.935)
-*|I (talker_str_1xfsm_unitxU13:Y talker_str_1xfsm_unitxU13 Y O 0.000000PF
-*+ 30.047 31.065)
-*|S (talker_str_1xfsm_unitxn8_13 33.915 26.505)
-*|S (talker_str_1xfsm_unitxn8_10 33.915 26.505)
-*|S (talker_str_1xfsm_unitxn8_7 32.015 26.505)
-*|S (talker_str_1xfsm_unitxn8_4 32.015 26.505)
-*|S (talker_str_1xfsm_unitxn8_2 32.015 31.635)
-*|S (talker_str_1xfsm_unitxn8_5 32.110 31.635)
-*|S (talker_str_1xfsm_unitxn8_8 32.110 31.918)
-*|S (talker_str_1xfsm_unitxn8_12 30.020 31.635)
-*|S (talker_str_1xfsm_unitxn8_9 30.305 31.635)
-*|S (talker_str_1xfsm_unitxn8_6 30.305 31.635)
-*|S (talker_str_1xfsm_unitxn8_3 31.825 31.635)
-*|S (talker_str_1xfsm_unitxn8_1 31.825 31.635)
-C1_40 U7:B 0 0.000042PF
-C2_40 talker_str_1xfsm_unitxn8_13 0 0.000039PF
-C3_40 talker_str_1xfsm_unitxn8_10 0 0.000133PF
-C4_40 talker_str_1xfsm_unitxn8_7 0 0.000133PF
-C5_40 talker_str_1xfsm_unitxn8_4 0 0.000374PF
-C6_40 talker_str_1xfsm_unitxn8_2 0 0.000363PF
-C7_40 talker_str_1xfsm_unitxn8_5 0 0.000028PF
-C8_40 talker_str_1xfsm_unitxn8_8 0 0.000041PF
-C9_40 talker_str_1xfsm_unitxU12:B 0 0.000042PF
-C10_40 talker_str_1xfsm_unitxU13:Y 0 0.000042PF
-C11_40 talker_str_1xfsm_unitxn8_12 0 0.000046PF
-C12_40 talker_str_1xfsm_unitxn8_9 0 0.000047PF
-C13_40 talker_str_1xfsm_unitxn8_6 0 0.000197PF
-C14_40 talker_str_1xfsm_unitxn8_3 0 0.000197PF
-C15_40 talker_str_1xfsm_unitxn8_1 0 0.000031PF
-R1_40 talker_str_1xfsm_unitxn8_1 talker_str_1xfsm_unitxn8_2 0.678571
-R2_40 talker_str_1xfsm_unitxn8_1 talker_str_1xfsm_unitxn8_3 4.000000
-R3_40 talker_str_1xfsm_unitxn8_4 talker_str_1xfsm_unitxn8_2 18.321429
-R4_40 talker_str_1xfsm_unitxn8_2 talker_str_1xfsm_unitxn8_5 0.339286
-R5_40 talker_str_1xfsm_unitxn8_6 talker_str_1xfsm_unitxn8_3 5.428571
-R6_40 talker_str_1xfsm_unitxn8_4 talker_str_1xfsm_unitxn8_7 4.000000
-R7_40 talker_str_1xfsm_unitxn8_5 talker_str_1xfsm_unitxn8_8 1.008929
-R8_40 talker_str_1xfsm_unitxn8_6 talker_str_1xfsm_unitxn8_9 4.000000
-R9_40 talker_str_1xfsm_unitxn8_7 talker_str_1xfsm_unitxn8_10 6.785714
-R10_40 talker_str_1xfsm_unitxn8_8 talker_str_1xfsm_unitxU12:B 4.000000
-R11_40 talker_str_1xfsm_unitxn8_12 talker_str_1xfsm_unitxn8_9 1.017857
-R12_40 talker_str_1xfsm_unitxn8_10 talker_str_1xfsm_unitxn8_13 4.000000
-R13_40 talker_str_1xfsm_unitxn8_12 talker_str_1xfsm_unitxU13:Y 4.000000
-R14_40 talker_str_1xfsm_unitxn8_13 U7:B 4.000000
-
-*|NET listener_str_1xsync_unitxmeta_reg 0.001531PF
-*|I (U18:A U18 A I 0.001539PF 26.428 31.525)
-*|I (listener_str_1xsync_unitxmeta_reg_reg:Q
-*+ listener_str_1xsync_unitxmeta_reg_reg Q O 0.000000PF 30.685 32.775)
-*|S (listener_str_1xsync_unitxmeta_reg_7 30.685 32.727)
-*|S (listener_str_1xsync_unitxmeta_reg_6 30.685 31.825)
-*|S (listener_str_1xsync_unitxmeta_reg_5 30.685 31.825)
-*|S (listener_str_1xsync_unitxmeta_reg_4 26.457 31.825)
-*|S (listener_str_1xsync_unitxmeta_reg_3 26.457 31.825)
-*|S (listener_str_1xsync_unitxmeta_reg_2 26.457 31.540)
-C1_10 listener_str_1xsync_unitxmeta_reg_reg:Q 0 0.000042PF
-C2_10 listener_str_1xsync_unitxmeta_reg_7 0 0.000070PF
-C3_10 listener_str_1xsync_unitxmeta_reg_6 0 0.000071PF
-C4_10 listener_str_1xsync_unitxmeta_reg_5 0 0.000610PF
-C5_10 listener_str_1xsync_unitxmeta_reg_4 0 0.000610PF
-C6_10 listener_str_1xsync_unitxmeta_reg_3 0 0.000043PF
-C7_10 listener_str_1xsync_unitxmeta_reg_2 0 0.000042PF
-C8_10 U18:A 0 0.000042PF
-R1_10 U18:A listener_str_1xsync_unitxmeta_reg_2 4.000000
-R2_10 listener_str_1xsync_unitxmeta_reg_2 listener_str_1xsync_unitxmeta_reg_3
-+ 1.017857
-R3_10 listener_str_1xsync_unitxmeta_reg_3 listener_str_1xsync_unitxmeta_reg_4
-+ 4.000000
-R4_10 listener_str_1xsync_unitxmeta_reg_4 listener_str_1xsync_unitxmeta_reg_5
-+ 15.098214
-R5_10 listener_str_1xsync_unitxmeta_reg_5 listener_str_1xsync_unitxmeta_reg_6
-+ 4.000000
-R6_10 listener_str_1xsync_unitxmeta_reg_6 listener_str_1xsync_unitxmeta_reg_7
-+ 3.223214
-R7_10 listener_str_1xsync_unitxmeta_reg_7
-+ listener_str_1xsync_unitxmeta_reg_reg:Q 4.000000
-
-*|NET reset2 0.003475PF
-*|P (reset2 I 0.000000PF 55.340 32.015)
-*|I (FE_OCP_RBC1_reset2:A FE_OCP_RBC1_reset2 A I 0.005092PF 34.778 31.505)
-*|S (reset2_5 35.055 32.015)
-*|S (reset2_4 35.055 32.015)
-*|S (reset2_3 35.055 31.540)
-*|S (reset2_2 35.055 31.540)
-C1_36 reset2 0 0.001643PF
-C2_36 reset2_5 0 0.001674PF
-C3_36 reset2_4 0 0.000047PF
-C4_36 reset2_3 0 0.000047PF
-C5_36 reset2_2 0 0.000048PF
-C6_36 FE_OCP_RBC1_reset2:A 0 0.000016PF
-R1_36 FE_OCP_RBC1_reset2:A reset2_2 1.227692
-R2_36 reset2_2 reset2_3 4.000000
-R3_36 reset2_3 reset2_4 1.696429
-R4_36 reset2_4 reset2_5 4.000000
-R5_36 reset2_5 reset2 72.321429
-
-*|NET n8 0.000700PF
-*|I (U9:Y U9 Y O 0.000000PF 30.875 32.775)
-*|I (U1:B U1 B I 0.002342PF 28.134 31.535)
-*|S (n8_7 30.875 32.775)
-*|S (n8_6 30.875 32.585)
-*|S (n8_5 30.875 32.585)
-*|S (n8_4 28.215 32.585)
-*|S (n8_3 28.215 32.585)
-*|S (n8_2 28.215 31.525)
-C1_31 U9:Y 0 0.000042PF
-C2_31 n8_7 0 0.000053PF
-C3_31 n8_6 0 0.000054PF
-C4_31 n8_5 0 0.000193PF
-C5_31 n8_4 0 0.000193PF
-C6_31 n8_3 0 0.000063PF
-C7_31 n8_2 0 0.000062PF
-C8_31 U1:B 0 0.000042PF
-R1_31 U1:B n8_2 4.000000
-R2_31 n8_2 n8_3 3.785714
-R3_31 n8_3 n8_4 4.000000
-R4_31 n8_4 n8_5 9.500000
-R5_31 n8_5 n8_6 4.000000
-R6_31 n8_6 n8_7 0.678571
-R7_31 n8_7 U9:Y 4.000000
-
-*|NET n22 0.001052PF
-*|I (U17:Y U17 Y O 0.000000PF 24.700 32.170)
+*|NET n22 0.000384PF
+*|I (U17:Y U17 Y O 0.000000PF 21.660 32.810)
 *|I (listener_str_1xsync_unitxsync_reg_reg:D
-*+ listener_str_1xsync_unitxsync_reg_reg D I 0.001996PF 22.230 33.391)
-*|S (n22_9 24.985 32.205)
-*|S (n22_8 24.985 32.205)
-*|S (n22_7 24.985 32.775)
-*|S (n22_6 24.985 32.775)
-*|S (n22_5 22.515 32.775)
-*|S (n22_4 22.515 32.775)
-*|S (n22_3 22.230 32.775)
-*|S (n22_2 22.230 33.250)
-C1_21 U17:Y 0 0.000066PF
-C2_21 n22_9 0 0.000098PF
-C3_21 n22_8 0 0.000078PF
-C4_21 n22_7 0 0.000079PF
-C5_21 n22_6 0 0.000277PF
-C6_21 n22_5 0 0.000277PF
-C7_21 n22_4 0 0.000037PF
-C8_21 n22_3 0 0.000048PF
-C9_21 n22_2 0 0.000049PF
-C10_21 listener_str_1xsync_unitxsync_reg_reg:D 0 0.000042PF
-R1_21 listener_str_1xsync_unitxsync_reg_reg:D n22_2 4.000000
-R2_21 n22_3 n22_2 1.696429
-R3_21 n22_3 n22_4 1.017857
-R4_21 n22_4 n22_5 4.000000
-R5_21 n22_5 n22_6 8.821429
-R6_21 n22_6 n22_7 4.000000
-R7_21 n22_8 n22_7 2.035714
-R8_21 n22_8 n22_9 4.000000
-R9_21 U17:Y n22_9 1.666154
+*+ listener_str_1xsync_unitxsync_reg_reg D I 0.001996PF 21.850 31.589)
+*|S (n22_2 21.945 32.775)
+*|S (n22_3 21.945 32.775)
+*|S (n22_4 21.945 31.825)
+*|S (n22_5 21.850 31.825)
+*|S (n22_6 21.850 31.730)
+C1_11 U17:Y 0 0.000031PF
+C2_11 listener_str_1xsync_unitxsync_reg_reg:D 0 0.000042PF
+C3_11 n22_2 0 0.000052PF
+C4_11 n22_3 0 0.000114PF
+C5_11 n22_4 0 0.000102PF
+C6_11 n22_5 0 0.000016PF
+C7_11 n22_6 0 0.000028PF
+R1_11 n22_6 listener_str_1xsync_unitxsync_reg_reg:D 4.000000
+R2_11 n22_6 n22_5 0.339286
+R3_11 n22_5 n22_4 0.339286
+R4_11 n22_4 n22_3 3.392857
+R5_11 n22_2 n22_3 4.000000
+R6_11 U17:Y n22_2 1.666154
 
-*|NET n11 0.002536PF
-*|I (U14:A U14 A I 0.001551PF 31.748 33.045)
-*|I (U12:Y U12 Y O 0.000000PF 32.775 27.265)
-*|I (talker_str_1xfsm_unitxU11:A talker_str_1xfsm_unitxU11 A I 0.002817PF
-*+ 33.980 33.365)
-*|I (talker_str_1xfsm_unitxU12:A talker_str_1xfsm_unitxU12 A I 0.002242PF
-*+ 31.760 31.935)
-*|I (talker_str_1xfsm_unitxU13:B talker_str_1xfsm_unitxU13 B I 0.005666PF
-*+ 29.545 31.445)
-*|S (n11_10 32.775 27.265)
-*|S (n11_7 32.775 31.445)
-*|S (n11_4 32.775 31.445)
-*|S (n11_2 31.445 31.445)
-*|S (n11_5 31.445 31.445)
-*|S (n11_8 31.445 31.918)
-*|S (n11_11 31.445 31.918)
-*|S (n11_17 31.725 31.920)
-*|S (n11_19 31.725 33.060)
-*|S (n11_20 34.295 33.345)
-*|S (n11_18 34.295 33.345)
-*|S (n11_16 34.295 32.775)
-*|S (n11_15 34.295 32.775)
-*|S (n11_12 32.775 32.775)
-*|S (n11_9 32.775 32.775)
-*|S (n11_3 29.545 31.445)
-*|S (n11_1 29.545 31.445)
-C1_12 U12:Y 0 0.000042PF
-C2_12 n11_10 0 0.000367PF
-C3_12 n11_7 0 0.000437PF
-C4_12 n11_4 0 0.000145PF
-C5_12 n11_2 0 0.000231PF
-C6_12 n11_5 0 0.000044PF
-C7_12 n11_8 0 0.000043PF
-C8_12 n11_11 0 0.000056PF
-C9_12 talker_str_1xfsm_unitxU12:A 0 0.000066PF
-C10_12 n11_17 0 0.000098PF
-C11_12 n11_19 0 0.000098PF
-C12_12 U14:A 0 0.000042PF
-C13_12 talker_str_1xfsm_unitxU11:A 0 0.000022PF
-C14_12 n11_20 0 0.000053PF
-C15_12 n11_18 0 0.000076PF
-C16_12 n11_16 0 0.000077PF
-C17_12 n11_15 0 0.000172PF
-C18_12 n11_12 0 0.000172PF
-C19_12 n11_9 0 0.000098PF
-C20_12 talker_str_1xfsm_unitxU13:B 0 0.000042PF
-C21_12 n11_3 0 0.000039PF
-C22_12 n11_1 0 0.000117PF
-R1_12 n11_1 n11_2 6.785714
-R2_12 n11_1 n11_3 4.000000
-R3_12 n11_2 n11_4 4.750000
-R4_12 n11_2 n11_5 4.000000
-R5_12 n11_3 talker_str_1xfsm_unitxU13:B 4.000000
-R6_12 n11_4 n11_7 4.000000
-R7_12 n11_5 n11_8 1.687500
-R8_12 n11_7 n11_9 4.750000
-R9_12 n11_10 n11_7 14.928571
-R10_12 n11_8 n11_11 4.000000
-R11_12 n11_9 n11_12 4.000000
-R12_12 n11_10 U12:Y 4.000000
-R13_12 n11_11 talker_str_1xfsm_unitxU12:A 1.636923
-R14_12 n11_12 n11_15 5.428571
-R15_12 n11_15 n11_16 4.000000
-R16_12 talker_str_1xfsm_unitxU12:A n11_17 4.000000
-R17_12 n11_16 n11_18 2.035714
-R18_12 n11_17 n11_19 4.071429
-R19_12 n11_18 n11_20 4.000000
-R20_12 n11_19 U14:A 4.000000
-R21_12 talker_str_1xfsm_unitxU11:A n11_20 1.666154
+*|NET n25 0.000950PF
+*|I (U20:Y U20 Y O 0.000000PF 24.700 32.810)
+*|I (listener_str_1xfsm_unitxack_buf_reg_reg:D
+*+ listener_str_1xfsm_unitxack_buf_reg_reg D I 0.001996PF 22.230 28.451)
+*|S (n25_2 22.325 33.345)
+*|S (n25_3 22.325 28.785)
+*|S (n25_4 22.325 33.345)
+*|S (n25_5 22.230 28.785)
+*|S (n25_6 22.230 28.595)
+C1_13 U20:Y 0 0.000170PF
+C2_13 listener_str_1xfsm_unitxack_buf_reg_reg:D 0 0.000042PF
+C3_13 n25_2 0 0.000256PF
+C4_13 n25_3 0 0.000243PF
+C5_13 n25_4 0 0.000191PF
+C6_13 n25_5 0 0.000018PF
+C7_13 n25_6 0 0.000030PF
+R1_13 n25_6 listener_str_1xfsm_unitxack_buf_reg_reg:D 4.000000
+R2_13 n25_6 n25_5 0.678571
+R3_13 n25_5 n25_3 0.339286
+R4_13 n25_3 n25_2 16.285715
+R5_13 n25_4 n25_2 4.000000
+R6_13 n25_4 U20:Y 13.884615
 
-*|NET talker_str_1xfsm_unitxn9 0.000712PF
-*|I (U9:A U9 A I 0.001539PF 31.367 33.455)
+*|NET n19 0.000341PF
+*|I (U6:Y U6 Y O 0.000000PF 22.420 27.230)
+*|I (talker_str_1xsync_unitxmeta_reg_reg:D talker_str_1xsync_unitxmeta_reg_reg
+*+ D I 0.001996PF 22.610 23.511)
+*|S (n19_2 22.420 25.745)
+*|S (n19_3 22.420 25.555)
+*|S (n19_4 22.325 25.555)
+*|S (n19_5 22.325 23.845)
+*|S (n19_6 22.610 23.845)
+*|S (n19_7 22.610 23.845)
+C1_9 U6:Y 0 0.000042PF
+C2_9 talker_str_1xsync_unitxmeta_reg_reg:D 0 0.000012PF
+C3_9 n19_2 0 0.000030PF
+C4_9 n19_3 0 0.000018PF
+C5_9 n19_4 0 0.000074PF
+C6_9 n19_5 0 0.000086PF
+C7_9 n19_6 0 0.000046PF
+C8_9 n19_7 0 0.000033PF
+R1_9 talker_str_1xsync_unitxmeta_reg_reg:D n19_7 1.110769
+R2_9 n19_6 n19_7 4.000000
+R3_9 n19_5 n19_6 1.017857
+R4_9 n19_5 n19_4 6.107143
+R5_9 n19_4 n19_3 0.339286
+R6_9 n19_3 n19_2 0.678571
+R7_9 U6:Y n19_2 4.000000
+
+*|NET n18 0.000267PF
+*|I (U6:A U6 A I 0.001551PF 22.247 26.995)
+*|I (U5:Y U5 Y O 0.000000PF 23.180 27.230)
+*|S (n18_2 22.705 26.695)
+*|S (n18_3 22.705 26.695)
+*|S (n18_4 22.705 26.885)
+*|S (n18_5 22.230 26.885)
+*|S (n18_6 22.230 26.977)
+C1_8 U5:Y 0 0.000036PF
+C2_8 U6:A 0 0.000042PF
+C3_8 n18_2 0 0.000057PF
+C4_8 n18_3 0 0.000030PF
+C5_8 n18_4 0 0.000042PF
+C6_8 n18_5 0 0.000036PF
+C7_8 n18_6 0 0.000024PF
+R1_8 n18_6 U6:A 4.000000
+R2_8 n18_5 n18_6 0.330357
+R3_8 n18_5 n18_4 1.696429
+R4_8 n18_3 n18_4 0.678571
+R5_8 n18_2 n18_3 4.000000
+R6_8 n18_2 U5:Y 2.776923
+
+*|NET n24 0.000263PF
+*|I (U20:A U20 A I 0.001551PF 24.527 33.045)
+*|I (U19:Y U19 Y O 0.000000PF 25.460 32.810)
+*|S (n24_2 24.510 33.155)
+*|S (n24_3 24.510 33.060)
+*|S (n24_4 24.985 33.345)
+*|S (n24_5 24.985 33.345)
+*|S (n24_6 24.985 33.155)
+C1_12 U19:Y 0 0.000034PF
+C2_12 U20:A 0 0.000042PF
+C3_12 n24_2 0 0.000036PF
+C4_12 n24_3 0 0.000025PF
+C5_12 n24_4 0 0.000055PF
+C6_12 n24_5 0 0.000030PF
+C7_12 n24_6 0 0.000042PF
+R1_12 n24_3 U20:A 4.000000
+R2_12 n24_3 n24_2 0.339286
+R3_12 n24_2 n24_6 1.696429
+R4_12 n24_6 n24_5 0.678571
+R5_12 n24_4 n24_5 4.000000
+R6_12 n24_4 U19:Y 2.776923
+
+*|NET listener_str_1xreq_sync 0.000245PF
+*|I (U19:A U19 A I 0.001551PF 25.288 33.045)
+*|I (listener_str_1xsync_unitxsync_reg_reg:Q
+*+ listener_str_1xsync_unitxsync_reg_reg Q O 0.000000PF 25.365 32.205)
+*|S (listener_str_1xreq_sync_2 25.175 32.965)
+*|S (listener_str_1xreq_sync_3 25.175 32.395)
+*|S (listener_str_1xreq_sync_4 25.365 32.252)
+*|S (listener_str_1xreq_sync_5 25.365 32.395)
+*|S (listener_str_1xreq_sync_6 25.265 32.965)
+*|S (listener_str_1xreq_sync_7 25.265 33.060)
+C1_3 listener_str_1xsync_unitxsync_reg_reg:Q 0 0.000042PF
+C2_3 U19:A 0 0.000042PF
+C3_3 listener_str_1xreq_sync_2 0 0.000036PF
+C4_3 listener_str_1xreq_sync_3 0 0.000042PF
+C5_3 listener_str_1xreq_sync_4 0 0.000027PF
+C6_3 listener_str_1xreq_sync_5 0 0.000021PF
+C7_3 listener_str_1xreq_sync_6 0 0.000011PF
+C8_3 listener_str_1xreq_sync_7 0 0.000025PF
+R1_3 listener_str_1xreq_sync_7 U19:A 4.000000
+R2_3 listener_str_1xreq_sync_6 listener_str_1xreq_sync_7 0.339286
+R3_3 listener_str_1xreq_sync_2 listener_str_1xreq_sync_6 0.321429
+R4_3 listener_str_1xreq_sync_3 listener_str_1xreq_sync_2 2.035714
+R5_3 listener_str_1xreq_sync_3 listener_str_1xreq_sync_5 0.678571
+R6_3 listener_str_1xreq_sync_4 listener_str_1xreq_sync_5 0.508929
+R7_3 listener_str_1xsync_unitxsync_reg_reg:Q listener_str_1xreq_sync_4
++ 4.000000
+
+*|NET n15 0.000267PF
+*|I (U3:A U3 A I 0.001551PF 25.288 22.055)
+*|I (U2:Y U2 Y O 0.000000PF 26.220 22.290)
+*|S (n15_2 25.745 21.755)
+*|S (n15_3 25.745 21.755)
+*|S (n15_4 25.745 21.945)
+*|S (n15_5 25.270 21.945)
+*|S (n15_6 25.270 22.038)
+C1_6 U2:Y 0 0.000036PF
+C2_6 U3:A 0 0.000042PF
+C3_6 n15_2 0 0.000057PF
+C4_6 n15_3 0 0.000030PF
+C5_6 n15_4 0 0.000042PF
+C6_6 n15_5 0 0.000036PF
+C7_6 n15_6 0 0.000024PF
+R1_6 n15_6 U3:A 4.000000
+R2_6 n15_5 n15_6 0.330357
+R3_6 n15_5 n15_4 1.696429
+R4_6 n15_3 n15_4 0.678571
+R5_6 n15_2 n15_3 4.000000
+R6_6 n15_2 U2:Y 2.776923
+
+*|NET n16 0.000882PF
+*|I (U3:Y U3 Y O 0.000000PF 25.460 22.290)
+*|I (talker_str_1xsync_unitxsync_reg_reg:D talker_str_1xsync_unitxsync_reg_reg
+*+ D I 0.001996PF 26.030 26.649)
+*|S (n16_2 25.745 26.315)
+*|S (n16_3 25.745 22.325)
+*|S (n16_4 25.745 22.325)
+*|S (n16_5 26.025 26.315)
+*|S (n16_6 26.025 26.505)
+C1_7 U3:Y 0 0.000066PF
+C2_7 talker_str_1xsync_unitxsync_reg_reg:D 0 0.000042PF
+C3_7 n16_2 0 0.000313PF
+C4_7 n16_3 0 0.000314PF
+C5_7 n16_4 0 0.000087PF
+C6_7 n16_5 0 0.000029PF
+C7_7 n16_6 0 0.000030PF
+R1_7 n16_6 talker_str_1xsync_unitxsync_reg_reg:D 4.000000
+R2_7 n16_5 n16_6 0.678571
+R3_7 n16_2 n16_5 1.000000
+R4_7 n16_3 n16_2 14.250000
+R5_7 n16_4 n16_3 4.000000
+R6_7 U3:Y n16_4 1.666154
+
+*|NET talker_str_1xsync_unitxmeta_reg 0.000275PF
+*|I (U2:A U2 A I 0.001551PF 26.047 22.055)
+*|I (talker_str_1xsync_unitxmeta_reg_reg:Q talker_str_1xsync_unitxmeta_reg_reg
+*+ Q O 0.000000PF 26.125 22.895)
+*|S (talker_str_1xsync_unitxmeta_reg_2 26.125 22.848)
+*|S (talker_str_1xsync_unitxmeta_reg_3 26.125 22.135)
+*|S (talker_str_1xsync_unitxmeta_reg_4 26.030 22.135)
+*|S (talker_str_1xsync_unitxmeta_reg_5 26.030 22.040)
+C1_32 talker_str_1xsync_unitxmeta_reg_reg:Q 0 0.000042PF
+C2_32 U2:A 0 0.000042PF
+C3_32 talker_str_1xsync_unitxmeta_reg_2 0 0.000084PF
+C4_32 talker_str_1xsync_unitxmeta_reg_3 0 0.000071PF
+C5_32 talker_str_1xsync_unitxmeta_reg_4 0 0.000012PF
+C6_32 talker_str_1xsync_unitxmeta_reg_5 0 0.000025PF
+R1_32 talker_str_1xsync_unitxmeta_reg_5 U2:A 4.000000
+R2_32 talker_str_1xsync_unitxmeta_reg_5 talker_str_1xsync_unitxmeta_reg_4
++ 0.339286
+R3_32 talker_str_1xsync_unitxmeta_reg_4 talker_str_1xsync_unitxmeta_reg_3
++ 0.339286
+R4_32 talker_str_1xsync_unitxmeta_reg_3 talker_str_1xsync_unitxmeta_reg_2
++ 2.544643
+R5_32 talker_str_1xsync_unitxmeta_reg_reg:Q talker_str_1xsync_unitxmeta_reg_2
++ 4.000000
+
+*|NET n28 0.000748PF
+*|I (U23:Y U23 Y O 0.000000PF 27.740 22.930)
+*|I (listener_str_1xsync_unitxmeta_reg_reg:D
+*+ listener_str_1xsync_unitxmeta_reg_reg D I 0.001996PF 27.550 31.589)
+*|S (n28_2 27.645 31.255)
+*|S (n28_3 27.645 24.605)
+*|S (n28_4 27.740 24.415)
+*|S (n28_5 27.740 24.605)
+*|S (n28_6 27.550 31.255)
+*|S (n28_7 27.550 31.445)
+C1_15 U23:Y 0 0.000042PF
+C2_15 listener_str_1xsync_unitxmeta_reg_reg:D 0 0.000042PF
+C3_15 n28_2 0 0.000283PF
+C4_15 n28_3 0 0.000283PF
+C5_15 n28_4 0 0.000031PF
+C6_15 n28_5 0 0.000019PF
+C7_15 n28_6 0 0.000018PF
+C8_15 n28_7 0 0.000030PF
+R1_15 n28_7 listener_str_1xsync_unitxmeta_reg_reg:D 4.000000
+R2_15 n28_6 n28_7 0.678571
+R3_15 n28_6 n28_2 0.339286
+R4_15 n28_3 n28_2 23.750000
+R5_15 n28_3 n28_5 0.339286
+R6_15 n28_4 n28_5 0.678571
+R7_15 U23:Y n28_4 4.000000
+
+*|NET n27 0.000507PF
+*|I (U23:A U23 A I 0.001551PF 27.567 23.165)
+*|I (U22:Y U22 Y O 0.000000PF 29.640 22.290)
+*|S (n27_2 28.025 23.085)
+*|S (n27_3 28.025 21.755)
+*|S (n27_4 27.550 23.180)
+*|S (n27_5 27.550 23.085)
+*|S (n27_6 28.025 21.755)
+C1_14 U22:Y 0 0.000123PF
+C2_14 U23:A 0 0.000042PF
+C3_14 n27_2 0 0.000075PF
+C4_14 n27_3 0 0.000063PF
+C5_14 n27_4 0 0.000025PF
+C6_14 n27_5 0 0.000036PF
+C7_14 n27_6 0 0.000144PF
+R1_14 n27_4 U23:A 4.000000
+R2_14 n27_5 n27_4 0.339286
+R3_14 n27_5 n27_2 1.696429
+R4_14 n27_3 n27_2 4.750000
+R5_14 n27_6 n27_3 4.000000
+R6_14 n27_6 U22:Y 9.441539
+
+*|NET reset1 0.002708PF
+*|P (reset1 I 0.000000PF 29.545 54.960)
+*|I (listener_str_1xsync_unitxU4:A listener_str_1xsync_unitxU4 A I 0.001551PF
+*+ 29.468 33.045)
+*|S (reset1_2 29.545 33.155)
+*|S (reset1_3 29.450 33.155)
+*|S (reset1_4 29.450 33.060)
+C1_21 reset1 0 0.001312PF
+C2_21 listener_str_1xsync_unitxU4:A 0 0.000042PF
+C3_21 reset1_2 0 0.001318PF
+C4_21 reset1_3 0 0.000012PF
+C5_21 reset1_4 0 0.000025PF
+R1_21 reset1_4 listener_str_1xsync_unitxU4:A 4.000000
+R2_21 reset1_4 reset1_3 0.339286
+R3_21 reset1_3 reset1_2 0.339286
+R4_21 reset1_2 reset1 77.750000
+
+*|NET talker_str_1xfsm_unitxn7 0.000572PF
+*|I (U13:Y U13 Y O 0.000000PF 30.780 27.230)
+*|I (talker_str_1xfsm_unitxU11:B talker_str_1xfsm_unitxU11 B I 0.002764PF
+*+ 30.750 28.425)
+*|S (talker_str_1xfsm_unitxn7_2 31.065 27.265)
+*|S (talker_str_1xfsm_unitxn7_3 31.065 27.265)
+*|S (talker_str_1xfsm_unitxn7_4 31.065 27.645)
+*|S (talker_str_1xfsm_unitxn7_5 30.875 27.645)
+*|S (talker_str_1xfsm_unitxn7_6 30.875 28.215)
+*|S (talker_str_1xfsm_unitxn7_7 30.780 28.215)
+*|S (talker_str_1xfsm_unitxn7_8 30.780 28.405)
+C1_26 U13:Y 0 0.000066PF
+C2_26 talker_str_1xfsm_unitxU11:B 0 0.000042PF
+C3_26 talker_str_1xfsm_unitxn7_2 0 0.000087PF
+C4_26 talker_str_1xfsm_unitxn7_3 0 0.000097PF
+C5_26 talker_str_1xfsm_unitxn7_4 0 0.000090PF
+C6_26 talker_str_1xfsm_unitxn7_5 0 0.000059PF
+C7_26 talker_str_1xfsm_unitxn7_6 0 0.000053PF
+C8_26 talker_str_1xfsm_unitxn7_7 0 0.000033PF
+C9_26 talker_str_1xfsm_unitxn7_8 0 0.000046PF
+R1_26 talker_str_1xfsm_unitxn7_8 talker_str_1xfsm_unitxU11:B 4.000000
+R2_26 talker_str_1xfsm_unitxn7_7 talker_str_1xfsm_unitxn7_8 0.678571
+R3_26 talker_str_1xfsm_unitxn7_7 talker_str_1xfsm_unitxn7_6 0.339286
+R4_26 talker_str_1xfsm_unitxn7_5 talker_str_1xfsm_unitxn7_6 2.035714
+R5_26 talker_str_1xfsm_unitxn7_5 talker_str_1xfsm_unitxn7_4 0.678571
+R6_26 talker_str_1xfsm_unitxn7_3 talker_str_1xfsm_unitxn7_4 1.357143
+R7_26 talker_str_1xfsm_unitxn7_2 talker_str_1xfsm_unitxn7_3 4.000000
+R8_26 U13:Y talker_str_1xfsm_unitxn7_2 1.666154
+
+*|NET talker_str_1xfsm_unitxstate_nextx1x 0.000646PF
+*|I (U7:Y U7 Y O 0.000000PF 31.925 29.221)
+*|I (talker_str_1xfsm_unitxstate_reg_regx1x:D
+*+ talker_str_1xfsm_unitxstate_reg_regx1x D I 0.001996PF 31.730 31.589)
+*|S (talker_str_1xfsm_unitxstate_nextx1x_2 31.920 29.735)
+*|S (talker_str_1xfsm_unitxstate_nextx1x_3 31.920 29.925)
+*|S (talker_str_1xfsm_unitxstate_nextx1x_4 31.825 29.925)
+*|S (talker_str_1xfsm_unitxstate_nextx1x_5 31.825 31.255)
+*|S (talker_str_1xfsm_unitxstate_nextx1x_6 31.730 31.255)
+*|S (talker_str_1xfsm_unitxstate_nextx1x_7 31.730 31.445)
+C1_29 U7:Y 0 0.000042PF
+C2_29 talker_str_1xfsm_unitxstate_reg_regx1x:D 0 0.000042PF
+C3_29 talker_str_1xfsm_unitxstate_nextx1x_2 0 0.000030PF
+C4_29 talker_str_1xfsm_unitxstate_nextx1x_3 0 0.000018PF
+C5_29 talker_str_1xfsm_unitxstate_nextx1x_4 0 0.000226PF
+C6_29 talker_str_1xfsm_unitxstate_nextx1x_5 0 0.000226PF
+C7_29 talker_str_1xfsm_unitxstate_nextx1x_6 0 0.000025PF
+C8_29 talker_str_1xfsm_unitxstate_nextx1x_7 0 0.000038PF
+R1_29 talker_str_1xfsm_unitxstate_nextx1x_7
++ talker_str_1xfsm_unitxstate_reg_regx1x:D 4.000000
+R2_29 talker_str_1xfsm_unitxstate_nextx1x_6
++ talker_str_1xfsm_unitxstate_nextx1x_7 0.678571
+R3_29 talker_str_1xfsm_unitxstate_nextx1x_6
++ talker_str_1xfsm_unitxstate_nextx1x_5 0.339286
+R4_29 talker_str_1xfsm_unitxstate_nextx1x_4
++ talker_str_1xfsm_unitxstate_nextx1x_5 4.750000
+R5_29 talker_str_1xfsm_unitxstate_nextx1x_4
++ talker_str_1xfsm_unitxstate_nextx1x_3 0.339286
+R6_29 talker_str_1xfsm_unitxstate_nextx1x_2
++ talker_str_1xfsm_unitxstate_nextx1x_3 0.678571
+R7_29 U7:Y talker_str_1xfsm_unitxstate_nextx1x_2 4.000000
+
+*|NET n6 0.000280PF
+*|I (U8:A U8 A I 0.001551PF 34.028 23.165)
+*|I (U1:Y U1 Y O 0.000000PF 33.155 23.465)
+*|S (n6_2 33.915 23.465)
+*|S (n6_3 33.915 23.465)
+*|S (n6_4 33.915 23.275)
+*|S (n6_5 34.005 23.275)
+*|S (n6_6 34.005 23.180)
+C1_16 U1:Y 0 0.000068PF
+C2_16 U8:A 0 0.000042PF
+C3_16 n6_2 0 0.000088PF
+C4_16 n6_3 0 0.000030PF
+C5_16 n6_4 0 0.000017PF
+C6_16 n6_5 0 0.000011PF
+C7_16 n6_6 0 0.000024PF
+R1_16 n6_6 U8:A 4.000000
+R2_16 n6_6 n6_5 0.339286
+R3_16 n6_4 n6_5 0.321429
+R4_16 n6_4 n6_3 0.678571
+R5_16 n6_2 n6_3 4.000000
+R6_16 U1:Y n6_2 4.443077
+
+*|NET ready 0.002613PF
+*|P (ready O 0.000000PF 33.915 54.960)
+*|I (talker_str_1xfsm_unitxU12:Y talker_str_1xfsm_unitxU12 Y O 0.000000PF
+*+ 34.008 33.705)
+*|S (ready_2 33.915 34.295)
+*|S (ready_3 34.005 34.295)
+*|S (ready_4 34.005 34.105)
+C1_19 ready 0 0.001259PF
+C2_19 talker_str_1xfsm_unitxU12:Y 0 0.000042PF
+C3_19 ready_2 0 0.001265PF
+C4_19 ready_3 0 0.000017PF
+C5_19 ready_4 0 0.000030PF
+R1_19 ready_2 ready 73.678574
+R2_19 ready_2 ready_3 0.321429
+R3_19 ready_4 ready_3 0.678571
+R4_19 talker_str_1xfsm_unitxU12:Y ready_4 4.000000
+
+*|NET req_in 0.000572PF
+*|I (U22:A U22 A I 0.001551PF 29.468 22.055)
+*|I (talker_str_1xfsm_unitxreq_buf_reg_reg:Q
+*+ talker_str_1xfsm_unitxreq_buf_reg_reg Q O 0.000000PF 32.205 22.895)
+*|S (req_in_2 29.450 22.135)
+*|S (req_in_3 29.450 22.040)
+*|S (req_in_4 32.205 22.848)
+*|S (req_in_5 32.205 22.135)
+*|S (req_in_6 32.205 22.135)
+*|S (req_in_7 29.545 22.135)
+*|S (req_in_8 29.545 22.135)
+C1_20 talker_str_1xfsm_unitxreq_buf_reg_reg:Q 0 0.000042PF
+C2_20 U22:A 0 0.000042PF
+C3_20 req_in_2 0 0.000012PF
+C4_20 req_in_3 0 0.000025PF
+C5_20 req_in_4 0 0.000061PF
+C6_20 req_in_5 0 0.000061PF
+C7_20 req_in_6 0 0.000152PF
+C8_20 req_in_7 0 0.000152PF
+C9_20 req_in_8 0 0.000025PF
+R1_20 req_in_3 U22:A 4.000000
+R2_20 req_in_3 req_in_2 0.339286
+R3_20 req_in_2 req_in_8 0.339286
+R4_20 req_in_7 req_in_8 4.000000
+R5_20 req_in_7 req_in_6 9.500000
+R6_20 req_in_5 req_in_6 4.000000
+R7_20 req_in_5 req_in_4 2.544643
+R8_20 talker_str_1xfsm_unitxreq_buf_reg_reg:Q req_in_4 4.000000
+
+*|NET n7 0.002915PF
+*|I (U8:Y U8 Y O 0.000000PF 34.200 22.930)
+*|I (talker_str_1xfsm_unitxstate_reg_regx0x:D
+*+ talker_str_1xfsm_unitxstate_reg_regx0x D I 0.001996PF 31.730 26.649)
+*|I (talker_str_1xfsm_unitxreq_buf_reg_reg:D
+*+ talker_str_1xfsm_unitxreq_buf_reg_reg D I 0.001996PF 28.690 23.511)
+*|S (n7_3 28.785 24.985)
+*|S (n7_4 28.785 23.845)
+*|S (n7_5 33.725 23.655)
+*|S (n7_6 28.785 24.985)
+*|S (n7_7 28.690 23.845)
+*|S (n7_8 28.690 23.655)
+*|S (n7_9 33.725 23.655)
+*|S (n7_10 33.725 24.985)
+*|S (n7_11 33.725 24.985)
+*|S (n7_12 31.635 24.985)
+*|S (n7_13 31.635 24.985)
+*|S (n7_14 31.635 26.315)
+*|S (n7_15 31.730 26.315)
+*|S (n7_16 31.730 26.505)
+C1_17 U8:Y 0 0.000063PF
+C2_17 talker_str_1xfsm_unitxreq_buf_reg_reg:D 0 0.000042PF
+C3_17 talker_str_1xfsm_unitxstate_reg_regx0x:D 0 0.000042PF
+C4_17 n7_3 0 0.000063PF
+C5_17 n7_4 0 0.000049PF
+C6_17 n7_5 0 0.000083PF
+C7_17 n7_6 0 0.000613PF
+C8_17 n7_7 0 0.000018PF
+C9_17 n7_8 0 0.000030PF
+C10_17 n7_9 0 0.000097PF
+C11_17 n7_10 0 0.000098PF
+C12_17 n7_11 0 0.000403PF
+C13_17 n7_12 0 0.000996PF
+C14_17 n7_13 0 0.000143PF
+C15_17 n7_14 0 0.000129PF
+C16_17 n7_15 0 0.000018PF
+C17_17 n7_16 0 0.000030PF
+R1_17 n7_5 U8:Y 2.776923
+R2_17 n7_16 talker_str_1xfsm_unitxstate_reg_regx0x:D 4.000000
+R3_17 n7_8 talker_str_1xfsm_unitxreq_buf_reg_reg:D 4.000000
+R4_17 n7_9 n7_5 4.000000
+R5_17 n7_15 n7_16 0.678571
+R6_17 n7_8 n7_7 0.678571
+R7_17 n7_9 n7_10 4.750000
+R8_17 n7_14 n7_15 0.339286
+R9_17 n7_7 n7_4 0.339286
+R10_17 n7_11 n7_10 4.000000
+R11_17 n7_13 n7_14 4.750000
+R12_17 n7_4 n7_3 4.071429
+R13_17 n7_12 n7_11 7.464286
+R14_17 n7_12 n7_13 4.000000
+R15_17 n7_6 n7_3 4.000000
+R16_17 n7_6 n7_12 10.178572
+
+*|NET talker_str_1xfsm_unitxn4 0.004159PF
+*|I (talker_str_1xsync_unitxmeta_reg_reg:R talker_str_1xsync_unitxmeta_reg_reg
+*+ R I 0.004970PF 25.555 24.605)
+*|I (talker_str_1xsync_unitxsync_reg_reg:R talker_str_1xsync_unitxsync_reg_reg
+*+ R I 0.004970PF 28.975 25.555)
+*|I (talker_str_1xfsm_unitxstate_reg_regx0x:R
+*+ talker_str_1xfsm_unitxstate_reg_regx0x R I 0.004970PF 34.675 25.555)
+*|I (talker_str_1xfsm_unitxstate_reg_regx1x:R
+*+ talker_str_1xfsm_unitxstate_reg_regx1x R I 0.004970PF 34.675 30.495)
+*|I (talker_str_1xfsm_unitxreq_buf_reg_reg:R
+*+ talker_str_1xfsm_unitxreq_buf_reg_reg R I 0.004970PF 31.635 24.605)
+*|I (talker_str_1xfsm_unitxU5:Y talker_str_1xfsm_unitxU5 Y O 0.000000PF 33.060
+*+ 27.870)
+*|S (talker_str_1xfsm_unitxn4_6 25.555 25.175)
+*|S (talker_str_1xfsm_unitxn4_7 25.555 24.605)
+*|S (talker_str_1xfsm_unitxn4_8 28.975 25.555)
+*|S (talker_str_1xfsm_unitxn4_9 28.975 25.175)
+*|S (talker_str_1xfsm_unitxn4_10 34.675 30.495)
+*|S (talker_str_1xfsm_unitxn4_11 34.675 29.165)
+*|S (talker_str_1xfsm_unitxn4_12 33.345 25.175)
+*|S (talker_str_1xfsm_unitxn4_13 31.445 25.175)
+*|S (talker_str_1xfsm_unitxn4_14 28.975 25.175)
+*|S (talker_str_1xfsm_unitxn4_15 25.555 25.175)
+*|S (talker_str_1xfsm_unitxn4_16 33.345 27.835)
+*|S (talker_str_1xfsm_unitxn4_17 33.345 25.175)
+*|S (talker_str_1xfsm_unitxn4_18 31.445 25.175)
+*|S (talker_str_1xfsm_unitxn4_19 31.445 24.795)
+*|S (talker_str_1xfsm_unitxn4_20 31.635 24.795)
+*|S (talker_str_1xfsm_unitxn4_21 31.635 24.605)
+*|S (talker_str_1xfsm_unitxn4_22 34.675 25.175)
+*|S (talker_str_1xfsm_unitxn4_23 34.675 25.175)
+*|S (talker_str_1xfsm_unitxn4_24 34.675 25.555)
+*|S (talker_str_1xfsm_unitxn4_25 34.675 29.165)
+*|S (talker_str_1xfsm_unitxn4_26 33.345 27.835)
+C1_24 talker_str_1xfsm_unitxreq_buf_reg_reg:R 0 0.000042PF
+C2_24 talker_str_1xfsm_unitxstate_reg_regx0x:R 0 0.000042PF
+C3_24 talker_str_1xfsm_unitxU5:Y 0 0.000152PF
+C4_24 talker_str_1xfsm_unitxstate_reg_regx1x:R 0 0.000042PF
+C5_24 talker_str_1xsync_unitxmeta_reg_reg:R 0 0.000042PF
+C6_24 talker_str_1xsync_unitxsync_reg_reg:R 0 0.000042PF
+C7_24 talker_str_1xfsm_unitxn4_6 0 0.000138PF
+C8_24 talker_str_1xfsm_unitxn4_7 0 0.000137PF
+C9_24 talker_str_1xfsm_unitxn4_8 0 0.000043PF
+C10_24 talker_str_1xfsm_unitxn4_9 0 0.000044PF
+C11_24 talker_str_1xfsm_unitxn4_10 0 0.000097PF
+C12_24 talker_str_1xfsm_unitxn4_11 0 0.000097PF
+C13_24 talker_str_1xfsm_unitxn4_12 0 0.000479PF
+C14_24 talker_str_1xfsm_unitxn4_13 0 0.000882PF
+C15_24 talker_str_1xfsm_unitxn4_14 0 0.000754PF
+C16_24 talker_str_1xfsm_unitxn4_15 0 0.000269PF
+C17_24 talker_str_1xfsm_unitxn4_16 0 0.000148PF
+C18_24 talker_str_1xfsm_unitxn4_17 0 0.000149PF
+C19_24 talker_str_1xfsm_unitxn4_18 0 0.000064PF
+C20_24 talker_str_1xfsm_unitxn4_19 0 0.000057PF
+C21_24 talker_str_1xfsm_unitxn4_20 0 0.000026PF
+C22_24 talker_str_1xfsm_unitxn4_21 0 0.000032PF
+C23_24 talker_str_1xfsm_unitxn4_22 0 0.000103PF
+C24_24 talker_str_1xfsm_unitxn4_23 0 0.000043PF
+C25_24 talker_str_1xfsm_unitxn4_24 0 0.000043PF
+C26_24 talker_str_1xfsm_unitxn4_25 0 0.000141PF
+C27_24 talker_str_1xfsm_unitxn4_26 0 0.000052PF
+R1_24 talker_str_1xfsm_unitxn4_10 talker_str_1xfsm_unitxstate_reg_regx1x:R
++ 4.000000
+R2_24 talker_str_1xfsm_unitxn4_11 talker_str_1xfsm_unitxn4_10 4.750000
+R3_24 talker_str_1xfsm_unitxn4_25 talker_str_1xfsm_unitxn4_11 4.000000
+R4_24 talker_str_1xfsm_unitxU5:Y talker_str_1xfsm_unitxn4_25 9.441539
+R5_24 talker_str_1xfsm_unitxn4_7 talker_str_1xsync_unitxmeta_reg_reg:R
++ 4.000000
+R6_24 talker_str_1xfsm_unitxn4_24 talker_str_1xfsm_unitxstate_reg_regx0x:R
++ 4.000000
+R7_24 talker_str_1xfsm_unitxU5:Y talker_str_1xfsm_unitxn4_26 1.666154
+R8_24 talker_str_1xfsm_unitxn4_7 talker_str_1xfsm_unitxn4_6 2.035714
+R9_24 talker_str_1xfsm_unitxn4_8 talker_str_1xsync_unitxsync_reg_reg:R
++ 4.000000
+R10_24 talker_str_1xfsm_unitxn4_23 talker_str_1xfsm_unitxn4_24 1.357143
+R11_24 talker_str_1xfsm_unitxn4_16 talker_str_1xfsm_unitxn4_26 4.000000
+R12_24 talker_str_1xfsm_unitxn4_21 talker_str_1xfsm_unitxreq_buf_reg_reg:R
++ 4.000000
+R13_24 talker_str_1xfsm_unitxn4_15 talker_str_1xfsm_unitxn4_6 4.000000
+R14_24 talker_str_1xfsm_unitxn4_9 talker_str_1xfsm_unitxn4_8 1.357143
+R15_24 talker_str_1xfsm_unitxn4_22 talker_str_1xfsm_unitxn4_23 4.000000
+R16_24 talker_str_1xfsm_unitxn4_17 talker_str_1xfsm_unitxn4_16 9.500000
+R17_24 talker_str_1xfsm_unitxn4_21 talker_str_1xfsm_unitxn4_20 0.678571
+R18_24 talker_str_1xfsm_unitxn4_15 talker_str_1xfsm_unitxn4_14 12.214286
+R19_24 talker_str_1xfsm_unitxn4_14 talker_str_1xfsm_unitxn4_9 4.000000
+R20_24 talker_str_1xfsm_unitxn4_12 talker_str_1xfsm_unitxn4_22 4.750000
+R21_24 talker_str_1xfsm_unitxn4_12 talker_str_1xfsm_unitxn4_17 4.000000
+R22_24 talker_str_1xfsm_unitxn4_19 talker_str_1xfsm_unitxn4_20 0.678571
+R23_24 talker_str_1xfsm_unitxn4_14 talker_str_1xfsm_unitxn4_13 8.821428
+R24_24 talker_str_1xfsm_unitxn4_13 talker_str_1xfsm_unitxn4_12 6.785714
+R25_24 talker_str_1xfsm_unitxn4_19 talker_str_1xfsm_unitxn4_18 1.357143
+R26_24 talker_str_1xfsm_unitxn4_18 talker_str_1xfsm_unitxn4_13 4.000000
+
+*|NET talker_str_1xfsm_unitxn9 0.001098PF
+*|I (U1:B U1 B I 0.002342PF 32.694 23.565)
 *|I (talker_str_1xfsm_unitxU11:Y talker_str_1xfsm_unitxU11 Y O 0.000000PF
-*+ 33.627 32.906)
-*|S (talker_str_1xfsm_unitxn9_7 33.440 32.965)
-*|S (talker_str_1xfsm_unitxn9_6 33.345 32.965)
-*|S (talker_str_1xfsm_unitxn9_5 33.345 32.965)
-*|S (talker_str_1xfsm_unitxn9_4 31.398 32.965)
-*|S (talker_str_1xfsm_unitxn9_3 31.398 32.965)
-*|S (talker_str_1xfsm_unitxn9_2 31.398 33.440)
-C1_41 talker_str_1xfsm_unitxU11:Y 0 0.000042PF
-C2_41 talker_str_1xfsm_unitxn9_7 0 0.000025PF
-C3_41 talker_str_1xfsm_unitxn9_6 0 0.000025PF
-C4_41 talker_str_1xfsm_unitxn9_5 0 0.000239PF
-C5_41 talker_str_1xfsm_unitxn9_4 0 0.000239PF
-C6_41 talker_str_1xfsm_unitxn9_3 0 0.000050PF
-C7_41 talker_str_1xfsm_unitxn9_2 0 0.000049PF
-C8_41 U9:A 0 0.000042PF
-R1_41 U9:A talker_str_1xfsm_unitxn9_2 4.000000
-R2_41 talker_str_1xfsm_unitxn9_3 talker_str_1xfsm_unitxn9_2 1.696429
-R3_41 talker_str_1xfsm_unitxn9_3 talker_str_1xfsm_unitxn9_4 4.000000
-R4_41 talker_str_1xfsm_unitxn9_4 talker_str_1xfsm_unitxn9_5 6.955357
-R5_41 talker_str_1xfsm_unitxn9_5 talker_str_1xfsm_unitxn9_6 4.000000
-R6_41 talker_str_1xfsm_unitxn9_6 talker_str_1xfsm_unitxn9_7 0.339286
-R7_41 talker_str_1xfsm_unitxn9_7 talker_str_1xfsm_unitxU11:Y 4.000000
+*+ 30.588 27.966)
+*|S (talker_str_1xfsm_unitxn9_2 30.495 27.713)
+*|S (talker_str_1xfsm_unitxn9_3 30.495 27.265)
+*|S (talker_str_1xfsm_unitxn9_4 32.775 26.125)
+*|S (talker_str_1xfsm_unitxn9_5 30.875 26.125)
+*|S (talker_str_1xfsm_unitxn9_6 32.775 26.125)
+*|S (talker_str_1xfsm_unitxn9_7 32.775 23.575)
+*|S (talker_str_1xfsm_unitxn9_8 30.875 27.265)
+*|S (talker_str_1xfsm_unitxn9_9 30.875 26.125)
+C1_28 talker_str_1xfsm_unitxU11:Y 0 0.000042PF
+C2_28 U1:B 0 0.000042PF
+C3_28 talker_str_1xfsm_unitxn9_2 0 0.000037PF
+C4_28 talker_str_1xfsm_unitxn9_3 0 0.000042PF
+C5_28 talker_str_1xfsm_unitxn9_4 0 0.000126PF
+C6_28 talker_str_1xfsm_unitxn9_5 0 0.000126PF
+C7_28 talker_str_1xfsm_unitxn9_6 0 0.000248PF
+C8_28 talker_str_1xfsm_unitxn9_7 0 0.000248PF
+C9_28 talker_str_1xfsm_unitxn9_8 0 0.000096PF
+C10_28 talker_str_1xfsm_unitxn9_9 0 0.000092PF
+R1_28 talker_str_1xfsm_unitxn9_7 U1:B 4.000000
+R2_28 talker_str_1xfsm_unitxn9_7 talker_str_1xfsm_unitxn9_6 9.107142
+R3_28 talker_str_1xfsm_unitxn9_4 talker_str_1xfsm_unitxn9_6 4.000000
+R4_28 talker_str_1xfsm_unitxn9_5 talker_str_1xfsm_unitxn9_4 6.785714
+R5_28 talker_str_1xfsm_unitxn9_9 talker_str_1xfsm_unitxn9_5 4.000000
+R6_28 talker_str_1xfsm_unitxn9_9 talker_str_1xfsm_unitxn9_8 4.071429
+R7_28 talker_str_1xfsm_unitxn9_3 talker_str_1xfsm_unitxn9_8 1.357143
+R8_28 talker_str_1xfsm_unitxn9_3 talker_str_1xfsm_unitxn9_2 1.598214
+R9_28 talker_str_1xfsm_unitxU11:Y talker_str_1xfsm_unitxn9_2 4.000000
 
-*|NET clk1__L1_N0 0.001542PF
-*|I (clk1__L1_I0:Y clk1__L1_I0 Y O 0.000000PF 20.995 33.915)
-*|I (clk1__L2_I0:A clk1__L2_I0 A I 0.005092PF 26.418 33.475)
-*|S (clk1__L1_N0_8 20.995 33.440)
-*|S (clk1__L1_N0_7 20.995 33.155)
-*|S (clk1__L1_N0_6 20.995 33.155)
-*|S (clk1__L1_N0_5 26.315 33.155)
-*|S (clk1__L1_N0_4 26.315 33.440)
-*|S (clk1__L1_N0_3 26.315 33.440)
-*|S (clk1__L1_N0_2 26.410 33.440)
-C1_4 clk1__L1_I0:Y 0 0.000042PF
-C2_4 clk1__L1_N0_8 0 0.000034PF
-C3_4 clk1__L1_N0_7 0 0.000035PF
-C4_4 clk1__L1_N0_6 0 0.000647PF
-C5_4 clk1__L1_N0_5 0 0.000644PF
-C6_4 clk1__L1_N0_4 0 0.000049PF
-C7_4 clk1__L1_N0_3 0 0.000025PF
-C8_4 clk1__L1_N0_2 0 0.000025PF
-C9_4 clk1__L2_I0:A 0 0.000042PF
-R1_4 clk1__L2_I0:A clk1__L1_N0_2 4.000000
-R2_4 clk1__L1_N0_3 clk1__L1_N0_2 0.339286
-R3_4 clk1__L1_N0_3 clk1__L1_N0_4 4.000000
-R4_4 clk1__L1_N0_5 clk1__L1_N0_4 1.017857
-R5_4 clk1__L1_N0_6 clk1__L1_N0_5 19.000000
-R6_4 clk1__L1_N0_6 clk1__L1_N0_7 4.000000
-R7_4 clk1__L1_N0_7 clk1__L1_N0_8 1.017857
-R8_4 clk1__L1_N0_8 clk1__L1_I0:Y 4.000000
+*|NET ack_out 0.000549PF
+*|I (U5:A U5 A I 0.001551PF 23.008 26.995)
+*|I (listener_str_1xfsm_unitxack_buf_reg_reg:Q
+*+ listener_str_1xfsm_unitxack_buf_reg_reg Q O 0.000000PF 25.745 27.835)
+*|S (ack_out_2 25.745 27.788)
+*|S (ack_out_3 25.745 27.075)
+*|S (ack_out_4 25.745 27.075)
+*|S (ack_out_5 23.085 27.075)
+*|S (ack_out_6 23.085 27.075)
+*|S (ack_out_7 22.990 27.075)
+*|S (ack_out_8 22.990 26.980)
+C1_0 listener_str_1xfsm_unitxack_buf_reg_reg:Q 0 0.000042PF
+C2_0 U5:A 0 0.000042PF
+C3_0 ack_out_2 0 0.000062PF
+C4_0 ack_out_3 0 0.000063PF
+C5_0 ack_out_4 0 0.000139PF
+C6_0 ack_out_5 0 0.000139PF
+C7_0 ack_out_6 0 0.000025PF
+C8_0 ack_out_7 0 0.000012PF
+C9_0 ack_out_8 0 0.000025PF
+R1_0 ack_out_8 U5:A 4.000000
+R2_0 ack_out_8 ack_out_7 0.339286
+R3_0 ack_out_7 ack_out_6 0.339286
+R4_0 ack_out_5 ack_out_6 4.000000
+R5_0 ack_out_5 ack_out_4 9.500000
+R6_0 ack_out_3 ack_out_4 4.000000
+R7_0 ack_out_3 ack_out_2 2.544643
+R8_0 listener_str_1xfsm_unitxack_buf_reg_reg:Q ack_out_2 4.000000
 
-*|NET talker_str_1xfsm_unitxn6 0.000654PF
-*|I (U14:Y U14 Y O 0.000000PF 31.920 32.810)
+*|NET reset2 0.004721PF
+*|P (reset2 I 0.000000PF 55.340 28.025)
+*|I (talker_str_1xfsm_unitxU5:A talker_str_1xfsm_unitxU5 A I 0.001551PF 32.888
+*+ 28.105)
+*|S (reset2_2 32.965 28.025)
+*|S (reset2_3 32.965 28.025)
+*|S (reset2_4 32.870 28.025)
+*|S (reset2_5 32.870 28.120)
+C1_22 reset2 0 0.002298PF
+C2_22 talker_str_1xfsm_unitxU5:A 0 0.000042PF
+C3_22 reset2_2 0 0.002319PF
+C4_22 reset2_3 0 0.000025PF
+C5_22 reset2_4 0 0.000012PF
+C6_22 reset2_5 0 0.000025PF
+R1_22 reset2_5 talker_str_1xfsm_unitxU5:A 4.000000
+R2_22 reset2_4 reset2_5 0.339286
+R3_22 reset2_4 reset2_3 0.339286
+R4_22 reset2_2 reset2_3 4.000000
+R5_22 reset2_2 reset2 79.785713
+
+*|NET talker_str_1xfsm_unitxn6 0.000566PF
+*|I (U14:Y U14 Y O 0.000000PF 28.880 27.870)
 *|I (talker_str_1xfsm_unitxU11:D talker_str_1xfsm_unitxU11 D I 0.002907PF
-*+ 33.600 33.365)
-*|S (talker_str_1xfsm_unitxn6_8 32.965 33.155)
-*|S (talker_str_1xfsm_unitxn6_7 32.965 33.155)
-*|S (talker_str_1xfsm_unitxn6_6 32.965 33.155)
-*|S (talker_str_1xfsm_unitxn6_5 33.345 33.155)
-*|S (talker_str_1xfsm_unitxn6_4 33.345 33.155)
-*|S (talker_str_1xfsm_unitxn6_3 33.345 33.345)
-*|S (talker_str_1xfsm_unitxn6_2 33.590 33.345)
-C1_38 U14:Y 0 0.000090PF
-C2_38 talker_str_1xfsm_unitxn6_8 0 0.000121PF
-C3_38 talker_str_1xfsm_unitxn6_7 0 0.000039PF
-C4_38 talker_str_1xfsm_unitxn6_6 0 0.000127PF
-C5_38 talker_str_1xfsm_unitxn6_5 0 0.000127PF
-C6_38 talker_str_1xfsm_unitxn6_4 0 0.000035PF
-C7_38 talker_str_1xfsm_unitxn6_3 0 0.000031PF
-C8_38 talker_str_1xfsm_unitxn6_2 0 0.000043PF
-C9_38 talker_str_1xfsm_unitxU11:D 0 0.000042PF
-R1_38 talker_str_1xfsm_unitxU11:D talker_str_1xfsm_unitxn6_2 4.000000
-R2_38 talker_str_1xfsm_unitxn6_3 talker_str_1xfsm_unitxn6_2 0.875000
-R3_38 talker_str_1xfsm_unitxn6_4 talker_str_1xfsm_unitxn6_3 0.678571
-R4_38 talker_str_1xfsm_unitxn6_4 talker_str_1xfsm_unitxn6_5 4.000000
-R5_38 talker_str_1xfsm_unitxn6_6 talker_str_1xfsm_unitxn6_5 1.357143
-R6_38 talker_str_1xfsm_unitxn6_6 talker_str_1xfsm_unitxn6_7 4.000000
-R7_38 talker_str_1xfsm_unitxn6_7 talker_str_1xfsm_unitxn6_8 4.000000
-R8_38 U14:Y talker_str_1xfsm_unitxn6_8 6.109231
+*+ 30.560 28.425)
+*|S (talker_str_1xfsm_unitxn6_2 30.585 28.405)
+*|S (talker_str_1xfsm_unitxn6_3 30.585 28.215)
+*|S (talker_str_1xfsm_unitxn6_4 29.925 28.215)
+*|S (talker_str_1xfsm_unitxn6_5 29.925 28.215)
+*|S (talker_str_1xfsm_unitxn6_6 29.925 28.215)
+*|S (talker_str_1xfsm_unitxn6_7 30.495 28.215)
+*|S (talker_str_1xfsm_unitxn6_8 30.495 28.215)
+C1_25 U14:Y 0 0.000080PF
+C2_25 talker_str_1xfsm_unitxU11:D 0 0.000042PF
+C3_25 talker_str_1xfsm_unitxn6_2 0 0.000038PF
+C4_25 talker_str_1xfsm_unitxn6_3 0 0.000025PF
+C5_25 talker_str_1xfsm_unitxn6_4 0 0.000100PF
+C6_25 talker_str_1xfsm_unitxn6_5 0 0.000039PF
+C7_25 talker_str_1xfsm_unitxn6_6 0 0.000109PF
+C8_25 talker_str_1xfsm_unitxn6_7 0 0.000109PF
+C9_25 talker_str_1xfsm_unitxn6_8 0 0.000025PF
+R1_25 talker_str_1xfsm_unitxn6_2 talker_str_1xfsm_unitxU11:D 4.000000
+R2_25 talker_str_1xfsm_unitxn6_3 talker_str_1xfsm_unitxn6_2 0.678571
+R3_25 talker_str_1xfsm_unitxn6_8 talker_str_1xfsm_unitxn6_3 0.321429
+R4_25 talker_str_1xfsm_unitxn6_7 talker_str_1xfsm_unitxn6_8 4.000000
+R5_25 talker_str_1xfsm_unitxn6_6 talker_str_1xfsm_unitxn6_7 2.035714
+R6_25 talker_str_1xfsm_unitxn6_5 talker_str_1xfsm_unitxn6_6 4.000000
+R7_25 talker_str_1xfsm_unitxn6_4 talker_str_1xfsm_unitxn6_5 4.000000
+R8_25 U14:Y talker_str_1xfsm_unitxn6_4 6.109231
 
-*|NET start 0.002957PF
-*|P (start I 0.000000PF 55.340 33.345)
+*|NET start 0.006816PF
+*|P (start I 0.000000PF 55.340 28.405)
 *|I (talker_str_1xfsm_unitxU11:C talker_str_1xfsm_unitxU11 C I 0.002878PF
-*+ 33.155 33.345)
-*|S (start_3 33.155 33.345)
-*|S (start_2 33.155 33.345)
-C1_37 start 0 0.001423PF
-C2_37 start_3 0 0.001454PF
-C3_37 start_2 0 0.000039PF
-C4_37 talker_str_1xfsm_unitxU11:C 0 0.000042PF
-R1_37 talker_str_1xfsm_unitxU11:C start_2 4.000000
-R2_37 start_2 start_3 4.000000
-R3_37 start_3 start 79.107143
+*+ 30.115 28.405)
+*|S (start_2 30.115 28.405)
+*|S (start_3 30.115 28.405)
+C1_23 start 0 0.003358PF
+C2_23 talker_str_1xfsm_unitxU11:C 0 0.000042PF
+C3_23 start_2 0 0.003378PF
+C4_23 start_3 0 0.000039PF
+R1_23 start_3 talker_str_1xfsm_unitxU11:C 4.000000
+R2_23 start_2 start_3 4.000000
+R3_23 start_2 start 89.964287
 
-*|NET FE_OCP_RBN3_reset1 0.001947PF
+*|NET listener_str_1xsync_unitxn2 0.001569PF
 *|I (listener_str_1xfsm_unitxack_buf_reg_reg:R
-*+ listener_str_1xfsm_unitxack_buf_reg_reg R I 0.004970PF 23.655 30.495)
+*+ listener_str_1xfsm_unitxack_buf_reg_reg R I 0.004970PF 25.175 29.545)
 *|I (listener_str_1xsync_unitxmeta_reg_reg:R
-*+ listener_str_1xsync_unitxmeta_reg_reg R I 0.004970PF 30.115 34.485)
+*+ listener_str_1xsync_unitxmeta_reg_reg R I 0.004970PF 30.495 30.495)
 *|I (listener_str_1xsync_unitxsync_reg_reg:R
-*+ listener_str_1xsync_unitxsync_reg_reg R I 0.004970PF 25.175 34.485)
-*|I (FE_OCP_RBC3_reset1:Y FE_OCP_RBC3_reset1 Y O 0.000000PF 25.457 32.065)
-*|S (FE_OCP_RBN3_reset1_10 25.745 30.495)
-*|S (FE_OCP_RBN3_reset1_8 25.745 30.495)
-*|S (FE_OCP_RBN3_reset1_6 25.745 30.495)
-*|S (FE_OCP_RBN3_reset1_4 23.655 30.495)
-*|S (FE_OCP_RBN3_reset1_2 23.655 30.495)
-*|S (FE_OCP_RBN3_reset1_15 30.115 34.485)
-*|S (FE_OCP_RBN3_reset1_14 30.115 34.105)
-*|S (FE_OCP_RBN3_reset1_13 30.115 34.105)
-*|S (FE_OCP_RBN3_reset1_11 24.985 34.105)
-*|S (FE_OCP_RBN3_reset1_9 24.985 34.105)
-*|S (FE_OCP_RBN3_reset1_7 24.985 34.390)
-*|S (FE_OCP_RBN3_reset1_1 23.655 34.407)
-C1_1 FE_OCP_RBC3_reset1:Y 0 0.000031PF
-C2_1 FE_OCP_RBN3_reset1_10 0 0.000063PF
-C3_1 FE_OCP_RBN3_reset1_8 0 0.000039PF
-C4_1 FE_OCP_RBN3_reset1_6 0 0.000129PF
-C5_1 FE_OCP_RBN3_reset1_4 0 0.000129PF
-C6_1 FE_OCP_RBN3_reset1_2 0 0.000242PF
-C7_1 listener_str_1xfsm_unitxack_buf_reg_reg:R 0 0.000042PF
-C8_1 listener_str_1xsync_unitxmeta_reg_reg:R 0 0.000042PF
-C9_1 FE_OCP_RBN3_reset1_15 0 0.000041PF
-C10_1 FE_OCP_RBN3_reset1_14 0 0.000042PF
-C11_1 FE_OCP_RBN3_reset1_13 0 0.000365PF
-C12_1 FE_OCP_RBN3_reset1_11 0 0.000355PF
-C13_1 FE_OCP_RBN3_reset1_9 0 0.000048PF
-C14_1 FE_OCP_RBN3_reset1_7 0 0.000047PF
-C15_1 listener_str_1xsync_unitxsync_reg_reg:R 0 0.000083PF
-C16_1 FE_OCP_RBN3_reset1_1 0 0.000251PF
-R1_1 FE_OCP_RBN3_reset1_2 FE_OCP_RBN3_reset1_1 13.973214
-R2_1 FE_OCP_RBN3_reset1_1 listener_str_1xsync_unitxsync_reg_reg:R 4.000000
-R3_1 FE_OCP_RBN3_reset1_2 FE_OCP_RBN3_reset1_4 4.000000
-R4_1 FE_OCP_RBN3_reset1_2 listener_str_1xfsm_unitxack_buf_reg_reg:R 4.000000
-R5_1 FE_OCP_RBN3_reset1_4 FE_OCP_RBN3_reset1_6 7.464286
-R6_1 listener_str_1xsync_unitxsync_reg_reg:R FE_OCP_RBN3_reset1_7 4.000000
-R7_1 FE_OCP_RBN3_reset1_6 FE_OCP_RBN3_reset1_8 4.000000
-R8_1 FE_OCP_RBN3_reset1_9 FE_OCP_RBN3_reset1_7 1.017857
-R9_1 FE_OCP_RBN3_reset1_8 FE_OCP_RBN3_reset1_10 4.000000
-R10_1 FE_OCP_RBN3_reset1_9 FE_OCP_RBN3_reset1_11 4.000000
-R11_1 FE_OCP_RBC3_reset1:Y FE_OCP_RBN3_reset1_10 1.666154
-R12_1 FE_OCP_RBN3_reset1_11 FE_OCP_RBN3_reset1_13 18.321429
-R13_1 FE_OCP_RBN3_reset1_13 FE_OCP_RBN3_reset1_14 4.000000
-R14_1 FE_OCP_RBN3_reset1_14 FE_OCP_RBN3_reset1_15 1.357143
-R15_1 FE_OCP_RBN3_reset1_15 listener_str_1xsync_unitxmeta_reg_reg:R 4.000000
+*+ listener_str_1xsync_unitxsync_reg_reg R I 0.004970PF 24.795 30.495)
+*|I (listener_str_1xsync_unitxU4:Y listener_str_1xsync_unitxU4 Y O 0.000000PF
+*+ 29.640 32.810)
+*|S (listener_str_1xsync_unitxn2_4 24.795 30.495)
+*|S (listener_str_1xsync_unitxn2_5 24.795 29.925)
+*|S (listener_str_1xsync_unitxn2_6 30.495 32.775)
+*|S (listener_str_1xsync_unitxn2_7 30.495 30.495)
+*|S (listener_str_1xsync_unitxn2_8 25.175 29.925)
+*|S (listener_str_1xsync_unitxn2_9 25.175 29.545)
+*|S (listener_str_1xsync_unitxn2_10 30.495 30.495)
+*|S (listener_str_1xsync_unitxn2_11 24.795 30.495)
+*|S (listener_str_1xsync_unitxn2_12 30.495 32.775)
+C1_5 listener_str_1xfsm_unitxack_buf_reg_reg:R 0 0.000042PF
+C2_5 listener_str_1xsync_unitxmeta_reg_reg:R 0 0.000042PF
+C3_5 listener_str_1xsync_unitxU4:Y 0 0.000094PF
+C4_5 listener_str_1xsync_unitxsync_reg_reg:R 0 0.000042PF
+C5_5 listener_str_1xsync_unitxn2_4 0 0.000055PF
+C6_5 listener_str_1xsync_unitxn2_5 0 0.000060PF
+C7_5 listener_str_1xsync_unitxn2_6 0 0.000115PF
+C8_5 listener_str_1xsync_unitxn2_7 0 0.000116PF
+C9_5 listener_str_1xsync_unitxn2_8 0 0.000047PF
+C10_5 listener_str_1xsync_unitxn2_9 0 0.000042PF
+C11_5 listener_str_1xsync_unitxn2_10 0 0.000400PF
+C12_5 listener_str_1xsync_unitxn2_11 0 0.000400PF
+C13_5 listener_str_1xsync_unitxn2_12 0 0.000114PF
+R1_5 listener_str_1xsync_unitxU4:Y listener_str_1xsync_unitxn2_12 4.998461
+R2_5 listener_str_1xsync_unitxn2_6 listener_str_1xsync_unitxn2_12 4.000000
+R3_5 listener_str_1xsync_unitxn2_7 listener_str_1xsync_unitxmeta_reg_reg:R
++ 4.000000
+R4_5 listener_str_1xsync_unitxn2_7 listener_str_1xsync_unitxn2_6 8.142858
+R5_5 listener_str_1xsync_unitxn2_10 listener_str_1xsync_unitxn2_7 4.000000
+R6_5 listener_str_1xsync_unitxn2_11 listener_str_1xsync_unitxn2_10 20.357143
+R7_5 listener_str_1xsync_unitxn2_9 listener_str_1xfsm_unitxack_buf_reg_reg:R
++ 4.000000
+R8_5 listener_str_1xsync_unitxn2_4 listener_str_1xsync_unitxsync_reg_reg:R
++ 4.000000
+R9_5 listener_str_1xsync_unitxn2_4 listener_str_1xsync_unitxn2_11 4.000000
+R10_5 listener_str_1xsync_unitxn2_9 listener_str_1xsync_unitxn2_8 1.357143
+R11_5 listener_str_1xsync_unitxn2_5 listener_str_1xsync_unitxn2_4 2.035714
+R12_5 listener_str_1xsync_unitxn2_5 listener_str_1xsync_unitxn2_8 1.357143
 
-*|NET clk1 0.002741PF
-*|P (clk1 I 0.000000PF 0.000 32.775)
-*|I (clk1__L1_I0:A clk1__L1_I0 A I 0.010104PF 20.615 33.535)
-*|S (clk1_8 20.255 32.775)
-*|S (clk1_7 20.255 32.775)
-*|S (clk1_6 20.255 33.345)
-*|S (clk1_5 20.255 33.345)
-*|S (clk1_4 20.615 33.345)
-*|S (clk1_3 20.615 33.345)
-*|S (clk1_2 20.615 33.630)
-C1_3 clk1 0 0.001199PF
-C2_3 clk1_8 0 0.001230PF
-C3_3 clk1_7 0 0.000059PF
-C4_3 clk1_6 0 0.000059PF
-C5_3 clk1_5 0 0.000042PF
-C6_3 clk1_4 0 0.000042PF
-C7_3 clk1_3 0 0.000035PF
-C8_3 clk1_2 0 0.000034PF
-C9_3 clk1__L1_I0:A 0 0.000042PF
-R1_3 clk1__L1_I0:A clk1_2 4.000000
-R2_3 clk1_3 clk1_2 1.017857
-R3_3 clk1_3 clk1_4 4.000000
-R4_3 clk1_5 clk1_4 1.285714
-R5_3 clk1_5 clk1_6 4.000000
-R6_3 clk1_7 clk1_6 1.017857
-R7_3 clk1_7 clk1_8 4.000000
-R8_3 clk1 clk1_8 72.214286
+*|NET listener_str_1xsync_unitxmeta_reg 0.001614PF
+*|I (U16:A U16 A I 0.001551PF 20.727 33.045)
+*|I (listener_str_1xsync_unitxmeta_reg_reg:Q
+*+ listener_str_1xsync_unitxmeta_reg_reg Q O 0.000000PF 31.065 32.205)
+*|S (listener_str_1xsync_unitxmeta_reg_2 20.710 33.060)
+*|S (listener_str_1xsync_unitxmeta_reg_3 20.710 32.965)
+*|S (listener_str_1xsync_unitxmeta_reg_4 31.065 32.965)
+*|S (listener_str_1xsync_unitxmeta_reg_5 20.805 32.965)
+*|S (listener_str_1xsync_unitxmeta_reg_6 31.065 32.965)
+*|S (listener_str_1xsync_unitxmeta_reg_7 31.065 32.252)
+*|S (listener_str_1xsync_unitxmeta_reg_8 20.805 32.965)
+C1_4 listener_str_1xsync_unitxmeta_reg_reg:Q 0 0.000042PF
+C2_4 U16:A 0 0.000042PF
+C3_4 listener_str_1xsync_unitxmeta_reg_2 0 0.000025PF
+C4_4 listener_str_1xsync_unitxmeta_reg_3 0 0.000012PF
+C5_4 listener_str_1xsync_unitxmeta_reg_4 0 0.000654PF
+C6_4 listener_str_1xsync_unitxmeta_reg_5 0 0.000654PF
+C7_4 listener_str_1xsync_unitxmeta_reg_6 0 0.000081PF
+C8_4 listener_str_1xsync_unitxmeta_reg_7 0 0.000080PF
+C9_4 listener_str_1xsync_unitxmeta_reg_8 0 0.000025PF
+R1_4 listener_str_1xsync_unitxmeta_reg_2 U16:A 4.000000
+R2_4 listener_str_1xsync_unitxmeta_reg_3 listener_str_1xsync_unitxmeta_reg_2
++ 0.339286
+R3_4 listener_str_1xsync_unitxmeta_reg_3 listener_str_1xsync_unitxmeta_reg_8
++ 0.339286
+R4_4 listener_str_1xsync_unitxmeta_reg_5 listener_str_1xsync_unitxmeta_reg_8
++ 4.000000
+R5_4 listener_str_1xsync_unitxmeta_reg_5 listener_str_1xsync_unitxmeta_reg_4
++ 36.642857
+R6_4 listener_str_1xsync_unitxmeta_reg_6 listener_str_1xsync_unitxmeta_reg_4
++ 4.000000
+R7_4 listener_str_1xsync_unitxmeta_reg_7 listener_str_1xsync_unitxmeta_reg_6
++ 2.544643
+R8_4 listener_str_1xsync_unitxmeta_reg_reg:Q
++ listener_str_1xsync_unitxmeta_reg_7 4.000000
 
-*|NET clk1__L2_N0 0.002259PF
+*|NET talker_str_1xfsm_unitxn8 0.002129PF
+*|I (U7:B U7 B I 0.001869PF 31.635 28.595)
+*|I (talker_str_1xfsm_unitxU12:B talker_str_1xfsm_unitxU12 B I 0.002365PF
+*+ 33.980 33.045)
+*|I (talker_str_1xfsm_unitxU13:Y talker_str_1xfsm_unitxU13 Y O 0.000000PF
+*+ 32.328 33.915)
+*|S (talker_str_1xfsm_unitxn8_3 32.205 32.585)
+*|S (talker_str_1xfsm_unitxn8_4 32.205 31.065)
+*|S (talker_str_1xfsm_unitxn8_5 31.635 31.065)
+*|S (talker_str_1xfsm_unitxn8_6 31.635 28.595)
+*|S (talker_str_1xfsm_unitxn8_7 32.300 32.585)
+*|S (talker_str_1xfsm_unitxn8_8 32.205 31.065)
+*|S (talker_str_1xfsm_unitxn8_9 31.635 31.065)
+*|S (talker_str_1xfsm_unitxn8_10 32.300 32.965)
+*|S (talker_str_1xfsm_unitxn8_11 32.395 32.965)
+*|S (talker_str_1xfsm_unitxn8_12 32.395 32.965)
+*|S (talker_str_1xfsm_unitxn8_13 33.915 32.965)
+*|S (talker_str_1xfsm_unitxn8_14 33.915 32.965)
+*|S (talker_str_1xfsm_unitxn8_15 34.005 32.965)
+*|S (talker_str_1xfsm_unitxn8_16 34.005 33.060)
+C1_27 U7:B 0 0.000042PF
+C2_27 talker_str_1xfsm_unitxU13:Y 0 0.000042PF
+C3_27 talker_str_1xfsm_unitxU12:B 0 0.000042PF
+C4_27 talker_str_1xfsm_unitxn8_3 0 0.000125PF
+C5_27 talker_str_1xfsm_unitxn8_4 0 0.000139PF
+C6_27 talker_str_1xfsm_unitxn8_5 0 0.000396PF
+C7_27 talker_str_1xfsm_unitxn8_6 0 0.000395PF
+C8_27 talker_str_1xfsm_unitxn8_7 0 0.000084PF
+C9_27 talker_str_1xfsm_unitxn8_8 0 0.000047PF
+C10_27 talker_str_1xfsm_unitxn8_9 0 0.000047PF
+C11_27 talker_str_1xfsm_unitxn8_10 0 0.000093PF
+C12_27 talker_str_1xfsm_unitxn8_11 0 0.000025PF
+C13_27 talker_str_1xfsm_unitxn8_12 0 0.000296PF
+C14_27 talker_str_1xfsm_unitxn8_13 0 0.000296PF
+C15_27 talker_str_1xfsm_unitxn8_14 0 0.000025PF
+C16_27 talker_str_1xfsm_unitxn8_15 0 0.000011PF
+C17_27 talker_str_1xfsm_unitxn8_16 0 0.000024PF
+R1_27 talker_str_1xfsm_unitxn8_16 talker_str_1xfsm_unitxU12:B 4.000000
+R2_27 talker_str_1xfsm_unitxn8_6 U7:B 4.000000
+R3_27 talker_str_1xfsm_unitxn8_15 talker_str_1xfsm_unitxn8_16 0.339286
+R4_27 talker_str_1xfsm_unitxn8_6 talker_str_1xfsm_unitxn8_5 8.821428
+R5_27 talker_str_1xfsm_unitxn8_14 talker_str_1xfsm_unitxn8_15 0.321429
+R6_27 talker_str_1xfsm_unitxn8_9 talker_str_1xfsm_unitxn8_5 4.000000
+R7_27 talker_str_1xfsm_unitxn8_13 talker_str_1xfsm_unitxn8_14 4.000000
+R8_27 talker_str_1xfsm_unitxn8_9 talker_str_1xfsm_unitxn8_8 2.035714
+R9_27 talker_str_1xfsm_unitxn8_12 talker_str_1xfsm_unitxn8_13 5.428571
+R10_27 talker_str_1xfsm_unitxn8_4 talker_str_1xfsm_unitxn8_8 4.000000
+R11_27 talker_str_1xfsm_unitxn8_11 talker_str_1xfsm_unitxn8_12 4.000000
+R12_27 talker_str_1xfsm_unitxn8_4 talker_str_1xfsm_unitxn8_3 5.428571
+R13_27 talker_str_1xfsm_unitxn8_10 talker_str_1xfsm_unitxU13:Y 4.000000
+R14_27 talker_str_1xfsm_unitxn8_10 talker_str_1xfsm_unitxn8_11 0.339286
+R15_27 talker_str_1xfsm_unitxn8_3 talker_str_1xfsm_unitxn8_7 0.339286
+R16_27 talker_str_1xfsm_unitxn8_7 talker_str_1xfsm_unitxn8_10 1.357143
+
+*|NET talker_str_1xfsm_unitxstate_regx0x 0.004675PF
+*|I (U14:A U14 A I 0.001551PF 28.707 28.105)
+*|I (talker_str_1xfsm_unitxstate_reg_regx0x:Q
+*+ talker_str_1xfsm_unitxstate_reg_regx0x Q O 0.000000PF 35.245 27.265)
+*|I (talker_str_1xfsm_unitxU11:A talker_str_1xfsm_unitxU11 A I 0.002817PF
+*+ 30.940 28.425)
+*|I (talker_str_1xfsm_unitxU12:A talker_str_1xfsm_unitxU12 A I 0.002242PF
+*+ 33.660 33.045)
+*|I (talker_str_1xfsm_unitxU13:B talker_str_1xfsm_unitxU13 B I 0.005666PF
+*+ 31.825 33.535)
+*|S (talker_str_1xfsm_unitxstate_regx0x_5 28.785 28.595)
+*|S (talker_str_1xfsm_unitxstate_regx0x_6 28.785 28.215)
+*|S (talker_str_1xfsm_unitxstate_regx0x_7 28.690 28.215)
+*|S (talker_str_1xfsm_unitxstate_regx0x_8 28.690 28.120)
+*|S (talker_str_1xfsm_unitxstate_regx0x_9 31.825 33.535)
+*|S (talker_str_1xfsm_unitxstate_regx0x_10 31.825 33.155)
+*|S (talker_str_1xfsm_unitxstate_regx0x_11 31.825 31.825)
+*|S (talker_str_1xfsm_unitxstate_regx0x_12 30.875 28.595)
+*|S (talker_str_1xfsm_unitxstate_regx0x_13 28.785 28.595)
+*|S (talker_str_1xfsm_unitxstate_regx0x_14 35.245 28.595)
+*|S (talker_str_1xfsm_unitxstate_regx0x_15 35.245 27.312)
+*|S (talker_str_1xfsm_unitxstate_regx0x_16 35.245 28.595)
+*|S (talker_str_1xfsm_unitxstate_regx0x_17 31.255 28.595)
+*|S (talker_str_1xfsm_unitxstate_regx0x_18 33.535 33.155)
+*|S (talker_str_1xfsm_unitxstate_regx0x_19 31.825 33.155)
+*|S (talker_str_1xfsm_unitxstate_regx0x_20 31.825 31.825)
+*|S (talker_str_1xfsm_unitxstate_regx0x_21 31.255 31.825)
+*|S (talker_str_1xfsm_unitxstate_regx0x_22 31.255 31.825)
+*|S (talker_str_1xfsm_unitxstate_regx0x_23 31.255 28.595)
+*|S (talker_str_1xfsm_unitxstate_regx0x_24 30.875 28.595)
+*|S (talker_str_1xfsm_unitxstate_regx0x_25 30.970 28.595)
+*|S (talker_str_1xfsm_unitxstate_regx0x_26 30.970 28.500)
+*|S (talker_str_1xfsm_unitxstate_regx0x_27 33.535 33.155)
+*|S (talker_str_1xfsm_unitxstate_regx0x_28 33.625 33.155)
+*|S (talker_str_1xfsm_unitxstate_regx0x_29 33.625 33.060)
+C1_30 U14:A 0 0.000042PF
+C2_30 talker_str_1xfsm_unitxU11:A 0 0.000042PF
+C3_30 talker_str_1xfsm_unitxU12:A 0 0.000042PF
+C4_30 talker_str_1xfsm_unitxstate_reg_regx0x:Q 0 0.000042PF
+C5_30 talker_str_1xfsm_unitxU13:B 0 0.000042PF
+C6_30 talker_str_1xfsm_unitxstate_regx0x_5 0 0.000039PF
+C7_30 talker_str_1xfsm_unitxstate_regx0x_6 0 0.000025PF
+C8_30 talker_str_1xfsm_unitxstate_regx0x_7 0 0.000012PF
+C9_30 talker_str_1xfsm_unitxstate_regx0x_8 0 0.000025PF
+C10_30 talker_str_1xfsm_unitxstate_regx0x_9 0 0.000047PF
+C11_30 talker_str_1xfsm_unitxstate_regx0x_10 0 0.000150PF
+C12_30 talker_str_1xfsm_unitxstate_regx0x_11 0 0.000122PF
+C13_30 talker_str_1xfsm_unitxstate_regx0x_12 0 0.000331PF
+C14_30 talker_str_1xfsm_unitxstate_regx0x_13 0 0.000258PF
+C15_30 talker_str_1xfsm_unitxstate_regx0x_14 0 0.000097PF
+C16_30 talker_str_1xfsm_unitxstate_regx0x_15 0 0.000096PF
+C17_30 talker_str_1xfsm_unitxstate_regx0x_16 0 0.000872PF
+C18_30 talker_str_1xfsm_unitxstate_regx0x_17 0 0.000946PF
+C19_30 talker_str_1xfsm_unitxstate_regx0x_18 0 0.000302PF
+C20_30 talker_str_1xfsm_unitxstate_regx0x_19 0 0.000302PF
+C21_30 talker_str_1xfsm_unitxstate_regx0x_20 0 0.000065PF
+C22_30 talker_str_1xfsm_unitxstate_regx0x_21 0 0.000065PF
+C23_30 talker_str_1xfsm_unitxstate_regx0x_22 0 0.000290PF
+C24_30 talker_str_1xfsm_unitxstate_regx0x_23 0 0.000300PF
+C25_30 talker_str_1xfsm_unitxstate_regx0x_24 0 0.000025PF
+C26_30 talker_str_1xfsm_unitxstate_regx0x_25 0 0.000012PF
+C27_30 talker_str_1xfsm_unitxstate_regx0x_26 0 0.000025PF
+C28_30 talker_str_1xfsm_unitxstate_regx0x_27 0 0.000025PF
+C29_30 talker_str_1xfsm_unitxstate_regx0x_28 0 0.000012PF
+C30_30 talker_str_1xfsm_unitxstate_regx0x_29 0 0.000025PF
+R1_30 talker_str_1xfsm_unitxstate_regx0x_29 talker_str_1xfsm_unitxU12:A
++ 4.000000
+R2_30 talker_str_1xfsm_unitxstate_regx0x_29
++ talker_str_1xfsm_unitxstate_regx0x_28 0.339286
+R3_30 talker_str_1xfsm_unitxstate_regx0x_27
++ talker_str_1xfsm_unitxstate_regx0x_28 0.321429
+R4_30 talker_str_1xfsm_unitxstate_regx0x_18
++ talker_str_1xfsm_unitxstate_regx0x_27 4.000000
+R5_30 talker_str_1xfsm_unitxstate_regx0x_19
++ talker_str_1xfsm_unitxstate_regx0x_18 6.107143
+R6_30 talker_str_1xfsm_unitxstate_regx0x_9 talker_str_1xfsm_unitxU13:B
++ 4.000000
+R7_30 talker_str_1xfsm_unitxstate_regx0x_10
++ talker_str_1xfsm_unitxstate_regx0x_19 4.000000
+R8_30 talker_str_1xfsm_unitxstate_regx0x_10
++ talker_str_1xfsm_unitxstate_regx0x_9 1.357143
+R9_30 talker_str_1xfsm_unitxstate_regx0x_11
++ talker_str_1xfsm_unitxstate_regx0x_10 4.750000
+R10_30 talker_str_1xfsm_unitxstate_regx0x_20
++ talker_str_1xfsm_unitxstate_regx0x_11 4.000000
+R11_30 talker_str_1xfsm_unitxstate_regx0x_15
++ talker_str_1xfsm_unitxstate_reg_regx0x:Q 4.000000
+R12_30 talker_str_1xfsm_unitxstate_regx0x_21
++ talker_str_1xfsm_unitxstate_regx0x_20 2.035714
+R13_30 talker_str_1xfsm_unitxstate_regx0x_8 U14:A 4.000000
+R14_30 talker_str_1xfsm_unitxstate_regx0x_15
++ talker_str_1xfsm_unitxstate_regx0x_14 4.580357
+R15_30 talker_str_1xfsm_unitxstate_regx0x_22
++ talker_str_1xfsm_unitxstate_regx0x_21 4.000000
+R16_30 talker_str_1xfsm_unitxstate_regx0x_26 talker_str_1xfsm_unitxU11:A
++ 4.000000
+R17_30 talker_str_1xfsm_unitxstate_regx0x_8
++ talker_str_1xfsm_unitxstate_regx0x_7 0.339286
+R18_30 talker_str_1xfsm_unitxstate_regx0x_16
++ talker_str_1xfsm_unitxstate_regx0x_14 4.000000
+R19_30 talker_str_1xfsm_unitxstate_regx0x_23
++ talker_str_1xfsm_unitxstate_regx0x_22 11.535714
+R20_30 talker_str_1xfsm_unitxstate_regx0x_26
++ talker_str_1xfsm_unitxstate_regx0x_25 0.339286
+R21_30 talker_str_1xfsm_unitxstate_regx0x_7
++ talker_str_1xfsm_unitxstate_regx0x_6 0.339286
+R22_30 talker_str_1xfsm_unitxstate_regx0x_17
++ talker_str_1xfsm_unitxstate_regx0x_16 14.250000
+R23_30 talker_str_1xfsm_unitxstate_regx0x_17
++ talker_str_1xfsm_unitxstate_regx0x_23 4.000000
+R24_30 talker_str_1xfsm_unitxstate_regx0x_24
++ talker_str_1xfsm_unitxstate_regx0x_25 0.339286
+R25_30 talker_str_1xfsm_unitxstate_regx0x_6
++ talker_str_1xfsm_unitxstate_regx0x_5 1.357143
+R26_30 talker_str_1xfsm_unitxstate_regx0x_12
++ talker_str_1xfsm_unitxstate_regx0x_17 1.357143
+R27_30 talker_str_1xfsm_unitxstate_regx0x_12
++ talker_str_1xfsm_unitxstate_regx0x_24 4.000000
+R28_30 talker_str_1xfsm_unitxstate_regx0x_13
++ talker_str_1xfsm_unitxstate_regx0x_5 4.000000
+R29_30 talker_str_1xfsm_unitxstate_regx0x_13
++ talker_str_1xfsm_unitxstate_regx0x_12 7.464286
+
+*|NET clk1 0.004256PF
+*|P (clk1 I 0.000000PF 0.000 30.495)
 *|I (listener_str_1xfsm_unitxack_buf_reg_reg:CLK
-*+ listener_str_1xfsm_unitxack_buf_reg_reg CLK I 0.001726PF 20.520 31.396)
+*+ listener_str_1xfsm_unitxack_buf_reg_reg CLK I 0.001726PF 22.040 28.643)
 *|I (listener_str_1xsync_unitxmeta_reg_reg:CLK
-*+ listener_str_1xsync_unitxmeta_reg_reg CLK I 0.001726PF 26.980 33.584)
+*+ listener_str_1xsync_unitxmeta_reg_reg CLK I 0.001726PF 27.360 31.396)
 *|I (listener_str_1xsync_unitxsync_reg_reg:CLK
-*+ listener_str_1xsync_unitxsync_reg_reg CLK I 0.001726PF 22.040 33.584)
-*|I (clk1__L2_I0:Y clk1__L2_I0 Y O 0.000000PF 26.315 33.725)
-*|S (clk1__L2_N0_12 22.040 33.535)
-*|S (clk1__L2_N0_8 21.755 33.535)
-*|S (clk1__L2_N0_4 21.755 33.535)
-*|S (clk1__L2_N0_7 20.815 33.535)
-*|S (clk1__L2_N0_11 20.815 33.535)
-*|S (clk1__L2_N0_15 20.815 31.445)
-*|S (clk1__L2_N0_19 20.815 31.445)
-*|S (clk1__L2_N0_21 20.235 31.445)
-*|S (clk1__L2_N0_22 20.235 31.445)
-*|S (clk1__L2_N0_23 20.520 31.445)
-*|S (clk1__L2_N0_13 25.935 33.725)
-*|S (clk1__L2_N0_9 25.935 33.725)
-*|S (clk1__L2_N0_5 25.935 33.535)
-*|S (clk1__L2_N0_2 25.935 33.535)
-*|S (clk1__L2_N0_18 26.980 33.535)
-*|S (clk1__L2_N0_14 26.695 33.535)
-*|S (clk1__L2_N0_10 26.695 33.535)
-*|S (clk1__L2_N0_6 26.695 33.535)
-*|S (clk1__L2_N0_3 26.135 33.535)
-*|S (clk1__L2_N0_1 26.135 33.535)
-C1_5 listener_str_1xsync_unitxsync_reg_reg:CLK 0 0.000042PF
-C2_5 clk1__L2_N0_12 0 0.000046PF
-C3_5 clk1__L2_N0_8 0 0.000047PF
-C4_5 clk1__L2_N0_4 0 0.000559PF
-C5_5 clk1__L2_N0_7 0 0.000109PF
-C6_5 clk1__L2_N0_11 0 0.000152PF
-C7_5 clk1__L2_N0_15 0 0.000152PF
-C8_5 clk1__L2_N0_19 0 0.000038PF
-C9_5 clk1__L2_N0_21 0 0.000038PF
-C10_5 clk1__L2_N0_22 0 0.000047PF
-C11_5 clk1__L2_N0_23 0 0.000046PF
-C12_5 listener_str_1xfsm_unitxack_buf_reg_reg:CLK 0 0.000042PF
-C13_5 clk1__L2_I0:Y 0 0.000020PF
-C14_5 clk1__L2_N0_13 0 0.000052PF
-C15_5 clk1__L2_N0_9 0 0.000030PF
-C16_5 clk1__L2_N0_5 0 0.000031PF
-C17_5 clk1__L2_N0_2 0 0.000487PF
-C18_5 listener_str_1xsync_unitxmeta_reg_reg:CLK 0 0.000042PF
-C19_5 clk1__L2_N0_18 0 0.000046PF
-C20_5 clk1__L2_N0_14 0 0.000047PF
-C21_5 clk1__L2_N0_10 0 0.000041PF
-C22_5 clk1__L2_N0_6 0 0.000049PF
-C23_5 clk1__L2_N0_3 0 0.000049PF
-C24_5 clk1__L2_N0_1 0 0.000047PF
-R1_5 clk1__L2_N0_2 clk1__L2_N0_1 0.714286
-R2_5 clk1__L2_N0_1 clk1__L2_N0_3 4.000000
-R3_5 clk1__L2_N0_4 clk1__L2_N0_2 14.928571
-R4_5 clk1__L2_N0_2 clk1__L2_N0_5 4.000000
-R5_5 clk1__L2_N0_3 clk1__L2_N0_6 1.000000
-R6_5 clk1__L2_N0_7 clk1__L2_N0_4 3.357143
-R7_5 clk1__L2_N0_4 clk1__L2_N0_8 4.000000
-R8_5 clk1__L2_N0_5 clk1__L2_N0_9 0.678571
-R9_5 clk1__L2_N0_6 clk1__L2_N0_10 4.000000
-R10_5 clk1__L2_N0_7 clk1__L2_N0_11 4.000000
-R11_5 clk1__L2_N0_8 clk1__L2_N0_12 1.017857
-R12_5 clk1__L2_N0_9 clk1__L2_N0_13 4.000000
-R13_5 clk1__L2_N0_10 clk1__L2_N0_14 4.000000
-R14_5 clk1__L2_N0_15 clk1__L2_N0_11 3.732143
-R15_5 clk1__L2_N0_12 listener_str_1xsync_unitxsync_reg_reg:CLK 4.000000
-R16_5 clk1__L2_N0_13 clk1__L2_I0:Y 1.651538
-R17_5 clk1__L2_N0_14 clk1__L2_N0_18 1.017857
-R18_5 clk1__L2_N0_15 clk1__L2_N0_19 4.000000
-R19_5 clk1__L2_N0_18 listener_str_1xsync_unitxmeta_reg_reg:CLK 4.000000
-R20_5 clk1__L2_N0_21 clk1__L2_N0_19 2.071429
-R21_5 clk1__L2_N0_21 clk1__L2_N0_22 4.000000
-R22_5 clk1__L2_N0_22 clk1__L2_N0_23 1.017857
-R23_5 clk1__L2_N0_23 listener_str_1xfsm_unitxack_buf_reg_reg:CLK 4.000000
+*+ listener_str_1xsync_unitxsync_reg_reg CLK I 0.001726PF 21.660 31.396)
+*|S (clk1_4 21.660 31.350)
+*|S (clk1_5 21.660 30.495)
+*|S (clk1_6 27.265 31.445)
+*|S (clk1_7 21.935 31.445)
+*|S (clk1_8 21.935 30.495)
+*|S (clk1_9 21.660 30.495)
+*|S (clk1_10 27.360 31.445)
+*|S (clk1_11 27.265 31.445)
+*|S (clk1_12 21.935 31.445)
+*|S (clk1_13 21.935 30.495)
+*|S (clk1_14 21.935 28.595)
+*|S (clk1_15 21.935 28.595)
+*|S (clk1_16 21.945 28.595)
+*|S (clk1_17 21.945 28.595)
+*|S (clk1_18 22.040 28.595)
+C1_1 clk1 0 0.001284PF
+C2_1 listener_str_1xsync_unitxsync_reg_reg:CLK 0 0.000042PF
+C3_1 listener_str_1xsync_unitxmeta_reg_reg:CLK 0 0.000042PF
+C4_1 listener_str_1xfsm_unitxack_buf_reg_reg:CLK 0 0.000042PF
+C5_1 clk1_4 0 0.000087PF
+C6_1 clk1_5 0 0.000087PF
+C7_1 clk1_6 0 0.000372PF
+C8_1 clk1_7 0 0.000372PF
+C9_1 clk1_8 0 0.000037PF
+C10_1 clk1_9 0 0.001322PF
+C11_1 clk1_10 0 0.000034PF
+C12_1 clk1_11 0 0.000025PF
+C13_1 clk1_12 0 0.000073PF
+C14_1 clk1_13 0 0.000204PF
+C15_1 clk1_14 0 0.000132PF
+C16_1 clk1_15 0 0.000021PF
+C17_1 clk1_16 0 0.000021PF
+C18_1 clk1_17 0 0.000025PF
+C19_1 clk1_18 0 0.000034PF
+R1_1 clk1_18 listener_str_1xfsm_unitxack_buf_reg_reg:CLK 4.000000
+R2_1 clk1_10 listener_str_1xsync_unitxmeta_reg_reg:CLK 4.000000
+R3_1 clk1_17 clk1_18 0.339286
+R4_1 clk1_11 clk1_10 0.339286
+R5_1 clk1_16 clk1_17 4.000000
+R6_1 clk1_6 clk1_11 4.000000
+R7_1 clk1_15 clk1_16 0.035714
+R8_1 clk1_7 clk1_6 19.035715
+R9_1 clk1_14 clk1_15 4.000000
+R10_1 clk1_12 clk1_7 4.000000
+R11_1 clk1_14 clk1_13 3.392857
+R12_1 clk1_13 clk1_12 1.696429
+R13_1 clk1_8 clk1_13 4.000000
+R14_1 clk1 clk1_9 77.232140
+R15_1 clk1_9 clk1_8 0.982143
+R16_1 clk1_4 listener_str_1xsync_unitxsync_reg_reg:CLK 4.000000
+R17_1 clk1_5 clk1_9 4.000000
+R18_1 clk1_5 clk1_4 3.053571
 
-*|NET clk2 0.002906PF
-*|P (clk2 I 0.000000PF 26.695 0.000)
-*|I (clk2__L1_I0:A clk2__L1_I0 A I 0.010104PF 27.075 21.565)
-*|S (clk2_9 26.695 0.285)
-*|S (clk2_8 26.695 0.285)
-*|S (clk2_7 26.695 0.285)
-*|S (clk2_6 26.695 21.185)
-*|S (clk2_5 26.695 21.185)
-*|S (clk2_4 27.075 21.185)
-*|S (clk2_3 27.075 21.185)
-*|S (clk2_2 27.075 21.470)
-C1_6 clk2 0 0.000015PF
-C2_6 clk2_9 0 0.000044PF
-C3_6 clk2_8 0 0.000041PF
-C4_6 clk2_7 0 0.001295PF
-C5_6 clk2_6 0 0.001295PF
-C6_6 clk2_5 0 0.000051PF
-C7_6 clk2_4 0 0.000051PF
-C8_6 clk2_3 0 0.000036PF
-C9_6 clk2_2 0 0.000035PF
-C10_6 clk2__L1_I0:A 0 0.000042PF
-R1_6 clk2__L1_I0:A clk2_2 4.000000
-R2_6 clk2_3 clk2_2 1.017857
-R3_6 clk2_3 clk2_4 4.000000
-R4_6 clk2_5 clk2_4 1.357143
-R5_6 clk2_5 clk2_6 4.000000
-R6_6 clk2_7 clk2_6 37.321429
-R7_6 clk2_7 clk2_8 4.000000
-R8_6 clk2_8 clk2_9 4.000000
-R9_6 clk2 clk2_9 0.892857
-
-*|NET clk2__L2_N0 0.003582PF
+*|NET clk2 0.006271PF
+*|P (clk2 I 0.000000PF 28.405 0.000)
 *|I (talker_str_1xsync_unitxmeta_reg_reg:CLK
-*+ talker_str_1xsync_unitxmeta_reg_reg CLK I 0.001726PF 20.900 23.704)
+*+ talker_str_1xsync_unitxmeta_reg_reg CLK I 0.001726PF 22.420 23.704)
 *|I (talker_str_1xsync_unitxsync_reg_reg:CLK
-*+ talker_str_1xsync_unitxsync_reg_reg CLK I 0.001726PF 31.540 21.517)
+*+ talker_str_1xsync_unitxsync_reg_reg CLK I 0.001726PF 25.840 26.457)
 *|I (talker_str_1xfsm_unitxstate_reg_regx0x:CLK
-*+ talker_str_1xfsm_unitxstate_reg_regx0x CLK I 0.001726PF 28.880 26.457)
+*+ talker_str_1xfsm_unitxstate_reg_regx0x CLK I 0.001726PF 31.540 26.457)
 *|I (talker_str_1xfsm_unitxstate_reg_regx1x:CLK
-*+ talker_str_1xfsm_unitxstate_reg_regx1x CLK I 0.001726PF 23.940 26.457)
+*+ talker_str_1xfsm_unitxstate_reg_regx1x CLK I 0.001726PF 31.540 31.396)
 *|I (talker_str_1xfsm_unitxreq_buf_reg_reg:CLK
-*+ talker_str_1xfsm_unitxreq_buf_reg_reg CLK I 0.001726PF 28.120 23.704)
-*|I (clk2__L2_I0:Y clk2__L2_I0 Y O 0.000000PF 26.695 24.035)
-*|S (clk2__L2_N0_36 23.940 26.505)
-*|S (clk2__L2_N0_35 23.655 26.505)
-*|S (clk2__L2_N0_32 23.655 26.505)
-*|S (clk2__L2_N0_28 23.895 26.505)
-*|S (clk2__L2_N0_24 23.895 26.505)
-*|S (clk2__L2_N0_20 23.895 23.655)
-*|S (clk2__L2_N0_15 23.895 23.655)
-*|S (clk2__L2_N0_19 21.185 23.655)
-*|S (clk2__L2_N0_23 21.185 23.655)
-*|S (clk2__L2_N0_27 20.900 23.655)
-*|S (clk2__L2_N0_12 26.695 24.035)
-*|S (clk2__L2_N0_8 26.695 23.845)
-*|S (clk2__L2_N0_4 26.695 23.845)
-*|S (clk2__L2_N0_7 24.225 23.845)
-*|S (clk2__L2_N0_11 24.225 23.655)
-*|S (clk2__L2_N0_30 31.540 21.565)
-*|S (clk2__L2_N0_26 31.255 21.565)
-*|S (clk2__L2_N0_22 31.255 21.565)
-*|S (clk2__L2_N0_18 28.375 21.565)
-*|S (clk2__L2_N0_14 28.375 21.565)
-*|S (clk2__L2_N0_9 28.375 23.845)
-*|S (clk2__L2_N0_5 28.375 23.845)
-*|S (clk2__L2_N0_2 27.835 23.845)
-*|S (clk2__L2_N0_29 28.880 26.505)
-*|S (clk2__L2_N0_25 28.595 26.505)
-*|S (clk2__L2_N0_21 28.595 26.505)
-*|S (clk2__L2_N0_17 28.375 26.505)
-*|S (clk2__L2_N0_13 28.375 26.505)
-*|S (clk2__L2_N0_6 28.120 23.655)
-*|S (clk2__L2_N0_3 27.835 23.655)
-*|S (clk2__L2_N0_1 27.835 23.655)
-C1_8 talker_str_1xfsm_unitxstate_reg_regx1x:CLK 0 0.000042PF
-C2_8 clk2__L2_N0_36 0 0.000046PF
-C3_8 clk2__L2_N0_35 0 0.000047PF
-C4_8 clk2__L2_N0_32 0 0.000035PF
-C5_8 clk2__L2_N0_28 0 0.000035PF
-C6_8 clk2__L2_N0_24 0 0.000191PF
-C7_8 clk2__L2_N0_20 0 0.000191PF
-C8_8 clk2__L2_N0_15 0 0.000177PF
-C9_8 clk2__L2_N0_19 0 0.000159PF
-C10_8 clk2__L2_N0_23 0 0.000047PF
-C11_8 clk2__L2_N0_27 0 0.000046PF
-C12_8 talker_str_1xsync_unitxmeta_reg_reg:CLK 0 0.000042PF
-C13_8 clk2__L2_I0:Y 0 0.000042PF
-C14_8 clk2__L2_N0_12 0 0.000030PF
-C15_8 clk2__L2_N0_8 0 0.000031PF
-C16_8 clk2__L2_N0_4 0 0.000287PF
-C17_8 clk2__L2_N0_7 0 0.000223PF
-C18_8 clk2__L2_N0_11 0 0.000030PF
-C19_8 talker_str_1xsync_unitxsync_reg_reg:CLK 0 0.000042PF
-C20_8 clk2__L2_N0_30 0 0.000046PF
-C21_8 clk2__L2_N0_26 0 0.000047PF
-C22_8 clk2__L2_N0_22 0 0.000228PF
-C23_8 clk2__L2_N0_18 0 0.000228PF
-C24_8 clk2__L2_N0_14 0 0.000154PF
-C25_8 clk2__L2_N0_9 0 0.000333PF
-C26_8 clk2__L2_N0_5 0 0.000081PF
-C27_8 clk2__L2_N0_2 0 0.000118PF
-C28_8 talker_str_1xfsm_unitxstate_reg_regx0x:CLK 0 0.000042PF
-C29_8 clk2__L2_N0_29 0 0.000046PF
-C30_8 clk2__L2_N0_25 0 0.000047PF
-C31_8 clk2__L2_N0_21 0 0.000063PF
-C32_8 clk2__L2_N0_17 0 0.000063PF
-C33_8 clk2__L2_N0_13 0 0.000179PF
-C34_8 talker_str_1xfsm_unitxreq_buf_reg_reg:CLK 0 0.000042PF
-C35_8 clk2__L2_N0_6 0 0.000046PF
-C36_8 clk2__L2_N0_3 0 0.000047PF
-C37_8 clk2__L2_N0_1 0 0.000033PF
-R1_8 clk2__L2_N0_1 clk2__L2_N0_2 0.678571
-R2_8 clk2__L2_N0_1 clk2__L2_N0_3 4.000000
-R3_8 clk2__L2_N0_4 clk2__L2_N0_2 4.071429
-R4_8 clk2__L2_N0_2 clk2__L2_N0_5 1.928571
-R5_8 clk2__L2_N0_3 clk2__L2_N0_6 1.017857
-R6_8 clk2__L2_N0_7 clk2__L2_N0_4 8.821429
-R7_8 clk2__L2_N0_4 clk2__L2_N0_8 4.000000
-R8_8 clk2__L2_N0_5 clk2__L2_N0_9 4.000000
-R9_8 clk2__L2_N0_6 talker_str_1xfsm_unitxreq_buf_reg_reg:CLK 4.000000
-R10_8 clk2__L2_N0_11 clk2__L2_N0_7 0.678571
-R11_8 clk2__L2_N0_8 clk2__L2_N0_12 0.678571
-R12_8 clk2__L2_N0_9 clk2__L2_N0_13 4.750000
-R13_8 clk2__L2_N0_14 clk2__L2_N0_9 4.071429
-R14_8 clk2__L2_N0_15 clk2__L2_N0_11 1.178571
-R15_8 clk2__L2_N0_12 clk2__L2_I0:Y 4.000000
-R16_8 clk2__L2_N0_13 clk2__L2_N0_17 4.000000
-R17_8 clk2__L2_N0_14 clk2__L2_N0_18 4.000000
-R18_8 clk2__L2_N0_19 clk2__L2_N0_15 9.678571
-R19_8 clk2__L2_N0_15 clk2__L2_N0_20 4.000000
-R20_8 clk2__L2_N0_17 clk2__L2_N0_21 0.785714
-R21_8 clk2__L2_N0_18 clk2__L2_N0_22 10.285714
-R22_8 clk2__L2_N0_19 clk2__L2_N0_23 4.000000
-R23_8 clk2__L2_N0_20 clk2__L2_N0_24 5.089286
-R24_8 clk2__L2_N0_21 clk2__L2_N0_25 4.000000
-R25_8 clk2__L2_N0_22 clk2__L2_N0_26 4.000000
-R26_8 clk2__L2_N0_27 clk2__L2_N0_23 1.017857
-R27_8 clk2__L2_N0_24 clk2__L2_N0_28 4.000000
-R28_8 clk2__L2_N0_25 clk2__L2_N0_29 1.017857
-R29_8 clk2__L2_N0_26 clk2__L2_N0_30 1.017857
-R30_8 clk2__L2_N0_27 talker_str_1xsync_unitxmeta_reg_reg:CLK 4.000000
-R31_8 clk2__L2_N0_32 clk2__L2_N0_28 0.857143
-R32_8 clk2__L2_N0_29 talker_str_1xfsm_unitxstate_reg_regx0x:CLK 4.000000
-R33_8 clk2__L2_N0_30 talker_str_1xsync_unitxsync_reg_reg:CLK 4.000000
-R34_8 clk2__L2_N0_32 clk2__L2_N0_35 4.000000
-R35_8 clk2__L2_N0_35 clk2__L2_N0_36 1.017857
-R36_8 clk2__L2_N0_36 talker_str_1xfsm_unitxstate_reg_regx1x:CLK 4.000000
+*+ talker_str_1xfsm_unitxreq_buf_reg_reg CLK I 0.001726PF 28.500 23.704)
+*|S (clk2_6 31.175 23.655)
+*|S (clk2_7 28.405 23.655)
+*|S (clk2_8 25.745 26.505)
+*|S (clk2_9 25.575 26.505)
+*|S (clk2_10 28.375 23.655)
+*|S (clk2_11 25.575 23.655)
+*|S (clk2_12 22.515 23.655)
+*|S (clk2_13 31.445 31.445)
+*|S (clk2_14 31.175 31.445)
+*|S (clk2_15 31.175 31.445)
+*|S (clk2_16 31.175 26.505)
+*|S (clk2_17 25.575 23.655)
+*|S (clk2_18 25.575 26.505)
+*|S (clk2_19 25.745 26.505)
+*|S (clk2_20 25.840 26.505)
+*|S (clk2_21 22.515 23.655)
+*|S (clk2_22 22.420 23.655)
+*|S (clk2_23 31.175 26.505)
+*|S (clk2_24 31.445 26.505)
+*|S (clk2_25 31.445 26.505)
+*|S (clk2_26 31.540 26.505)
+*|S (clk2_27 28.375 23.655)
+*|S (clk2_28 28.375 0.285)
+*|S (clk2_29 28.375 0.285)
+*|S (clk2_30 28.405 0.285)
+*|S (clk2_31 28.405 0.285)
+*|S (clk2_32 31.540 31.445)
+*|S (clk2_33 31.445 31.445)
+*|S (clk2_34 31.175 23.655)
+*|S (clk2_35 28.405 23.655)
+*|S (clk2_36 28.500 23.655)
+C1_2 talker_str_1xsync_unitxsync_reg_reg:CLK 0 0.000042PF
+C2_2 talker_str_1xsync_unitxmeta_reg_reg:CLK 0 0.000042PF
+C3_2 talker_str_1xfsm_unitxstate_reg_regx0x:CLK 0 0.000042PF
+C4_2 clk2 0 0.000015PF
+C5_2 talker_str_1xfsm_unitxstate_reg_regx1x:CLK 0 0.000042PF
+C6_2 talker_str_1xfsm_unitxreq_buf_reg_reg:CLK 0 0.000042PF
+C7_2 clk2_6 0 0.000187PF
+C8_2 clk2_7 0 0.000189PF
+C9_2 clk2_8 0 0.000035PF
+C10_2 clk2_9 0 0.000035PF
+C11_2 clk2_10 0 0.000196PF
+C12_2 clk2_11 0 0.000365PF
+C13_2 clk2_12 0 0.000191PF
+C14_2 clk2_13 0 0.000043PF
+C15_2 clk2_14 0 0.000043PF
+C16_2 clk2_15 0 0.000332PF
+C17_2 clk2_16 0 0.000523PF
+C18_2 clk2_17 0 0.000191PF
+C19_2 clk2_18 0 0.000191PF
+C20_2 clk2_19 0 0.000025PF
+C21_2 clk2_20 0 0.000034PF
+C22_2 clk2_21 0 0.000025PF
+C23_2 clk2_22 0 0.000034PF
+C24_2 clk2_23 0 0.000034PF
+C25_2 clk2_24 0 0.000034PF
+C26_2 clk2_25 0 0.000025PF
+C27_2 clk2_26 0 0.000034PF
+C28_2 clk2_27 0 0.001447PF
+C29_2 clk2_28 0 0.001447PF
+C30_2 clk2_29 0 0.000022PF
+C31_2 clk2_30 0 0.000022PF
+C32_2 clk2_31 0 0.000034PF
+C33_2 clk2_32 0 0.000034PF
+C34_2 clk2_33 0 0.000025PF
+C35_2 clk2_34 0 0.000191PF
+C36_2 clk2_35 0 0.000025PF
+C37_2 clk2_36 0 0.000034PF
+R1_2 clk2_32 talker_str_1xfsm_unitxstate_reg_regx1x:CLK 4.000000
+R2_2 clk2_26 talker_str_1xfsm_unitxstate_reg_regx0x:CLK 4.000000
+R3_2 clk2_33 clk2_32 0.339286
+R4_2 clk2_25 clk2_26 0.339286
+R5_2 clk2_13 clk2_33 4.000000
+R6_2 clk2_24 clk2_25 4.000000
+R7_2 clk2_14 clk2_13 0.964286
+R8_2 clk2 clk2_31 0.892857
+R9_2 clk2_23 clk2_24 0.964286
+R10_2 clk2_15 clk2_14 4.000000
+R11_2 clk2_30 clk2_31 4.000000
+R12_2 clk2_16 clk2_23 4.000000
+R13_2 clk2_16 clk2_15 8.821428
+R14_2 clk2_29 clk2_30 0.107143
+R15_2 clk2_34 clk2_16 5.089286
+R16_2 clk2_36 talker_str_1xfsm_unitxreq_buf_reg_reg:CLK 4.000000
+R17_2 clk2_20 talker_str_1xsync_unitxsync_reg_reg:CLK 4.000000
+R18_2 clk2_22 talker_str_1xsync_unitxmeta_reg_reg:CLK 4.000000
+R19_2 clk2_28 clk2_29 4.000000
+R20_2 clk2_6 clk2_34 4.000000
+R21_2 clk2_35 clk2_36 0.339286
+R22_2 clk2_19 clk2_20 0.339286
+R23_2 clk2_22 clk2_21 0.339286
+R24_2 clk2_28 clk2_27 41.732143
+R25_2 clk2_7 clk2_6 9.892858
+R26_2 clk2_7 clk2_35 4.000000
+R27_2 clk2_8 clk2_19 4.000000
+R28_2 clk2_12 clk2_21 4.000000
+R29_2 clk2_10 clk2_27 4.000000
+R30_2 clk2_10 clk2_7 0.107143
+R31_2 clk2_9 clk2_8 0.607143
+R32_2 clk2_12 clk2_11 10.928572
+R33_2 clk2_11 clk2_10 10.000000
+R34_2 clk2_18 clk2_9 4.000000
+R35_2 clk2_17 clk2_11 4.000000
+R36_2 clk2_17 clk2_18 5.089286
+
+*|NET talker_str_1xfsm_unitxstate_regx1x 0.002332PF
+*|I (U1:A U1 A I 0.002301PF 32.395 23.465)
+*|I (talker_str_1xfsm_unitxstate_reg_regx1x:Q
+*+ talker_str_1xfsm_unitxstate_reg_regx1x Q O 0.000000PF 35.245 32.205)
+*|I (talker_str_1xfsm_unitxU13:A talker_str_1xfsm_unitxU13 A I 0.005396PF
+*+ 32.890 33.750)
+*|S (talker_str_1xfsm_unitxstate_regx1x_3 32.395 26.315)
+*|S (talker_str_1xfsm_unitxstate_regx1x_4 32.395 23.465)
+*|S (talker_str_1xfsm_unitxstate_regx1x_5 32.575 26.315)
+*|S (talker_str_1xfsm_unitxstate_regx1x_6 32.395 26.315)
+*|S (talker_str_1xfsm_unitxstate_regx1x_7 35.435 32.205)
+*|S (talker_str_1xfsm_unitxstate_regx1x_8 32.585 32.205)
+*|S (talker_str_1xfsm_unitxstate_regx1x_9 32.585 33.550)
+*|S (talker_str_1xfsm_unitxstate_regx1x_10 32.585 32.205)
+*|S (talker_str_1xfsm_unitxstate_regx1x_11 32.575 32.205)
+*|S (talker_str_1xfsm_unitxstate_regx1x_12 32.575 26.315)
+*|S (talker_str_1xfsm_unitxstate_regx1x_13 32.575 32.205)
+*|S (talker_str_1xfsm_unitxstate_regx1x_14 35.435 32.205)
+*|S (talker_str_1xfsm_unitxstate_regx1x_15 35.435 32.205)
+C1_31 U1:A 0 0.000042PF
+C2_31 talker_str_1xfsm_unitxstate_reg_regx1x:Q 0 0.000025PF
+C3_31 talker_str_1xfsm_unitxU13:A 0 0.000042PF
+C4_31 talker_str_1xfsm_unitxstate_regx1x_3 0 0.000304PF
+C5_31 talker_str_1xfsm_unitxstate_regx1x_4 0 0.000303PF
+C6_31 talker_str_1xfsm_unitxstate_regx1x_5 0 0.000060PF
+C7_31 talker_str_1xfsm_unitxstate_regx1x_6 0 0.000060PF
+C8_31 talker_str_1xfsm_unitxstate_regx1x_7 0 0.000168PF
+C9_31 talker_str_1xfsm_unitxstate_regx1x_8 0 0.000169PF
+C10_31 talker_str_1xfsm_unitxstate_regx1x_9 0 0.000138PF
+C11_31 talker_str_1xfsm_unitxstate_regx1x_10 0 0.000139PF
+C12_31 talker_str_1xfsm_unitxstate_regx1x_11 0 0.000388PF
+C13_31 talker_str_1xfsm_unitxstate_regx1x_12 0 0.000388PF
+C14_31 talker_str_1xfsm_unitxstate_regx1x_13 0 0.000021PF
+C15_31 talker_str_1xfsm_unitxstate_regx1x_14 0 0.000046PF
+C16_31 talker_str_1xfsm_unitxstate_regx1x_15 0 0.000039PF
+R1_31 talker_str_1xfsm_unitxstate_regx1x_4 U1:A 4.000000
+R2_31 talker_str_1xfsm_unitxstate_regx1x_4
++ talker_str_1xfsm_unitxstate_regx1x_3 10.178572
+R3_31 talker_str_1xfsm_unitxstate_regx1x_6
++ talker_str_1xfsm_unitxstate_regx1x_3 4.000000
+R4_31 talker_str_1xfsm_unitxstate_reg_regx1x:Q
++ talker_str_1xfsm_unitxstate_regx1x_14 1.110769
+R5_31 talker_str_1xfsm_unitxstate_regx1x_6
++ talker_str_1xfsm_unitxstate_regx1x_5 0.642857
+R6_31 talker_str_1xfsm_unitxstate_regx1x_15
++ talker_str_1xfsm_unitxstate_regx1x_14 4.000000
+R7_31 talker_str_1xfsm_unitxstate_regx1x_9 talker_str_1xfsm_unitxU13:A
++ 4.000000
+R8_31 talker_str_1xfsm_unitxstate_regx1x_12
++ talker_str_1xfsm_unitxstate_regx1x_5 4.000000
+R9_31 talker_str_1xfsm_unitxstate_regx1x_7
++ talker_str_1xfsm_unitxstate_regx1x_15 4.000000
+R10_31 talker_str_1xfsm_unitxstate_regx1x_10
++ talker_str_1xfsm_unitxstate_regx1x_9 4.803571
+R11_31 talker_str_1xfsm_unitxstate_regx1x_12
++ talker_str_1xfsm_unitxstate_regx1x_11 10.517858
+R12_31 talker_str_1xfsm_unitxstate_regx1x_8
++ talker_str_1xfsm_unitxstate_regx1x_7 10.178572
+R13_31 talker_str_1xfsm_unitxstate_regx1x_8
++ talker_str_1xfsm_unitxstate_regx1x_10 4.000000
+R14_31 talker_str_1xfsm_unitxstate_regx1x_13
++ talker_str_1xfsm_unitxstate_regx1x_11 4.000000
+R15_31 talker_str_1xfsm_unitxstate_regx1x_13
++ talker_str_1xfsm_unitxstate_regx1x_8 0.035714
+
+*|NET rcv 0.004029PF
+*|P (rcv O 0.000000PF 55.340 28.025)
+*|I (talker_str_1xsync_unitxsync_reg_reg:Q talker_str_1xsync_unitxsync_reg_reg
+*+ Q O 0.000000PF 29.545 27.265)
+*|I (U13:A U13 A I 0.001551PF 30.608 26.995)
+*|I (U7:A U7 A I 0.001798PF 31.345 28.465)
+*|S (rcv_4 30.495 26.885)
+*|S (rcv_5 30.495 26.695)
+*|S (rcv_6 31.255 28.025)
+*|S (rcv_7 31.255 26.885)
+*|S (rcv_8 31.310 28.405)
+*|S (rcv_9 31.310 28.215)
+*|S (rcv_10 30.585 26.977)
+*|S (rcv_11 30.585 26.885)
+*|S (rcv_12 31.255 28.215)
+*|S (rcv_13 31.735 28.025)
+*|S (rcv_14 31.255 28.025)
+*|S (rcv_15 31.255 26.885)
+*|S (rcv_16 30.495 26.885)
+*|S (rcv_17 31.735 28.025)
+*|S (rcv_18 31.735 28.025)
+*|S (rcv_19 30.495 26.695)
+C1_18 rcv 0 0.001452PF
+C2_18 U13:A 0 0.000042PF
+C3_18 talker_str_1xsync_unitxsync_reg_reg:Q 0 0.000080PF
+C4_18 U7:A 0 0.000042PF
+C5_18 rcv_4 0 0.000035PF
+C6_18 rcv_5 0 0.000038PF
+C7_18 rcv_6 0 0.000179PF
+C8_18 rcv_7 0 0.000170PF
+C9_18 rcv_8 0 0.000038PF
+C10_18 rcv_9 0 0.000023PF
+C11_18 rcv_10 0 0.000028PF
+C12_18 rcv_11 0 0.000015PF
+C13_18 rcv_12 0 0.000012PF
+C14_18 rcv_13 0 0.000070PF
+C15_18 rcv_14 0 0.000070PF
+C16_18 rcv_15 0 0.000071PF
+C17_18 rcv_16 0 0.000071PF
+C18_18 rcv_17 0 0.000028PF
+C19_18 rcv_18 0 0.001465PF
+C20_18 rcv_19 0 0.000100PF
+R1_18 talker_str_1xsync_unitxsync_reg_reg:Q rcv_19 6.109231
+R2_18 rcv_10 U13:A 4.000000
+R3_18 rcv_5 rcv_19 4.000000
+R4_18 rcv_11 rcv_10 0.330357
+R5_18 rcv_5 rcv_4 0.678571
+R6_18 rcv_4 rcv_11 0.321429
+R7_18 rcv_16 rcv_4 4.000000
+R8_18 rcv_8 U7:A 4.000000
+R9_18 rcv_16 rcv_15 2.714286
+R10_18 rcv_9 rcv_8 0.678571
+R11_18 rcv_18 rcv 42.026787
+R12_18 rcv_7 rcv_15 4.000000
+R13_18 rcv_12 rcv_9 0.196429
+R14_18 rcv_17 rcv_18 4.000000
+R15_18 rcv_7 rcv_6 4.071429
+R16_18 rcv_6 rcv_12 0.678571
+R17_18 rcv_13 rcv_17 4.000000
+R18_18 rcv_14 rcv_6 4.000000
+R19_18 rcv_14 rcv_13 1.714286
 
 
 
 *
 * instance section
 *
-Xclk1__L2_I0 clk1__L2_I0:Y clk1__L2_I0:A INVX4
-Xclk1__L1_I0 clk1__L1_I0:Y clk1__L1_I0:A INVX8
-Xclk2__L2_I0 clk2__L2_I0:Y clk2__L2_I0:A INVX4
-Xclk2__L1_I0 clk2__L1_I0:Y clk2__L1_I0:A INVX8
-XFE_OCP_RBC3_reset1 FE_OCP_RBC3_reset1:Y FE_OCP_RBC3_reset1:A INVX2
-XFE_OCP_RBC1_reset2 FE_OCP_RBC1_reset2:Y FE_OCP_RBC1_reset2:A INVX4
+Xlistener_str_1xsync_unitxU4 listener_str_1xsync_unitxU4:Y
++ listener_str_1xsync_unitxU4:A INVX1
 Xtalker_str_1xfsm_unitxU13 talker_str_1xfsm_unitxU13:Y
 + talker_str_1xfsm_unitxU13:B talker_str_1xfsm_unitxU13:A XOR2X1
 Xtalker_str_1xfsm_unitxU12 talker_str_1xfsm_unitxU12:Y
@@ -1541,6 +1295,8 @@ Xtalker_str_1xfsm_unitxU12 talker_str_1xfsm_unitxU12:Y
 Xtalker_str_1xfsm_unitxU11 talker_str_1xfsm_unitxU11:Y
 + talker_str_1xfsm_unitxU11:D talker_str_1xfsm_unitxU11:C
 + talker_str_1xfsm_unitxU11:B talker_str_1xfsm_unitxU11:A AOI22X1
+Xtalker_str_1xfsm_unitxU5 talker_str_1xfsm_unitxU5:Y
++ talker_str_1xfsm_unitxU5:A INVX1
 Xtalker_str_1xfsm_unitxreq_buf_reg_reg talker_str_1xfsm_unitxreq_buf_reg_reg:R
 + talker_str_1xfsm_unitxreq_buf_reg_reg:Q
 + talker_str_1xfsm_unitxreq_buf_reg_reg:D
@@ -1558,10 +1314,6 @@ Xtalker_str_1xfsm_unitxstate_reg_regx0x
 XU1 U1:Y U1:B U1:A OR2X2
 XU7 U7:Y U7:B U7:A AND2X2
 XU8 U8:Y U8:A INVX1
-XU9 U9:Y U9:A BUFX2
-XU10 U10:Y U10:A BUFX2
-XU11 U11:Y U11:A BUFX2
-XU12 U12:Y U12:A BUFX2
 XU13 U13:Y U13:A INVX1
 XU14 U14:Y U14:A INVX1
 Xlistener_str_1xsync_unitxsync_reg_reg listener_str_1xsync_unitxsync_reg_reg:R
@@ -1585,19 +1337,14 @@ Xtalker_str_1xsync_unitxmeta_reg_reg talker_str_1xsync_unitxmeta_reg_reg:R
 + talker_str_1xsync_unitxmeta_reg_reg:CLK DFFSR
 XU2 U2:Y U2:A INVX1
 XU3 U3:Y U3:A INVX1
-XU4 U4:Y U4:A BUFX2
 XU5 U5:Y U5:A INVX1
 XU6 U6:Y U6:A INVX1
-XU15 U15:Y U15:A BUFX2
 XU16 U16:Y U16:A INVX1
 XU17 U17:Y U17:A INVX1
-XU18 U18:Y U18:A BUFX2
 XU19 U19:Y U19:A INVX1
 XU20 U20:Y U20:A INVX1
-XU21 U21:Y U21:A BUFX2
 XU22 U22:Y U22:A INVX1
 XU23 U23:Y U23:A INVX1
-XU24 U24:Y U24:A BUFX2
 XFILL_1 FILL
 XFILL_2 FILL
 XFILL_3 FILL
@@ -1674,4 +1421,34 @@ XFILL_73 FILL
 XFILL_74 FILL
 XFILL_75 FILL
 XFILL_76 FILL
+XFILL_77 FILL
+XFILL_78 FILL
+XFILL_79 FILL
+XFILL_80 FILL
+XFILL_81 FILL
+XFILL_82 FILL
+XFILL_83 FILL
+XFILL_84 FILL
+XFILL_85 FILL
+XFILL_86 FILL
+XFILL_87 FILL
+XFILL_88 FILL
+XFILL_89 FILL
+XFILL_90 FILL
+XFILL_91 FILL
+XFILL_92 FILL
+XFILL_93 FILL
+XFILL_94 FILL
+XFILL_95 FILL
+XFILL_96 FILL
+XFILL_97 FILL
+XFILL_98 FILL
+XFILL_99 FILL
+XFILL_100 FILL
+XFILL_101 FILL
+XFILL_102 FILL
+XFILL_103 FILL
+XFILL_104 FILL
+XFILL_105 FILL
+XFILL_106 FILL
 .ENDS

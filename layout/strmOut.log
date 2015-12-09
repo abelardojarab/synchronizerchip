@@ -2,20 +2,21 @@
 Product   : Virtuoso(R) XStream Out
 Program   : @(#)$CDS: strmout version 6.1.5 12/12/2012 15:27 (sjfdl071) $
           : sub-version  IC6.1.5.500.15 
-Started at: 09-Dec-2015  08:23:53
+Started at: 09-Dec-2015  12:41:20
 User Name : abelardojara
 Host Name : abelardo-Aspire-7720
-Directory : /media/ntfsdrive1/workspace/ProjectDIC2/layout
+Directory : /media/ntfsdrive1/workspace/synchronizerchip/layout
 CADENCE Design Systems, Inc.
 ********************************************************************************
 Info: Cellview Rev Num:99,  Tech Rev Num:59
 
+WARNING (XSTRM-20): Output Stream file '/media/ntfsdrive1/workspace/synchronizerchip/layout/fullsystem.gds' already exists. It will be overwritten.
 INFO (XSTRM-288): The automatic layer mapping is done by StreamOut and the xStrmOut_layerMap.txt file is generated. This is because either the layer mapping is not provided or the XST_AUTO_LM value is used with the -layerMap option.
 INFO (XSTRM-162): You have not used the viaMap option. If the OpenAccess design has native oaVia instances, use the -viaMap option for preserving oaVia instances in a Stream Out - Stream In round trip. Using the -viaMap option improves performance and VM usage of applications using the Streamed-In design.  For details on the viaMap option, refer to the "Design Data Translator's Reference" guide for XStream.
 
 Summary of Options :
 library                                 fullsystem
-strmFile                                /media/ntfsdrive1/workspace/ProjectDIC2/layout/fullsystem.gds
+strmFile                                /media/ntfsdrive1/workspace/synchronizerchip/layout/fullsystem.gds
 topCell                                 fullsystem
 view                                    layout
 logFile                                 strmOut.log
@@ -23,41 +24,35 @@ techLib                                 NCSU_TechLib_FreePDK45
 case                                    Preserve
 convertDot                              node
 
-INFO (XSTRM-223): 1. Translating cellView NCSU_TechLib_FreePDK45/M6_M5/layout as STRUCTURE M6_M5_0
-INFO (XSTRM-223): 2. Translating cellView NCSU_TechLib_FreePDK45/M2_M1/layout as STRUCTURE M2_M1_1
-INFO (XSTRM-223): 3. Translating cellView NCSU_TechLib_FreePDK45/M3_M2/layout as STRUCTURE M3_M2_2
-INFO (XSTRM-223): 4. Translating cellView NCSU_TechLib_FreePDK45/M4_M3/layout as STRUCTURE M4_M3_3
-INFO (XSTRM-223): 5. Translating cellView NCSU_TechLib_FreePDK45/M5_M4/layout as STRUCTURE M5_M4_4
+INFO (XSTRM-223): 1. Translating cellView NCSU_TechLib_FreePDK45/M2_M1/layout as STRUCTURE M2_M1_0
+INFO (XSTRM-223): 2. Translating cellView NCSU_TechLib_FreePDK45/M3_M2/layout as STRUCTURE M3_M2_1
+INFO (XSTRM-223): 3. Translating cellView NCSU_TechLib_FreePDK45/M4_M3/layout as STRUCTURE M4_M3_2
+INFO (XSTRM-223): 4. Translating cellView NCSU_TechLib_FreePDK45/M5_M4/layout as STRUCTURE M5_M4_3
+INFO (XSTRM-223): 5. Translating cellView NCSU_TechLib_FreePDK45/M6_M5/layout as STRUCTURE M6_M5_4
 INFO (XSTRM-223): 6. Translating cellView NCSU_TechLib_FreePDK45/M6_M5/layout as STRUCTURE M6_M5_5
 INFO (XSTRM-223): 7. Translating cellView NCSU_TechLib_FreePDK45/M2_M1_viaC/via as STRUCTURE M2_M1_viaC
 INFO (XSTRM-223): 8. Translating cellView NCSU_TechLib_FreePDK45/M3_M2_via/via as STRUCTURE M3_M2_via
 INFO (XSTRM-223): 9. Translating cellView NCSU_TechLib_FreePDK45/M4_M3_via/via as STRUCTURE M4_M3_via
-INFO (XSTRM-223): 10. Translating cellView NCSU_TechLib_FreePDK45/M4_M3_viaB/via as STRUCTURE M4_M3_viaB
-INFO (XSTRM-223): 11. Translating cellView NCSU_TechLib_FreePDK45/M3_M2_viaB/via as STRUCTURE M3_M2_viaB
-INFO (XSTRM-223): 12. Translating cellView NCSU_TechLib_FreePDK45/M2_M1_viaB/via as STRUCTURE M2_M1_viaB
-INFO (XSTRM-223): 13. Translating cellView NCSU_TechLib_FreePDK45/M3_M2_viaC/via as STRUCTURE M3_M2_viaC
-INFO (XSTRM-223): 14. Translating cellView NCSU_TechLib_FreePDK45/M2_M1_via/via as STRUCTURE M2_M1_via
-INFO (XSTRM-223): 15. Translating cellView freepdk45_cells/XOR2X1/layout as STRUCTURE XOR2X1
-INFO (XSTRM-223): 16. Translating cellView freepdk45_cells/OR2X2/layout as STRUCTURE OR2X2
-INFO (XSTRM-223): 17. Translating cellView freepdk45_cells/NOR2X1/layout as STRUCTURE NOR2X1
-INFO (XSTRM-223): 18. Translating cellView freepdk45_cells/INVX8/layout as STRUCTURE INVX8
-INFO (XSTRM-223): 19. Translating cellView freepdk45_cells/INVX4/layout as STRUCTURE INVX4
-INFO (XSTRM-223): 20. Translating cellView freepdk45_cells/INVX2/layout as STRUCTURE INVX2
-INFO (XSTRM-223): 21. Translating cellView freepdk45_cells/INVX1/layout as STRUCTURE INVX1
-INFO (XSTRM-223): 22. Translating cellView freepdk45_cells/DFFSR/layout as STRUCTURE DFFSR
-INFO (XSTRM-223): 23. Translating cellView freepdk45_cells/BUFX2/layout as STRUCTURE BUFX2
-INFO (XSTRM-223): 24. Translating cellView freepdk45_cells/AOI22X1/layout as STRUCTURE AOI22X1
-INFO (XSTRM-223): 25. Translating cellView freepdk45_cells/AND2X2/layout as STRUCTURE AND2X2
-INFO (XSTRM-223): 26. Translating cellView freepdk45_cells/FILL/layout as STRUCTURE FILL
-INFO (XSTRM-223): 27. Translating cellView fullsystem/fullsystem/layout as STRUCTURE fullsystem
+INFO (XSTRM-223): 10. Translating cellView NCSU_TechLib_FreePDK45/M3_M2_viaC/via as STRUCTURE M3_M2_viaC
+INFO (XSTRM-223): 11. Translating cellView NCSU_TechLib_FreePDK45/M2_M1_via/via as STRUCTURE M2_M1_via
+INFO (XSTRM-223): 12. Translating cellView NCSU_TechLib_FreePDK45/M5_M4_via/via as STRUCTURE M5_M4_via
+INFO (XSTRM-223): 13. Translating cellView freepdk45_cells/XOR2X1/layout as STRUCTURE XOR2X1
+INFO (XSTRM-223): 14. Translating cellView freepdk45_cells/OR2X2/layout as STRUCTURE OR2X2
+INFO (XSTRM-223): 15. Translating cellView freepdk45_cells/NOR2X1/layout as STRUCTURE NOR2X1
+INFO (XSTRM-223): 16. Translating cellView freepdk45_cells/INVX1/layout as STRUCTURE INVX1
+INFO (XSTRM-223): 17. Translating cellView freepdk45_cells/DFFSR/layout as STRUCTURE DFFSR
+INFO (XSTRM-223): 18. Translating cellView freepdk45_cells/AOI22X1/layout as STRUCTURE AOI22X1
+INFO (XSTRM-223): 19. Translating cellView freepdk45_cells/AND2X2/layout as STRUCTURE AND2X2
+INFO (XSTRM-223): 20. Translating cellView freepdk45_cells/FILL/layout as STRUCTURE FILL
+INFO (XSTRM-223): 21. Translating cellView fullsystem/fullsystem/layout as STRUCTURE fullsystem
 INFO (XSTRM-180): You have not used the objectMap option. The design has instance(s) of at least one of following OpenAccess objects: oaBlockage, oaBoundary, oaRow, and oaMarker. Any information about these objects will not be translated into the generated stream file. Use the objectMap option to translate/preserve these objects using XStream. For details on the objectMap option, refer to the "Design Data Translator's Reference" guide for XStream.
 
 Summary of Objects Translated:
-	Scalar Instances:                       117
+	Scalar Instances:                       134
 	Array Instances:                        0
-	Polygons:                               142
+	Polygons:                               118
 	Paths:                                  0
-	Rectangles:                             1682
+	Rectangles:                             1361
 	Lines:                                  0
 	Arcs:                                   0
 	Donuts:                                 0
@@ -70,10 +65,10 @@ Summary of Objects Translated:
 	Markers:                                0
 	Rows:                                   0
 	Standard Vias                           78
-	Custom Vias:                            220
-	Pathsegs:                               249
-	Text:                                   54
-	Cells:                                  27
+	Custom Vias:                            158
+	Pathsegs:                               235
+	Text:                                   38
+	Cells:                                  21
 
-Elapsed Time: 31.8s   User Time: 21.0s   CPU Time: 0.2s   Peak VM: 547KB
-INFO (XSTRM-234): Translation completed. '0' error(s) and '0' warning(s) found.
+Elapsed Time: 31.2s   User Time: 21.1s   CPU Time: 0.2s   Peak VM: 554KB
+INFO (XSTRM-234): Translation completed. '0' error(s) and '1' warning(s) found.

@@ -3,8 +3,11 @@
 ###################################
 
 # Setup design and create floorplan
-loadConfig ./encounter.conf
-#commitConfig
+# loadConfig ./encounter.conf
+
+# New approach
+source encounter.global
+init_design
 
 # Create Initial Floorplan
 floorplan -r 1.0 0.6 20 20 20 20

@@ -1,5 +1,5 @@
 *drcRulesFile: $PDK_DIR/ncsu_basekit/techfile/calibre/calibreDRC.rul
-*drcRunDir: $HOME/workspace/ProjectDIC2/runset_drc
+*drcRunDir: /home/abelardojara/workspace/synchronizerchip/runset_drc
 *drcLayoutPaths: fullsystem.gds
 *drcLayoutPrimary: fullsystem
 *drcPreviousResultsFile: drc.results

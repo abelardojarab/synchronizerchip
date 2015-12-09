@@ -1,2352 +1,625 @@
 fullsystem 2000
 Well.1
-2 2 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:19 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Nwell and Pwell must not overlap
-p 1 4
-CN fullsystem c 1 0 0 1 0 0 0
-66120 67650
-66520 67650
-66520 67654
-66120 67654
-p 2 4
-68400 67650
-68800 67650
-68800 67654
-68400 67654
 Well.2
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:19 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Min spacing of pwell to nwell = 0.225
 Well.4
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:19 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Min width of well = 0.2
 Poly.1
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:19 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Min width of poly = 0.05
 Poly.2
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:19 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Min spacing of gate poly = 0.14
 Poly.3
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:19 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Min extension of poly past active = 0.05
 Poly.4
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:19 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum active enclosure of gate = 0.07
 Poly.5
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:19 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum spacing of poly to active = 0.05
 Poly.6
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:19 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum spacing of field poly = 0.075
 Active.1
-2 2 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:19 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum width of active = 0.09
-e 1 2
-CN fullsystem c 1 0 0 1 0 0 0
-66320 70034 66358 70034
-66282 70210 66320 70210
-e 2 2
-68562 70034 68600 70034
-68600 70210 68638 70210
 Active.2
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:19 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum spacing of active areas =  0.08
 Active.3
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:19 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum well enclosure of active = 0.055
 Active.4
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:19 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Active must be inside well
 Implant.1
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:19 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum spacing of implant to gate = 0.07
 Implant.2
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:19 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum spacing of implant to contact = 0.025
 Implant.3
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:19 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum spacing of implant = 0.045
 Implant.4
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:19 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum width of implant = 0.045
 Implant.6
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:19 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Nimplant and pimplant must not overlap
 Contact.1
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:19 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum width of contact = 0.065
 Contact.2
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:19 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum spacing of contact = 0.075
 Contact.3
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:19 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Contact must be inside metal1 and active or poly
 Contact.4
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:19 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum active enclosure of contact = 0.005
 Contact.5
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:19 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum poly enclosure of contact = 0.005
 Contact.6
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:19 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum spacing of contact to poly = 0.035
 Metal1.1
-26 26 2 Dec  9 08:41:23 2015                   
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:19 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum width of metal1 = 0.065
-e 1 2
-CN fullsystem c 1 0 0 1 0 0 0
-41585 57095 41650 57095
-41475 57165 41540 57165
-e 2 2
-41540 57165 41540 57217
-41585 57043 41585 57095
-e 3 2
-46975 53235 46986 53235
-46849 53265 46860 53265
-e 4 2
-46860 53265 46860 53296
-46975 53204 46975 53235
-e 5 2
-49915 46395 50041 46395
-49789 46425 49915 46425
-e 6 2
-53050 63115 53066 63115
-52924 63145 52940 63145
-e 7 2
-52940 63145 52940 63184
-53050 63076 53050 63115
-e 8 2
-53700 47055 53705 47055
-53590 47125 53595 47125
-e 9 2
-53595 47125 53595 47132
-53700 47048 53700 47055
-e 10 2
-54095 43075 54095 43125
-54215 43025 54215 43075
-e 11 2
-56625 47175 56677 47175
-56503 47220 56555 47220
-e 12 2
-56555 47220 56555 47285
-56625 47110 56625 47175
-e 13 2
-57255 60710 57260 60710
-57130 60745 57135 60745
-e 14 2
-57135 60745 57135 60760
-57255 60695 57255 60710
-e 15 2
-58017 53500 58075 53500
-58145 53525 58203 53525
-e 16 2
-58075 53415 58075 53500
-58145 53525 58145 53610
-e 17 2
-63337 43620 63395 43620
-63465 43645 63523 43645
-e 18 2
-63395 43535 63395 43620
-63465 43645 63465 43730
-e 19 2
-64285 63935 64360 63935
-64160 63970 64235 63970
-e 20 2
-64235 63970 64235 64055
-64285 63850 64285 63935
-e 21 2
-66730 53235 66746 53235
-66604 53265 66620 53265
-e 22 2
-66620 53265 66620 53304
-66730 53196 66730 53235
-e 23 2
-66665 63935 66760 63935
-66540 63970 66635 63970
-e 24 2
-66635 63970 66635 64061
-66665 63844 66665 63935
-e 25 2
-67705 66719 67730 66719
-67630 66825 67655 66825
-e 26 2
-67655 66825 67655 66839
-67705 66705 67705 66719
 Metal1.2
-165 165 2 Dec  9 08:41:23 2015                 
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:19 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum spacing of metal1 = 0.065
-e 1 2
-CN fullsystem c 1 0 0 1 0 0 0
-40480 55430 40612 55430
-40405 55535 40535 55535
-e 2 2
-40535 55535 40535 55805
-40545 55560 40545 55935
-e 3 2
-40725 44065 40725 44215
-40795 44175 40795 44325
-e 4 2
-41045 67075 41045 67445
-41165 67125 41165 67395
-e 5 2
-41105 62755 41105 63025
-41175 62835 41175 63135
-e 6 2
-41300 58927 41300 59253
-41385 59025 41385 59155
-e 7 2
-41305 62835 41305 63149
-41345 62755 41345 63025
-e 8 2
-41105 44985 41375 44985
-41028 45090 41452 45090
-e 9 2
-41410 56965 41410 57105
-41455 56965 41455 57165
-e 10 2
-41425 63025 41475 63025
-41555 63030 41605 63030
-e 11 2
-41475 62928 41475 63025
-41555 63030 41555 63127
-e 12 2
-41805 47445 41865 47445
-41935 47450 41995 47450
-e 13 2
-41865 47340 41865 47445
-41935 47450 41935 47555
-e 14 2
-41540 58930 41890 58930
-41451 59025 41979 59025
-e 15 2
-41855 66945 42125 66945
-41737 67000 42243 67000
-e 16 2
-41865 54865 42135 54865
-41788 54970 42212 54970
-e 17 2
-42245 46765 42245 46875
-42315 46875 42315 46985
-e 18 2
-42625 44985 42895 44985
-42548 45090 42972 45090
-e 19 2
-44085 67205 44145 67205
-44215 67210 44275 67210
-e 20 2
-44145 67100 44145 67205
-44215 67210 44215 67315
-e 21 2
-44525 66525 44525 66635
-44595 66635 44595 66745
-e 22 2
-44735 54455 44735 54884
-44775 54490 44775 54760
-e 23 2
-44905 54865 45175 54865
-44828 54970 45252 54970
-e 24 2
-45230 44140 45355 44140
-45355 44175 45480 44175
-e 25 2
-45268 50490 45552 50490
-45345 50595 45475 50595
-e 26 2
-45625 63070 45625 63160
-45725 62987 45725 63160
-e 27 2
-45740 50795 45790 50795
-45865 50830 45915 50830
-e 28 2
-45790 50724 45790 50795
-45865 50830 45865 50901
-e 29 2
-44835 64845 45885 64845
-44705 64850 46015 64850
-e 30 2
-45665 44985 45935 44985
-45588 45090 46012 45090
-e 31 2
-46385 47255 46385 47310
-46485 47172 46485 47310
-e 32 2
-46605 47010 46735 47010
-46485 47040 46615 47040
-e 33 2
-46579 53105 47101 53105
-46705 53135 46975 53135
-e 34 2
-47125 60805 47125 61150
-47245 60855 47245 61125
-e 35 2
-47310 43825 47310 43955
-47385 43719 47385 44061
-e 36 2
-47175 68880 47445 68880
-47065 68950 47555 68950
-e 37 2
-47945 52875 47945 53145
-48015 52955 48015 53255
-e 38 2
-48085 61181 48085 61559
-48125 61305 48125 61435
-e 39 2
-47895 49005 48245 49005
-48005 49075 48135 49075
-e 40 2
-48325 53445 48325 53715
-48395 53335 48395 53825
-e 41 2
-48210 61435 48395 61435
-48325 61495 48510 61495
-e 42 2
-48665 67015 48665 67070
-48765 66932 48765 67070
-e 43 2
-48234 43225 48730 43225
-48360 43255 48856 43255
-e 44 2
-48620 64815 48750 64815
-48495 64850 48875 64850
-e 45 2
-48885 66770 49015 66770
-48765 66800 48895 66800
-e 46 2
-49075 63833 49075 63970
-49155 63935 49155 64072
-e 47 2
-49015 45550 49405 45550
-49145 45560 49275 45560
-e 48 2
-49275 45708 49275 45830
-49380 45785 49380 45907
-e 49 2
-49295 64335 49295 64552
-49400 64345 49400 64475
-e 50 2
-49465 64745 49735 64745
-49388 64850 49812 64850
-e 51 2
-49925 46265 50041 46265
-49799 46295 49915 46295
-e 52 2
-49915 46295 49915 46395
-49925 46165 49925 46265
-e 53 2
-50055 48308 50055 48592
-50160 48385 50160 48515
-e 54 2
-49835 68845 50105 68845
-49758 68950 50182 68950
-e 55 2
-50605 63135 50605 63405
-50650 63215 50650 63485
-e 56 2
-50810 60856 50810 61124
-50920 60925 50920 61055
-e 57 2
-50980 64815 51250 64815
-50855 64850 51375 64850
-e 58 2
-51365 46225 51365 46367
-51445 46123 51445 46265
-e 59 2
-51365 46285 51365 46495
-51435 46395 51435 46605
-e 60 2
-51295 65310 51685 65310
-51425 65320 51555 65320
-e 61 2
-51555 65468 51555 65590
-51660 65545 51660 65667
-e 62 2
-51728 60370 52012 60370
-51805 60475 51935 60475
-e 63 2
-51935 60580 51935 60745
-51945 60710 51945 60875
-e 64 2
-52435 67385 52435 67515
-52550 67324 52550 67576
-e 65 2
-52465 53190 52465 53280
-52565 53107 52565 53280
-e 66 2
-52680 66685 52680 67015
-52685 66815 52685 66945
-e 67 2
-52685 66945 52815 66945
-52680 67015 52705 67015
-e 68 2
-51675 54965 52725 54965
-51545 54970 52855 54970
-e 69 2
-52790 66945 52955 66945
-52900 67015 53065 67015
-e 70 2
-52654 62985 53176 62985
-52780 63015 53050 63015
-e 71 2
-53320 48110 53320 48335
-53325 47980 53325 48205
-e 72 2
-53455 47980 53455 48205
-53570 47980 53570 48266
-e 73 2
-53795 44610 53795 44880
-53835 44486 53835 45004
-e 74 2
-53595 47185 53865 47185
-53660 47255 53930 47255
-e 75 2
-53865 47055 53865 47185
-53940 46949 53940 47115
-e 76 2
-53965 42825 53965 43125
-54085 42825 54085 43075
-e 77 2
-53965 50925 53965 51270
-54085 50975 54085 51245
-e 78 2
-53965 67205 54025 67205
-54095 67210 54155 67210
-e 79 2
-54025 67100 54025 67205
-54095 67210 54095 67315
-e 80 2
-54070 46666 54070 47115
-54085 46795 54085 47065
-e 81 2
-54215 46795 54215 47065
-54225 46665 54225 47195
-e 82 2
-54405 66525 54405 66635
-54475 66635 54475 66745
-e 83 2
-53835 45060 54545 45060
-53709 45090 54671 45090
-e 84 2
-55175 45060 55305 45060
-55049 45090 55431 45090
-e 85 2
-55094 47185 55330 47185
-55220 47215 55450 47215
-e 86 2
-55355 54515 55355 54760
-55460 54515 55460 54837
-e 87 2
-55460 54935 55590 54935
-55335 54970 55715 54970
-e 88 2
-55735 63135 55735 63405
-55745 63215 55745 63535
-e 89 2
-55935 53940 55935 54095
-55995 54055 55995 54210
-e 90 2
-56135 51728 56135 52012
-56240 51805 56240 51935
-e 91 2
-56245 47445 56305 47445
-56375 47450 56435 47450
-e 92 2
-56305 47340 56305 47445
-56375 47450 56375 47555
-e 93 2
-56555 47445 56635 47445
-56425 47450 56505 47450
-e 94 2
-56505 47450 56505 47565
-56555 47330 56555 47445
-e 95 2
-56305 54865 56575 54865
-56228 54970 56652 54970
-e 96 2
-56685 47175 56685 47445
-56755 47065 56755 47555
-e 97 2
-57048 60370 57332 60370
-57125 60475 57255 60475
-e 98 2
-57435 44073 57435 44210
-57515 44175 57515 44312
-e 99 2
-57825 52875 57825 53145
-57895 52955 57895 53255
-e 100 2
-58025 53135 58025 53270
-58075 53255 58075 53390
-e 101 2
-57825 44985 58095 44985
-57748 45090 58172 45090
-e 102 2
-58205 53255 58205 53525
-58275 53150 58275 53635
-e 103 2
-58545 67015 58545 67070
-58645 66932 58645 67070
-e 104 2
-58775 59335 58775 59605
-58785 59205 58785 59735
-e 105 2
-58765 66770 58895 66770
-58645 66800 58775 66800
-e 106 2
-58955 62645 58955 63135
-59025 62755 59025 63025
-e 107 2
-59155 62853 59155 63025
-59235 62955 59235 63127
-e 108 2
-59654 57065 59890 57065
-59780 57095 60010 57095
-e 109 2
-60105 63135 60105 63405
-60175 63025 60175 63515
-e 110 2
-60055 68765 60405 68765
-60165 68835 60295 68835
-e 111 2
-59915 64845 60585 64845
-59785 64850 60715 64850
-e 112 2
-60825 47255 60825 47310
-60925 47172 60925 47310
-e 113 2
-61045 47010 61175 47010
-60925 47040 61055 47040
-e 114 2
-61175 65310 61565 65310
-61305 65320 61435 65320
-e 115 2
-61435 65468 61435 65590
-61540 65545 61540 65667
-e 116 2
-61670 65545 61670 65814
-61685 65416 61685 65685
-e 117 2
-61608 65310 61892 65310
-61685 65415 61815 65415
-e 118 2
-61815 65415 61815 65685
-61825 65440 61825 65815
-e 119 2
-62345 53190 62345 53280
-62445 53107 62445 53280
-e 120 2
-62335 49005 62685 49005
-62445 49075 62575 49075
-e 121 2
-61555 54965 62605 54965
-61425 54970 62735 54970
-e 122 2
-62694 66945 62930 66945
-62820 66975 63050 66975
-e 123 2
-63145 42995 63145 43265
-63215 43075 63215 43375
-e 124 2
-63345 43255 63345 43390
-63395 43375 63395 43510
-e 125 2
-63515 63705 63515 63823
-63600 63607 63600 63725
-e 126 2
-63515 63833 63515 63975
-63595 63935 63595 64077
-e 127 2
-63515 65985 63515 66119
-63605 65891 63605 66025
-e 128 2
-63515 66053 63515 66255
-63595 66155 63595 66357
-e 129 2
-63525 43375 63525 43645
-63595 43270 63595 43755
-e 130 2
-63525 46415 63525 46685
-63560 46290 63560 46625
-e 131 2
-63525 46515 63525 46685
-63595 46625 63595 46795
-e 132 2
-63795 66155 63795 66425
-63840 66245 63840 66375
-e 133 2
-63845 50925 63845 51270
-63965 50975 63965 51245
-e 134 2
-64105 63725 64105 64090
-64155 63725 64155 63970
-e 135 2
-63900 64745 64170 64745
-63823 64850 64247 64850
-e 136 2
-65340 54935 65470 54935
-65215 54970 65595 54970
-e 137 2
-65470 54385 65470 54794
-65485 54395 65485 54665
-e 138 2
-65615 54395 65615 54665
-65625 54265 65625 54795
-e 139 2
-66375 66589 66375 66825
-66385 66719 66385 66955
-e 140 2
-66334 53105 66856 53105
-66460 53135 66730 53135
-e 141 2
-66775 64335 66775 64552
-66880 64345 66880 64475
-e 142 2
-66945 64745 67215 64745
-66868 64850 67292 64850
-e 143 2
-67245 66593 67245 66825
-67275 66719 67275 66951
-e 144 2
-67145 54885 67415 54885
-67047 54970 67513 54970
-e 145 2
-67520 66437 67520 66589
-67575 66555 67575 66707
-e 146 2
-67525 66719 67525 66945
-67575 66599 67575 66825
-e 147 2
-67665 43310 67665 43400
-67765 43227 67765 43400
-e 148 2
-67965 52770 67972 52770
-67888 52875 67895 52875
-e 149 2
-67795 53145 67895 53145
-67915 53195 68015 53195
-e 150 2
-67895 52875 67895 52880
-67965 52765 67965 52770
-e 151 2
-67895 53067 67895 53145
-67915 53195 67915 53273
-e 152 2
-67905 66719 67905 66816
-68020 66658 68020 66755
-e 153 2
-66875 45085 67925 45085
-66745 45090 68055 45090
-e 154 2
-68150 66589 68280 66589
-68025 66625 68405 66625
-e 155 2
-68465 54015 68465 54285
-68535 53905 68535 54395
-e 156 2
-68535 54955 68665 54955
-68406 54970 68794 54970
-e 157 2
-69165 41045 69165 41390
-69285 41095 69285 41365
-e 158 2
-69280 60370 69280 60875
-69285 60475 69285 60745
-e 159 2
-69350 53325 69350 53455
-69425 53219 69425 53561
-e 160 2
-69415 54395 69415 54665
-69425 54265 69425 54795
-e 161 2
-69280 60370 69492 60370
-69285 60475 69415 60475
-e 162 2
-69415 60649 69415 60745
-69530 60710 69530 60806
-e 163 2
-70292 53210 70535 53210
-70420 53235 70650 53235
-e 164 2
-70555 44635 70555 44880
-70660 44635 70660 44957
-e 165 2
-70660 45055 70790 45055
-70535 45090 70915 45090
 Metal1.3
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:19 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Metal1 must extend past contact by 0.035 on two opposite sides
 Metal1.4
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:19 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Metal1 must extend past via1 by 0.035 on two opposite sides
 Via1.1
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:19 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum width of via1 = 0.065
 Via1.2
-8 8 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:19 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum spacing of via1 = 0.075
-e 1 2
-CN fullsystem c 1 0 0 1 0 0 0
-46345 47055 46355 47055
-46485 47110 46495 47110
-e 2 2
-46355 47035 46355 47055
-46485 47110 46485 47130
-e 3 2
-48625 66815 48635 66815
-48765 66870 48775 66870
-e 4 2
-48635 66795 48635 66815
-48765 66870 48765 66890
-e 5 2
-58505 66815 58515 66815
-58645 66870 58655 66870
-e 6 2
-58515 66795 58515 66815
-58645 66870 58645 66890
-e 7 2
-60785 47055 60795 47055
-60925 47110 60935 47110
-e 8 2
-60795 47035 60795 47055
-60925 47110 60925 47130
 Via1.3
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:19 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Via1 must be inside metal1
 Via1.4
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:19 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Via1 must be inside metal2
 Metal2.1
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:19 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum width of metal2 = 0.07
 Metal2.2
-8 8 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:19 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum spacing of metal2 = 0.07
-e 1 2
-CN fullsystem c 1 0 0 1 0 0 0
-45595 61550 45595 63223
-45720 61487 45720 63160
-e 2 2
-46355 46977 46355 49050
-46480 47040 46480 49113
-e 3 2
-48635 66737 48635 68810
-48760 66800 48760 68873
-e 4 2
-52435 51670 52435 53343
-52560 51607 52560 53280
-e 5 2
-58515 66737 58515 68810
-58640 66800 58640 68873
-e 6 2
-60795 46977 60795 49050
-60920 47040 60920 49113
-e 7 2
-62315 53002 62315 54705
-62440 53065 62440 54768
-e 8 2
-67635 41790 67635 43463
-67760 41727 67760 43400
 Metal2.3
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:19 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Metal2 must extend past via1 by 0.035 on two opposite sides
 Metal2.4
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:19 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Metal2 must extend past via2 by 0.035 on two opposite sides
 Via2.1
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:19 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum width of via2 = 0.07
 Via2.2
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:19 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum spacing of via2 = 0.085
 Via2.3
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:19 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Via2 must be inside metal2
 Via2.4
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:19 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Via2 must be inside metal3
 Metal3.1
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:19 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum width of metal3 = 0.07
 Metal3.2
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:19 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum spacing of metal3 = 0.07
 Metal3.3
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:19 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Metal3 must extend past via2 by 0.035 on two opposite sides
 Metal3.4
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:19 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Metal3 must extend past via3 by 0.035 on two opposite sides
 Via3.1
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:19 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum width of via3 = 0.07
 Via3.2
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:19 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum spacing of via3 = 0.085
 Via3.3
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:19 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Via3 must be inside metal3
 Via3.4
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:19 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Via3 must be inside metal4
 Metal4.1
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:19 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum width of metal4 = 0.14
 Metal4.2
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:19 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum spacing of metal4 = 0.14
 Metal4.3
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:19 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum enclosure of metal4 around via3
 Via4.1
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:19 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum width of via4 = 0.14
 Via4.2
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:19 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum spacing of via4 = 0.16
 Via4.3
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:19 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Via4 must be inside metal4
 Via4.4
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:19 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Via4 must be inside metal5
 Metal5.1
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:19 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum width of metal5 = 0.14
 Metal5.2
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:19 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum spacing of metal5 = 0.14
 Metal5.3
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:19 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum enclosure of metal5 around via4
 Via5.1
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:19 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum width of via5 = 0.14
 Via5.2
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:19 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum spacing of via5 = 0.16
 Via5.3
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:19 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Via5 must be inside metal5
 Via5.4
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:19 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Via5 must be inside metal6
 Metal6.1
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:19 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum width of metal6 = 0.14
 Metal6.2
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:19 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum spacing of metal6 = 0.14
 Metal6.3
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:19 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum enclosure of metal6 around via5
 Via6.1
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:19 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum width of via6 = 0.14
 Via6.2
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:19 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum spacing of via6 = 0.16
 Via6.3
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:19 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Via6 must be inside metal6
 Via6.4
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:19 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Via6 must be inside metal7
 Metal7.1
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:19 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum width of metal7 = 0.4
 Metal7.2
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:19 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum spacing of metal7 = 0.4
 Metal7.3
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:19 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum enclosure of metal7 around via6
 Via7.1
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:19 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum width of via7 = 0.4
 Via7.2
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:19 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum spacing of via7 = 0.44
 Via7.3
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:20 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Via7 must be inside metal7
 Via7.4
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:20 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Via7 must be inside metal8
 Metal8.1
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:20 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum width of metal8 = 0.4
 Metal8.2
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:20 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum spacing of metal8 = 0.4
 Metal8.3
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:20 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum enclosure of metal8 around via7
 Via8.1
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:20 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum width of via8 = 0.4
 Via8.2
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:20 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum spacing of via8 = 0.44
 Via8.3
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:20 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Via8 must be inside metal8
 Via8.4
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:20 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Via8 must be inside metal9
 Metal9.1
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:20 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum width of metal9 = 0.8
 Metal9.2
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:20 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum spacing of metal9 = 0.8
 Metal9.3
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:20 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum enclosure of metal9 around via8
 Via9.1
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:20 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum width of via9 = 0.8
 Via9.2
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:20 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum spacing of via9 = 0.88
 Via9.3
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:20 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Via9 must be inside metal9
 Via9.4
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:20 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Via9 must be inside metal10
 Metal10.1
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:20 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum width of metal10 = 0.8
 Metal10.2
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:20 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum spacing of metal10 = 0.8
 Metal10.3
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:20 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum enclosure of metal10 around via9
 Metal1.5
-1 1 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:20 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum spacing of metal1 wider than 0.09 & longer than 0.3 = 0.09
-e 1 2
-CN fullsystem c 1 0 0 1 0 0 0
-66970 53873 66970 54927
-67145 53915 67145 54885
 Metal1.6
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:20 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum spacing of metal1 wider than 0.27 & longer than 0.9 = 0.27
 Metal1.7
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:20 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum spacing of metal1 wider than 0.5 & longer than 1.8 = 0.5
 Metal1.8
-0 0 2 Dec  9 08:41:23 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:20 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum spacing of metal1 wider than 0.9 & longer than 2.7 = 0.9
 Metal1.9
-0 0 2 Dec  9 08:41:24 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:20 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum spacing of metal1 wider than 1.5 & longer than 4.0 = 1.5
 Metal2.5
-0 0 2 Dec  9 08:41:24 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:20 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum spacing of metal2 wider than 0.09 & longer than 0.3 = 0.09
 Metal2.6
-0 0 2 Dec  9 08:41:24 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:20 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum spacing of metal2 wider than 0.27 & longer than 0.9 = 0.27
 Metal2.7
-0 0 2 Dec  9 08:41:24 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:20 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum spacing of metal2 wider than 0.5 & longer than 1.8 = 0.5
 Metal2.8
-0 0 2 Dec  9 08:41:24 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:20 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum spacing of metal2 wider than 0.9 & longer than 2.7 = 0.9
 Metal2.9
-0 0 2 Dec  9 08:41:24 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:20 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum spacing of metal2 wider than 1.5 & longer than 4.0 = 1.5
 Metal3.5
-0 0 2 Dec  9 08:41:24 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:20 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum spacing of metal3 wider than 0.09 & longer than 0.3 = 0.09
 Metal3.6
-0 0 2 Dec  9 08:41:24 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:20 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum spacing of metal3 wider than 0.27 & longer than 0.9 = 0.27
 Metal3.7
-0 0 2 Dec  9 08:41:24 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:20 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum spacing of metal3 wider than 0.5 & longer than 1.8 = 0.5
 Metal3.8
-0 0 2 Dec  9 08:41:24 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:20 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum spacing of metal3 wider than 0.9 & longer than 2.7 = 0.9
 Metal3.9
-0 0 2 Dec  9 08:41:24 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:20 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum spacing of metal3 wider than 1.5 & longer than 4.0 = 1.5
 Metal4.5
-0 0 2 Dec  9 08:41:24 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:20 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum spacing of metal4 wider than 0.27 & longer than 0.9 = 0.27
 Metal4.6
-0 0 2 Dec  9 08:41:24 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:20 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum spacing of metal4 wider than 0.5 & longer than 1.8 = 0.5
 Metal4.7
-0 0 2 Dec  9 08:41:24 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:20 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum spacing of metal4 wider than 0.9 & longer than 2.7 = 0.9
 Metal4.8
-0 0 2 Dec  9 08:41:24 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:20 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum spacing of metal4 wider than 1.5 & longer than 4.0 = 1.5
 Metal5.5
-0 0 2 Dec  9 08:41:24 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:20 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum spacing of metal5 wider than 0.27 & longer than 0.9 = 0.27
 Metal5.6
-0 0 2 Dec  9 08:41:24 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:20 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum spacing of metal5 wider than 0.5 & longer than 1.8 = 0.5
 Metal5.7
-0 0 2 Dec  9 08:41:24 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:20 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum spacing of metal5 wider than 0.9 & longer than 2.7 = 0.9
 Metal5.8
-0 0 2 Dec  9 08:41:24 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:20 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum spacing of metal5 wider than 1.5 & longer than 4.0 = 1.5
 Metal6.5
-0 0 2 Dec  9 08:41:24 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:20 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum spacing of metal6 wider than 0.27 & longer than 0.9 = 0.27
 Metal6.6
-0 0 2 Dec  9 08:41:24 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:20 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum spacing of metal6 wider than 0.5 & longer than 1.8 = 0.5
 Metal6.7
-0 0 2 Dec  9 08:41:24 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:20 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum spacing of metal6 wider than 0.9 & longer than 2.7 = 0.9
 Metal6.8
-0 0 2 Dec  9 08:41:24 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:20 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum spacing of metal6 wider than 1.5 & longer than 4.0 = 1.5
 Metal7.5
-0 0 2 Dec  9 08:41:24 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:20 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum spacing of metal7 wider than 0.5 & longer than 1.8 = 0.5
 Metal7.6
-0 0 2 Dec  9 08:41:24 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:20 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum spacing of metal7 wider than 0.9 & longer than 2.7 = 0.9
 Metal7.7
-0 0 2 Dec  9 08:41:24 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:20 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum spacing of metal7 wider than 1.5 & longer than 4.0 = 1.5
 Metal8.5
-0 0 2 Dec  9 08:41:24 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:20 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum spacing of metal8 wider than 0.5 & longer than 1.8 = 0.5
 Metal8.6
-0 0 2 Dec  9 08:41:24 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:20 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum spacing of metal8 wider than 0.9 & longer than 2.7 = 0.9
 Metal8.7
-0 0 2 Dec  9 08:41:24 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:20 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum spacing of metal8 wider than 1.5 & longer than 4.0 = 1.5
 Metal9.5
-0 0 2 Dec  9 08:41:24 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:20 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum spacing of metal9 wider than 0.9 & longer than 2.7 = 0.9
 Metal9.6
-0 0 2 Dec  9 08:41:24 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:20 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum spacing of metal9 wider than 1.5 & longer than 4.0 = 1.5
 Metal10.5
-0 0 2 Dec  9 08:41:24 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:20 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum spacing of metal10 wider than 0.9 & longer than 2.7 = 0.9
 Metal10.6
-0 0 2 Dec  9 08:41:24 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:20 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 Minimum spacing of metal10 wider than 1.5 & longer than 4.0 = 1.5
 Grid.1
-16 16 2 Dec  9 08:41:24 2015                   
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:20 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 All shapes must be on a 2.5 nm grid
-e 1 2
-CN fullsystem c 1 0 0 1 0 0 0
-66630 65539 66630 66539
-66630 65539 68290 65539
-e 2 2
-68290 65539 66630 65539
-68290 65539 68290 66539
-e 3 2
-68290 66539 68290 65539
-68290 66539 66630 66539
-e 4 2
-66630 66539 68290 66539
-66630 66539 66630 65539
-e 5 2
-66630 67429 66630 69429
-66630 67429 68290 67429
-e 6 2
-68290 67429 66630 67429
-68290 67429 68290 69429
-e 7 2
-68290 69429 68290 67429
-68290 69429 66630 69429
-e 8 2
-66630 69429 68290 69429
-66630 69429 66630 67429
-e 9 2
-67460 65094 67460 65090
-67460 65094 67840 65094
-e 10 2
-67840 65094 67460 65094
-67840 65094 67840 65090
-e 11 2
-68600 65274 68600 65270
-68600 65274 66600 65274
-e 12 2
-66320 65274 68320 65274
-66320 65274 66320 65270
-e 13 2
-66320 70034 66320 70030
-66320 70034 68320 70034
-e 14 2
-68600 70034 66600 70034
-68600 70034 68600 70030
-e 15 2
-68600 70214 68600 70210
-68600 70214 66600 70214
-e 16 2
-66320 70214 68320 70214
-66320 70214 66320 70210
 Grid.2
-16 16 2 Dec  9 08:41:24 2015                   
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:20 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 All shapes must be on a 2.5 nm grid
-e 1 2
-CN fullsystem c 1 0 0 1 0 0 0
-66630 65539 66630 66539
-66630 65539 68290 65539
-e 2 2
-68290 65539 66630 65539
-68290 65539 68290 66539
-e 3 2
-68290 66539 68290 65539
-68290 66539 66630 66539
-e 4 2
-66630 66539 68290 66539
-66630 66539 66630 65539
-e 5 2
-66630 67429 66630 69429
-66630 67429 68290 67429
-e 6 2
-68290 67429 66630 67429
-68290 67429 68290 69429
-e 7 2
-68290 69429 68290 67429
-68290 69429 66630 69429
-e 8 2
-66630 69429 68290 69429
-66630 69429 66630 67429
-e 9 2
-67460 65094 67460 65090
-67460 65094 67840 65094
-e 10 2
-67840 65094 67460 65094
-67840 65094 67840 65090
-e 11 2
-68600 65274 68600 65270
-68600 65274 66600 65274
-e 12 2
-66320 65274 68320 65274
-66320 65274 66320 65270
-e 13 2
-66320 70034 66320 70030
-66320 70034 68320 70034
-e 14 2
-68600 70034 66600 70034
-68600 70034 68600 70030
-e 15 2
-68600 70214 68600 70210
-68600 70214 66600 70214
-e 16 2
-66320 70214 68320 70214
-66320 70214 66320 70210
 Grid.3
-2 2 2 Dec  9 08:41:24 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:20 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 All shapes must be on a 2.5 nm grid
-e 1 2
-CN fullsystem c 1 0 0 1 0 0 0
-68800 70324 68800 70320
-68800 70324 66800 70324
-e 2 2
-66120 70324 68120 70324
-66120 70324 66120 70320
 Grid.4
-240 240 2 Dec  9 08:41:24 2015                 
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:20 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 All shapes must be on a 2.5 nm grid
-e 1 2
-CN fullsystem c 1 0 0 1 0 0 0
-66455 66719 66455 66849
-66455 66719 66585 66719
-e 2 2
-66585 66719 66455 66719
-66585 66719 66585 66849
-e 3 2
-66585 66849 66585 66719
-66585 66849 66455 66849
-e 4 2
-66455 66849 66585 66849
-66455 66849 66455 66719
-e 5 2
-66765 65249 66765 65115
-66765 65249 66635 65249
-e 6 2
-66635 65249 66765 65249
-66635 65249 66635 65115
-e 7 2
-66635 70059 66635 70189
-66635 70059 66765 70059
-e 8 2
-66765 70059 66635 70059
-66765 70059 66765 70189
-e 9 2
-66765 70189 66765 70059
-66765 70189 66635 70189
-e 10 2
-66635 70189 66765 70189
-66635 70189 66635 70059
-e 11 2
-66640 65549 66640 65679
-66640 65549 66770 65549
-e 12 2
-66770 65549 66640 65549
-66770 65549 66770 65679
-e 13 2
-66770 65679 66770 65549
-66770 65679 66640 65679
-e 14 2
-66640 65679 66770 65679
-66640 65679 66640 65549
-e 15 2
-66640 65829 66640 65959
-66640 65829 66770 65829
-e 16 2
-66770 65829 66640 65829
-66770 65829 66770 65959
-e 17 2
-66770 65959 66770 65829
-66770 65959 66640 65959
-e 18 2
-66640 65959 66770 65959
-66640 65959 66640 65829
-e 19 2
-66640 66109 66640 66239
-66640 66109 66770 66109
-e 20 2
-66770 66109 66640 66109
-66770 66109 66770 66239
-e 21 2
-66770 66239 66770 66109
-66770 66239 66640 66239
-e 22 2
-66640 66239 66770 66239
-66640 66239 66640 66109
-e 23 2
-66640 66389 66640 66519
-66640 66389 66770 66389
-e 24 2
-66770 66389 66640 66389
-66770 66389 66770 66519
-e 25 2
-66770 66519 66770 66389
-66770 66519 66640 66519
-e 26 2
-66640 66519 66770 66519
-66640 66519 66640 66389
-e 27 2
-66640 67439 66640 67569
-66640 67439 66770 67439
-e 28 2
-66770 67439 66640 67439
-66770 67439 66770 67569
-e 29 2
-66770 67569 66770 67439
-66770 67569 66640 67569
-e 30 2
-66640 67569 66770 67569
-66640 67569 66640 67439
-e 31 2
-66640 67719 66640 67849
-66640 67719 66770 67719
-e 32 2
-66770 67719 66640 67719
-66770 67719 66770 67849
-e 33 2
-66770 67849 66770 67719
-66770 67849 66640 67849
-e 34 2
-66640 67849 66770 67849
-66640 67849 66640 67719
-e 35 2
-66640 67999 66640 68129
-66640 67999 66770 67999
-e 36 2
-66770 67999 66640 67999
-66770 67999 66770 68129
-e 37 2
-66770 68129 66770 67999
-66770 68129 66640 68129
-e 38 2
-66640 68129 66770 68129
-66640 68129 66640 67999
-e 39 2
-66640 68279 66640 68409
-66640 68279 66770 68279
-e 40 2
-66770 68279 66640 68279
-66770 68279 66770 68409
-e 41 2
-66770 68409 66770 68279
-66770 68409 66640 68409
-e 42 2
-66640 68409 66770 68409
-66640 68409 66640 68279
-e 43 2
-66640 68559 66640 68689
-66640 68559 66770 68559
-e 44 2
-66770 68559 66640 68559
-66770 68559 66770 68689
-e 45 2
-66770 68689 66770 68559
-66770 68689 66640 68689
-e 46 2
-66640 68689 66770 68689
-66640 68689 66640 68559
-e 47 2
-66640 68839 66640 68969
-66640 68839 66770 68839
-e 48 2
-66770 68839 66640 68839
-66770 68839 66770 68969
-e 49 2
-66770 68969 66770 68839
-66770 68969 66640 68969
-e 50 2
-66640 68969 66770 68969
-66640 68969 66640 68839
-e 51 2
-66640 69119 66640 69249
-66640 69119 66770 69119
-e 52 2
-66770 69119 66640 69119
-66770 69119 66770 69249
-e 53 2
-66770 69249 66770 69119
-66770 69249 66640 69249
-e 54 2
-66640 69249 66770 69249
-66640 69249 66640 69119
-e 55 2
-67145 65249 67145 65115
-67145 65249 67015 65249
-e 56 2
-67015 65249 67145 65249
-67015 65249 67015 65115
-e 57 2
-67015 67439 67015 67569
-67015 67439 67145 67439
-e 58 2
-67145 67439 67015 67439
-67145 67439 67145 67569
-e 59 2
-67145 67569 67145 67439
-67145 67569 67015 67569
-e 60 2
-67015 67569 67145 67569
-67015 67569 67015 67439
-e 61 2
-67015 67719 67015 67849
-67015 67719 67145 67719
-e 62 2
-67145 67719 67015 67719
-67145 67719 67145 67849
-e 63 2
-67145 67849 67145 67719
-67145 67849 67015 67849
-e 64 2
-67015 67849 67145 67849
-67015 67849 67015 67719
-e 65 2
-67015 67999 67015 68129
-67015 67999 67145 67999
-e 66 2
-67145 67999 67015 67999
-67145 67999 67145 68129
-e 67 2
-67145 68129 67145 67999
-67145 68129 67015 68129
-e 68 2
-67015 68129 67145 68129
-67015 68129 67015 67999
-e 69 2
-67015 68279 67015 68409
-67015 68279 67145 68279
-e 70 2
-67145 68279 67015 68279
-67145 68279 67145 68409
-e 71 2
-67145 68409 67145 68279
-67145 68409 67015 68409
-e 72 2
-67015 68409 67145 68409
-67015 68409 67015 68279
-e 73 2
-67015 68559 67015 68689
-67015 68559 67145 68559
-e 74 2
-67145 68559 67015 68559
-67145 68559 67145 68689
-e 75 2
-67145 68689 67145 68559
-67145 68689 67015 68689
-e 76 2
-67015 68689 67145 68689
-67015 68689 67015 68559
-e 77 2
-67015 68839 67015 68969
-67015 68839 67145 68839
-e 78 2
-67145 68839 67015 68839
-67145 68839 67145 68969
-e 79 2
-67145 68969 67145 68839
-67145 68969 67015 68969
-e 80 2
-67015 68969 67145 68969
-67015 68969 67015 68839
-e 81 2
-67015 69119 67015 69249
-67015 69119 67145 69119
-e 82 2
-67145 69119 67015 69119
-67145 69119 67145 69249
-e 83 2
-67145 69249 67145 69119
-67145 69249 67015 69249
-e 84 2
-67015 69249 67145 69249
-67015 69249 67015 69119
-e 85 2
-67015 70059 67015 70189
-67015 70059 67145 70059
-e 86 2
-67145 70059 67015 70059
-67145 70059 67145 70189
-e 87 2
-67145 70189 67145 70059
-67145 70189 67015 70189
-e 88 2
-67015 70189 67145 70189
-67015 70189 67015 70059
-e 89 2
-67275 66789 67275 66919
-67275 66789 67405 66789
-e 90 2
-67405 66789 67275 66789
-67405 66789 67405 66919
-e 91 2
-67405 66919 67405 66789
-67405 66919 67275 66919
-e 92 2
-67275 66919 67405 66919
-67275 66919 67275 66789
-e 93 2
-67390 65549 67390 65679
-67390 65549 67520 65549
-e 94 2
-67520 65549 67390 65549
-67520 65549 67520 65679
-e 95 2
-67520 65679 67520 65549
-67520 65679 67390 65679
-e 96 2
-67390 65679 67520 65679
-67390 65679 67390 65549
-e 97 2
-67390 65829 67390 65959
-67390 65829 67520 65829
-e 98 2
-67520 65829 67390 65829
-67520 65829 67520 65959
-e 99 2
-67520 65959 67520 65829
-67520 65959 67390 65959
-e 100 2
-67390 65959 67520 65959
-67390 65959 67390 65829
-e 101 2
-67390 66109 67390 66239
-67390 66109 67520 66109
-e 102 2
-67520 66109 67390 66109
-67520 66109 67520 66239
-e 103 2
-67520 66239 67520 66109
-67520 66239 67390 66239
-e 104 2
-67390 66239 67520 66239
-67390 66239 67390 66109
-e 105 2
-67390 66389 67390 66519
-67390 66389 67520 66389
-e 106 2
-67520 66389 67390 66389
-67520 66389 67520 66519
-e 107 2
-67520 66519 67520 66389
-67520 66519 67390 66519
-e 108 2
-67390 66519 67520 66519
-67390 66519 67390 66389
-e 109 2
-67390 67439 67390 67569
-67390 67439 67520 67439
-e 110 2
-67520 67439 67390 67439
-67520 67439 67520 67569
-e 111 2
-67520 67569 67520 67439
-67520 67569 67390 67569
-e 112 2
-67390 67569 67520 67569
-67390 67569 67390 67439
-e 113 2
-67390 67719 67390 67849
-67390 67719 67520 67719
-e 114 2
-67520 67719 67390 67719
-67520 67719 67520 67849
-e 115 2
-67520 67849 67520 67719
-67520 67849 67390 67849
-e 116 2
-67390 67849 67520 67849
-67390 67849 67390 67719
-e 117 2
-67390 67999 67390 68129
-67390 67999 67520 67999
-e 118 2
-67520 67999 67390 67999
-67520 67999 67520 68129
-e 119 2
-67520 68129 67520 67999
-67520 68129 67390 68129
-e 120 2
-67390 68129 67520 68129
-67390 68129 67390 67999
-e 121 2
-67390 68279 67390 68409
-67390 68279 67520 68279
-e 122 2
-67520 68279 67390 68279
-67520 68279 67520 68409
-e 123 2
-67520 68409 67520 68279
-67520 68409 67390 68409
-e 124 2
-67390 68409 67520 68409
-67390 68409 67390 68279
-e 125 2
-67390 68559 67390 68689
-67390 68559 67520 68559
-e 126 2
-67520 68559 67390 68559
-67520 68559 67520 68689
-e 127 2
-67520 68689 67520 68559
-67520 68689 67390 68689
-e 128 2
-67390 68689 67520 68689
-67390 68689 67390 68559
-e 129 2
-67390 68839 67390 68969
-67390 68839 67520 68839
-e 130 2
-67520 68839 67390 68839
-67520 68839 67520 68969
-e 131 2
-67520 68969 67520 68839
-67520 68969 67390 68969
-e 132 2
-67390 68969 67520 68969
-67390 68969 67390 68839
-e 133 2
-67390 69119 67390 69249
-67390 69119 67520 69119
-e 134 2
-67520 69119 67390 69119
-67520 69119 67520 69249
-e 135 2
-67520 69249 67520 69119
-67520 69249 67390 69249
-e 136 2
-67390 69249 67520 69249
-67390 69249 67390 69119
-e 137 2
-67395 65119 67395 65249
-67395 65119 67525 65119
-e 138 2
-67525 65119 67395 65119
-67525 65119 67525 65249
-e 139 2
-67525 65249 67525 65119
-67525 65249 67395 65249
-e 140 2
-67395 65249 67525 65249
-67395 65249 67395 65119
-e 141 2
-67395 70059 67395 70189
-67395 70059 67525 70059
-e 142 2
-67525 70059 67395 70059
-67525 70059 67525 70189
-e 143 2
-67525 70189 67525 70059
-67525 70189 67395 70189
-e 144 2
-67395 70189 67525 70189
-67395 70189 67395 70059
-e 145 2
-67655 66789 67655 66919
-67655 66789 67785 66789
-e 146 2
-67785 66789 67655 66789
-67785 66789 67785 66919
-e 147 2
-67785 66919 67785 66789
-67785 66919 67655 66919
-e 148 2
-67655 66919 67785 66919
-67655 66919 67655 66789
-e 149 2
-67770 67609 67770 67739
-67770 67609 67900 67609
-e 150 2
-67900 67609 67770 67609
-67900 67609 67900 67739
-e 151 2
-67900 67739 67900 67609
-67900 67739 67770 67739
-e 152 2
-67770 67739 67900 67739
-67770 67739 67770 67609
-e 153 2
-67770 67889 67770 68019
-67770 67889 67900 67889
-e 154 2
-67900 67889 67770 67889
-67900 67889 67900 68019
-e 155 2
-67900 68019 67900 67889
-67900 68019 67770 68019
-e 156 2
-67770 68019 67900 68019
-67770 68019 67770 67889
-e 157 2
-67770 68169 67770 68299
-67770 68169 67900 68169
-e 158 2
-67900 68169 67770 68169
-67900 68169 67900 68299
-e 159 2
-67900 68299 67900 68169
-67900 68299 67770 68299
-e 160 2
-67770 68299 67900 68299
-67770 68299 67770 68169
-e 161 2
-67770 68449 67770 68579
-67770 68449 67900 68449
-e 162 2
-67900 68449 67770 68449
-67900 68449 67900 68579
-e 163 2
-67900 68579 67900 68449
-67900 68579 67770 68579
-e 164 2
-67770 68579 67900 68579
-67770 68579 67770 68449
-e 165 2
-67770 68729 67770 68859
-67770 68729 67900 68729
-e 166 2
-67900 68729 67770 68729
-67900 68729 67900 68859
-e 167 2
-67900 68859 67900 68729
-67900 68859 67770 68859
-e 168 2
-67770 68859 67900 68859
-67770 68859 67770 68729
-e 169 2
-67770 69009 67770 69139
-67770 69009 67900 69009
-e 170 2
-67900 69009 67770 69009
-67900 69009 67900 69139
-e 171 2
-67900 69139 67900 69009
-67900 69139 67770 69139
-e 172 2
-67770 69139 67900 69139
-67770 69139 67770 69009
-e 173 2
-67770 69289 67770 69419
-67770 69289 67900 69289
-e 174 2
-67900 69289 67770 69289
-67900 69289 67900 69419
-e 175 2
-67900 69419 67900 69289
-67900 69419 67770 69419
-e 176 2
-67770 69419 67900 69419
-67770 69419 67770 69289
-e 177 2
-67775 65119 67775 65249
-67775 65119 67905 65119
-e 178 2
-67905 65119 67775 65119
-67905 65119 67905 65249
-e 179 2
-67905 65249 67905 65119
-67905 65249 67775 65249
-e 180 2
-67775 65249 67905 65249
-67775 65249 67775 65119
-e 181 2
-67775 70059 67775 70189
-67775 70059 67905 70059
-e 182 2
-67905 70059 67775 70059
-67905 70059 67905 70189
-e 183 2
-67905 70189 67905 70059
-67905 70189 67775 70189
-e 184 2
-67775 70189 67905 70189
-67775 70189 67775 70059
-e 185 2
-68035 66789 68035 66919
-68035 66789 68165 66789
-e 186 2
-68165 66789 68035 66789
-68165 66789 68165 66919
-e 187 2
-68165 66919 68165 66789
-68165 66919 68035 66919
-e 188 2
-68035 66919 68165 66919
-68035 66919 68035 66789
-e 189 2
-68150 65549 68150 65679
-68150 65549 68280 65549
-e 190 2
-68280 65549 68150 65549
-68280 65549 68280 65679
-e 191 2
-68280 65679 68280 65549
-68280 65679 68150 65679
-e 192 2
-68150 65679 68280 65679
-68150 65679 68150 65549
-e 193 2
-68150 65829 68150 65959
-68150 65829 68280 65829
-e 194 2
-68280 65829 68150 65829
-68280 65829 68280 65959
-e 195 2
-68280 65959 68280 65829
-68280 65959 68150 65959
-e 196 2
-68150 65959 68280 65959
-68150 65959 68150 65829
-e 197 2
-68150 66109 68150 66239
-68150 66109 68280 66109
-e 198 2
-68280 66109 68150 66109
-68280 66109 68280 66239
-e 199 2
-68280 66239 68280 66109
-68280 66239 68150 66239
-e 200 2
-68150 66239 68280 66239
-68150 66239 68150 66109
-e 201 2
-68150 66389 68150 66519
-68150 66389 68280 66389
-e 202 2
-68280 66389 68150 66389
-68280 66389 68280 66519
-e 203 2
-68280 66519 68280 66389
-68280 66519 68150 66519
-e 204 2
-68150 66519 68280 66519
-68150 66519 68150 66389
-e 205 2
-68150 67439 68150 67569
-68150 67439 68280 67439
-e 206 2
-68280 67439 68150 67439
-68280 67439 68280 67569
-e 207 2
-68280 67569 68280 67439
-68280 67569 68150 67569
-e 208 2
-68150 67569 68280 67569
-68150 67569 68150 67439
-e 209 2
-68150 67719 68150 67849
-68150 67719 68280 67719
-e 210 2
-68280 67719 68150 67719
-68280 67719 68280 67849
-e 211 2
-68280 67849 68280 67719
-68280 67849 68150 67849
-e 212 2
-68150 67849 68280 67849
-68150 67849 68150 67719
-e 213 2
-68150 67999 68150 68129
-68150 67999 68280 67999
-e 214 2
-68280 67999 68150 67999
-68280 67999 68280 68129
-e 215 2
-68280 68129 68280 67999
-68280 68129 68150 68129
-e 216 2
-68150 68129 68280 68129
-68150 68129 68150 67999
-e 217 2
-68150 68279 68150 68409
-68150 68279 68280 68279
-e 218 2
-68280 68279 68150 68279
-68280 68279 68280 68409
-e 219 2
-68280 68409 68280 68279
-68280 68409 68150 68409
-e 220 2
-68150 68409 68280 68409
-68150 68409 68150 68279
-e 221 2
-68150 68559 68150 68689
-68150 68559 68280 68559
-e 222 2
-68280 68559 68150 68559
-68280 68559 68280 68689
-e 223 2
-68280 68689 68280 68559
-68280 68689 68150 68689
-e 224 2
-68150 68689 68280 68689
-68150 68689 68150 68559
-e 225 2
-68150 68839 68150 68969
-68150 68839 68280 68839
-e 226 2
-68280 68839 68150 68839
-68280 68839 68280 68969
-e 227 2
-68280 68969 68280 68839
-68280 68969 68150 68969
-e 228 2
-68150 68969 68280 68969
-68150 68969 68150 68839
-e 229 2
-68150 69119 68150 69249
-68150 69119 68280 69119
-e 230 2
-68280 69119 68150 69119
-68280 69119 68280 69249
-e 231 2
-68280 69249 68280 69119
-68280 69249 68150 69249
-e 232 2
-68150 69249 68280 69249
-68150 69249 68150 69119
-e 233 2
-68155 65119 68155 65249
-68155 65119 68285 65119
-e 234 2
-68285 65119 68155 65119
-68285 65119 68285 65249
-e 235 2
-68285 65249 68285 65119
-68285 65249 68155 65249
-e 236 2
-68155 65249 68285 65249
-68155 65249 68155 65119
-e 237 2
-68155 70059 68155 70189
-68155 70059 68285 70059
-e 238 2
-68285 70059 68155 70059
-68285 70059 68285 70189
-e 239 2
-68285 70189 68285 70059
-68285 70189 68155 70189
-e 240 2
-68155 70189 68285 70189
-68155 70189 68155 70059
 Grid.5
-36 36 2 Dec  9 08:41:24 2015                   
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:20 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 All shapes must be on a 2.5 nm grid
-e 1 2
-CN fullsystem c 1 0 0 1 0 0 0
-66395 66699 66395 66859
-66395 66699 66840 66699
-e 2 2
-66840 66699 66395 66699
-66840 66699 66840 65429
-e 3 2
-66840 65429 66840 66699
-66840 65429 66940 65429
-e 4 2
-66940 65429 66840 65429
-66940 65429 66940 67429
-e 5 2
-66940 69539 66940 67539
-66940 69539 66840 69539
-e 6 2
-66840 69539 66940 69539
-66840 69539 66840 67539
-e 7 2
-66840 66859 66840 68859
-66840 66859 66395 66859
-e 8 2
-66395 66859 66840 66859
-66395 66859 66395 66699
-e 9 2
-67090 66699 67090 66929
-67090 66699 67220 66699
-e 10 2
-67220 66699 67090 66699
-67220 66699 67220 65429
-e 11 2
-67220 65429 67220 66699
-67220 65429 67320 65429
-e 12 2
-67320 65429 67220 65429
-67320 65429 67320 66699
-e 13 2
-67320 66699 67320 65429
-67320 66699 67415 66699
-e 14 2
-67415 66699 67320 66699
-67415 66699 67415 66929
-e 15 2
-67415 66929 67415 66699
-67415 66929 67320 66929
-e 16 2
-67320 66929 67415 66929
-67320 66929 67320 68929
-e 17 2
-67320 69539 67320 67539
-67320 69539 67220 69539
-e 18 2
-67220 69539 67320 69539
-67220 69539 67220 67539
-e 19 2
-67220 66929 67220 68929
-67220 66929 67090 66929
-e 20 2
-67090 66929 67220 66929
-67090 66929 67090 66699
-e 21 2
-67600 65429 67600 67429
-67600 65429 67700 65429
-e 22 2
-67700 65429 67600 65429
-67700 65429 67700 66699
-e 23 2
-67700 66699 67700 65429
-67700 66699 67795 66699
-e 24 2
-67795 66699 67700 66699
-67795 66699 67795 66929
-e 25 2
-67795 66929 67795 66699
-67795 66929 67700 66929
-e 26 2
-67700 66929 67795 66929
-67700 66929 67700 68929
-e 27 2
-67700 69539 67700 67539
-67700 69539 67600 69539
-e 28 2
-67600 69539 67700 69539
-67600 69539 67600 67539
-e 29 2
-67980 65429 67980 67429
-67980 65429 68080 65429
-e 30 2
-68080 65429 67980 65429
-68080 65429 68080 66699
-e 31 2
-68080 66699 68080 65429
-68080 66699 68175 66699
-e 32 2
-68175 66699 68080 66699
-68175 66699 68175 66929
-e 33 2
-68175 66929 68175 66699
-68175 66929 68080 66929
-e 34 2
-68080 66929 68175 66929
-68080 66929 68080 68929
-e 35 2
-68080 69539 68080 67539
-68080 69539 67980 69539
-e 36 2
-67980 69539 68080 69539
-67980 69539 67980 67539
 Grid.6
-48 48 2 Dec  9 08:41:24 2015                   
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:20 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 All shapes must be on a 2.5 nm grid
-e 1 2
-CN fullsystem c 1 0 0 1 0 0 0
-66385 66719 66385 67149
-66385 66719 66765 66719
-e 2 2
-66765 66719 66385 66719
-66765 66719 66765 67149
-e 3 2
-66765 67149 66765 66719
-66765 67149 66385 67149
-e 4 2
-66385 67149 66765 67149
-66385 67149 66385 66719
-e 5 2
-67275 66719 67275 67149
-67275 66719 67525 66719
-e 6 2
-67525 66719 67275 66719
-67525 66719 67525 67149
-e 7 2
-67525 67149 67525 66719
-67525 67149 67275 67149
-e 8 2
-67275 67149 67525 67149
-67275 67149 67275 66719
-e 9 2
-67705 66719 67705 66555
-67705 66719 67905 66719
-e 10 2
-67905 66719 67705 66719
-67905 66719 67905 67149
-e 11 2
-67905 67149 67905 66719
-67905 67149 67655 67149
-e 12 2
-67655 67149 67905 67149
-67655 67149 67655 66825
-e 13 2
-66640 67279 66640 69279
-66640 67279 66770 67279
-e 14 2
-66770 67279 66640 67279
-66770 67279 66770 69279
-e 15 2
-66770 69449 66770 67449
-66770 69449 67390 69449
-e 16 2
-67390 69449 66770 69449
-67390 69449 67390 67449
-e 17 2
-67390 67279 67390 69279
-67390 67279 68280 67279
-e 18 2
-68280 67279 67390 67279
-68280 67279 68280 69279
-e 19 2
-68280 69319 68280 67319
-68280 69319 68150 69319
-e 20 2
-68150 69319 68280 69319
-68150 69319 68150 67409
-e 21 2
-68150 67409 68150 69319
-68150 67409 67520 67409
-e 22 2
-67520 67409 68150 67409
-67520 67409 67520 69409
-e 23 2
-67520 69579 67520 67579
-67520 69579 66640 69579
-e 24 2
-66640 69579 67520 69579
-66640 69579 66640 67579
-e 25 2
-68285 67149 68285 66755
-68285 67149 68035 67149
-e 26 2
-68035 67149 68285 67149
-68035 67149 68035 66755
-e 27 2
-68600 65314 68600 65310
-68600 65314 68280 65314
-e 28 2
-68280 65314 68600 65314
-68280 65314 68280 66589
-e 29 2
-68280 66589 68280 65314
-68280 66589 68150 66589
-e 30 2
-68150 66589 68280 66589
-68150 66589 68150 65314
-e 31 2
-68150 65314 68150 66589
-68150 65314 66770 65314
-e 32 2
-66770 65314 68150 65314
-66770 65314 66770 65865
-e 33 2
-67015 65444 67015 65865
-67015 65444 67520 65444
-e 34 2
-67520 65444 67015 65444
-67520 65444 67520 66589
-e 35 2
-67520 66589 67520 65444
-67520 66589 67390 66589
-e 36 2
-67390 66589 67520 66589
-67390 66589 67390 65574
-e 37 2
-67390 65574 67390 66589
-67390 65574 67145 65574
-e 38 2
-67145 65574 67390 65574
-67145 65574 67145 66555
-e 39 2
-67145 69319 67145 67319
-67145 69319 67015 69319
-e 40 2
-67015 69319 67145 69319
-67015 69319 67015 67319
-e 41 2
-66770 66589 66770 65995
-66770 66589 66640 66589
-e 42 2
-66640 66589 66770 66589
-66640 66589 66640 65314
-e 43 2
-66640 65314 66640 66589
-66640 65314 66320 65314
-e 44 2
-66320 65314 66640 65314
-66320 65314 66320 65310
-e 45 2
-67770 67539 67770 69539
-67770 67539 67900 67539
-e 46 2
-67900 67539 67770 67539
-67900 67539 67900 69539
-e 47 2
-68600 70254 68600 70250
-68600 70254 66600 70254
-e 48 2
-66320 70254 68320 70254
-66320 70254 66320 70250
 Grid.7
-0 0 2 Dec  9 08:41:24 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:20 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 All shapes must be on a 2.5 nm grid
 Grid.8
-0 0 2 Dec  9 08:41:24 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:20 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 All shapes must be on a 2.5 nm grid
 Grid.9
-0 0 2 Dec  9 08:41:24 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:20 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 All shapes must be on a 2.5 nm grid
 Grid.10
-0 0 2 Dec  9 08:41:24 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:20 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 All shapes must be on a 2.5 nm grid
 Grid.11
-0 0 2 Dec  9 08:41:24 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:20 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 All shapes must be on a 2.5 nm grid
 Grid.12
-0 0 2 Dec  9 08:41:24 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:20 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 All shapes must be on a 2.5 nm grid
 Grid.13
-0 0 2 Dec  9 08:41:24 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:20 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 All shapes must be on a 2.5 nm grid
 Grid.14
-0 0 2 Dec  9 08:41:24 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:20 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 All shapes must be on a 2.5 nm grid
 Grid.15
-0 0 2 Dec  9 08:41:24 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:20 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 All shapes must be on a 2.5 nm grid
 Grid.16
-0 0 2 Dec  9 08:41:24 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:20 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 All shapes must be on a 2.5 nm grid
 Grid.17
-0 0 2 Dec  9 08:41:24 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:20 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 All shapes must be on a 2.5 nm grid
 Grid.18
-0 0 2 Dec  9 08:41:24 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:20 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 All shapes must be on a 2.5 nm grid
 Grid.19
-0 0 2 Dec  9 08:41:24 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:20 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 All shapes must be on a 2.5 nm grid
 Grid.20
-0 0 2 Dec  9 08:41:24 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:20 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 All shapes must be on a 2.5 nm grid
 Grid.21
-0 0 2 Dec  9 08:41:24 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:20 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 All shapes must be on a 2.5 nm grid
 Grid.22
-0 0 2 Dec  9 08:41:24 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:20 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 All shapes must be on a 2.5 nm grid
 Grid.23
-0 0 2 Dec  9 08:41:24 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:20 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 All shapes must be on a 2.5 nm grid
 Grid.24
-0 0 2 Dec  9 08:41:24 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:20 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 All shapes must be on a 2.5 nm grid
 Grid.25
-0 0 2 Dec  9 08:41:24 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:20 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 All shapes must be on a 2.5 nm grid
 Grid.26
-0 0 2 Dec  9 08:41:24 2015                     
-Rule File Pathname: /home/abelardojara/workspace/ProjectDIC2/runset_drc/_calibreDRC.rul_
+0 0 2 Dec  9 12:43:20 2015                     
+Rule File Pathname: /home/abelardojara/workspace/synchronizerchip/runset_drc/_calibreDRC.rul_
 All shapes must be on a 2.5 nm grid

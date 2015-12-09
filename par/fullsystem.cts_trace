@@ -8,15 +8,24 @@ Tracing Clock clk2
 ****** Clock Tree (clk2) Structure
 Nr. Subtrees                   : 1
 Nr. Sinks                      : 5
-Nr.          Rising  Sync Pins : 5
-Nr. Inverter Rising  Sync Pins : 0
+Nr.          Rising  Sync Pins : 0
+Nr. Inverter Rising  Sync Pins : 5
 Nr.          Falling Sync Pins : 0
 Nr. Inverter Falling Sync Pins : 0
+Nr. Unsync Pins                : 0
 
 ** Leaf Pins
 CELL (PORT)                            Nr.
 -----------------------------------------------
 DFFSR (CLK)                             5
+-----------------------------------------------
+
+
+
+
+** Unsync Pins
+CELL (PORT)                            Nr.
+-----------------------------------------------
 -----------------------------------------------
 
 
@@ -32,9 +41,10 @@ CELL (PORT)                            Nr.
 ** Subtree Detail
 *DEPTH 0 Input_Pin: (EMPTY) Output_Pin: (clk2) Cell: (EMPTY) Net: (clk2) NO-INV
           Nr. of Exclude Pins           : 0
+          Nr. of Unsync Pins            : 0
           Nr. of Total Sync Pins        : 5
-          Nr. of     Rising  Sync Pins  : 5
-          Nr. of Inv Rising  Sync Pins  : 0
+          Nr. of     Rising  Sync Pins  : 0
+          Nr. of Inv Rising  Sync Pins  : 5
           Nr. of     Falling Sync Pins  : 0
           Nr. of Inv Falling Sync Pins  : 0
           Nr. of Gated Clocks           : 0
@@ -57,15 +67,24 @@ Tracing Clock clk1
 ****** Clock Tree (clk1) Structure
 Nr. Subtrees                   : 1
 Nr. Sinks                      : 3
-Nr.          Rising  Sync Pins : 3
-Nr. Inverter Rising  Sync Pins : 0
+Nr.          Rising  Sync Pins : 0
+Nr. Inverter Rising  Sync Pins : 3
 Nr.          Falling Sync Pins : 0
 Nr. Inverter Falling Sync Pins : 0
+Nr. Unsync Pins                : 0
 
 ** Leaf Pins
 CELL (PORT)                            Nr.
 -----------------------------------------------
 DFFSR (CLK)                             3
+-----------------------------------------------
+
+
+
+
+** Unsync Pins
+CELL (PORT)                            Nr.
+-----------------------------------------------
 -----------------------------------------------
 
 
@@ -81,9 +100,10 @@ CELL (PORT)                            Nr.
 ** Subtree Detail
 *DEPTH 0 Input_Pin: (EMPTY) Output_Pin: (clk1) Cell: (EMPTY) Net: (clk1) NO-INV
           Nr. of Exclude Pins           : 0
+          Nr. of Unsync Pins            : 0
           Nr. of Total Sync Pins        : 3
-          Nr. of     Rising  Sync Pins  : 3
-          Nr. of Inv Rising  Sync Pins  : 0
+          Nr. of     Rising  Sync Pins  : 0
+          Nr. of Inv Rising  Sync Pins  : 3
           Nr. of     Falling Sync Pins  : 0
           Nr. of Inv Falling Sync Pins  : 0
           Nr. of Gated Clocks           : 0
