@@ -1,0 +1,20 @@
+ncvlog: *W,DLNOHV: Unable to find an 'hdl.var' file to load in.
+TOOL:	ncvlog	10.20-s120: Started on Dec 09, 2015 at 12:50:49 PST
+ncvlog
+    -use5x
+    -work __nclib
+    -view module
+    -logfile ncvlog.log
+    -cdslib /tmp/ihdl_cdslibb8284_28284
+    -messages
+    -nostdout
+    -nocopyright
+    -ESCAPEDNAME
+    /media/ntfsdrive1/workspace/synchronizerchip/layout/final.v
+
+file: /media/ntfsdrive1/workspace/synchronizerchip/layout/final.v
+	module __nclib.fullsystem:module
+		errors: 0, warnings: 0
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 1
+TOOL:	ncvlog	10.20-s120: Exiting on Dec 09, 2015 at 12:50:49 PST  (total: 00:00:00)

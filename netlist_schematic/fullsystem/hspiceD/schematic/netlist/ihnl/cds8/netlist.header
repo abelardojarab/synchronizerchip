@@ -1,5 +1,0 @@
-
-** Library name: fullsystem
-** Cell name: OR2X2
-** View name: schematic
-.subckt OR2X2 a b y

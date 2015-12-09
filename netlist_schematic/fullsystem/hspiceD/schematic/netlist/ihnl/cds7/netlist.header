@@ -1,5 +1,0 @@
-
-** Library name: fullsystem
-** Cell name: DFFSR
-** View name: schematic
-.subckt DFFSR clk d q r s

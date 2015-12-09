@@ -1,5 +1,0 @@
-
-** Library name: fullsystem
-** Cell name: BUFX2
-** View name: schematic
-.subckt BUFX2 a y

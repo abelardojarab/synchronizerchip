@@ -1,0 +1,11 @@
+CADENCE IHNL01079
+
+freepdk45_cells NOR2X1 schematic cds0
+freepdk45_cells XOR2X1 schematic cds1
+fullsystem DFFSR schematic cds2
+freepdk45_cells INVX1 schematic cds3
+freepdk45_cells AND2X2 schematic cds4
+fullsystem AOI22X1 schematic cds5
+freepdk45_cells OR2X2 schematic cds6
+fullsystem fullsystem schematic cds7
+fullsystem fullsystem_tb schematic cds8

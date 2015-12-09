@@ -1,0 +1,17 @@
+CADENCE IHNL01070
+$model
+freepdk45_cells/NOR2X1/schematic NOR2X1
+freepdk45_cells/INVX1/schematic INVX1
+fullsystem/AOI22X1/schematic AOI22X1
+fullsystem/fullsystem/schematic fullsystem
+freepdk45_cells/XOR2X1/schematic XOR2X1
+fullsystem/fullsystem_tb/schematic fullsystem_tb
+freepdk45_cells/AND2X2/schematic AND2X2
+freepdk45_cells/OR2X2/schematic OR2X2
+fullsystem/DFFSR/schematic DFFSR
+$endmodel
+$net
+VDD! VDD!
+$endnet
+$param
+$endparam

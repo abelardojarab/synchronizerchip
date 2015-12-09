@@ -1,0 +1,21 @@
+@(#)$CDS: ihdl version 6.1.5 12/12/2012 15:26 (sjfdl229) $  Wed Dec  9 12:50:32 2015
+
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module INVX1. Therefore using library
+freepdk45_cells, cell INVX1, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module XOR2X1. Therefore using library
+freepdk45_cells, cell XOR2X1, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module NOR2X1. Therefore using library
+freepdk45_cells, cell NOR2X1, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module AOI22X1. Therefore using library
+fullsystem, cell AOI22X1, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module DFFSR. Therefore using library
+fullsystem, cell DFFSR, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module OR2X2. Therefore using library
+freepdk45_cells, cell OR2X2, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module AND2X2. Therefore using library
+freepdk45_cells, cell AND2X2, and view symbol as the symbol.
+INFO (VERILOGIN-575): Symbol 'fullsystem' was not imported because it already exists in library 'fullsystem'.
+To overwrite the symbol, select an appropriate option from the Overwrite Symbol
+Views drop-down list and try again.
+INFO (VERILOGIN-372): Checked-in schematic fullsystem.
+INFO (VERILOGIN-206): End of Logfile.
