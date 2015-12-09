@@ -1,0 +1,26 @@
+Path 1: VIOLATED Recovery Check with Pin talker_str_1xsync_unitxmeta_reg_reg/
+CLK 
+Endpoint:   talker_str_1xsync_unitxmeta_reg_reg/R (^) checked with  leading 
+edge of 'clk2'
+Beginpoint: reset2                                (v) triggered by  leading 
+edge of 'clk2'
+Other End Arrival Time          0.000
+- Recovery                      1.132
++ Phase Shift                   1.000
+= Required Time                -0.132
+- Arrival Time                  0.151
+= Slack Time                   -0.284
+     Clock Rise Edge                      0.000
+     + Input Delay                        0.100
+     + Drive Adjustment                   0.016
+     = Beginpoint Arrival Time            0.116
+     +---------------------------------------------------------------------------------------------------------+ 
+     |                  Pin                  |  Edge |        Net         |  Cell | Delay | Arrival | Required | 
+     |                                       |       |                    |       |       |  Time   |   Time   | 
+     |---------------------------------------+-------+--------------------+-------+-------+---------+----------| 
+     | reset2                                |   v   | reset2             |       |       |   0.116 |   -0.168 | 
+     | FE_OCP_RBC1_reset2/A                  |   v   | reset2             | INVX4 | 0.001 |   0.116 |   -0.167 | 
+     | FE_OCP_RBC1_reset2/Y                  |   ^   | FE_OCP_RBN1_reset2 | INVX4 | 0.033 |   0.150 |   -0.134 | 
+     | talker_str_1xsync_unitxmeta_reg_reg/R |   ^   | FE_OCP_RBN1_reset2 | DFFSR | 0.002 |   0.151 |   -0.132 | 
+     +---------------------------------------------------------------------------------------------------------+ 
+

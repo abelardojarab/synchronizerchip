@@ -1,0 +1,19 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  repList "hspiceD spice cmos_sch cmos.sch schematic"
+  stopList "hspiceD spice"
+  hierDelim "^"
+ )
+( net
+ )
+( inst
+( "fullsystem" "xfullsystem" )
+ )
+( model
+ )
+( term
+ )
+( param
+ )
+ )

@@ -1,0 +1,5 @@
+
+** Library name: fullsystem
+** Cell name: NOR2X1
+** View name: schematic
+.subckt NOR2X1 a b y

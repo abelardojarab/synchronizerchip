@@ -1,0 +1,17 @@
+# Format: clock  timeReq  slackR/slackF  setupR/setupF  instName/pinName   # cycle(s)
+clk2(R)->clk2(R)	0.968    0.462/*         0.116/*         talker_str_1xfsm_unitxstate_reg_regx0x/D    1
+clk2(R)->clk2(R)	0.968    0.462/*         0.116/*         talker_str_1xfsm_unitxreq_buf_reg_reg/D    1
+clk2(R)->clk1(R)	1.016    */0.624         */0.065         listener_str_1xsync_unitxmeta_reg_reg/D    1
+clk2(R)->clk2(R)	1.016    */0.627         */0.068         talker_str_1xsync_unitxsync_reg_reg/D    1
+clk1(R)->clk1(R)	1.017    */0.629         */0.064         listener_str_1xsync_unitxsync_reg_reg/D    1
+clk1(R)->clk1(R)	1.017    */0.629         */0.064         listener_str_1xfsm_unitxack_buf_reg_reg/D    1
+clk1(R)->clk2(R)	1.017    */0.631         */0.067         talker_str_1xsync_unitxmeta_reg_reg/D    1
+clk2(R)->clk2(R)	1.008    0.664/*         0.076/*         talker_str_1xfsm_unitxstate_reg_regx1x/D    1
+clk2(R)->clk2(R)	2.045    1.894/*         -0.961/*        talker_str_1xsync_unitxmeta_reg_reg/R    1
+clk2(R)->clk2(R)	2.045    1.894/*         -0.961/*        talker_str_1xfsm_unitxstate_reg_regx1x/R    1
+clk2(R)->clk2(R)	2.045    1.894/*         -0.961/*        talker_str_1xfsm_unitxstate_reg_regx0x/R    1
+clk2(R)->clk2(R)	2.045    1.894/*         -0.961/*        talker_str_1xfsm_unitxreq_buf_reg_reg/R    1
+clk2(R)->clk2(R)	2.045    1.894/*         -0.961/*        talker_str_1xsync_unitxsync_reg_reg/R    1
+clk2(R)->clk1(R)	2.155    2.008/*         -1.074/*        listener_str_1xsync_unitxmeta_reg_reg/R    1
+clk2(R)->clk1(R)	2.155    2.008/*         -1.074/*        listener_str_1xsync_unitxsync_reg_reg/R    1
+clk2(R)->clk1(R)	2.155    2.008/*         -1.074/*        listener_str_1xfsm_unitxack_buf_reg_reg/R    1

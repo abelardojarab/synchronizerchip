@@ -1,0 +1,11 @@
+*lvsRulesFile: $PDK_DIR/ncsu_basekit/techfile/calibre/calibreLVS.rul
+*lvsRunDir: /media/ntfsdrive1/workspace/ProjectDIC2/runset_lvs
+*lvsLayoutPaths: /media/ntfsdrive1/workspace/ProjectDIC2/runset_lvs/fullsystem.gds
+*lvsLayoutPrimary: fullsystem
+*lvsSourcePath: fullsystem.sp
+*lvsSourcePrimary: fullsystem
+*lvsSpiceFile: /media/ntfsdrive1/workspace/ProjectDIC2/runset_pex/fullsystem.sp
+*cmnV2LVS_LastTranslation: 1449509596987634
+*cmnSlaveHosts: {use {}} {hostName {}} {cpuCount {}} {a32a64 {}} {rsh {}} {maxMem {}} {workingDir {}} {layerDir {}} {mgcLibPath {}} {launchName {}}
+*cmnLSFSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
+*cmnGridSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}

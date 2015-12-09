@@ -1,0 +1,14 @@
+CADENCE IHNL010712
+
+fullsystem INVX4 schematic cds0
+fullsystem INVX8 schematic cds1
+fullsystem INVX1 schematic cds2
+fullsystem XOR2X1 schematic cds3
+fullsystem NOR2X1 schematic cds4
+fullsystem AOI22X1 schematic cds5
+fullsystem INVX2 schematic cds6
+fullsystem DFFSR schematic cds7
+fullsystem OR2X2 schematic cds8
+fullsystem AND2X2 schematic cds9
+fullsystem BUFX2 schematic cds10
+fullsystem fullsystem schematic cds11

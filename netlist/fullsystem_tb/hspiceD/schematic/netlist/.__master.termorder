@@ -1,0 +1,12 @@
+"fullsystem.INVX4.schematic.termorder" nil
+"fullsystem.INVX1.schematic.termorder" nil
+"fullsystem.INVX8.schematic.termorder" nil
+"fullsystem.AND2X2.schematic.termorder" nil
+"fullsystem.fullsystem.schematic.termorder" (("clk1" "clk2" "reset1" "reset2" "start" "ready" "rcv") ("clk1" "clk2" "rcv" "ready" "reset1" "reset2" "start"))
+"fullsystem.DFFSR.schematic.termorder" nil
+"fullsystem.AOI22X1.schematic.termorder" nil
+"fullsystem.XOR2X1.schematic.termorder" nil
+"fullsystem.BUFX2.schematic.termorder" nil
+"fullsystem.OR2X2.schematic.termorder" nil
+"fullsystem.INVX2.schematic.termorder" nil
+"fullsystem.NOR2X1.schematic.termorder" nil

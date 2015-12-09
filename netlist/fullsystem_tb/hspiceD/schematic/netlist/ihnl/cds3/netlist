@@ -1,0 +1,14 @@
+m2 y a a_18_54__ vdd PMOS_VTL L=50e-9 W=1e-6 AD=0 AS=0 PD=0 PS=0 M=1
+m1 a_18_54__ a_13_43__ vdd vdd PMOS_VTL L=50e-9 W=1e-6 AD=0 AS=0 PD=0 PS=0 M=1
+m3 a_35_54__ a_2_6__ y vdd PMOS_VTL L=50e-9 W=1e-6 AD=0 AS=0 PD=0 PS=0 M=1
+m4 vdd b a_35_54__ vdd PMOS_VTL L=50e-9 W=1e-6 AD=0 AS=0 PD=0 PS=0 M=1
+m0 vdd a a_2_6__ vdd PMOS_VTL L=50e-9 W=1e-6 AD=0 AS=0 PD=0 PS=0 M=1
+m5 a_13_43__ b vdd vdd PMOS_VTL L=50e-9 W=1e-6 AD=0 AS=0 PD=0 PS=0 M=1
+m8 y a_2_6__ a_18_6__ gnd NMOS_VTL L=50e-9 W=500e-9 AD=0 AS=0 PD=0 PS=0 M=1
+m7 a_18_6__ a_13_43__ gnd gnd NMOS_VTL L=50e-9 W=500e-9 AD=0 AS=0 PD=0 PS=0 M=1
+m9 a_35_6__ a y gnd NMOS_VTL L=50e-9 W=500e-9 AD=0 AS=0 PD=0 PS=0 M=1
+m10 gnd b a_35_6__ gnd NMOS_VTL L=50e-9 W=500e-9 AD=0 AS=0 PD=0 PS=0 M=1
+m6 gnd a a_2_6__ gnd NMOS_VTL L=50e-9 W=500e-9 AD=0 AS=0 PD=0 PS=0 M=1
+m11 a_13_43__ b gnd gnd NMOS_VTL L=50e-9 W=500e-9 AD=0 AS=0 PD=0 PS=0 M=1
+.ends XOR2X1
+** End of subcircuit definition.

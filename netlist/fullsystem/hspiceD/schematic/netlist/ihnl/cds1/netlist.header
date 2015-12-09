@@ -1,0 +1,5 @@
+
+** Library name: fullsystem
+** Cell name: INVX8
+** View name: schematic
+.subckt INVX8 a y

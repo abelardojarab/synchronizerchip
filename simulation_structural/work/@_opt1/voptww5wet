@@ -1,0 +1,222 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/parallels/workspace_remote/ProjectDIC2/Simulation
+T_opt
+VcnEJX`VbOc3inV?fg96d01
+04 12 11 work synchronizer two_ff_arch 1
+=1-001c42a2c30b-5653dcab-9e70c-6ad2
+Z1 o-quiet -auto_acc_if_foreign -work work
+n@_opt
+Z2 OL;O;10.1c;51
+Z3 d/home/parallels/workspace_remote/ProjectDIC2/Simulation
+T_opt1
+V^?>O:R0JDV>G>1AEZPLHQ2
+04 10 14 work fullsystem fullsystem_str 1
+=1-001c42a2c30b-565bc025-3c5b3-43ab
+R1
+n@_opt1
+R2
+Efullsystem
+Z4 w1448853378
+Z5 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z6 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z7 d/home/parallels/workspace_remote/ProjectDIC2/simulation
+Z8 8fullsystem.vhd
+Z9 Ffullsystem.vhd
+l0
+L4
+V:IgcogfcoW<A]5egIFAMO3
+Z10 OL;C;10.1c;51
+32
+Z11 !s108 1448853386.944345
+Z12 !s90 fullsystem.vhd|
+Z13 !s107 fullsystem.vhd|
+Z14 tExplicit 1
+!s100 APga`Ie3Y6VBQGg?FfEE80
+!i10b 1
+Afullsystem_str
+R5
+R6
+DEx4 work 10 fullsystem 0 22 :IgcogfcoW<A]5egIFAMO3
+l43
+L20
+VWn26h1m?Mfk<Y_NRG>F312
+R10
+32
+R11
+R12
+R13
+R14
+!s100 kl0h;B086D9LRJc]9T6Wb0
+!i10b 1
+Elistener_fsm
+Z15 w1448847334
+R5
+R6
+R7
+Z16 8listener_fsm.vhd
+Z17 Flistener_fsm.vhd
+l0
+L4
+VgQYTi4Nh7?33i8Eh:lVYz0
+R10
+32
+Z18 !s108 1448853120.933595
+Z19 !s90 listener_fsm.vhd|
+Z20 !s107 listener_fsm.vhd|
+R14
+!s100 ADJ6VfKR=:LQl:nMzhYNO0
+!i10b 1
+Aarch
+R5
+R6
+DEx4 work 12 listener_fsm 0 22 gQYTi4Nh7?33i8Eh:lVYz0
+l16
+L12
+VnRa[lkL<VgcJWOiEhUO[=0
+R10
+32
+R18
+R19
+R20
+R14
+!s100 FhL;_bAzK^[6KmJJ8IYIK3
+!i10b 1
+Elistener_str
+Z21 w1448853240
+R5
+R6
+R7
+Z22 8listener_str.vhd
+Z23 Flistener_str.vhd
+l0
+L4
+Vf_Z2DFOeRH`1W6^5lhY210
+R10
+32
+Z24 !s108 1448853244.978691
+Z25 !s90 listener_str.vhd|
+Z26 !s107 listener_str.vhd|
+R14
+!s100 m@T3;<b2h^2b`2ei=GhI02
+!i10b 1
+Astr_arch
+R5
+R6
+DEx4 work 12 listener_str 0 22 f_Z2DFOeRH`1W6^5lhY210
+l31
+L13
+Vao<W6I`QKZWb0b=dRb_Mn2
+R10
+32
+R24
+R25
+R26
+R14
+!s100 2OC`H<W]T:DCNL:WNYD>11
+!i10b 1
+Esynchronizer
+Z27 w1448253785
+R5
+R6
+R3
+Z28 8/media/psf/nfs/nfs1/workspace/ProjectDIC2/Simulation/synchronizer.vhd
+Z29 F/media/psf/nfs/nfs1/workspace/ProjectDIC2/Simulation/synchronizer.vhd
+l0
+L3
+Vz97H65kL6Gf_YE1nBS>lz3
+R10
+32
+Z30 !s108 1448255482.925965
+Z31 !s90 -reportprogress|300|-work|work|/media/psf/nfs/nfs1/workspace/ProjectDIC2/Simulation/synchronizer.vhd|
+Z32 !s107 /media/psf/nfs/nfs1/workspace/ProjectDIC2/Simulation/synchronizer.vhd|
+Z33 o-work work
+R14
+!s100 bL7bQ8d`IgI7DHeoDGNhH0
+!i10b 1
+Atwo_ff_arch
+R5
+R6
+DEx4 work 12 synchronizer 0 22 z97H65kL6Gf_YE1nBS>lz3
+l15
+L12
+V=kh24=ia^S;4DPmGLFUVf2
+R10
+32
+R30
+R31
+R32
+R33
+R14
+!s100 i95`n<VD=B9dCWb_5bSUc2
+!i10b 1
+Etalker_fsm
+Z34 w1448255526
+R5
+R6
+R3
+Z35 8/media/psf/nfs/nfs1/workspace/ProjectDIC2/Simulation/talker_fsm.vhd
+Z36 F/media/psf/nfs/nfs1/workspace/ProjectDIC2/Simulation/talker_fsm.vhd
+l0
+L4
+VBQUjoL3?8LJiThIe:B@5l2
+R10
+32
+Z37 !s108 1448255533.100342
+Z38 !s90 -reportprogress|300|-work|work|/media/psf/nfs/nfs1/workspace/ProjectDIC2/Simulation/talker_fsm.vhd|
+Z39 !s107 /media/psf/nfs/nfs1/workspace/ProjectDIC2/Simulation/talker_fsm.vhd|
+R33
+R14
+!s100 8LCIeV5NkHoVBc;BoJj6G0
+!i10b 1
+Aarch
+R5
+R6
+DEx4 work 10 talker_fsm 0 22 BQUjoL3?8LJiThIe:B@5l2
+l18
+L13
+VFlC=e1S1F4SHXANAYIb;U1
+R10
+32
+R37
+R38
+R39
+R33
+R14
+!s100 KU2C;66ZzPWXUKG;L7E^R1
+!i10b 1
+Etalker_str
+Z40 w1448853231
+R5
+R6
+R7
+Z41 8talker_str.vhd
+Z42 Ftalker_str.vhd
+l0
+L4
+V7GP47Qad_@IKS9ge9]ogk0
+R10
+32
+Z43 !s108 1448853254.918149
+Z44 !s90 talker_str.vhd|
+Z45 !s107 talker_str.vhd|
+R14
+!s100 z3lT]gXTc;DX^FAFJW1Mg2
+!i10b 1
+Astr_arch
+R5
+R6
+DEx4 work 10 talker_str 0 22 7GP47Qad_@IKS9ge9]ogk0
+l36
+L16
+V]d2K=bf`F4g??=SXR3G[Y1
+R10
+32
+R43
+R44
+R45
+R14
+!s100 ?G8DkQ]QPV5zDXCaHmHm[3
+!i10b 1

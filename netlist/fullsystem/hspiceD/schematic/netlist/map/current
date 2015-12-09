@@ -1,0 +1,47 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "fullsystem"
+  repList "hspiceD spice cmos_sch cmos.sch schematic"
+  stopList "hspiceD spice"
+  globalList "vdd!"
+  hierDelim "^"
+  netlistDir "/media/ntfsdrive1/workspace/ProjectDIC2/netlist/fullsystem/hspiceD/schematic/netlist"
+ )
+( instViewTable
+ )
+( net
+ )
+( inst
+ )
+( model
+( "fullsystem/INVX2/schematic" "INVX2" )
+( "fullsystem/NOR2X1/schematic" "NOR2X1" )
+( "fullsystem/INVX4/schematic" "INVX4" )
+( "fullsystem/fullsystem/schematic" "fullsystem" )
+( "fullsystem/DFFSR/schematic" "DFFSR" )
+( "fullsystem/AND2X2/schematic" "AND2X2" )
+( "fullsystem/OR2X2/schematic" "OR2X2" )
+( "fullsystem/AOI22X1/schematic" "AOI22X1" )
+( "fullsystem/INVX1/schematic" "INVX1" )
+( "fullsystem/INVX8/schematic" "INVX8" )
+( "fullsystem/BUFX2/schematic" "BUFX2" )
+( "fullsystem/XOR2X1/schematic" "XOR2X1" )
+ )
+( term
+ )
+( param
+ )
+( "INVX4" "ihnl/cds0/map" )
+( "NOR2X1" "ihnl/cds4/map" )
+( "AOI22X1" "ihnl/cds5/map" )
+( "fullsystem" "ihnl/cds11/map" )
+( "AND2X2" "ihnl/cds9/map" )
+( "DFFSR" "ihnl/cds7/map" )
+( "INVX1" "ihnl/cds2/map" )
+( "INVX8" "ihnl/cds1/map" )
+( "XOR2X1" "ihnl/cds3/map" )
+( "OR2X2" "ihnl/cds8/map" )
+( "INVX2" "ihnl/cds6/map" )
+( "BUFX2" "ihnl/cds10/map" )
+ )

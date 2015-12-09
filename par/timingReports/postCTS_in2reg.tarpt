@@ -1,0 +1,388 @@
+Path 1: MET Setup Check with Pin talker_str_1xfsm_unitxstate_reg_regx0x/CLK 
+Endpoint:   talker_str_1xfsm_unitxstate_reg_regx0x/D (^) checked with  leading 
+edge of 'clk2'
+Beginpoint: start                                    (^) triggered by  leading 
+edge of 'clk2'
+Path Groups:  {inclkSrc2reg}
+Other End Arrival Time          0.084
+- Setup                         0.116
++ Phase Shift                   1.000
+= Required Time                 0.968
+- Arrival Time                  0.255
+= Slack Time                    0.713
+     Clock Rise Edge                      0.000
+     + Input Delay                        0.100
+     + Drive Adjustment                   0.018
+     = Beginpoint Arrival Time            0.118
+     Timing Path:
+     +----------------------------------------------------------------------------------------------------+ 
+     |                Instance                |    Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                        |            |         |       |       |  Time   |   Time   | 
+     |----------------------------------------+------------+---------+-------+-------+---------+----------| 
+     |                                        | start ^    |         | 0.011 |       |   0.118 |    0.831 | 
+     | talker_str_1xfsm_unitxU11              | C ^ -> Y v | AOI22X1 | 0.147 | 0.017 |   0.136 |    0.848 | 
+     | U9                                     | A v -> Y v | BUFX2   | 0.031 | 0.061 |   0.197 |    0.910 | 
+     | U1                                     | B v -> Y v | OR2X2   | 0.008 | 0.050 |   0.247 |    0.960 | 
+     | U8                                     | A v -> Y ^ | INVX1   | 0.478 | 0.008 |   0.255 |    0.968 | 
+     | talker_str_1xfsm_unitxstate_reg_regx0x | D ^        | DFFSR   | 0.478 | 0.000 |   0.255 |    0.968 | 
+     +----------------------------------------------------------------------------------------------------+ 
+     Clock Rise Edge                      0.000
+     + Drive Adjustment                   0.041
+     = Beginpoint Arrival Time            0.041
+     Other End Path:
+     +--------------------------------------------------------------------------------------------------+ 
+     |                Instance                |    Arc     |  Cell |  Slew | Delay | Arrival | Required | 
+     |                                        |            |       |       |       |  Time   |   Time   | 
+     |----------------------------------------+------------+-------+-------+-------+---------+----------| 
+     |                                        | clk2 ^     |       | 0.046 |       |   0.041 |   -0.671 | 
+     | clk2__L1_I0                            | A ^ -> Y v | INVX8 | 0.017 | 0.022 |   0.063 |   -0.650 | 
+     | clk2__L2_I0                            | A v -> Y ^ | INVX4 | 0.008 | 0.021 |   0.084 |   -0.629 | 
+     | talker_str_1xfsm_unitxstate_reg_regx0x | CLK ^      | DFFSR | 0.008 | 0.000 |   0.084 |   -0.629 | 
+     +--------------------------------------------------------------------------------------------------+ 
+Path 2: MET Setup Check with Pin talker_str_1xfsm_unitxreq_buf_reg_reg/CLK 
+Endpoint:   talker_str_1xfsm_unitxreq_buf_reg_reg/D (^) checked with  leading 
+edge of 'clk2'
+Beginpoint: start                                   (^) triggered by  leading 
+edge of 'clk2'
+Path Groups:  {inclkSrc2reg}
+Other End Arrival Time          0.084
+- Setup                         0.116
++ Phase Shift                   1.000
+= Required Time                 0.968
+- Arrival Time                  0.255
+= Slack Time                    0.713
+     Clock Rise Edge                      0.000
+     + Input Delay                        0.100
+     + Drive Adjustment                   0.018
+     = Beginpoint Arrival Time            0.118
+     Timing Path:
+     +---------------------------------------------------------------------------------------------------+ 
+     |               Instance                |    Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                       |            |         |       |       |  Time   |   Time   | 
+     |---------------------------------------+------------+---------+-------+-------+---------+----------| 
+     |                                       | start ^    |         | 0.011 |       |   0.118 |    0.831 | 
+     | talker_str_1xfsm_unitxU11             | C ^ -> Y v | AOI22X1 | 0.147 | 0.017 |   0.136 |    0.848 | 
+     | U9                                    | A v -> Y v | BUFX2   | 0.031 | 0.061 |   0.197 |    0.910 | 
+     | U1                                    | B v -> Y v | OR2X2   | 0.008 | 0.050 |   0.247 |    0.960 | 
+     | U8                                    | A v -> Y ^ | INVX1   | 0.478 | 0.008 |   0.255 |    0.968 | 
+     | talker_str_1xfsm_unitxreq_buf_reg_reg | D ^        | DFFSR   | 0.478 | 0.000 |   0.255 |    0.968 | 
+     +---------------------------------------------------------------------------------------------------+ 
+     Clock Rise Edge                      0.000
+     + Drive Adjustment                   0.041
+     = Beginpoint Arrival Time            0.041
+     Other End Path:
+     +-------------------------------------------------------------------------------------------------+ 
+     |               Instance                |    Arc     |  Cell |  Slew | Delay | Arrival | Required | 
+     |                                       |            |       |       |       |  Time   |   Time   | 
+     |---------------------------------------+------------+-------+-------+-------+---------+----------| 
+     |                                       | clk2 ^     |       | 0.046 |       |   0.041 |   -0.671 | 
+     | clk2__L1_I0                           | A ^ -> Y v | INVX8 | 0.017 | 0.022 |   0.063 |   -0.650 | 
+     | clk2__L2_I0                           | A v -> Y ^ | INVX4 | 0.008 | 0.021 |   0.084 |   -0.629 | 
+     | talker_str_1xfsm_unitxreq_buf_reg_reg | CLK ^      | DFFSR | 0.008 | 0.000 |   0.084 |   -0.629 | 
+     +-------------------------------------------------------------------------------------------------+ 
+Path 3: MET Recovery Check with Pin talker_str_1xsync_unitxmeta_reg_reg/CLK 
+Endpoint:   talker_str_1xsync_unitxmeta_reg_reg/R (^) checked with  leading 
+edge of 'clk2'
+Beginpoint: reset2                                (v) triggered by  leading 
+edge of 'clk2'
+Path Groups:  {inclkSrc2reg}
+Other End Arrival Time          0.084
+- Recovery                     -0.961
++ Phase Shift                   1.000
+= Required Time                 2.045
+- Arrival Time                  0.151
+= Slack Time                    1.894
+     Clock Rise Edge                      0.000
+     + Input Delay                        0.100
+     + Drive Adjustment                   0.016
+     = Beginpoint Arrival Time            0.116
+     Timing Path:
+     +-----------------------------------------------------------------------------------------------+ 
+     |              Instance               |    Arc     |  Cell |  Slew | Delay | Arrival | Required | 
+     |                                     |            |       |       |       |  Time   |   Time   | 
+     |-------------------------------------+------------+-------+-------+-------+---------+----------| 
+     |                                     | reset2 v   |       | 0.021 |       |   0.116 |    2.010 | 
+     | FE_OCP_RBC1_reset2                  | A v -> Y ^ | INVX4 | 0.030 | 0.034 |   0.150 |    2.043 | 
+     | talker_str_1xsync_unitxmeta_reg_reg | R ^        | DFFSR | 0.030 | 0.002 |   0.151 |    2.045 | 
+     +-----------------------------------------------------------------------------------------------+ 
+     Clock Rise Edge                      0.000
+     + Drive Adjustment                   0.041
+     = Beginpoint Arrival Time            0.041
+     Other End Path:
+     +-----------------------------------------------------------------------------------------------+ 
+     |              Instance               |    Arc     |  Cell |  Slew | Delay | Arrival | Required | 
+     |                                     |            |       |       |       |  Time   |   Time   | 
+     |-------------------------------------+------------+-------+-------+-------+---------+----------| 
+     |                                     | clk2 ^     |       | 0.046 |       |   0.041 |   -1.852 | 
+     | clk2__L1_I0                         | A ^ -> Y v | INVX8 | 0.017 | 0.022 |   0.063 |   -1.830 | 
+     | clk2__L2_I0                         | A v -> Y ^ | INVX4 | 0.008 | 0.021 |   0.084 |   -1.810 | 
+     | talker_str_1xsync_unitxmeta_reg_reg | CLK ^      | DFFSR | 0.008 | 0.000 |   0.084 |   -1.809 | 
+     +-----------------------------------------------------------------------------------------------+ 
+Path 4: MET Recovery Check with Pin talker_str_1xfsm_unitxstate_reg_regx1x/CLK 
+Endpoint:   talker_str_1xfsm_unitxstate_reg_regx1x/R (^) checked with  leading 
+edge of 'clk2'
+Beginpoint: reset2                                   (v) triggered by  leading 
+edge of 'clk2'
+Path Groups:  {inclkSrc2reg}
+Other End Arrival Time          0.084
+- Recovery                     -0.961
++ Phase Shift                   1.000
+= Required Time                 2.045
+- Arrival Time                  0.151
+= Slack Time                    1.894
+     Clock Rise Edge                      0.000
+     + Input Delay                        0.100
+     + Drive Adjustment                   0.016
+     = Beginpoint Arrival Time            0.116
+     Timing Path:
+     +--------------------------------------------------------------------------------------------------+ 
+     |                Instance                |    Arc     |  Cell |  Slew | Delay | Arrival | Required | 
+     |                                        |            |       |       |       |  Time   |   Time   | 
+     |----------------------------------------+------------+-------+-------+-------+---------+----------| 
+     |                                        | reset2 v   |       | 0.021 |       |   0.116 |    2.010 | 
+     | FE_OCP_RBC1_reset2                     | A v -> Y ^ | INVX4 | 0.030 | 0.034 |   0.150 |    2.043 | 
+     | talker_str_1xfsm_unitxstate_reg_regx1x | R ^        | DFFSR | 0.030 | 0.001 |   0.151 |    2.045 | 
+     +--------------------------------------------------------------------------------------------------+ 
+     Clock Rise Edge                      0.000
+     + Drive Adjustment                   0.041
+     = Beginpoint Arrival Time            0.041
+     Other End Path:
+     +--------------------------------------------------------------------------------------------------+ 
+     |                Instance                |    Arc     |  Cell |  Slew | Delay | Arrival | Required | 
+     |                                        |            |       |       |       |  Time   |   Time   | 
+     |----------------------------------------+------------+-------+-------+-------+---------+----------| 
+     |                                        | clk2 ^     |       | 0.046 |       |   0.041 |   -1.852 | 
+     | clk2__L1_I0                            | A ^ -> Y v | INVX8 | 0.017 | 0.022 |   0.063 |   -1.830 | 
+     | clk2__L2_I0                            | A v -> Y ^ | INVX4 | 0.008 | 0.021 |   0.084 |   -1.810 | 
+     | talker_str_1xfsm_unitxstate_reg_regx1x | CLK ^      | DFFSR | 0.008 | 0.000 |   0.084 |   -1.809 | 
+     +--------------------------------------------------------------------------------------------------+ 
+Path 5: MET Recovery Check with Pin talker_str_1xfsm_unitxstate_reg_regx0x/CLK 
+Endpoint:   talker_str_1xfsm_unitxstate_reg_regx0x/R (^) checked with  leading 
+edge of 'clk2'
+Beginpoint: reset2                                   (v) triggered by  leading 
+edge of 'clk2'
+Path Groups:  {inclkSrc2reg}
+Other End Arrival Time          0.084
+- Recovery                     -0.961
++ Phase Shift                   1.000
+= Required Time                 2.045
+- Arrival Time                  0.151
+= Slack Time                    1.894
+     Clock Rise Edge                      0.000
+     + Input Delay                        0.100
+     + Drive Adjustment                   0.016
+     = Beginpoint Arrival Time            0.116
+     Timing Path:
+     +--------------------------------------------------------------------------------------------------+ 
+     |                Instance                |    Arc     |  Cell |  Slew | Delay | Arrival | Required | 
+     |                                        |            |       |       |       |  Time   |   Time   | 
+     |----------------------------------------+------------+-------+-------+-------+---------+----------| 
+     |                                        | reset2 v   |       | 0.021 |       |   0.116 |    2.010 | 
+     | FE_OCP_RBC1_reset2                     | A v -> Y ^ | INVX4 | 0.030 | 0.034 |   0.150 |    2.044 | 
+     | talker_str_1xfsm_unitxstate_reg_regx0x | R ^        | DFFSR | 0.030 | 0.001 |   0.151 |    2.045 | 
+     +--------------------------------------------------------------------------------------------------+ 
+     Clock Rise Edge                      0.000
+     + Drive Adjustment                   0.041
+     = Beginpoint Arrival Time            0.041
+     Other End Path:
+     +--------------------------------------------------------------------------------------------------+ 
+     |                Instance                |    Arc     |  Cell |  Slew | Delay | Arrival | Required | 
+     |                                        |            |       |       |       |  Time   |   Time   | 
+     |----------------------------------------+------------+-------+-------+-------+---------+----------| 
+     |                                        | clk2 ^     |       | 0.046 |       |   0.041 |   -1.852 | 
+     | clk2__L1_I0                            | A ^ -> Y v | INVX8 | 0.017 | 0.022 |   0.063 |   -1.831 | 
+     | clk2__L2_I0                            | A v -> Y ^ | INVX4 | 0.008 | 0.021 |   0.084 |   -1.810 | 
+     | talker_str_1xfsm_unitxstate_reg_regx0x | CLK ^      | DFFSR | 0.008 | 0.000 |   0.084 |   -1.810 | 
+     +--------------------------------------------------------------------------------------------------+ 
+Path 6: MET Recovery Check with Pin talker_str_1xfsm_unitxreq_buf_reg_reg/CLK 
+Endpoint:   talker_str_1xfsm_unitxreq_buf_reg_reg/R (^) checked with  leading 
+edge of 'clk2'
+Beginpoint: reset2                                  (v) triggered by  leading 
+edge of 'clk2'
+Path Groups:  {inclkSrc2reg}
+Other End Arrival Time          0.084
+- Recovery                     -0.961
++ Phase Shift                   1.000
+= Required Time                 2.045
+- Arrival Time                  0.151
+= Slack Time                    1.894
+     Clock Rise Edge                      0.000
+     + Input Delay                        0.100
+     + Drive Adjustment                   0.016
+     = Beginpoint Arrival Time            0.116
+     Timing Path:
+     +-------------------------------------------------------------------------------------------------+ 
+     |               Instance                |    Arc     |  Cell |  Slew | Delay | Arrival | Required | 
+     |                                       |            |       |       |       |  Time   |   Time   | 
+     |---------------------------------------+------------+-------+-------+-------+---------+----------| 
+     |                                       | reset2 v   |       | 0.021 |       |   0.116 |    2.010 | 
+     | FE_OCP_RBC1_reset2                    | A v -> Y ^ | INVX4 | 0.030 | 0.034 |   0.150 |    2.044 | 
+     | talker_str_1xfsm_unitxreq_buf_reg_reg | R ^        | DFFSR | 0.030 | 0.001 |   0.151 |    2.045 | 
+     +-------------------------------------------------------------------------------------------------+ 
+     Clock Rise Edge                      0.000
+     + Drive Adjustment                   0.041
+     = Beginpoint Arrival Time            0.041
+     Other End Path:
+     +-------------------------------------------------------------------------------------------------+ 
+     |               Instance                |    Arc     |  Cell |  Slew | Delay | Arrival | Required | 
+     |                                       |            |       |       |       |  Time   |   Time   | 
+     |---------------------------------------+------------+-------+-------+-------+---------+----------| 
+     |                                       | clk2 ^     |       | 0.046 |       |   0.041 |   -1.853 | 
+     | clk2__L1_I0                           | A ^ -> Y v | INVX8 | 0.017 | 0.022 |   0.063 |   -1.831 | 
+     | clk2__L2_I0                           | A v -> Y ^ | INVX4 | 0.008 | 0.021 |   0.084 |   -1.810 | 
+     | talker_str_1xfsm_unitxreq_buf_reg_reg | CLK ^      | DFFSR | 0.008 | 0.000 |   0.084 |   -1.810 | 
+     +-------------------------------------------------------------------------------------------------+ 
+Path 7: MET Recovery Check with Pin talker_str_1xsync_unitxsync_reg_reg/CLK 
+Endpoint:   talker_str_1xsync_unitxsync_reg_reg/R (^) checked with  leading 
+edge of 'clk2'
+Beginpoint: reset2                                (v) triggered by  leading 
+edge of 'clk2'
+Path Groups:  {inclkSrc2reg}
+Other End Arrival Time          0.084
+- Recovery                     -0.961
++ Phase Shift                   1.000
+= Required Time                 2.045
+- Arrival Time                  0.151
+= Slack Time                    1.894
+     Clock Rise Edge                      0.000
+     + Input Delay                        0.100
+     + Drive Adjustment                   0.016
+     = Beginpoint Arrival Time            0.116
+     Timing Path:
+     +-----------------------------------------------------------------------------------------------+ 
+     |              Instance               |    Arc     |  Cell |  Slew | Delay | Arrival | Required | 
+     |                                     |            |       |       |       |  Time   |   Time   | 
+     |-------------------------------------+------------+-------+-------+-------+---------+----------| 
+     |                                     | reset2 v   |       | 0.021 |       |   0.116 |    2.010 | 
+     | FE_OCP_RBC1_reset2                  | A v -> Y ^ | INVX4 | 0.030 | 0.034 |   0.150 |    2.044 | 
+     | talker_str_1xsync_unitxsync_reg_reg | R ^        | DFFSR | 0.030 | 0.001 |   0.151 |    2.045 | 
+     +-----------------------------------------------------------------------------------------------+ 
+     Clock Rise Edge                      0.000
+     + Drive Adjustment                   0.041
+     = Beginpoint Arrival Time            0.041
+     Other End Path:
+     +-----------------------------------------------------------------------------------------------+ 
+     |              Instance               |    Arc     |  Cell |  Slew | Delay | Arrival | Required | 
+     |                                     |            |       |       |       |  Time   |   Time   | 
+     |-------------------------------------+------------+-------+-------+-------+---------+----------| 
+     |                                     | clk2 ^     |       | 0.046 |       |   0.041 |   -1.853 | 
+     | clk2__L1_I0                         | A ^ -> Y v | INVX8 | 0.017 | 0.022 |   0.063 |   -1.831 | 
+     | clk2__L2_I0                         | A v -> Y ^ | INVX4 | 0.008 | 0.021 |   0.084 |   -1.810 | 
+     | talker_str_1xsync_unitxsync_reg_reg | CLK ^      | DFFSR | 0.008 | 0.000 |   0.084 |   -1.810 | 
+     +-----------------------------------------------------------------------------------------------+ 
+Path 8: MET Recovery Check with Pin listener_str_1xsync_unitxmeta_reg_reg/CLK 
+Endpoint:   listener_str_1xsync_unitxmeta_reg_reg/R (^) checked with  leading 
+edge of 'clk1'
+Beginpoint: reset1                                  (v) triggered by  leading 
+edge of 'clk2'
+Path Groups:  {inclkSrc2reg}
+Other End Arrival Time          0.081
+- Recovery                     -1.074
++ Phase Shift                   1.000
+= Required Time                 2.155
+- Arrival Time                  0.146
+= Slack Time                    2.008
+     Clock Rise Edge                      0.000
+     + Input Delay                        0.100
+     + Drive Adjustment                   0.011
+     = Beginpoint Arrival Time            0.111
+     Timing Path:
+     +-------------------------------------------------------------------------------------------------+ 
+     |               Instance                |    Arc     |  Cell |  Slew | Delay | Arrival | Required | 
+     |                                       |            |       |       |       |  Time   |   Time   | 
+     |---------------------------------------+------------+-------+-------+-------+---------+----------| 
+     |                                       | reset1 v   |       | 0.014 |       |   0.112 |    2.120 | 
+     | FE_OCP_RBC3_reset1                    | A v -> Y ^ | INVX2 | 0.030 | 0.035 |   0.146 |    2.154 | 
+     | listener_str_1xsync_unitxmeta_reg_reg | R ^        | DFFSR | 0.030 | 0.000 |   0.146 |    2.155 | 
+     +-------------------------------------------------------------------------------------------------+ 
+     Clock Rise Edge                      0.000
+     + Drive Adjustment                   0.041
+     = Beginpoint Arrival Time            0.041
+     Other End Path:
+     +-------------------------------------------------------------------------------------------------+ 
+     |               Instance                |    Arc     |  Cell |  Slew | Delay | Arrival | Required | 
+     |                                       |            |       |       |       |  Time   |   Time   | 
+     |---------------------------------------+------------+-------+-------+-------+---------+----------| 
+     |                                       | clk1 ^     |       | 0.046 |       |   0.041 |   -1.967 | 
+     | clk1__L1_I0                           | A ^ -> Y v | INVX8 | 0.017 | 0.022 |   0.064 |   -1.945 | 
+     | clk1__L2_I0                           | A v -> Y ^ | INVX4 | 0.002 | 0.017 |   0.081 |   -1.927 | 
+     | listener_str_1xsync_unitxmeta_reg_reg | CLK ^      | DFFSR | 0.002 | 0.000 |   0.081 |   -1.927 | 
+     +-------------------------------------------------------------------------------------------------+ 
+Path 9: MET Recovery Check with Pin listener_str_1xsync_unitxsync_reg_reg/CLK 
+Endpoint:   listener_str_1xsync_unitxsync_reg_reg/R (^) checked with  leading 
+edge of 'clk1'
+Beginpoint: reset1                                  (v) triggered by  leading 
+edge of 'clk2'
+Path Groups:  {inclkSrc2reg}
+Other End Arrival Time          0.081
+- Recovery                     -1.074
++ Phase Shift                   1.000
+= Required Time                 2.155
+- Arrival Time                  0.146
+= Slack Time                    2.008
+     Clock Rise Edge                      0.000
+     + Input Delay                        0.100
+     + Drive Adjustment                   0.011
+     = Beginpoint Arrival Time            0.111
+     Timing Path:
+     +-------------------------------------------------------------------------------------------------+ 
+     |               Instance                |    Arc     |  Cell |  Slew | Delay | Arrival | Required | 
+     |                                       |            |       |       |       |  Time   |   Time   | 
+     |---------------------------------------+------------+-------+-------+-------+---------+----------| 
+     |                                       | reset1 v   |       | 0.014 |       |   0.112 |    2.120 | 
+     | FE_OCP_RBC3_reset1                    | A v -> Y ^ | INVX2 | 0.030 | 0.035 |   0.146 |    2.154 | 
+     | listener_str_1xsync_unitxsync_reg_reg | R ^        | DFFSR | 0.030 | 0.000 |   0.146 |    2.155 | 
+     +-------------------------------------------------------------------------------------------------+ 
+     Clock Rise Edge                      0.000
+     + Drive Adjustment                   0.041
+     = Beginpoint Arrival Time            0.041
+     Other End Path:
+     +-------------------------------------------------------------------------------------------------+ 
+     |               Instance                |    Arc     |  Cell |  Slew | Delay | Arrival | Required | 
+     |                                       |            |       |       |       |  Time   |   Time   | 
+     |---------------------------------------+------------+-------+-------+-------+---------+----------| 
+     |                                       | clk1 ^     |       | 0.046 |       |   0.041 |   -1.967 | 
+     | clk1__L1_I0                           | A ^ -> Y v | INVX8 | 0.017 | 0.022 |   0.064 |   -1.945 | 
+     | clk1__L2_I0                           | A v -> Y ^ | INVX4 | 0.002 | 0.017 |   0.081 |   -1.927 | 
+     | listener_str_1xsync_unitxsync_reg_reg | CLK ^      | DFFSR | 0.002 | 0.000 |   0.081 |   -1.927 | 
+     +-------------------------------------------------------------------------------------------------+ 
+Path 10: MET Recovery Check with Pin listener_str_1xfsm_unitxack_buf_reg_reg/
+CLK 
+Endpoint:   listener_str_1xfsm_unitxack_buf_reg_reg/R (^) checked with  leading 
+edge of 'clk1'
+Beginpoint: reset1                                    (v) triggered by  leading 
+edge of 'clk2'
+Path Groups:  {inclkSrc2reg}
+Other End Arrival Time          0.081
+- Recovery                     -1.074
++ Phase Shift                   1.000
+= Required Time                 2.155
+- Arrival Time                  0.146
+= Slack Time                    2.008
+     Clock Rise Edge                      0.000
+     + Input Delay                        0.100
+     + Drive Adjustment                   0.011
+     = Beginpoint Arrival Time            0.111
+     Timing Path:
+     +---------------------------------------------------------------------------------------------------+ 
+     |                Instance                 |    Arc     |  Cell |  Slew | Delay | Arrival | Required | 
+     |                                         |            |       |       |       |  Time   |   Time   | 
+     |-----------------------------------------+------------+-------+-------+-------+---------+----------| 
+     |                                         | reset1 v   |       | 0.014 |       |   0.112 |    2.120 | 
+     | FE_OCP_RBC3_reset1                      | A v -> Y ^ | INVX2 | 0.030 | 0.035 |   0.146 |    2.154 | 
+     | listener_str_1xfsm_unitxack_buf_reg_reg | R ^        | DFFSR | 0.030 | 0.000 |   0.146 |    2.155 | 
+     +---------------------------------------------------------------------------------------------------+ 
+     Clock Rise Edge                      0.000
+     + Drive Adjustment                   0.041
+     = Beginpoint Arrival Time            0.041
+     Other End Path:
+     +---------------------------------------------------------------------------------------------------+ 
+     |                Instance                 |    Arc     |  Cell |  Slew | Delay | Arrival | Required | 
+     |                                         |            |       |       |       |  Time   |   Time   | 
+     |-----------------------------------------+------------+-------+-------+-------+---------+----------| 
+     |                                         | clk1 ^     |       | 0.046 |       |   0.041 |   -1.967 | 
+     | clk1__L1_I0                             | A ^ -> Y v | INVX8 | 0.017 | 0.022 |   0.064 |   -1.945 | 
+     | clk1__L2_I0                             | A v -> Y ^ | INVX4 | 0.002 | 0.017 |   0.081 |   -1.928 | 
+     | listener_str_1xfsm_unitxack_buf_reg_reg | CLK ^      | DFFSR | 0.002 | 0.000 |   0.081 |   -1.927 | 
+     +---------------------------------------------------------------------------------------------------+ 
+

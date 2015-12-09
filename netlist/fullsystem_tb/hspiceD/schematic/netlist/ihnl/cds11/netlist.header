@@ -1,0 +1,5 @@
+
+** Library name: fullsystem
+** Cell name: fullsystem
+** View name: schematic
+.subckt fullsystem clk1 clk2 reset1 reset2 start ready rcv

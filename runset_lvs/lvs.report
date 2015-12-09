@@ -1,0 +1,2178 @@
+
+
+
+                  ##################################################
+                  ##                                              ##
+                  ##         C A L I B R E    S Y S T E M         ##
+                  ##                                              ##
+                  ##             L V S   R E P O R T              ##
+                  ##                                              ##
+                  ##################################################
+
+
+
+REPORT FILE NAME:         lvs.report
+LAYOUT NAME:              /media/ntfsdrive1/workspace/ProjectDIC2/runset_pex/fullsystem.sp ('fullsystem')
+SOURCE NAME:              /media/ntfsdrive1/workspace/ProjectDIC2/runset_lvs/fullsystem.sp ('fullsystem')
+RULE FILE:                /media/ntfsdrive1/workspace/ProjectDIC2/runset_lvs/_calibreLVS.rul_
+RULE FILE TITLE:          LVS Rule File for FreePDK45
+CREATION TIME:            Mon Dec  7 12:45:41 2015
+CURRENT DIRECTORY:        /media/ntfsdrive1/workspace/ProjectDIC2/runset_lvs
+USER NAME:                abelardojara
+CALIBRE VERSION:          v2013.3_28.19    Tue Sep 3 16:45:04 PDT 2013
+
+
+
+                               OVERALL COMPARISON RESULTS
+
+
+
+                  #   #         #####################  
+                   # #          #                   #  
+                    #           #     INCORRECT     #  
+                   # #          #                   #  
+                  #   #         #####################  
+
+
+  Error:    Different numbers of ports.
+  Error:    Different numbers of nets.
+  Error:    Different numbers of instances.
+  Error:    Connectivity errors.
+  Error:    Property errors.
+  Warning:  Ambiguity points were found and resolved arbitrarily.
+
+
+**************************************************************************************************************
+                                      CELL  SUMMARY
+**************************************************************************************************************
+
+  Result         Layout                        Source
+  -----------    -----------                   --------------
+  INCORRECT      fullsystem                    fullsystem
+
+
+
+**************************************************************************************************************
+                                      LVS PARAMETERS
+**************************************************************************************************************
+
+
+o LVS Setup:
+
+   LVS COMPONENT TYPE PROPERTY            element
+   LVS COMPONENT SUBTYPE PROPERTY         model
+   // LVS PIN NAME PROPERTY
+   LVS POWER NAME                         "VDD"
+   LVS GROUND NAME                        "VSS" "GROUND"
+   LVS CELL SUPPLY                        NO
+   LVS RECOGNIZE GATES                    ALL
+   LVS IGNORE PORTS                       NO
+   LVS CHECK PORT NAMES                   NO
+   LVS IGNORE TRIVIAL NAMED PORTS         NO
+   LVS BUILTIN DEVICE PIN SWAP            YES
+   LVS ALL CAPACITOR PINS SWAPPABLE       NO
+   LVS DISCARD PINS BY DEVICE             NO
+   LVS SOFT SUBSTRATE PINS                NO
+   LVS INJECT LOGIC                       YES
+   LVS EXPAND UNBALANCED CELLS            YES
+   LVS FLATTEN INSIDE CELL                NO
+   LVS EXPAND SEED PROMOTIONS             NO
+   LVS PRESERVE PARAMETERIZED CELLS       NO
+   LVS GLOBALS ARE PORTS                  YES
+   LVS REVERSE WL                         NO
+   LVS SPICE PREFER PINS                  NO
+   LVS SPICE SLASH IS SPACE               YES
+   LVS SPICE ALLOW FLOATING PINS          YES
+   // LVS SPICE ALLOW INLINE PARAMETERS     
+   LVS SPICE ALLOW UNQUOTED STRINGS       NO
+   LVS SPICE CONDITIONAL LDD              NO
+   LVS SPICE CULL PRIMITIVE SUBCIRCUITS   NO
+   LVS SPICE IMPLIED MOS AREA             NO
+   // LVS SPICE MULTIPLIER NAME
+   LVS SPICE OVERRIDE GLOBALS             NO
+   LVS SPICE REDEFINE PARAM               NO
+   LVS SPICE REPLICATE DEVICES            NO
+   LVS SPICE SCALE X PARAMETERS           NO
+   LVS SPICE STRICT WL                    NO
+   // LVS SPICE OPTION
+   LVS STRICT SUBTYPES                    NO
+   LVS EXACT SUBTYPES                     NO
+   LAYOUT CASE                            NO
+   SOURCE CASE                            NO
+   LVS COMPARE CASE                       NO
+   LVS DOWNCASE DEVICE                    NO
+   LVS REPORT MAXIMUM                     50
+   LVS PROPERTY RESOLUTION MAXIMUM        32
+   // LVS SIGNATURE MAXIMUM
+   // LVS FILTER UNUSED OPTION
+   // LVS REPORT OPTION
+   LVS REPORT UNITS                       YES
+   // LVS NON USER NAME PORT
+   // LVS NON USER NAME NET
+   // LVS NON USER NAME INSTANCE
+
+   // Reduction
+
+   LVS REDUCE SERIES MOS                  YES
+   LVS REDUCE PARALLEL MOS                YES
+   LVS REDUCE SEMI SERIES MOS             YES
+   LVS REDUCE SPLIT GATES                 YES
+   LVS REDUCE PARALLEL BIPOLAR            YES
+   LVS REDUCE SERIES CAPACITORS           YES
+   LVS REDUCE PARALLEL CAPACITORS         YES
+   LVS REDUCE SERIES RESISTORS            YES
+   LVS REDUCE PARALLEL RESISTORS          YES
+   LVS REDUCE PARALLEL DIODES             YES
+   LVS REDUCTION PRIORITY                 PARALLEL
+   
+   LVS SHORT EQUIVALENT NODES             NO
+
+   // Trace Property
+
+   TRACE PROPERTY  mn(nmos_vtl)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_vtl)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_vtl)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_vtl)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_vth)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_vth)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_vth)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_vth)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_vtg)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_vtg)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_vtg)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_vtg)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_thkox)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_thkox)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_thkox)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_thkox)  w w 4e-09 ABSOLUTE
+
+
+
+                   CELL COMPARISON RESULTS ( TOP LEVEL )
+
+
+
+                  #   #         #####################  
+                   # #          #                   #  
+                    #           #     INCORRECT     #  
+                   # #          #                   #  
+                  #   #         #####################  
+
+
+  Error:    Different numbers of ports (see below).
+  Error:    Different numbers of nets (see below).
+  Error:    Different numbers of instances (see below).
+  Error:    Connectivity errors.
+  Error:    Property errors.
+  Warning:  Ambiguity points were found and resolved arbitrarily.
+
+LAYOUT CELL NAME:         fullsystem
+SOURCE CELL NAME:         fullsystem
+
+--------------------------------------------------------------------------------------------------------------
+
+INITIAL NUMBERS OF OBJECTS
+--------------------------
+
+                Layout    Source         Component Type
+                ------    ------         --------------
+ Ports:              0         7    *
+
+ Nets:             145       194    *
+
+ Instances:        163       165    *    MN (4 pins)
+                   165       165         MP (4 pins)
+                ------    ------
+ Total Inst:       328       330
+
+
+NUMBERS OF OBJECTS AFTER TRANSFORMATION
+---------------------------------------
+
+                Layout    Source         Component Type
+                ------    ------         --------------
+ Ports:              0         7    *
+
+ Nets:             103       150    *
+
+ Instances:         32         0    *    MN (4 pins)
+                    31         0    *    MP (4 pins)
+                     1         1         SPMP_2_2 (6 pins)
+                     9        16    *    _invb (6 pins)
+                    26        45    *    _invv (4 pins)
+                    33        33         _nand2v (5 pins)
+                     1         2    *    _nor2v (5 pins)
+                     4         2    *    _smn2v (4 pins)
+                     3         0    *    _smp2v (4 pins)
+                     4         8    *    _tgmb (7 pins)
+                     0         1    *    _xor2v (5 pins)
+                ------    ------
+ Total Inst:       144       108
+
+
+       * = Number of objects in layout different from number in source.
+
+
+
+**************************************************************************************************************
+                                 INCORRECT OBJECTS
+**************************************************************************************************************
+
+
+LEGEND:
+-------
+
+  ne  = Naming Error (same layout name found in source
+        circuit, but object was matched otherwise).
+
+
+**************************************************************************************************************
+                                   INCORRECT NETS
+
+DISC#  LAYOUT NAME                                               SOURCE NAME
+**************************************************************************************************************
+
+  1    Net 4                                                     talker_str_1xfsm_unitxstate_regx0x
+       --------------------------                                --------------------------
+       
+       (SPMP_2_2):input                                          ** missing connection **
+         M35(26.010,33.715):g
+       
+       
+       (_smn2v):in2                                              ** missing connection **
+         M15(26.010,32.770):g
+       
+       
+       ** missing connection **                                  (SPMP_2_2):input
+                                                                   xtalker_str_1xfsm_unitxu11/m0:g
+       
+       
+       ** missing connection **                                  (_smn2v):in2
+                                                                   xtalker_str_1xfsm_unitxu11/m4:g
+       
+       
+       ** missing connection **                                  (_invv):in
+                                                                   xu14/m1:g
+                                                                   xu14/m0:g
+       
+       
+       ** missing connection **                                  (_xor2v):in2
+                                                                   xtalker_str_1xfsm_unitxu13/m11:g
+                                                                   xtalker_str_1xfsm_unitxu13/m5:g
+                                                                   xtalker_str_1xfsm_unitxu13/m10:g
+                                                                   xtalker_str_1xfsm_unitxu13/m4:g
+       
+       
+       (_nor2v):in1                                              ** unmatched connection **
+         M0(24.300,27.829):g
+         M21(24.300,28.325):g
+       
+       
+       ** unmatched connection **                                (_nor2v):in2
+                                                                   xtalker_str_1xfsm_unitxu12/m2:g
+                                                                   xtalker_str_1xfsm_unitxu12/m0:g
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+  2    Net 7                                                     talker_str_1xsync_unitxmeta_reg
+       --------------------------                                --------------------------
+       
+       (_nand2v):out                                             ** missing connection **
+         M27(25.538,30.800):s
+         M24(25.348,30.800):d
+         M6(25.538,31.892):d
+       
+       
+       (_nor2v):in2                                              ** missing connection **
+         M1(24.490,27.829):g
+         M22(24.490,28.325):g
+       
+       
+       (_smn2v):in2                                              ** missing connection **
+         M10(25.817,26.823):g
+       
+       
+       (_smp2v):in1                                              ** missing connection **
+         M36(26.067,25.358):g
+       
+       
+       (_invv):in                                                ** unmatched connection **
+         M17(26.652,26.823):g
+         M38(26.652,25.358):g
+       
+       
+       (_invv):in                                                ** unmatched connection **
+         M12(25.823,31.892):g
+         M32(25.832,30.300):g
+       
+       
+       ** unmatched connection **                                (_invv):in
+                                                                   xtalker_str_1xsync_unitxsync_reg_reg/m22:g
+                                                                   xtalker_str_1xsync_unitxsync_reg_reg/m6:g
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+  3    Net 23                                                    xtalker_str_1xfsm_unitxu11/gnd
+                                                                 xtalker_str_1xfsm_unitxu11/vdd
+
+--------------------------------------------------------------------------------------------------------------
+
+  4    Net 11                                                    talker_str_1xfsm_unitxstate_regx1x
+       --------------------------                                --------------------------
+       
+       ** missing connection **                                  (_nor2v):in1
+                                                                   xu1/m3:g
+                                                                   xu1/m0:g
+       
+       
+       ** missing connection **                                  (_xor2v):in1
+                                                                   xtalker_str_1xfsm_unitxu13/m6:g
+                                                                   xtalker_str_1xfsm_unitxu13/m0:g
+                                                                   xtalker_str_1xfsm_unitxu13/m9:g
+                                                                   xtalker_str_1xfsm_unitxu13/m2:g
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+  5    Net 39                                                    xlistener_str_1xsync_unitxmeta_reg_reg/a_57_6__
+       --------------------------                                --------------------------
+       
+       ** missing connection **                                  (_invb):sup2
+                                                                   xlistener_str_1xsync_unitxmeta_reg_reg/m21:d
+       
+       
+       ** missing connection **                                  (_invb):sup1
+                                                                   xlistener_str_1xsync_unitxmeta_reg_reg/m5:d
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+  6    Net X153/15                                               xtalker_str_1xfsm_unitxstate_reg_regx0x/a_113_6__
+       --------------------------                                --------------------------
+       
+       (_invb):sup1                                              ** missing connection **
+         X153/M26(23.343,26.337):d
+       
+       
+       X153/M10(23.402,27.100):d                                 ** missing connection **
+       
+       
+       
+       ** missing connection **                                  (_tgmb):in2
+                                                                   xtalker_str_1xfsm_unitxstate_reg_regx0x/m26:d
+                                                                   xtalker_str_1xfsm_unitxstate_reg_regx0x/m10:d
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+  7    Net X154/13                                               xtalker_str_1xfsm_unitxreq_buf_reg_reg/a_23_27__
+       --------------------------                                --------------------------
+       
+       X154/M19(23.258,23.895):s                                 ** missing connection **
+       X154/M18(22.913,23.895):d                                 ** missing connection **
+       X154/M4(23.383,23.365):s                                  ** missing connection **
+       X154/M3(22.983,23.365):d                                  ** missing connection **
+       
+       
+       
+       ** missing connection **                                  (_invb):out
+                                                                   xtalker_str_1xfsm_unitxreq_buf_reg_reg/m21:s
+                                                                   xtalker_str_1xfsm_unitxreq_buf_reg_reg/m4:d
+       
+       
+       ** missing connection **                                  (_invb):out
+                                                                   xtalker_str_1xfsm_unitxreq_buf_reg_reg/m20:d
+                                                                   xtalker_str_1xfsm_unitxreq_buf_reg_reg/m5:s
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+  8    Net X154/12                                               xtalker_str_1xfsm_unitxreq_buf_reg_reg/a_2_6__
+       --------------------------                                --------------------------
+       
+       X154/M19(23.258,23.895):d                                 ** missing connection **
+       X154/M4(23.383,23.365):d                                  ** missing connection **
+       
+       
+       
+       ** missing connection **                                  (_invb):sup1
+                                                                   xtalker_str_1xfsm_unitxreq_buf_reg_reg/m4:s
+       
+       
+       ** missing connection **                                  (_invb):sup2
+                                                                   xtalker_str_1xfsm_unitxreq_buf_reg_reg/m20:s
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+  9    Net X154/14                                               xtalker_str_1xfsm_unitxreq_buf_reg_reg/a_10_61__
+       --------------------------                                --------------------------
+       
+       (_tgmb):in1                                               ** missing connection **
+         X154/M9(24.602,23.260):s
+         X154/M24(24.672,24.023):s
+       
+       
+       ** missing connection **                                  (_tgmb):in1
+                                                                   xtalker_str_1xfsm_unitxreq_buf_reg_reg/m25:s
+                                                                   xtalker_str_1xfsm_unitxreq_buf_reg_reg/m9:s
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 10    Net X154/15                                               xtalker_str_1xsync_unitxsync_reg_reg/a_113_6__
+       --------------------------                                --------------------------
+       
+       (_tgmb):in2                                               ** missing connection **
+         X154/M10(24.922,23.260):d
+         X154/M26(24.863,24.023):d
+       
+       
+       ** missing connection **                                  (_tgmb):in2
+                                                                   xtalker_str_1xsync_unitxsync_reg_reg/m26:d
+                                                                   xtalker_str_1xsync_unitxsync_reg_reg/m10:d
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 11    Net X154/16                                               xtalker_str_1xfsm_unitxstate_reg_regx1x/a_122_6__
+       --------------------------                                --------------------------
+       
+       (_nand2v):in2                                             ** missing connection **
+         X154/M27(24.863,24.457):g
+         X154/M12(25.302,23.010):g
+       
+       
+       ** missing connection **                                  (_nand2v):in1
+                                                                   xtalker_str_1xfsm_unitxstate_reg_regx1x/m13:g
+                                                                   xtalker_str_1xfsm_unitxstate_reg_regx1x/m29:g
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 12    Net X155/13                                               xtalker_str_1xfsm_unitxstate_reg_regx1x/a_23_27__
+       --------------------------                                --------------------------
+       
+       X155/M19(28.198,23.895):s                                 ** missing connection **
+       X155/M18(27.852,23.895):d                                 ** missing connection **
+       X155/M4(28.323,23.365):s                                  ** missing connection **
+       X155/M3(27.922,23.365):d                                  ** missing connection **
+       
+       
+       
+       ** missing connection **                                  (_invb):out
+                                                                   xtalker_str_1xfsm_unitxstate_reg_regx1x/m21:s
+                                                                   xtalker_str_1xfsm_unitxstate_reg_regx1x/m4:d
+       
+       
+       ** missing connection **                                  (_invb):out
+                                                                   xtalker_str_1xfsm_unitxstate_reg_regx1x/m20:d
+                                                                   xtalker_str_1xfsm_unitxstate_reg_regx1x/m5:s
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 13    Net X155/12                                               xtalker_str_1xfsm_unitxstate_reg_regx1x/a_2_6__
+       --------------------------                                --------------------------
+       
+       X155/M19(28.198,23.895):d                                 ** missing connection **
+       X155/M4(28.323,23.365):d                                  ** missing connection **
+       
+       
+       
+       ** missing connection **                                  (_invb):sup1
+                                                                   xtalker_str_1xfsm_unitxstate_reg_regx1x/m4:s
+       
+       
+       ** missing connection **                                  (_invb):sup2
+                                                                   xtalker_str_1xfsm_unitxstate_reg_regx1x/m20:s
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 14    Net X155/14                                               xtalker_str_1xfsm_unitxstate_reg_regx1x/a_10_61__
+       --------------------------                                --------------------------
+       
+       (_tgmb):in1                                               ** missing connection **
+         X155/M9(29.543,23.260):s
+         X155/M24(29.613,24.023):s
+       
+       
+       ** missing connection **                                  (_tgmb):in1
+                                                                   xtalker_str_1xfsm_unitxstate_reg_regx1x/m25:s
+                                                                   xtalker_str_1xfsm_unitxstate_reg_regx1x/m9:s
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 15    Net X155/15                                               xlistener_str_1xfsm_unitxack_buf_reg_reg/a_113_6__
+       --------------------------                                --------------------------
+       
+       (_tgmb):in2                                               ** missing connection **
+         X155/M10(29.863,23.260):d
+         X155/M26(29.802,24.023):d
+       
+       
+       ** missing connection **                                  (_tgmb):in2
+                                                                   xlistener_str_1xfsm_unitxack_buf_reg_reg/m26:d
+                                                                   xlistener_str_1xfsm_unitxack_buf_reg_reg/m10:d
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 16    Net X155/16                                               xtalker_str_1xsync_unitxmeta_reg_reg/a_122_6__
+       --------------------------                                --------------------------
+       
+       (_nand2v):in2                                             ** missing connection **
+         X155/M27(29.802,24.457):g
+         X155/M12(30.242,23.010):g
+       
+       
+       ** missing connection **                                  (_nand2v):in1
+                                                                   xtalker_str_1xsync_unitxmeta_reg_reg/m13:g
+                                                                   xtalker_str_1xsync_unitxmeta_reg_reg/m29:g
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 17    Net X157/13                                               xlistener_str_1xsync_unitxmeta_reg_reg/a_23_27__
+       --------------------------                                --------------------------
+       
+       X157/M19(29.718,28.835):s                                 ** missing connection **
+       X157/M18(29.372,28.835):d                                 ** missing connection **
+       X157/M4(29.843,28.305):s                                  ** missing connection **
+       X157/M3(29.442,28.305):d                                  ** missing connection **
+       
+       
+       
+       ** missing connection **                                  (_invb):out
+                                                                   xlistener_str_1xsync_unitxmeta_reg_reg/m21:s
+                                                                   xlistener_str_1xsync_unitxmeta_reg_reg/m4:d
+       
+       
+       ** missing connection **                                  (_invb):out
+                                                                   xlistener_str_1xsync_unitxmeta_reg_reg/m20:d
+                                                                   xlistener_str_1xsync_unitxmeta_reg_reg/m5:s
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 18    Net X157/12                                               xlistener_str_1xsync_unitxmeta_reg_reg/a_2_6__
+       --------------------------                                --------------------------
+       
+       X157/M19(29.718,28.835):d                                 ** missing connection **
+       X157/M4(29.843,28.305):d                                  ** missing connection **
+       
+       
+       
+       ** missing connection **                                  (_invb):sup1
+                                                                   xlistener_str_1xsync_unitxmeta_reg_reg/m4:s
+       
+       
+       ** missing connection **                                  (_invb):sup2
+                                                                   xlistener_str_1xsync_unitxmeta_reg_reg/m20:s
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 19    Net X157/15                                               xtalker_str_1xfsm_unitxreq_buf_reg_reg/a_113_6__
+       --------------------------                                --------------------------
+       
+       (_tgmb):in2                                               ** missing connection **
+         X157/M10(31.383,28.200):d
+         X157/M26(31.323,28.962):d
+       
+       
+       ** missing connection **                                  (_tgmb):in2
+                                                                   xtalker_str_1xfsm_unitxreq_buf_reg_reg/m26:d
+                                                                   xtalker_str_1xfsm_unitxreq_buf_reg_reg/m10:d
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 20    Net X157/16                                               xlistener_str_1xsync_unitxmeta_reg_reg/a_122_6__
+       --------------------------                                --------------------------
+       
+       (_nand2v):in1                                             ** missing connection **
+         X157/M27(31.323,29.398):g
+         X157/M12(31.762,27.950):g
+       
+       
+       ** missing connection **                                  (_nand2v):in1
+                                                                   xlistener_str_1xsync_unitxmeta_reg_reg/m13:g
+                                                                   xlistener_str_1xsync_unitxmeta_reg_reg/m29:g
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 21    Net X159/13                                               xtalker_str_1xsync_unitxsync_reg_reg/a_23_27__
+       --------------------------                                --------------------------
+       
+       X159/M19(32.377,23.895):s                                 ** missing connection **
+       X159/M18(32.032,23.895):d                                 ** missing connection **
+       X159/M4(32.502,23.365):s                                  ** missing connection **
+       X159/M3(32.102,23.365):d                                  ** missing connection **
+       
+       
+       
+       ** missing connection **                                  (_invb):out
+                                                                   xtalker_str_1xsync_unitxsync_reg_reg/m21:s
+                                                                   xtalker_str_1xsync_unitxsync_reg_reg/m4:d
+       
+       
+       ** missing connection **                                  (_invb):out
+                                                                   xtalker_str_1xsync_unitxsync_reg_reg/m20:d
+                                                                   xtalker_str_1xsync_unitxsync_reg_reg/m5:s
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 22    Net X159/12                                               xtalker_str_1xsync_unitxsync_reg_reg/a_2_6__
+       --------------------------                                --------------------------
+       
+       X159/M19(32.377,23.895):d                                 ** missing connection **
+       X159/M4(32.502,23.365):d                                  ** missing connection **
+       
+       
+       
+       ** missing connection **                                  (_invb):sup1
+                                                                   xtalker_str_1xsync_unitxsync_reg_reg/m4:s
+       
+       
+       ** missing connection **                                  (_invb):sup2
+                                                                   xtalker_str_1xsync_unitxsync_reg_reg/m20:s
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 23    Net X159/14                                               xtalker_str_1xsync_unitxsync_reg_reg/a_10_61__
+       --------------------------                                --------------------------
+       
+       (_tgmb):in1                                               ** missing connection **
+         X159/M9(33.722,23.260):s
+         X159/M24(33.792,24.023):s
+       
+       
+       ** missing connection **                                  (_tgmb):in1
+                                                                   xtalker_str_1xsync_unitxsync_reg_reg/m25:s
+                                                                   xtalker_str_1xsync_unitxsync_reg_reg/m9:s
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 24    Net X159/15                                               xlistener_str_1xsync_unitxmeta_reg_reg/a_113_6__
+       --------------------------                                --------------------------
+       
+       (_tgmb):in2                                               ** missing connection **
+         X159/M10(34.042,23.260):d
+         X159/M26(33.983,24.023):d
+       
+       
+       ** missing connection **                                  (_tgmb):in2
+                                                                   xlistener_str_1xsync_unitxmeta_reg_reg/m26:d
+                                                                   xlistener_str_1xsync_unitxmeta_reg_reg/m10:d
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 25    Net X159/16                                               xtalker_str_1xfsm_unitxreq_buf_reg_reg/a_122_6__
+       --------------------------                                --------------------------
+       
+       (_nand2v):in2                                             ** missing connection **
+         X159/M27(33.983,24.457):g
+         X159/M12(34.422,23.010):g
+       
+       
+       ** missing connection **                                  (_nand2v):in1
+                                                                   xtalker_str_1xfsm_unitxreq_buf_reg_reg/m13:g
+                                                                   xtalker_str_1xfsm_unitxreq_buf_reg_reg/m29:g
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 26    Net X160/11                                               xlistener_str_1xsync_unitxsync_reg_reg/a_57_6__
+       --------------------------                                --------------------------
+       
+       (_invb):sup1                                              ** missing connection **
+         X160/M18(32.032,31.405):s
+       
+       
+       X160/M3(32.102,31.935):s                                  ** missing connection **
+       
+       
+       
+       ** missing connection **                                  (_invb):sup2
+                                                                   xlistener_str_1xsync_unitxsync_reg_reg/m21:d
+       
+       
+       ** missing connection **                                  (_invb):sup1
+                                                                   xlistener_str_1xsync_unitxsync_reg_reg/m5:d
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 27    Net 15                                                    req_in
+           37                                                   
+
+--------------------------------------------------------------------------------------------------------------
+
+ 28    Net X160/D                                                listener_str_1xsync_unitxmeta_reg
+           34                                                   
+
+--------------------------------------------------------------------------------------------------------------
+
+ 29    Net 17                                                    ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 30    Net 1                                                     ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 31    Net 21                                                    ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 32    Net 20                                                    ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 33    Net 18                                                    ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 34    Net 19                                                    ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 35    Net 22                                                    ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 36    Net 24                                                    ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 37    Net 25                                                    ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 38    Net 27                                                    ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 39    Net 5                                                     ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 40    Net 29                                                    ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 41    Net 32                                                    ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 42    Net 35                                                    ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 43    Net 12                                                    ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 44    Net 40                                                    ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 45    Net 41                                                    ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 46    Net X153/CLK                                              ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 47    Net X153/11                                               ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 48    Net X153/D                                                ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 49    Net X153/13                                               ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 50    Net X153/12                                               ** no similar net **
+
+
+**************************************************************************************************************
+                                   INCORRECT PORTS
+
+DISC#  LAYOUT NAME                                               SOURCE NAME
+**************************************************************************************************************
+
+ 51    ** missing port **                                        CLK1 on net: CLK1
+ 52    ** missing port **                                        CLK2 on net: CLK2
+ 53    ** missing port **                                        RESET1 on net: RESET1
+ 54    ** missing port **                                        RESET2 on net: RESET2
+ 55    ** missing port **                                        START on net: START
+ 56    ** missing port **                                        READY on net: READY
+ 57    ** missing port **                                        RCV on net: RCV
+
+
+**************************************************************************************************************
+                                 INCORRECT INSTANCES
+
+DISC#  LAYOUT NAME                                               SOURCE NAME
+**************************************************************************************************************
+
+ 58    X154/M24(24.672,24.023)  MP(PMOS_VTL)                     xtalker_str_1xfsm_unitxstate_reg_regx1x/m9  MP(PMOS_VTL)
+         s: 30                                                     s: xtalker_str_1xfsm_unitxstate_reg_regx1x/a_105_6__
+         g: 1                                                      ** no similar net **
+         d: X154/14                                                ** xtalker_str_1xfsm_unitxreq_buf_reg_reg/a_10_61__ **
+         b: 5                                                      ** no similar net **
+         ** no similar net **                                      g: xtalker_str_1xfsm_unitxstate_reg_regx1x/a_47_71__
+         ** X155/14 **                                             d: xtalker_str_1xfsm_unitxstate_reg_regx1x/a_10_61__
+         ** no similar net **                                      b: xtalker_str_1xfsm_unitxstate_reg_regx1x/vdd
+
+--------------------------------------------------------------------------------------------------------------
+
+ 59    X154/M10(24.922,23.260)  MN(NMOS_VTL)                     xtalker_str_1xfsm_unitxstate_reg_regx1x/m26  MN(NMOS_VTL)
+         s: 30                                                     s: xtalker_str_1xfsm_unitxstate_reg_regx1x/a_105_6__
+         g: 1                                                      ** no similar net **
+         d: X154/15                                                ** xtalker_str_1xsync_unitxsync_reg_reg/a_113_6__ **
+         b: 1                                                      ** no similar net **
+         ** no similar net **                                      g: xtalker_str_1xfsm_unitxstate_reg_regx1x/a_47_71__
+         ** no similar net **                                      d: xtalker_str_1xfsm_unitxstate_reg_regx1x/a_113_6__
+         ** no similar net **                                      b: xtalker_str_1xfsm_unitxstate_reg_regx1x/gnd
+
+--------------------------------------------------------------------------------------------------------------
+
+ 60    X155/M24(29.613,24.023)  MP(PMOS_VTL)                     xtalker_str_1xsync_unitxmeta_reg_reg/m9  MP(PMOS_VTL)
+         s: 31                                                     s: xtalker_str_1xsync_unitxmeta_reg_reg/a_105_6__
+         g: 1                                                      ** no similar net **
+         d: X155/14                                                ** xtalker_str_1xfsm_unitxstate_reg_regx1x/a_10_61__ **
+         b: 5                                                      ** no similar net **
+         ** no similar net **                                      g: xtalker_str_1xsync_unitxmeta_reg_reg/a_47_71__
+         ** no similar net **                                      d: xtalker_str_1xsync_unitxmeta_reg_reg/a_10_61__
+         ** no similar net **                                      b: xtalker_str_1xsync_unitxmeta_reg_reg/vdd
+
+--------------------------------------------------------------------------------------------------------------
+
+ 61    X155/M10(29.863,23.260)  MN(NMOS_VTL)                     xtalker_str_1xsync_unitxmeta_reg_reg/m26  MN(NMOS_VTL)
+         s: 31                                                     s: xtalker_str_1xsync_unitxmeta_reg_reg/a_105_6__
+         g: 1                                                      ** no similar net **
+         d: X155/15                                                ** xlistener_str_1xfsm_unitxack_buf_reg_reg/a_113_6__ **
+         b: 1                                                      ** no similar net **
+         ** no similar net **                                      g: xtalker_str_1xsync_unitxmeta_reg_reg/a_47_71__
+         ** no similar net **                                      d: xtalker_str_1xsync_unitxmeta_reg_reg/a_113_6__
+         ** no similar net **                                      b: xtalker_str_1xsync_unitxmeta_reg_reg/gnd
+
+--------------------------------------------------------------------------------------------------------------
+
+ 62    X157/M24(31.133,28.962)  MP(PMOS_VTL)                     xlistener_str_1xsync_unitxmeta_reg_reg/m9  MP(PMOS_VTL)
+         s: 33                                                     s: xlistener_str_1xsync_unitxmeta_reg_reg/a_105_6__
+         d: X157/14                                                d: xlistener_str_1xsync_unitxmeta_reg_reg/a_10_61__
+         g: 1                                                      ** no similar net **
+         b: 5                                                      ** no similar net **
+         ** no similar net **                                      g: xlistener_str_1xsync_unitxmeta_reg_reg/a_47_71__
+         ** no similar net **                                      b: xlistener_str_1xsync_unitxmeta_reg_reg/vdd
+
+--------------------------------------------------------------------------------------------------------------
+
+ 63    X157/M10(31.383,28.200)  MN(NMOS_VTL)                     xlistener_str_1xsync_unitxmeta_reg_reg/m26  MN(NMOS_VTL)
+         s: 33                                                     s: xlistener_str_1xsync_unitxmeta_reg_reg/a_105_6__
+         g: 1                                                      ** no similar net **
+         d: X157/15                                                ** xtalker_str_1xfsm_unitxreq_buf_reg_reg/a_113_6__ **
+         b: 1                                                      ** no similar net **
+         ** no similar net **                                      g: xlistener_str_1xsync_unitxmeta_reg_reg/a_47_71__
+         ** X159/15 **                                             d: xlistener_str_1xsync_unitxmeta_reg_reg/a_113_6__
+         ** no similar net **                                      b: xlistener_str_1xsync_unitxmeta_reg_reg/gnd
+
+--------------------------------------------------------------------------------------------------------------
+
+ 64    X159/M24(33.792,24.023)  MP(PMOS_VTL)                     xtalker_str_1xfsm_unitxreq_buf_reg_reg/m9  MP(PMOS_VTL)
+         s: 36                                                     s: xtalker_str_1xfsm_unitxreq_buf_reg_reg/a_105_6__
+         g: 1                                                      ** no similar net **
+         d: X159/14                                                ** xtalker_str_1xsync_unitxsync_reg_reg/a_10_61__ **
+         b: 5                                                      ** no similar net **
+         ** no similar net **                                      g: xtalker_str_1xfsm_unitxreq_buf_reg_reg/a_47_71__
+         ** X154/14 **                                             d: xtalker_str_1xfsm_unitxreq_buf_reg_reg/a_10_61__
+         ** no similar net **                                      b: xtalker_str_1xfsm_unitxreq_buf_reg_reg/vdd
+
+--------------------------------------------------------------------------------------------------------------
+
+ 65    X159/M10(34.042,23.260)  MN(NMOS_VTL)                     xtalker_str_1xfsm_unitxreq_buf_reg_reg/m26  MN(NMOS_VTL)
+         s: 36                                                     s: xtalker_str_1xfsm_unitxreq_buf_reg_reg/a_105_6__
+         g: 1                                                      ** no similar net **
+         d: X159/15                                                ** xlistener_str_1xsync_unitxmeta_reg_reg/a_113_6__ **
+         b: 1                                                      ** no similar net **
+         ** no similar net **                                      g: xtalker_str_1xfsm_unitxreq_buf_reg_reg/a_47_71__
+         ** X157/15 **                                             d: xtalker_str_1xfsm_unitxreq_buf_reg_reg/a_113_6__
+         ** no similar net **                                      b: xtalker_str_1xfsm_unitxreq_buf_reg_reg/gnd
+
+--------------------------------------------------------------------------------------------------------------
+
+ 66    M29(25.630,33.715)  MP(PMOS_VTL)                          xtalker_str_1xfsm_unitxu11/m1  MP(PMOS_VTL)
+         g: 8                                                      g: talker_str_1xfsm_unitxn7
+         b: 5                                                      ** no similar net **
+         ** 23 **                                                  b: xtalker_str_1xfsm_unitxu11/vdd
+
+--------------------------------------------------------------------------------------------------------------
+
+ 67    M26(25.440,33.715)  MP(PMOS_VTL)                          xtalker_str_1xfsm_unitxu11/m0  MP(PMOS_VTL)
+         g: 19                                                     ** no similar net **
+         b: 5                                                      ** no similar net **
+         ** 4 **                                                   g: talker_str_1xfsm_unitxstate_regx0x
+         ** 23 **                                                  b: xtalker_str_1xfsm_unitxu11/vdd
+
+--------------------------------------------------------------------------------------------------------------
+
+ 68    M35(26.010,33.715)  MP(PMOS_VTL)                          xtalker_str_1xfsm_unitxu11/m3  MP(PMOS_VTL)
+         g: 4                                                      ** talker_str_1xfsm_unitxstate_regx0x **
+         b: 5                                                      ** no similar net **
+         ** no similar net **                                      g: START
+         ** 23 **                                                  b: xtalker_str_1xfsm_unitxu11/vdd
+
+--------------------------------------------------------------------------------------------------------------
+
+ 69    M31(25.820,33.715)  MP(PMOS_VTL)                          xtalker_str_1xfsm_unitxu11/m2  MP(PMOS_VTL)
+         g: 9                                                      g: talker_str_1xfsm_unitxn6
+         b: 5                                                      ** no similar net **
+         ** 23 **                                                  b: xtalker_str_1xfsm_unitxu11/vdd
+
+--------------------------------------------------------------------------------------------------------------
+
+ 70    M23(25.332,25.358)  MP(PMOS_VTL)                          ** missing instance **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 71    X153/M16(20.938,26.465)  MP(PMOS_VTL)                     ** missing instance **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 72    X154/M16(22.457,23.895)  MP(PMOS_VTL)                     ** missing instance **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 73    X155/M16(27.398,23.895)  MP(PMOS_VTL)                     ** missing instance **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 74    X156/M16(27.398,31.405)  MP(PMOS_VTL)                     ** missing instance **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 75    X156/M31(30.918,31.277)  MP(PMOS_VTL)                     ** missing instance **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 76    X157/M16(28.918,28.835)  MP(PMOS_VTL)                     ** missing instance **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 77    X158/M16(29.297,21.525)  MP(PMOS_VTL)                     ** missing instance **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 78    X158/M31(32.818,21.398)  MP(PMOS_VTL)                     ** missing instance **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 79    X159/M16(31.578,23.895)  MP(PMOS_VTL)                     ** missing instance **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 80    X160/M16(31.578,31.405)  MP(PMOS_VTL)                     ** missing instance **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 81    X160/M31(35.097,31.277)  MP(PMOS_VTL)                     ** missing instance **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 82    X163/M1(22.023,21.420)  MP(PMOS_VTL)                      ** missing instance **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 83    X167/M3(26.885,24.000)  MP(PMOS_VTL)                      ** missing instance **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 84    M2(25.332,26.810)  MN(NMOS_VTL)                           ** missing instance **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 85    M4(25.440,22.032)  MN(NMOS_VTL)                           ** missing instance **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 86    M19(28.015,26.973)  MN(NMOS_VTL)                          ** missing instance **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 87    X153/M0(20.942,26.995)  MN(NMOS_VTL)                      ** missing instance **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 88    X154/M0(22.462,23.365)  MN(NMOS_VTL)                      ** missing instance **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 89    X155/M0(27.402,23.365)  MN(NMOS_VTL)                      ** missing instance **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 90    X156/M0(27.402,31.935)  MN(NMOS_VTL)                      ** missing instance **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 91    X156/M15(31.065,32.413)  MN(NMOS_VTL)                     ** missing instance **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 92    X157/M0(28.922,28.305)  MN(NMOS_VTL)                      ** missing instance **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 93    X158/M0(29.302,22.055)  MN(NMOS_VTL)                      ** missing instance **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 94    X158/M15(32.965,22.532)  MN(NMOS_VTL)                     ** missing instance **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 95    X159/M0(31.582,23.365)  MN(NMOS_VTL)                      ** missing instance **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 96    X160/M0(31.582,31.935)  MN(NMOS_VTL)                      ** missing instance **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 97    X160/M15(35.245,32.413)  MN(NMOS_VTL)                     ** missing instance **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 98    X163/M0(22.023,22.532)  MN(NMOS_VTL)                      ** missing instance **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 99    X167/M1(26.885,23.032)  MN(NMOS_VTL)                      ** missing instance **
+
+--------------------------------------------------------------------------------------------------------------
+
+100    X153/M3(21.462,26.995)  MN(NMOS_VTL)                      ** missing instance **
+
+--------------------------------------------------------------------------------------------------------------
+
+101    X153/M10(23.402,27.100)  MN(NMOS_VTL)                     ** missing instance **
+
+--------------------------------------------------------------------------------------------------------------
+
+102    X153/M19(21.738,26.465)  MP(PMOS_VTL)                     ** missing instance **
+
+--------------------------------------------------------------------------------------------------------------
+
+103    X153/M24(23.152,26.337)  MP(PMOS_VTL)                     ** missing instance **
+
+--------------------------------------------------------------------------------------------------------------
+
+104    X154/M3(22.983,23.365)  MN(NMOS_VTL)                      ** missing instance **
+
+--------------------------------------------------------------------------------------------------------------
+
+105    X154/M4(23.383,23.365)  MN(NMOS_VTL)                      ** missing instance **
+
+--------------------------------------------------------------------------------------------------------------
+
+106    X154/M18(22.913,23.895)  MP(PMOS_VTL)                     ** missing instance **
+
+--------------------------------------------------------------------------------------------------------------
+
+107    X154/M19(23.258,23.895)  MP(PMOS_VTL)                     ** missing instance **
+
+
+
+**************************************************************************************************************
+                                      PROPERTY ERRORS
+
+DISC#  LAYOUT                                                    SOURCE                      ERROR
+**************************************************************************************************************
+
+108    X162/M6(29.973,33.880)  MP(PMOS_VTL)                      xlistener_str_1xsync_unitxmeta_reg_reg/m6  MP(PMOS_VTL)
+       w: 4 u                                                    w: 0.5 u                     3.5 u
+
+109    X162/M2(29.782,32.770)  MN(NMOS_VTL)                      xlistener_str_1xsync_unitxmeta_reg_reg/m22  MN(NMOS_VTL)
+       w: 2 u                                                    w: 0.25 u                   1.75 u
+
+
+
+**************************************************************************************************************
+                               INFORMATION AND WARNINGS
+**************************************************************************************************************
+
+
+                  Matched    Matched    Unmatched    Unmatched    Component
+                   Layout     Source       Layout       Source    Type
+                  -------    -------    ---------    ---------    ---------
+   Ports:               0          0            0            7
+
+   Nets:               43         42           60          108
+
+   Instances:           0          0           32            0    MN(NMOS_VTL)
+                        0          0           31            0    MP(PMOS_VTL)
+                        1          1            0            0    SPMP_2_2
+                        0          0            9           16    _invb
+                       12         12           14           33    _invv
+                       18         18           15           15    _nand2v
+                        0          0            1            2    _nor2v
+                        2          2            2            0    _smn2v
+                        0          0            3            0    _smp2v
+                        4          4            0            4    _tgmb
+                        0          0            0            1    _xor2v
+                  -------    -------    ---------    ---------
+   Total Inst:         37         37          107           71
+
+
+o Statistics:
+
+   37 layout mos transistors were reduced to 12.
+     25 mos transistors were deleted by parallel reduction.
+   24 source mos transistors were reduced to 8.
+     16 mos transistors were deleted by parallel reduction.
+
+   10 nets were matched arbitrarily.
+
+
+o Ambiguity Resolution Points:
+
+      (Each one of the following objects belongs to a group of indistinguishable objects.
+       The listed objects were matched arbitrarily by the Ambiguity Resolution feature of LVS.
+       Arbitrary matching may be prevented by assigning names to these objects or to adjacent nets).
+
+       Layout                                                    Source
+       ------                                                    ------
+
+                                     Nets
+                                     ----
+
+       33                                                        xlistener_str_1xsync_unitxmeta_reg_reg/a_105_6__
+       X157/14                                                   xlistener_str_1xsync_unitxmeta_reg_reg/a_10_61__
+       38                                                        n7
+       30                                                        xtalker_str_1xfsm_unitxstate_reg_regx1x/a_105_6__
+       31                                                        xtalker_str_1xsync_unitxmeta_reg_reg/a_105_6__
+       X154/14                                                   xtalker_str_1xfsm_unitxreq_buf_reg_reg/a_10_61__
+       X159/14                                                   xtalker_str_1xsync_unitxsync_reg_reg/a_10_61__
+       X159/15                                                   xlistener_str_1xsync_unitxmeta_reg_reg/a_113_6__
+       X154/15                                                   xtalker_str_1xsync_unitxsync_reg_reg/a_113_6__
+       X157/15                                                   xtalker_str_1xfsm_unitxreq_buf_reg_reg/a_113_6__
+
+
+
+**************************************************************************************************************
+                             DETAILED INSTANCE CONNECTIONS
+
+       LAYOUT NAME                                               SOURCE NAME
+**************************************************************************************************************
+
+          (This section contains detailed information about connections of
+           matched instances that are involved in net discrepancies).
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_tgmb)                                                   (_tgmb)
+         out: 30                                                   out: xtalker_str_1xfsm_unitxstate_reg_regx1x/a_105_6__
+         in1: X154/14                                              ** xtalker_str_1xfsm_unitxreq_buf_reg_reg/a_10_61__ **
+         in2: X154/15                                              ** xtalker_str_1xsync_unitxsync_reg_reg/a_113_6__ **
+         sel1: 1                                                   ** no similar net **
+         sel2: 5                                                   ** no similar net **
+         ** X155/14 **                                             in1: xtalker_str_1xfsm_unitxstate_reg_regx1x/a_10_61__
+         ** no similar net **                                      in2: xtalker_str_1xfsm_unitxstate_reg_regx1x/a_113_6__
+         ** no similar net **                                      sel1: xtalker_str_1xfsm_unitxstate_reg_regx1x/a_47_71__
+         ** no similar net **                                      sel2: xtalker_str_1xfsm_unitxstate_reg_regx1x/a_47_4__
+
+       Devices: 
+         X154/M24(24.672,24.023)  MP(PMOS_VTL)                     xtalker_str_1xfsm_unitxstate_reg_regx1x/m9  MP(PMOS_VTL) 
+         X154/M10(24.922,23.260)  MN(NMOS_VTL)                     xtalker_str_1xfsm_unitxstate_reg_regx1x/m26  MN(NMOS_VTL) 
+         ** unmatched instance **                                  xtalker_str_1xfsm_unitxstate_reg_regx1x/m10  MP(PMOS_VTL) 
+         ** unmatched instance **                                  xtalker_str_1xfsm_unitxstate_reg_regx1x/m25  MN(NMOS_VTL) 
+         X154/M26(24.863,24.023)  MP(PMOS_VTL)                     ** unmatched instance **
+         X154/M9(24.602,23.260)  MN(NMOS_VTL)                      ** unmatched instance **
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_tgmb)                                                   (_tgmb)
+         out: 31                                                   out: xtalker_str_1xsync_unitxmeta_reg_reg/a_105_6__
+         in1: X155/14                                              ** xtalker_str_1xfsm_unitxstate_reg_regx1x/a_10_61__ **
+         in2: X155/15                                              ** xlistener_str_1xfsm_unitxack_buf_reg_reg/a_113_6__ **
+         sel1: 1                                                   ** no similar net **
+         sel2: 5                                                   ** no similar net **
+         ** no similar net **                                      in1: xtalker_str_1xsync_unitxmeta_reg_reg/a_10_61__
+         ** no similar net **                                      in2: xtalker_str_1xsync_unitxmeta_reg_reg/a_113_6__
+         ** no similar net **                                      sel1: xtalker_str_1xsync_unitxmeta_reg_reg/a_47_71__
+         ** no similar net **                                      sel2: xtalker_str_1xsync_unitxmeta_reg_reg/a_47_4__
+
+       Devices: 
+         X155/M24(29.613,24.023)  MP(PMOS_VTL)                     xtalker_str_1xsync_unitxmeta_reg_reg/m9  MP(PMOS_VTL) 
+         X155/M10(29.863,23.260)  MN(NMOS_VTL)                     xtalker_str_1xsync_unitxmeta_reg_reg/m26  MN(NMOS_VTL) 
+         ** unmatched instance **                                  xtalker_str_1xsync_unitxmeta_reg_reg/m10  MP(PMOS_VTL) 
+         ** unmatched instance **                                  xtalker_str_1xsync_unitxmeta_reg_reg/m25  MN(NMOS_VTL) 
+         X155/M26(29.802,24.023)  MP(PMOS_VTL)                     ** unmatched instance **
+         X155/M9(29.543,23.260)  MN(NMOS_VTL)                      ** unmatched instance **
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_tgmb)                                                   (_tgmb)
+         in1: X157/14                                              in1: xlistener_str_1xsync_unitxmeta_reg_reg/a_10_61__
+         out: 33                                                   out: xlistener_str_1xsync_unitxmeta_reg_reg/a_105_6__
+         in2: X157/15                                              ** xtalker_str_1xfsm_unitxreq_buf_reg_reg/a_113_6__ **
+         sel1: 1                                                   ** no similar net **
+         sel2: 5                                                   ** no similar net **
+         ** X159/15 **                                             in2: xlistener_str_1xsync_unitxmeta_reg_reg/a_113_6__
+         ** no similar net **                                      sel1: xlistener_str_1xsync_unitxmeta_reg_reg/a_47_71__
+         ** no similar net **                                      sel2: xlistener_str_1xsync_unitxmeta_reg_reg/a_47_4__
+
+       Devices: 
+         X157/M24(31.133,28.962)  MP(PMOS_VTL)                     xlistener_str_1xsync_unitxmeta_reg_reg/m9  MP(PMOS_VTL) 
+         X157/M10(31.383,28.200)  MN(NMOS_VTL)                     xlistener_str_1xsync_unitxmeta_reg_reg/m26  MN(NMOS_VTL) 
+         ** unmatched instance **                                  xlistener_str_1xsync_unitxmeta_reg_reg/m10  MP(PMOS_VTL) 
+         ** unmatched instance **                                  xlistener_str_1xsync_unitxmeta_reg_reg/m25  MN(NMOS_VTL) 
+         X157/M26(31.323,28.962)  MP(PMOS_VTL)                     ** unmatched instance **
+         X157/M9(31.062,28.200)  MN(NMOS_VTL)                      ** unmatched instance **
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_tgmb)                                                   (_tgmb)
+         out: 36                                                   out: xtalker_str_1xfsm_unitxreq_buf_reg_reg/a_105_6__
+         in1: X159/14                                              ** xtalker_str_1xsync_unitxsync_reg_reg/a_10_61__ **
+         in2: X159/15                                              ** xlistener_str_1xsync_unitxmeta_reg_reg/a_113_6__ **
+         sel1: 1                                                   ** no similar net **
+         sel2: 5                                                   ** no similar net **
+         ** X154/14 **                                             in1: xtalker_str_1xfsm_unitxreq_buf_reg_reg/a_10_61__
+         ** X157/15 **                                             in2: xtalker_str_1xfsm_unitxreq_buf_reg_reg/a_113_6__
+         ** no similar net **                                      sel1: xtalker_str_1xfsm_unitxreq_buf_reg_reg/a_47_71__
+         ** no similar net **                                      sel2: xtalker_str_1xfsm_unitxreq_buf_reg_reg/a_47_4__
+
+       Devices: 
+         X159/M24(33.792,24.023)  MP(PMOS_VTL)                     xtalker_str_1xfsm_unitxreq_buf_reg_reg/m9  MP(PMOS_VTL) 
+         X159/M10(34.042,23.260)  MN(NMOS_VTL)                     xtalker_str_1xfsm_unitxreq_buf_reg_reg/m26  MN(NMOS_VTL) 
+         ** unmatched instance **                                  xtalker_str_1xfsm_unitxreq_buf_reg_reg/m10  MP(PMOS_VTL) 
+         ** unmatched instance **                                  xtalker_str_1xfsm_unitxreq_buf_reg_reg/m25  MN(NMOS_VTL) 
+         X159/M26(33.983,24.023)  MP(PMOS_VTL)                     ** unmatched instance **
+         X159/M9(33.722,23.260)  MN(NMOS_VTL)                      ** unmatched instance **
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_smn2v)                                                  (_smn2v)
+         in1: 9                                                    in2: talker_str_1xfsm_unitxn6
+         out1: 23                                                  out2: xtalker_str_1xfsm_unitxu11/gnd
+         in2: 4                                                    ** talker_str_1xfsm_unitxstate_regx0x **
+         out2: 1                                                   ** no similar net **
+         ** no similar net **                                      in1: START
+         ** no similar net **                                      out1: talker_str_1xfsm_unitxn9
+
+       Devices: 
+         M15(26.010,32.770)  MN(NMOS_VTL)                          xtalker_str_1xfsm_unitxu11/m7  MN(NMOS_VTL) 
+         M11(25.820,32.770)  MN(NMOS_VTL)                          xtalker_str_1xfsm_unitxu11/m6  MN(NMOS_VTL) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_smn2v)                                                  (_smn2v)
+         in2: 8                                                    in1: talker_str_1xfsm_unitxn7
+         out1: 23                                                  out2: xtalker_str_1xfsm_unitxu11/gnd
+         in1: 19                                                   ** no similar net **
+         out2: 1                                                   ** no similar net **
+         ** 4 **                                                   in2: talker_str_1xfsm_unitxstate_regx0x
+         ** no similar net **                                      out1: talker_str_1xfsm_unitxn9
+
+       Devices: 
+         M9(25.630,32.770)  MN(NMOS_VTL)                           xtalker_str_1xfsm_unitxu11/m5  MN(NMOS_VTL) 
+         M5(25.440,32.770)  MN(NMOS_VTL)                           xtalker_str_1xfsm_unitxu11/m4  MN(NMOS_VTL) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_invv)                                                   (_invv)
+         out: 9                                                    out: talker_str_1xfsm_unitxn6
+         in: X164/A                                                ** no similar net **
+         sup1: 5                                                   ** no similar net **
+         sup2: 1                                                   ** no similar net **
+         ** 4 **                                                   in: talker_str_1xfsm_unitxstate_regx0x
+         ** no similar net **                                      sup1: xu14/vdd
+         ** no similar net **                                      sup2: xu14/gnd
+
+       Devices: 
+         X164/M1(22.023,31.300)  MP(PMOS_VTL)                      xu14/m0  MP(PMOS_VTL) 
+         X164/M0(22.023,32.413)  MN(NMOS_VTL)                      xu14/m1  MN(NMOS_VTL) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 (_nand2v)
+         out: X159/15                                              out: xlistener_str_1xsync_unitxmeta_reg_reg/a_113_6__
+         in1: 5                                                    ** no similar net **
+         in2: X159/16                                              ** xtalker_str_1xfsm_unitxreq_buf_reg_reg/a_122_6__ **
+         sup1: 5                                                   ** no similar net **
+         sup2: 1                                                   ** no similar net **
+         ** X157/16 **                                             in1: xlistener_str_1xsync_unitxmeta_reg_reg/a_122_6__
+         ** no similar net **                                      in2: vdd!
+         ** no similar net **                                      sup1: xlistener_str_1xsync_unitxmeta_reg_reg/vdd
+         ** no similar net **                                      sup2: xlistener_str_1xsync_unitxmeta_reg_reg/gnd
+
+       Devices: 
+         X159/M12(34.422,23.010)  MN(NMOS_VTL)                     xlistener_str_1xsync_unitxmeta_reg_reg/m29  MN(NMOS_VTL) 
+         X159/M27(33.983,24.457)  MP(PMOS_VTL)                     xlistener_str_1xsync_unitxmeta_reg_reg/m13  MP(PMOS_VTL) 
+         ** unmatched instance **                                  xlistener_str_1xsync_unitxmeta_reg_reg/m30  MN(NMOS_VTL) 
+         ** unmatched instance **                                  xlistener_str_1xsync_unitxmeta_reg_reg/m14  MP(PMOS_VTL) 
+         X159/M11(34.233,23.010)  MN(NMOS_VTL)                     ** unmatched instance **
+         X159/M28(34.413,24.023)  MP(PMOS_VTL)                     ** unmatched instance **
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 (_nand2v)
+         out: X157/15                                              out: xtalker_str_1xfsm_unitxreq_buf_reg_reg/a_113_6__
+         in1: X157/16                                              ** xlistener_str_1xsync_unitxmeta_reg_reg/a_122_6__ **
+         in2: 5                                                    ** no similar net **
+         sup1: 5                                                   ** no similar net **
+         sup2: 1                                                   ** no similar net **
+         ** X159/16 **                                             in1: xtalker_str_1xfsm_unitxreq_buf_reg_reg/a_122_6__
+         ** no similar net **                                      in2: vdd!
+         ** no similar net **                                      sup1: xtalker_str_1xfsm_unitxreq_buf_reg_reg/vdd
+         ** no similar net **                                      sup2: xtalker_str_1xfsm_unitxreq_buf_reg_reg/gnd
+
+       Devices: 
+         X157/M12(31.762,27.950)  MN(NMOS_VTL)                     xtalker_str_1xfsm_unitxreq_buf_reg_reg/m29  MN(NMOS_VTL) 
+         X157/M27(31.323,29.398)  MP(PMOS_VTL)                     xtalker_str_1xfsm_unitxreq_buf_reg_reg/m13  MP(PMOS_VTL) 
+         ** unmatched instance **                                  xtalker_str_1xfsm_unitxreq_buf_reg_reg/m30  MN(NMOS_VTL) 
+         ** unmatched instance **                                  xtalker_str_1xfsm_unitxreq_buf_reg_reg/m14  MP(PMOS_VTL) 
+         X157/M11(31.573,27.950)  MN(NMOS_VTL)                     ** unmatched instance **
+         X157/M28(31.753,28.962)  MP(PMOS_VTL)                     ** unmatched instance **
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 (_nand2v)
+         out: X154/15                                              out: xtalker_str_1xsync_unitxsync_reg_reg/a_113_6__
+         in1: 5                                                    ** no similar net **
+         in2: X154/16                                              ** xtalker_str_1xfsm_unitxstate_reg_regx1x/a_122_6__ **
+         sup1: 5                                                   ** no similar net **
+         sup2: 1                                                   ** no similar net **
+         ** no similar net **                                      in1: xtalker_str_1xsync_unitxsync_reg_reg/a_122_6__
+         ** no similar net **                                      in2: vdd!
+         ** no similar net **                                      sup1: xtalker_str_1xsync_unitxsync_reg_reg/vdd
+         ** no similar net **                                      sup2: xtalker_str_1xsync_unitxsync_reg_reg/gnd
+
+       Devices: 
+         ** unmatched instance **                                  xtalker_str_1xsync_unitxsync_reg_reg/m29  MN(NMOS_VTL) 
+         ** unmatched instance **                                  xtalker_str_1xsync_unitxsync_reg_reg/m30  MN(NMOS_VTL) 
+         ** unmatched instance **                                  xtalker_str_1xsync_unitxsync_reg_reg/m13  MP(PMOS_VTL) 
+         ** unmatched instance **                                  xtalker_str_1xsync_unitxsync_reg_reg/m14  MP(PMOS_VTL) 
+         X154/M11(25.113,23.010)  MN(NMOS_VTL)                     ** unmatched instance **
+         X154/M12(25.302,23.010)  MN(NMOS_VTL)                     ** unmatched instance **
+         X154/M28(25.293,24.023)  MP(PMOS_VTL)                     ** unmatched instance **
+         X154/M27(24.863,24.457)  MP(PMOS_VTL)                     ** unmatched instance **
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 (_nand2v)
+         out: X155/15                                              out: xlistener_str_1xfsm_unitxack_buf_reg_reg/a_113_6__
+         in1: 5                                                    ** no similar net **
+         in2: X155/16                                              ** xtalker_str_1xsync_unitxmeta_reg_reg/a_122_6__ **
+         sup1: 5                                                   ** no similar net **
+         sup2: 1                                                   ** no similar net **
+         ** no similar net **                                      in1: xlistener_str_1xfsm_unitxack_buf_reg_reg/a_122_6__
+         ** no similar net **                                      in2: vdd!
+         ** no similar net **                                      sup1: xlistener_str_1xfsm_unitxack_buf_reg_reg/vdd
+         ** no similar net **                                      sup2: xlistener_str_1xfsm_unitxack_buf_reg_reg/gnd
+
+       Devices: 
+         ** unmatched instance **                                  xlistener_str_1xfsm_unitxack_buf_reg_reg/m29  MN(NMOS_VTL) 
+         ** unmatched instance **                                  xlistener_str_1xfsm_unitxack_buf_reg_reg/m30  MN(NMOS_VTL) 
+         ** unmatched instance **                                  xlistener_str_1xfsm_unitxack_buf_reg_reg/m13  MP(PMOS_VTL) 
+         ** unmatched instance **                                  xlistener_str_1xfsm_unitxack_buf_reg_reg/m14  MP(PMOS_VTL) 
+         X155/M11(30.052,23.010)  MN(NMOS_VTL)                     ** unmatched instance **
+         X155/M12(30.242,23.010)  MN(NMOS_VTL)                     ** unmatched instance **
+         X155/M28(30.233,24.023)  MP(PMOS_VTL)                     ** unmatched instance **
+         X155/M27(29.802,24.457)  MP(PMOS_VTL)                     ** unmatched instance **
+
+--------------------------------------------------------------------------------------------------------------
+
+       (SPMP_2_2)                                                (SPMP_2_2)
+         output: 23                                                output: xtalker_str_1xfsm_unitxu11/vdd
+         input: 8                                                  input: talker_str_1xfsm_unitxn7
+         input: 9                                                  input: talker_str_1xfsm_unitxn6
+         output: 5                                                 ** no similar net **
+         input: 19                                                 ** no similar net **
+         input: 4                                                  ** talker_str_1xfsm_unitxstate_regx0x **
+         ** no similar net **                                      output: talker_str_1xfsm_unitxn9
+         ** no similar net **                                      input: START
+         ** 4 **                                                   input: talker_str_1xfsm_unitxstate_regx0x
+
+       Transistors:
+         M29(25.630,33.715)  MP(PMOS_VTL)                          xtalker_str_1xfsm_unitxu11/m1  MP(PMOS_VTL)
+         M26(25.440,33.715)  MP(PMOS_VTL)                          xtalker_str_1xfsm_unitxu11/m0  MP(PMOS_VTL)
+         M35(26.010,33.715)  MP(PMOS_VTL)                          xtalker_str_1xfsm_unitxu11/m3  MP(PMOS_VTL)
+         M31(25.820,33.715)  MP(PMOS_VTL)                          xtalker_str_1xfsm_unitxu11/m2  MP(PMOS_VTL)
+
+
+
+**************************************************************************************************************
+                                  UNMATCHED OBJECTS
+       LAYOUT                                                    SOURCE
+**************************************************************************************************************
+
+       (_invv)                                                   ** unmatched injected instance **
+
+       Devices: 
+         X157/M17(29.183,28.835)  MP(PMOS_VTL)
+         X157/M1(29.183,28.305)  MN(NMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_invv)                                                   ** unmatched injected instance **
+
+       Devices: 
+         X153/M17(21.203,26.465)  MP(PMOS_VTL)
+         X153/M1(21.203,26.995)  MN(NMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_invv)                                                   ** unmatched injected instance **
+
+       Devices: 
+         X159/M17(31.843,23.895)  MP(PMOS_VTL)
+         X159/M1(31.843,23.365)  MN(NMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_invv)                                                   ** unmatched injected instance **
+
+       Devices: 
+         X156/M17(27.663,31.405)  MP(PMOS_VTL)
+         X156/M1(27.663,31.935)  MN(NMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_invv)                                                   ** unmatched injected instance **
+
+       Devices: 
+         X158/M17(29.562,21.525)  MP(PMOS_VTL)
+         X158/M1(29.562,22.055)  MN(NMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_invv)                                                   ** unmatched injected instance **
+
+       Devices: 
+         X154/M17(22.723,23.895)  MP(PMOS_VTL)
+         X154/M1(22.723,23.365)  MN(NMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_invv)                                                   ** unmatched injected instance **
+
+       Devices: 
+         X155/M17(27.663,23.895)  MP(PMOS_VTL)
+         X155/M1(27.663,23.365)  MN(NMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_invb)                                                   ** unmatched injected instance **
+
+       Devices: 
+         X158/M18(29.753,21.525)  MP(PMOS_VTL)
+         X158/M4(30.223,22.055)  MN(NMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_invb)                                                   ** unmatched injected instance **
+
+       Devices: 
+         X160/M18(32.032,31.405)  MP(PMOS_VTL)
+         X160/M4(32.502,31.935)  MN(NMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_invb)                                                   ** unmatched injected instance **
+
+       Devices: 
+         X153/M18(21.392,26.465)  MP(PMOS_VTL)
+         X153/M4(21.863,26.995)  MN(NMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_invb)                                                   ** unmatched injected instance **
+
+       Devices: 
+         X156/M18(27.852,31.405)  MP(PMOS_VTL)
+         X156/M4(28.323,31.935)  MN(NMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_invv)                                                   ** unmatched injected instance **
+
+       Devices: 
+         X156/M20(28.198,30.797)  MP(PMOS_VTL)
+         X156/M2(27.922,32.325)  MN(NMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_invv)                                                   ** unmatched injected instance **
+
+       Devices: 
+         M32(25.832,30.300)  MP(PMOS_VTL)
+         M12(25.823,31.892)  MN(NMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_invv)                                                   ** unmatched injected instance **
+
+       Devices: 
+         M38(26.652,25.358)  MP(PMOS_VTL)
+         M17(26.652,26.823)  MN(NMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_invv)                                                   ** unmatched injected instance **
+
+       Devices: 
+         X153/M20(21.738,25.858)  MP(PMOS_VTL)
+         X153/M2(21.462,27.385)  MN(NMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_invv)                                                   ** unmatched injected instance **
+
+       Devices: 
+         X158/M20(30.098,20.918)  MP(PMOS_VTL)
+         X158/M2(29.823,22.445)  MN(NMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_invv)                                                   ** unmatched injected instance **
+
+       Devices: 
+         X168/M3(28.405,28.940)  MP(PMOS_VTL)
+         X168/M1(28.405,27.973)  MN(NMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_invv)                                                   ** unmatched injected instance **
+
+       Devices: 
+         X161/M6(27.312,21.420)  MP(PMOS_VTL)
+         X161/M2(27.122,22.530)  MN(NMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nor2v)                                                  ** unmatched injected instance **
+
+       Devices: 
+         M21(24.300,28.325)  MP(PMOS_VTL)
+         M22(24.490,28.325)  MP(PMOS_VTL)
+         M0(24.300,27.829)  MN(NMOS_VTL)
+         M1(24.490,27.829)  MN(NMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 ** unmatched injected instance **
+
+       Devices: 
+         X156/M14(30.663,32.290)  MN(NMOS_VTL)
+         X156/M13(30.473,32.290)  MN(NMOS_VTL)
+         X156/M30(30.663,31.277)  MP(PMOS_VTL)
+         X156/M29(30.473,31.277)  MP(PMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 ** unmatched injected instance **
+
+       Devices: 
+         X158/M14(32.562,22.410)  MN(NMOS_VTL)
+         X158/M13(32.373,22.410)  MN(NMOS_VTL)
+         X158/M30(32.562,21.398)  MP(PMOS_VTL)
+         X158/M29(32.373,21.398)  MP(PMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 ** unmatched injected instance **
+
+       Devices: 
+         X160/M13(34.653,32.290)  MN(NMOS_VTL)
+         X160/M14(34.843,32.290)  MN(NMOS_VTL)
+         X160/M29(34.653,31.277)  MP(PMOS_VTL)
+         X160/M30(34.843,31.277)  MP(PMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 ** unmatched injected instance **
+
+       Devices: 
+         X153/M7(22.652,27.245)  MN(NMOS_VTL)
+         X153/M8(22.843,27.245)  MN(NMOS_VTL)
+         X153/M25(23.152,25.902)  MP(PMOS_VTL)
+         X153/M23(22.777,26.337)  MP(PMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 ** unmatched injected instance **
+
+       Devices: 
+         X156/M8(29.302,32.185)  MN(NMOS_VTL)
+         X156/M7(29.113,32.185)  MN(NMOS_VTL)
+         X156/M23(29.238,31.277)  MP(PMOS_VTL)
+         X156/M25(29.613,30.843)  MP(PMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 ** unmatched injected instance **
+
+       Devices: 
+         X160/M7(33.292,32.185)  MN(NMOS_VTL)
+         X160/M8(33.483,32.185)  MN(NMOS_VTL)
+         X160/M25(33.792,30.843)  MP(PMOS_VTL)
+         X160/M23(33.417,31.277)  MP(PMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 ** unmatched injected instance **
+
+       Devices: 
+         X158/M7(31.012,22.305)  MN(NMOS_VTL)
+         X158/M8(31.203,22.305)  MN(NMOS_VTL)
+         X158/M25(31.512,20.962)  MP(PMOS_VTL)
+         X158/M23(31.137,21.398)  MP(PMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 ** unmatched injected instance **
+
+       Devices: 
+         X160/M11(34.233,32.290)  MN(NMOS_VTL)
+         X160/M12(34.422,32.290)  MN(NMOS_VTL)
+         X160/M28(34.413,31.277)  MP(PMOS_VTL)
+         X160/M27(33.983,30.843)  MP(PMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 ** unmatched injected instance **
+
+       Devices: 
+         X156/M11(30.052,32.290)  MN(NMOS_VTL)
+         X156/M12(30.242,32.290)  MN(NMOS_VTL)
+         X156/M28(30.233,31.277)  MP(PMOS_VTL)
+         X156/M27(29.802,30.843)  MP(PMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 ** unmatched injected instance **
+
+       Devices: 
+         X158/M11(31.953,22.410)  MN(NMOS_VTL)
+         X158/M12(32.142,22.410)  MN(NMOS_VTL)
+         X158/M28(32.133,21.398)  MP(PMOS_VTL)
+         X158/M27(31.703,20.962)  MP(PMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 ** unmatched injected instance **
+
+       Devices: 
+         M3(25.348,31.892)  MN(NMOS_VTL)
+         M6(25.538,31.892)  MN(NMOS_VTL)
+         M24(25.348,30.800)  MP(PMOS_VTL)
+         M27(25.538,30.800)  MP(PMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 ** unmatched injected instance **
+
+       Devices: 
+         X158/M6(30.602,22.305)  MN(NMOS_VTL)
+         X158/M5(30.413,22.305)  MN(NMOS_VTL)
+         X158/M22(30.617,21.525)  MP(PMOS_VTL)
+         X158/M21(30.337,21.525)  MP(PMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 ** unmatched injected instance **
+
+       Devices: 
+         X153/M6(22.242,27.245)  MN(NMOS_VTL)
+         X153/M5(22.052,27.245)  MN(NMOS_VTL)
+         X153/M22(22.258,26.465)  MP(PMOS_VTL)
+         X153/M21(21.977,26.465)  MP(PMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 ** unmatched injected instance **
+
+       Devices: 
+         X160/M5(32.693,32.185)  MN(NMOS_VTL)
+         X160/M6(32.883,32.185)  MN(NMOS_VTL)
+         X160/M21(32.617,31.405)  MP(PMOS_VTL)
+         X160/M22(32.898,31.405)  MP(PMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 ** unmatched injected instance **
+
+       Devices: 
+         X156/M6(28.703,32.185)  MN(NMOS_VTL)
+         X156/M5(28.512,32.185)  MN(NMOS_VTL)
+         X156/M22(28.718,31.405)  MP(PMOS_VTL)
+         X156/M21(28.438,31.405)  MP(PMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_invb)                                                   ** unmatched injected instance **
+
+       Devices: 
+         X153/M26(23.343,26.337)  MP(PMOS_VTL)
+         X153/M9(23.082,27.100)  MN(NMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_invb)                                                   ** unmatched injected instance **
+
+       Devices: 
+         X156/M26(29.802,31.277)  MP(PMOS_VTL)
+         X156/M9(29.543,32.040)  MN(NMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_invb)                                                   ** unmatched injected instance **
+
+       Devices: 
+         X158/M26(31.703,21.398)  MP(PMOS_VTL)
+         X158/M9(31.442,22.160)  MN(NMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_invb)                                                   ** unmatched injected instance **
+
+       Devices: 
+         X160/M26(33.983,31.277)  MP(PMOS_VTL)
+         X160/M9(33.722,32.040)  MN(NMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_invb)                                                   ** unmatched injected instance **
+
+       Devices: 
+         M40(28.015,25.860)  MP(PMOS_VTL)
+         X159/M2(32.102,22.975)  MN(NMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       ** unmatched injected instance **                         (_invv)
+
+                                                                 Devices: 
+                                                                   xlistener_str_1xfsm_unitxack_buf_reg_reg/m6  MP(PMOS_VTL)
+                                                                   xlistener_str_1xfsm_unitxack_buf_reg_reg/m22  MN(NMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       ** unmatched injected instance **                         (_invv)
+
+                                                                 Devices: 
+                                                                   xtalker_str_1xfsm_unitxreq_buf_reg_reg/m6  MP(PMOS_VTL)
+                                                                   xtalker_str_1xfsm_unitxreq_buf_reg_reg/m22  MN(NMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       ** unmatched injected instance **                         (_invv)
+
+                                                                 Devices: 
+                                                                   xtalker_str_1xsync_unitxsync_reg_reg/m6  MP(PMOS_VTL)
+                                                                   xtalker_str_1xsync_unitxsync_reg_reg/m22  MN(NMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       ** unmatched injected instance **                         (_invv)
+
+                                                                 Devices: 
+                                                                   xtalker_str_1xfsm_unitxstate_reg_regx1x/m6  MP(PMOS_VTL)
+                                                                   xtalker_str_1xfsm_unitxstate_reg_regx1x/m22  MN(NMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       ** unmatched injected instance **                         (_invv)
+
+                                                                 Devices: 
+                                                                   xtalker_str_1xfsm_unitxstate_reg_regx0x/m6  MP(PMOS_VTL)
+                                                                   xtalker_str_1xfsm_unitxstate_reg_regx0x/m22  MN(NMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       ** unmatched injected instance **                         (_invv)
+
+                                                                 Devices: 
+                                                                   xtalker_str_1xsync_unitxmeta_reg_reg/m6  MP(PMOS_VTL)
+                                                                   xtalker_str_1xsync_unitxmeta_reg_reg/m22  MN(NMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       ** unmatched injected instance **                         (_invb)
+
+                                                                 Devices: 
+                                                                   xtalker_str_1xfsm_unitxstate_reg_regx1x/m5  MP(PMOS_VTL)
+                                                                   xtalker_str_1xfsm_unitxstate_reg_regx1x/m20  MN(NMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       ** unmatched injected instance **                         (_invb)
+
+                                                                 Devices: 
+                                                                   xtalker_str_1xfsm_unitxstate_reg_regx1x/m4  MP(PMOS_VTL)
+                                                                   xtalker_str_1xfsm_unitxstate_reg_regx1x/m21  MN(NMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       ** unmatched injected instance **                         (_invb)
+
+                                                                 Devices: 
+                                                                   xtalker_str_1xfsm_unitxstate_reg_regx0x/m5  MP(PMOS_VTL)
+                                                                   xtalker_str_1xfsm_unitxstate_reg_regx0x/m20  MN(NMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       ** unmatched injected instance **                         (_invb)
+
+                                                                 Devices: 
+                                                                   xtalker_str_1xfsm_unitxstate_reg_regx0x/m4  MP(PMOS_VTL)
+                                                                   xtalker_str_1xfsm_unitxstate_reg_regx0x/m21  MN(NMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       ** unmatched injected instance **                         (_invb)
+
+                                                                 Devices: 
+                                                                   xlistener_str_1xsync_unitxsync_reg_reg/m5  MP(PMOS_VTL)
+                                                                   xlistener_str_1xsync_unitxsync_reg_reg/m20  MN(NMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       ** unmatched injected instance **                         (_invb)
+
+                                                                 Devices: 
+                                                                   xlistener_str_1xsync_unitxsync_reg_reg/m4  MP(PMOS_VTL)
+                                                                   xlistener_str_1xsync_unitxsync_reg_reg/m21  MN(NMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       ** unmatched injected instance **                         (_invb)
+
+                                                                 Devices: 
+                                                                   xtalker_str_1xfsm_unitxreq_buf_reg_reg/m5  MP(PMOS_VTL)
+                                                                   xtalker_str_1xfsm_unitxreq_buf_reg_reg/m20  MN(NMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       ** unmatched injected instance **                         (_invb)
+
+                                                                 Devices: 
+                                                                   xtalker_str_1xfsm_unitxreq_buf_reg_reg/m4  MP(PMOS_VTL)
+                                                                   xtalker_str_1xfsm_unitxreq_buf_reg_reg/m21  MN(NMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       ** unmatched injected instance **                         (_invb)
+
+                                                                 Devices: 
+                                                                   xlistener_str_1xsync_unitxmeta_reg_reg/m5  MP(PMOS_VTL)
+                                                                   xlistener_str_1xsync_unitxmeta_reg_reg/m20  MN(NMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       ** unmatched injected instance **                         (_invb)
+
+                                                                 Devices: 
+                                                                   xlistener_str_1xsync_unitxmeta_reg_reg/m4  MP(PMOS_VTL)
+                                                                   xlistener_str_1xsync_unitxmeta_reg_reg/m21  MN(NMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       ** unmatched injected instance **                         (_invb)
+
+                                                                 Devices: 
+                                                                   xlistener_str_1xfsm_unitxack_buf_reg_reg/m5  MP(PMOS_VTL)
+                                                                   xlistener_str_1xfsm_unitxack_buf_reg_reg/m20  MN(NMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       ** unmatched injected instance **                         (_invb)
+
+                                                                 Devices: 
+                                                                   xlistener_str_1xfsm_unitxack_buf_reg_reg/m4  MP(PMOS_VTL)
+                                                                   xlistener_str_1xfsm_unitxack_buf_reg_reg/m21  MN(NMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       ** unmatched injected instance **                         (_invb)
+
+                                                                 Devices: 
+                                                                   xtalker_str_1xsync_unitxmeta_reg_reg/m5  MP(PMOS_VTL)
+                                                                   xtalker_str_1xsync_unitxmeta_reg_reg/m20  MN(NMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       ** unmatched injected instance **                         (_invb)
+
+                                                                 Devices: 
+                                                                   xtalker_str_1xsync_unitxmeta_reg_reg/m4  MP(PMOS_VTL)
+                                                                   xtalker_str_1xsync_unitxmeta_reg_reg/m21  MN(NMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       ** unmatched injected instance **                         (_invb)
+
+                                                                 Devices: 
+                                                                   xtalker_str_1xsync_unitxsync_reg_reg/m5  MP(PMOS_VTL)
+                                                                   xtalker_str_1xsync_unitxsync_reg_reg/m20  MN(NMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       ** unmatched injected instance **                         (_invb)
+
+                                                                 Devices: 
+                                                                   xtalker_str_1xsync_unitxsync_reg_reg/m4  MP(PMOS_VTL)
+                                                                   xtalker_str_1xsync_unitxsync_reg_reg/m21  MN(NMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       ** unmatched injected instance **                         (_invv)
+
+                                                                 Devices: 
+                                                                   xtalker_str_1xfsm_unitxreq_buf_reg_reg/m7  MP(PMOS_VTL)
+                                                                   xtalker_str_1xfsm_unitxreq_buf_reg_reg/m23  MN(NMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       ** unmatched injected instance **                         (_invv)
+
+                                                                 Devices: 
+                                                                   xtalker_str_1xsync_unitxsync_reg_reg/m7  MP(PMOS_VTL)
+                                                                   xtalker_str_1xsync_unitxsync_reg_reg/m23  MN(NMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       ** unmatched injected instance **                         (_invv)
+
+                                                                 Devices: 
+                                                                   xtalker_str_1xsync_unitxsync_reg_reg/m8  MP(PMOS_VTL)
+                                                                   xtalker_str_1xsync_unitxsync_reg_reg/m24  MN(NMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       ** unmatched injected instance **                         (_invv)
+
+                                                                 Devices: 
+                                                                   xlistener_str_1xfsm_unitxack_buf_reg_reg/m8  MP(PMOS_VTL)
+                                                                   xlistener_str_1xfsm_unitxack_buf_reg_reg/m24  MN(NMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       ** unmatched injected instance **                         (_invv)
+
+                                                                 Devices: 
+                                                                   xtalker_str_1xsync_unitxmeta_reg_reg/m7  MP(PMOS_VTL)
+                                                                   xtalker_str_1xsync_unitxmeta_reg_reg/m23  MN(NMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       ** unmatched injected instance **                         (_invv)
+
+                                                                 Devices: 
+                                                                   xlistener_str_1xfsm_unitxack_buf_reg_reg/m7  MP(PMOS_VTL)
+                                                                   xlistener_str_1xfsm_unitxack_buf_reg_reg/m23  MN(NMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       ** unmatched injected instance **                         (_invv)
+
+                                                                 Devices: 
+                                                                   xtalker_str_1xsync_unitxmeta_reg_reg/m8  MP(PMOS_VTL)
+                                                                   xtalker_str_1xsync_unitxmeta_reg_reg/m24  MN(NMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       ** unmatched injected instance **                         (_invv)
+
+                                                                 Devices: 
+                                                                   xlistener_str_1xsync_unitxmeta_reg_reg/m8  MP(PMOS_VTL)
+                                                                   xlistener_str_1xsync_unitxmeta_reg_reg/m24  MN(NMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       ** unmatched injected instance **                         (_invv)
+
+                                                                 Devices: 
+                                                                   xlistener_str_1xsync_unitxmeta_reg_reg/m7  MP(PMOS_VTL)
+                                                                   xlistener_str_1xsync_unitxmeta_reg_reg/m23  MN(NMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       ** unmatched injected instance **                         (_invv)
+
+                                                                 Devices: 
+                                                                   xtalker_str_1xfsm_unitxstate_reg_regx1x/m8  MP(PMOS_VTL)
+                                                                   xtalker_str_1xfsm_unitxstate_reg_regx1x/m24  MN(NMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       ** unmatched injected instance **                         (_invv)
+
+                                                                 Devices: 
+                                                                   xlistener_str_1xsync_unitxsync_reg_reg/m8  MP(PMOS_VTL)
+                                                                   xlistener_str_1xsync_unitxsync_reg_reg/m24  MN(NMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       ** unmatched injected instance **                         (_invv)
+
+                                                                 Devices: 
+                                                                   xlistener_str_1xsync_unitxsync_reg_reg/m7  MP(PMOS_VTL)
+                                                                   xlistener_str_1xsync_unitxsync_reg_reg/m23  MN(NMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       ** unmatched injected instance **                         (_invv)
+
+                                                                 Devices: 
+                                                                   xtalker_str_1xfsm_unitxstate_reg_regx1x/m7  MP(PMOS_VTL)
+                                                                   xtalker_str_1xfsm_unitxstate_reg_regx1x/m23  MN(NMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       ** unmatched injected instance **                         (_invv)
+
+                                                                 Devices: 
+                                                                   xlistener_str_1xsync_unitxsync_reg_reg/m15  MP(PMOS_VTL)
+                                                                   xlistener_str_1xsync_unitxsync_reg_reg/m31  MN(NMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       ** unmatched injected instance **                         (_invv)
+
+                                                                 Devices: 
+                                                                   xtalker_str_1xfsm_unitxreq_buf_reg_reg/m8  MP(PMOS_VTL)
+                                                                   xtalker_str_1xfsm_unitxreq_buf_reg_reg/m24  MN(NMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       ** unmatched injected instance **                         (_invv)
+
+                                                                 Devices: 
+                                                                   xtalker_str_1xfsm_unitxstate_reg_regx0x/m7  MP(PMOS_VTL)
+                                                                   xtalker_str_1xfsm_unitxstate_reg_regx0x/m23  MN(NMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       ** unmatched injected instance **                         (_invv)
+
+                                                                 Devices: 
+                                                                   xtalker_str_1xsync_unitxsync_reg_reg/m15  MP(PMOS_VTL)
+                                                                   xtalker_str_1xsync_unitxsync_reg_reg/m31  MN(NMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       ** unmatched injected instance **                         (_invv)
+
+                                                                 Devices: 
+                                                                   xtalker_str_1xfsm_unitxstate_reg_regx0x/m8  MP(PMOS_VTL)
+                                                                   xtalker_str_1xfsm_unitxstate_reg_regx0x/m24  MN(NMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       ** unmatched injected instance **                         (_invv)
+
+                                                                 Devices: 
+                                                                   xlistener_str_1xfsm_unitxack_buf_reg_reg/m15  MP(PMOS_VTL)
+                                                                   xlistener_str_1xfsm_unitxack_buf_reg_reg/m31  MN(NMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       ** unmatched injected instance **                         (_invv)
+
+                                                                 Devices: 
+                                                                   xu1/m2  MP(PMOS_VTL)
+                                                                   xu1/m5  MN(NMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       ** unmatched injected instance **                         (_invv)
+
+                                                                 Devices: 
+                                                                   xu7/m2  MP(PMOS_VTL)
+                                                                   xu7/m5  MN(NMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       ** unmatched injected instance **                         (_invv)
+
+                                                                 Devices: 
+                                                                   xu10/m1  MP(PMOS_VTL)
+                                                                   xu10/m3  MN(NMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       ** unmatched injected instance **                         (_invv)
+
+                                                                 Devices: 
+                                                                   xu10/m0  MP(PMOS_VTL)
+                                                                   xu10/m2  MN(NMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       ** unmatched injected instance **                         (_invv)
+
+                                                                 Devices: 
+                                                                   xclk2__l1_i0/m3  MP(PMOS_VTL)
+                                                                   xclk2__l1_i0/m7  MN(NMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       ** unmatched injected instance **                         (_invv)
+
+                                                                 Devices: 
+                                                                   xclk2__l2_i0/m1  MP(PMOS_VTL)
+                                                                   xclk2__l2_i0/m3  MN(NMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       ** unmatched injected instance **                         (_invv)
+
+                                                                 Devices: 
+                                                                   xclk1__l1_i0/m3  MP(PMOS_VTL)
+                                                                   xclk1__l1_i0/m7  MN(NMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       ** unmatched injected instance **                         (_invv)
+
+                                                                 Devices: 
+                                                                   xclk1__l2_i0/m1  MP(PMOS_VTL)
+                                                                   xclk1__l2_i0/m3  MN(NMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+       ** unmatched injected instance **                         (_nor2v)
+
+                                                                 Devices: 
+                                                                   xu1/m0  MP(PMOS_VTL)
+                                                                   xu1/m1  MP(PMOS_VTL)
+                                                                   xu1/m3  MN(NMOS_VTL)
+                                                                   xu1/m4  MN(NMOS_VTL)
+
+
+**************************************************************************************************************
+                                         SUMMARY
+**************************************************************************************************************
+
+Total CPU Time:      0 sec
+Total Elapsed Time:  0 sec

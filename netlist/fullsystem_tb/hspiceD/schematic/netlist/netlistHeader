@@ -1,0 +1,6 @@
+** Generated for: hspiceD
+** Generated on: Dec  6 21:48:56 2015
+** Design library name: fullsystem
+** Design cell name: fullsystem_tb
+** Design view name: schematic
+.GLOBAL vdd!

@@ -1,0 +1,8 @@
+HEADER
+"PSFversion" "1.00"
+"FE_OCP_RBN1_reset1v" "fe_ocp_rbn1_reset1v"
+"clk1__L1_N0v" "clk1__l1_n0v"
+"clk2__L2_N0v" "clk2__l2_n0v"
+"clk2__L1_N0v" "clk2__l1_n0v"
+"clk1__L2_N0v" "clk1__l2_n0v"
+"vdd!v" "vdd!v"

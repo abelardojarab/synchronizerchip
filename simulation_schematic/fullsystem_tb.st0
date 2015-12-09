@@ -1,0 +1,76 @@
+***** HSPICE -- F-2011.09-SP2 64-BIT (Feb 27 2012) linux ******
+ Input File: fullsystem_tb.sp
+ lic:
+ lic: FLEXlm: v10.8
+ lic: USER:   abelardojara         HOSTNAME: abelardo-Aspire-7720
+ lic: HOSTID: 001b77d74cad         PID:      19281
+ lic: Using FLEXlm license file:
+ lic: /home/abelardojara/flexlm/synopsys.dat
+ lic: Checkout 1 hspice
+ lic: License/Maintenance for hspice will expire on 31-dec-2019/2019.12
+ lic: NODE LOCKED license on hostid 001b77d74cad
+ lic:
+ init: begin read circuit files,  cpu clock=  3.79E+00
+       option search   = /tmp/rspanand/hspice_i/hspice/parts/ad
+       option search   = /tmp/rspanand/hspice_i/hspice/parts/ad
+       option search   = /tmp/rspanand/hspice_i/hspice/parts/behave
+       option search   = /tmp/rspanand/hspice_i/hspice/parts/bjt
+       option search   = /tmp/rspanand/hspice_i/hspice/parts/burr_brn
+       option search   = /tmp/rspanand/hspice_i/hspice/parts/comlinear
+       option search   = /tmp/rspanand/hspice_i/hspice/parts/dio
+       option search   = /tmp/rspanand/hspice_i/hspice/parts/fet
+       option search   = /tmp/rspanand/hspice_i/hspice/parts/lin_tech
+       option search   = /tmp/rspanand/hspice_i/hspice/parts/pci
+       option search   = /tmp/rspanand/hspice_i/hspice/parts/signet
+       option search   = /tmp/rspanand/hspice_i/hspice/parts/ti
+       option search   = /tmp/rspanand/hspice_i/hspice/parts/tline
+       option search   = /tmp/rspanand/hspice_i/hspice/parts/xilinx
+       option runlvl
+       option artist   =     2.00
+       option ingold   =     2.00
+       option parhie   = local
+       option psf      =     2.00
+       option post
+ init: end read circuit files,  cpu clock=  3.80E+00 memory=       431 kb
+ init: begin check errors,  cpu clock=  3.80E+00
+ init: end check errors,  cpu clock=  3.82E+00 memory=      1658 kb
+ init: begin setup matrix, pivot=     0 cpu clock=  3.82E+00
+       establish matrix -- done,  cpu clock=  3.83E+00 memory=      1693 kb
+       re-order matrix -- done,  cpu clock=  3.84E+00 memory=      1693 kb
+ init: end setup matrix,  cpu clock=  3.84E+00 memory=      2103 kb
+ sweep: temp temp1 begin, start=  2.50E+01 stop=  7.00E+01 #sweeps =   2
+ temperature: temperature=  2.50E+01
+ dcop: begin dcop,  cpu clock=  3.84E+00
+ dcop: end dcop,  cpu clock=  3.91E+00 memory=      2103 kb  tot_iter=      14
+ output: fullsystem_tb.tr0
+ sweep: tran tran0    begin, stop_t=  1.50E-07 #sweeps=**** cpu clock=  3.91E+00
+ tran: time= 1.5000E-08 tot_iter=    1017 conv_iter=     316 cpu clock= 6.36E+00
+ tran: time= 3.0000E-08 tot_iter=    2175 conv_iter=     674 cpu clock= 8.98E+00
+ tran: time= 4.5098E-08 tot_iter=    3493 conv_iter=    1071 cpu clock= 1.18E+01
+ tran: time= 6.0137E-08 tot_iter=    4558 conv_iter=    1409 cpu clock= 1.43E+01
+ tran: time= 7.5152E-08 tot_iter=    5795 conv_iter=    1790 cpu clock= 1.69E+01
+ tran: time= 9.0139E-08 tot_iter=    6752 conv_iter=    2103 cpu clock= 1.92E+01
+ tran: time= 1.0500E-07 tot_iter=    7754 conv_iter=    2425 cpu clock= 2.15E+01
+ tran: time= 1.2000E-07 tot_iter=    8821 conv_iter=    2768 cpu clock= 2.39E+01
+ tran: time= 1.3500E-07 tot_iter=    9815 conv_iter=    3091 cpu clock= 2.62E+01
+ tran: time= 1.5000E-07 tot_iter=   10769 conv_iter=    3403 cpu clock= 2.85E+01
+ sweep: tran tran0    end,  cpu clock=  2.85E+01 memory=      2119 kb
+ temperature: temperature=  7.00E+01
+ dcop: begin dcop,  cpu clock=  2.97E+01
+ dcop: end dcop,  cpu clock=  2.97E+01 memory=      2119 kb  tot_iter=      18
+ output: fullsystem_tb.tr1
+ sweep: tran tran0    begin, stop_t=  1.50E-07 #sweeps=**** cpu clock=  2.97E+01
+ tran: time= 1.5000E-08 tot_iter=    1047 conv_iter=     322 cpu clock= 3.22E+01
+ tran: time= 3.0000E-08 tot_iter=    2103 conv_iter=     654 cpu clock= 3.46E+01
+ tran: time= 4.5023E-08 tot_iter=    3339 conv_iter=    1028 cpu clock= 3.74E+01
+ tran: time= 6.0105E-08 tot_iter=    4349 conv_iter=    1347 cpu clock= 3.97E+01
+ tran: time= 7.5137E-08 tot_iter=    5489 conv_iter=    1702 cpu clock= 4.22E+01
+ tran: time= 9.0109E-08 tot_iter=    6393 conv_iter=    1996 cpu clock= 4.44E+01
+ tran: time= 1.0500E-07 tot_iter=    7306 conv_iter=    2294 cpu clock= 4.65E+01
+ tran: time= 1.2000E-07 tot_iter=    8317 conv_iter=    2622 cpu clock= 4.89E+01
+ tran: time= 1.3500E-07 tot_iter=    9232 conv_iter=    2923 cpu clock= 5.10E+01
+ tran: time= 1.5000E-07 tot_iter=   10129 conv_iter=    3216 cpu clock= 5.32E+01
+ sweep: tran tran0    end,  cpu clock=  5.32E+01 memory=      2119 kb
+ sweep: temp temp1 end
+>info:         ***** hspice job concluded
+ lic: Release hspice token(s)

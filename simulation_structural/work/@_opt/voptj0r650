@@ -1,0 +1,214 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/parallels/workspace_remote/ProjectDIC2/Simulation
+T_opt
+Z1 V5;6Z==Mjo?haI7`d;`dgT3
+Z2 04 13 4 work fullsystem_tb test 1
+Z3 =1-001b77d74cad-5664809a-729c-5d8b
+Z4 o-quiet -auto_acc_if_foreign -work work
+Z5 n@_opt
+Z6 OL;O;6.5f;42
+T_opt1
+Z7 V^?>O:R0JDV>G>1AEZPLHQ2
+Z8 04 10 14 work fullsystem fullsystem_str 1
+Z9 =1-001c42a2c30b-565bc025-3c5b3-43ab
+R4
+Z10 n@_opt1
+Z11 OL;O;10.1c;51
+T_opt2
+Z12 VPKj0]bP;=>F8[`mO8_Aob0
+R2
+Z13 =1-001b77d74cad-566470f5-9c8dd-310d
+R4
+Z14 n@_opt2
+R11
+Efullsystem
+Z15 w1449426803
+Z16 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z17 d/home/abelardojara/workspace/ProjectDIC2/simulation
+Z18 8/media/ntfsdrive1/workspace/ProjectDIC2/simulation/fullsystem.vhd
+Z19 F/media/ntfsdrive1/workspace/ProjectDIC2/simulation/fullsystem.vhd
+l0
+L4
+Z20 VWizXAT8YZ6aJeJ^GFdPJ93
+Z21 OL;C;6.5f;42
+32
+Z22 o-work work
+Z23 tExplicit 1
+Z24 !s100 `n?5=?o=f@JNbo]zkz3<L1
+Afullsystem_str
+R16
+Z25 DEx4 work 10 fullsystem 0 22 WizXAT8YZ6aJeJ^GFdPJ93
+l44
+L20
+Z26 VVERRL1YmTN89GRX]ni_XV3
+R21
+32
+Z27 Mx1 4 ieee 14 std_logic_1164
+R22
+R23
+Z28 !s100 LCXJc1BbELJ`BahDjaPW_0
+Efullsystem_tb
+Z29 w1449426758
+R16
+R17
+Z30 8/media/ntfsdrive1/workspace/ProjectDIC2/simulation/fullsystem_tb.vhd
+Z31 F/media/ntfsdrive1/workspace/ProjectDIC2/simulation/fullsystem_tb.vhd
+l0
+L27
+Z32 VB79O;gzZmeS35jP_G1O<[0
+R21
+32
+R22
+R23
+Z33 !s100 3K=QQ@Q@AHg<goC>33@^L0
+Atest
+Z34 DEx55 /media/ntfsdrive1/workspace/ProjectDIC2/simulation/work 10 talker_fsm 0 22 mCI<n<aII92GlmF5in_@a1
+Z35 DEx55 /media/ntfsdrive1/workspace/ProjectDIC2/simulation/work 12 listener_fsm 0 22 k_Y2k_[ej>^BeaV4VUd;c0
+Z36 DEx55 /media/ntfsdrive1/workspace/ProjectDIC2/simulation/work 12 synchronizer 0 22 z97H65kL6Gf_YE1nBS>lz3
+Z37 DEx55 /media/ntfsdrive1/workspace/ProjectDIC2/simulation/work 10 talker_str 0 22 zJOJO0J@@2<^NYn9z4BHm0
+Z38 DEx55 /media/ntfsdrive1/workspace/ProjectDIC2/simulation/work 12 listener_str 0 22 @JOSD;SSKcZ98V?aiY@mN3
+Z39 DEx55 /media/ntfsdrive1/workspace/ProjectDIC2/simulation/work 10 fullsystem 0 22 WizXAT8YZ6aJeJ^GFdPJ93
+Z40 DPx17 __model_tech/ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z41 DEx55 /media/ntfsdrive1/workspace/ProjectDIC2/simulation/work 13 fullsystem_tb 0 22 B79O;gzZmeS35jP_G1O<[0
+32
+Z42 Mx1 17 __model_tech/ieee 14 std_logic_1164
+l48
+L33
+Z43 VfebcD@S6FS;XJ0oBQjQ4C3
+R21
+R22
+R23
+Z44 !s100 cYP0dSl9cYHc78?LhcjlN3
+Elistener_fsm
+Z45 w1448847334
+R16
+R17
+Z46 8/media/ntfsdrive1/workspace/ProjectDIC2/simulation/listener_fsm.vhd
+Z47 F/media/ntfsdrive1/workspace/ProjectDIC2/simulation/listener_fsm.vhd
+l0
+L4
+Z48 Vk_Y2k_[ej>^BeaV4VUd;c0
+R21
+32
+R22
+R23
+Z49 !s100 Sh7eQI6aWh_jXiKm=]<n80
+Aarch
+R16
+Z50 DEx4 work 12 listener_fsm 0 22 k_Y2k_[ej>^BeaV4VUd;c0
+l16
+L12
+Z51 VR8k0cKe>MiWe5DggUSejN3
+R21
+32
+R27
+R22
+R23
+Z52 !s100 YoCEko;kOZ59odZKXR4@J3
+Elistener_str
+Z53 w1448853240
+R16
+R17
+Z54 8/media/ntfsdrive1/workspace/ProjectDIC2/simulation/listener_str.vhd
+Z55 F/media/ntfsdrive1/workspace/ProjectDIC2/simulation/listener_str.vhd
+l0
+L4
+Z56 V@JOSD;SSKcZ98V?aiY@mN3
+R21
+32
+R22
+R23
+Z57 !s100 _8BZBUNNz=0CHiozAzCM43
+Astr_arch
+R16
+Z58 DEx4 work 12 listener_str 0 22 @JOSD;SSKcZ98V?aiY@mN3
+l31
+L13
+Z59 VaOmU>nVnmi@9ldfYT40A[0
+R21
+32
+R27
+R22
+R23
+Z60 !s100 ADBz2GkZ;?JKO:dcmOPbK2
+Esynchronizer
+Z61 w1448253785
+R16
+R17
+Z62 8/media/ntfsdrive1/workspace/ProjectDIC2/simulation/synchronizer.vhd
+Z63 F/media/ntfsdrive1/workspace/ProjectDIC2/simulation/synchronizer.vhd
+l0
+L3
+Z64 Vz97H65kL6Gf_YE1nBS>lz3
+R21
+32
+R22
+R23
+Z65 !s100 In6QgZPk<ji1EbHhR6i;[3
+Atwo_ff_arch
+R16
+Z66 DEx4 work 12 synchronizer 0 22 z97H65kL6Gf_YE1nBS>lz3
+l15
+L12
+Z67 V=kh24=ia^S;4DPmGLFUVf2
+R21
+32
+R27
+R22
+R23
+Z68 !s100 NVhmX^m^9FDcXhLZ2[>QH1
+Etalker_fsm
+Z69 w1449426521
+R16
+R17
+Z70 8/media/ntfsdrive1/workspace/ProjectDIC2/simulation/talker_fsm.vhd
+Z71 F/media/ntfsdrive1/workspace/ProjectDIC2/simulation/talker_fsm.vhd
+l0
+L4
+Z72 VmCI<n<aII92GlmF5in_@a1
+R21
+32
+R22
+R23
+Z73 !s100 fZ8A2MGVIXM;XZk9YVjaY3
+Aarch
+R16
+Z74 DEx4 work 10 talker_fsm 0 22 mCI<n<aII92GlmF5in_@a1
+l19
+L14
+Z75 VPOkkDo?>@=DWm3:@c;`?P0
+R21
+32
+R27
+R22
+R23
+Z76 !s100 0H]X1ZSSm<_PRMO2aoYhe1
+Etalker_str
+Z77 w1449426549
+R16
+R17
+Z78 8/media/ntfsdrive1/workspace/ProjectDIC2/simulation/talker_str.vhd
+Z79 F/media/ntfsdrive1/workspace/ProjectDIC2/simulation/talker_str.vhd
+l0
+L4
+Z80 VzJOJO0J@@2<^NYn9z4BHm0
+R21
+32
+R22
+R23
+Z81 !s100 ]D`;PYSB7gmAA]iAVVzCO2
+Astr_arch
+R16
+Z82 DEx4 work 10 talker_str 0 22 zJOJO0J@@2<^NYn9z4BHm0
+l39
+L18
+Z83 Vkd]VIjWV@OLjFaN>QCWnZ3
+R21
+32
+R27
+R22
+R23
+Z84 !s100 0C9@5YfkAA1MX7jH2EO8m0

@@ -1,0 +1,291 @@
+Loading the file
+'/opt/cadence/installs/IC615/tools.lnx86/dfII/etc/skill/hnl/hspiceD.ile'.Begin Incremental Netlisting Dec  6 21:48:55 2015
+INFO (OSSHNL-251): Mismatch found in the direction of terminal 'A' in the placed
+master
+'fullsystem/INVX4/symbol' and its corresponding terminal in the switch
+master 'fullsystem/INVX4/schematic',
+however, this terminal is printed in the
+netlist because the variable
+simCheckTermDirectionMismatch is either set to
+'ignore' or is not set.
+
+INFO (OSSHNL-251): Mismatch found in the direction of terminal 'Y' in the placed
+master
+'fullsystem/INVX4/symbol' and its corresponding terminal in the switch
+master 'fullsystem/INVX4/schematic',
+however, this terminal is printed in the
+netlist because the variable
+simCheckTermDirectionMismatch is either set to
+'ignore' or is not set.
+
+INFO (OSSHNL-251): Mismatch found in the direction of terminal 'A' in the placed
+master
+'fullsystem/INVX8/symbol' and its corresponding terminal in the switch
+master 'fullsystem/INVX8/schematic',
+however, this terminal is printed in the
+netlist because the variable
+simCheckTermDirectionMismatch is either set to
+'ignore' or is not set.
+
+INFO (OSSHNL-251): Mismatch found in the direction of terminal 'Y' in the placed
+master
+'fullsystem/INVX8/symbol' and its corresponding terminal in the switch
+master 'fullsystem/INVX8/schematic',
+however, this terminal is printed in the
+netlist because the variable
+simCheckTermDirectionMismatch is either set to
+'ignore' or is not set.
+
+INFO (OSSHNL-251): Mismatch found in the direction of terminal 'A' in the placed
+master
+'fullsystem/INVX1/symbol' and its corresponding terminal in the switch
+master 'fullsystem/INVX1/schematic',
+however, this terminal is printed in the
+netlist because the variable
+simCheckTermDirectionMismatch is either set to
+'ignore' or is not set.
+
+INFO (OSSHNL-251): Mismatch found in the direction of terminal 'Y' in the placed
+master
+'fullsystem/INVX1/symbol' and its corresponding terminal in the switch
+master 'fullsystem/INVX1/schematic',
+however, this terminal is printed in the
+netlist because the variable
+simCheckTermDirectionMismatch is either set to
+'ignore' or is not set.
+
+INFO (OSSHNL-251): Mismatch found in the direction of terminal 'A' in the placed
+master
+'fullsystem/XOR2X1/symbol' and its corresponding terminal in the switch
+master 'fullsystem/XOR2X1/schematic',
+however, this terminal is printed in the
+netlist because the variable
+simCheckTermDirectionMismatch is either set to
+'ignore' or is not set.
+
+INFO (OSSHNL-251): Mismatch found in the direction of terminal 'B' in the placed
+master
+'fullsystem/XOR2X1/symbol' and its corresponding terminal in the switch
+master 'fullsystem/XOR2X1/schematic',
+however, this terminal is printed in the
+netlist because the variable
+simCheckTermDirectionMismatch is either set to
+'ignore' or is not set.
+
+INFO (OSSHNL-251): Mismatch found in the direction of terminal 'Y' in the placed
+master
+'fullsystem/XOR2X1/symbol' and its corresponding terminal in the switch
+master 'fullsystem/XOR2X1/schematic',
+however, this terminal is printed in the
+netlist because the variable
+simCheckTermDirectionMismatch is either set to
+'ignore' or is not set.
+
+INFO (OSSHNL-251): Mismatch found in the direction of terminal 'A' in the placed
+master
+'fullsystem/NOR2X1/symbol' and its corresponding terminal in the switch
+master 'fullsystem/NOR2X1/schematic',
+however, this terminal is printed in the
+netlist because the variable
+simCheckTermDirectionMismatch is either set to
+'ignore' or is not set.
+
+INFO (OSSHNL-251): Mismatch found in the direction of terminal 'B' in the placed
+master
+'fullsystem/NOR2X1/symbol' and its corresponding terminal in the switch
+master 'fullsystem/NOR2X1/schematic',
+however, this terminal is printed in the
+netlist because the variable
+simCheckTermDirectionMismatch is either set to
+'ignore' or is not set.
+
+INFO (OSSHNL-251): Mismatch found in the direction of terminal 'Y' in the placed
+master
+'fullsystem/NOR2X1/symbol' and its corresponding terminal in the switch
+master 'fullsystem/NOR2X1/schematic',
+however, this terminal is printed in the
+netlist because the variable
+simCheckTermDirectionMismatch is either set to
+'ignore' or is not set.
+
+INFO (OSSHNL-251): Mismatch found in the direction of terminal 'A' in the placed
+master
+'fullsystem/AOI22X1/symbol' and its corresponding terminal in the switch
+master 'fullsystem/AOI22X1/schematic',
+however, this terminal is printed in the
+netlist because the variable
+simCheckTermDirectionMismatch is either set to
+'ignore' or is not set.
+
+INFO (OSSHNL-251): Mismatch found in the direction of terminal 'B' in the placed
+master
+'fullsystem/AOI22X1/symbol' and its corresponding terminal in the switch
+master 'fullsystem/AOI22X1/schematic',
+however, this terminal is printed in the
+netlist because the variable
+simCheckTermDirectionMismatch is either set to
+'ignore' or is not set.
+
+INFO (OSSHNL-251): Mismatch found in the direction of terminal 'C' in the placed
+master
+'fullsystem/AOI22X1/symbol' and its corresponding terminal in the switch
+master 'fullsystem/AOI22X1/schematic',
+however, this terminal is printed in the
+netlist because the variable
+simCheckTermDirectionMismatch is either set to
+'ignore' or is not set.
+
+INFO (OSSHNL-251): Mismatch found in the direction of terminal 'D' in the placed
+master
+'fullsystem/AOI22X1/symbol' and its corresponding terminal in the switch
+master 'fullsystem/AOI22X1/schematic',
+however, this terminal is printed in the
+netlist because the variable
+simCheckTermDirectionMismatch is either set to
+'ignore' or is not set.
+
+INFO (OSSHNL-251): Mismatch found in the direction of terminal 'Y' in the placed
+master
+'fullsystem/AOI22X1/symbol' and its corresponding terminal in the switch
+master 'fullsystem/AOI22X1/schematic',
+however, this terminal is printed in the
+netlist because the variable
+simCheckTermDirectionMismatch is either set to
+'ignore' or is not set.
+
+INFO (OSSHNL-251): Mismatch found in the direction of terminal 'A' in the placed
+master
+'fullsystem/INVX2/symbol' and its corresponding terminal in the switch
+master 'fullsystem/INVX2/schematic',
+however, this terminal is printed in the
+netlist because the variable
+simCheckTermDirectionMismatch is either set to
+'ignore' or is not set.
+
+INFO (OSSHNL-251): Mismatch found in the direction of terminal 'Y' in the placed
+master
+'fullsystem/INVX2/symbol' and its corresponding terminal in the switch
+master 'fullsystem/INVX2/schematic',
+however, this terminal is printed in the
+netlist because the variable
+simCheckTermDirectionMismatch is either set to
+'ignore' or is not set.
+
+INFO (OSSHNL-251): Mismatch found in the direction of terminal 'CLK' in the
+placed master
+'fullsystem/DFFSR/symbol' and its corresponding terminal in the
+switch master 'fullsystem/DFFSR/schematic',
+however, this terminal is printed in
+the netlist because the variable
+simCheckTermDirectionMismatch is either set to
+'ignore' or is not set.
+
+INFO (OSSHNL-251): Mismatch found in the direction of terminal 'D' in the placed
+master
+'fullsystem/DFFSR/symbol' and its corresponding terminal in the switch
+master 'fullsystem/DFFSR/schematic',
+however, this terminal is printed in the
+netlist because the variable
+simCheckTermDirectionMismatch is either set to
+'ignore' or is not set.
+
+INFO (OSSHNL-251): Mismatch found in the direction of terminal 'Q' in the placed
+master
+'fullsystem/DFFSR/symbol' and its corresponding terminal in the switch
+master 'fullsystem/DFFSR/schematic',
+however, this terminal is printed in the
+netlist because the variable
+simCheckTermDirectionMismatch is either set to
+'ignore' or is not set.
+
+INFO (OSSHNL-251): Mismatch found in the direction of terminal 'R' in the placed
+master
+'fullsystem/DFFSR/symbol' and its corresponding terminal in the switch
+master 'fullsystem/DFFSR/schematic',
+however, this terminal is printed in the
+netlist because the variable
+simCheckTermDirectionMismatch is either set to
+'ignore' or is not set.
+
+INFO (OSSHNL-251): Mismatch found in the direction of terminal 'S' in the placed
+master
+'fullsystem/DFFSR/symbol' and its corresponding terminal in the switch
+master 'fullsystem/DFFSR/schematic',
+however, this terminal is printed in the
+netlist because the variable
+simCheckTermDirectionMismatch is either set to
+'ignore' or is not set.
+
+INFO (OSSHNL-251): Mismatch found in the direction of terminal 'A' in the placed
+master
+'fullsystem/OR2X2/symbol' and its corresponding terminal in the switch
+master 'fullsystem/OR2X2/schematic',
+however, this terminal is printed in the
+netlist because the variable
+simCheckTermDirectionMismatch is either set to
+'ignore' or is not set.
+
+INFO (OSSHNL-251): Mismatch found in the direction of terminal 'B' in the placed
+master
+'fullsystem/OR2X2/symbol' and its corresponding terminal in the switch
+master 'fullsystem/OR2X2/schematic',
+however, this terminal is printed in the
+netlist because the variable
+simCheckTermDirectionMismatch is either set to
+'ignore' or is not set.
+
+INFO (OSSHNL-251): Mismatch found in the direction of terminal 'Y' in the placed
+master
+'fullsystem/OR2X2/symbol' and its corresponding terminal in the switch
+master 'fullsystem/OR2X2/schematic',
+however, this terminal is printed in the
+netlist because the variable
+simCheckTermDirectionMismatch is either set to
+'ignore' or is not set.
+
+INFO (OSSHNL-251): Mismatch found in the direction of terminal 'A' in the placed
+master
+'fullsystem/AND2X2/symbol' and its corresponding terminal in the switch
+master 'fullsystem/AND2X2/schematic',
+however, this terminal is printed in the
+netlist because the variable
+simCheckTermDirectionMismatch is either set to
+'ignore' or is not set.
+
+INFO (OSSHNL-251): Mismatch found in the direction of terminal 'B' in the placed
+master
+'fullsystem/AND2X2/symbol' and its corresponding terminal in the switch
+master 'fullsystem/AND2X2/schematic',
+however, this terminal is printed in the
+netlist because the variable
+simCheckTermDirectionMismatch is either set to
+'ignore' or is not set.
+
+INFO (OSSHNL-251): Mismatch found in the direction of terminal 'Y' in the placed
+master
+'fullsystem/AND2X2/symbol' and its corresponding terminal in the switch
+master 'fullsystem/AND2X2/schematic',
+however, this terminal is printed in the
+netlist because the variable
+simCheckTermDirectionMismatch is either set to
+'ignore' or is not set.
+
+INFO (OSSHNL-251): Mismatch found in the direction of terminal 'A' in the placed
+master
+'fullsystem/BUFX2/symbol' and its corresponding terminal in the switch
+master 'fullsystem/BUFX2/schematic',
+however, this terminal is printed in the
+netlist because the variable
+simCheckTermDirectionMismatch is either set to
+'ignore' or is not set.
+
+INFO (OSSHNL-251): Mismatch found in the direction of terminal 'Y' in the placed
+master
+'fullsystem/BUFX2/symbol' and its corresponding terminal in the switch
+master 'fullsystem/BUFX2/schematic',
+however, this terminal is printed in the
+netlist because the variable
+simCheckTermDirectionMismatch is either set to
+'ignore' or is not set.
+
+End netlisting Dec  6 21:48:56 2015

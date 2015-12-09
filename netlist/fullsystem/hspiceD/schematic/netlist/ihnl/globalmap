@@ -1,0 +1,20 @@
+CADENCE IHNL01070
+$model
+fullsystem/AOI22X1/schematic AOI22X1
+fullsystem/fullsystem/schematic fullsystem
+fullsystem/XOR2X1/schematic XOR2X1
+fullsystem/NOR2X1/schematic NOR2X1
+fullsystem/INVX4/schematic INVX4
+fullsystem/BUFX2/schematic BUFX2
+fullsystem/AND2X2/schematic AND2X2
+fullsystem/OR2X2/schematic OR2X2
+fullsystem/INVX2/schematic INVX2
+fullsystem/INVX8/schematic INVX8
+fullsystem/DFFSR/schematic DFFSR
+fullsystem/INVX1/schematic INVX1
+$endmodel
+$net
+vdd! vdd!
+$endnet
+$param
+$endparam

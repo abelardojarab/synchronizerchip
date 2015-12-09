@@ -1,0 +1,5 @@
+
+** Library name: fullsystem
+** Cell name: AOI22X1
+** View name: schematic
+.subckt AOI22X1 a b c d y

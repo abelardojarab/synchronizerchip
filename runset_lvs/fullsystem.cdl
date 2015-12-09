@@ -1,0 +1,273 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  fullsystem
+* Top Cell Name: fullsystem
+* View Name:     schematic
+* Netlisted on:  Dec  6 21:07:34 2015
+************************************************************************
+
+*.BIPOLAR
+*.RESI = 2000 
+*.RESVAL
+*.CAPVAL
+*.DIOPERI
+*.DIOAREA
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+*.GLOBAL vdd!
++        vdd:P
++        gnd:G
+
+*.PIN vdd!
+*+    vdd
+*+    gnd
+
+************************************************************************
+* Library Name: fullsystem
+* Cell Name:    INVX4
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT INVX4 A Y
+*.PININFO A:B Y:B
+MM0 Y A vdd vdd PMOS_VTL W=1e-06 L=5e-08 m=1
+MM1 vdd A Y vdd PMOS_VTL W=1e-06 L=5e-08 m=1
+MM2 Y A gnd gnd NMOS_VTL W=5e-07 L=5e-08 m=1
+MM3 gnd A Y gnd NMOS_VTL W=5e-07 L=5e-08 m=1
+.ENDS
+
+************************************************************************
+* Library Name: fullsystem
+* Cell Name:    INVX8
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT INVX8 A Y
+*.PININFO A:B Y:B
+MM0 Y A vdd vdd PMOS_VTL W=1e-06 L=5e-08 m=1
+MM1 vdd A Y vdd PMOS_VTL W=1e-06 L=5e-08 m=1
+MM2 Y A vdd vdd PMOS_VTL W=1e-06 L=5e-08 m=1
+MM3 vdd A Y vdd PMOS_VTL W=1e-06 L=5e-08 m=1
+MM4 Y A gnd gnd NMOS_VTL W=5e-07 L=5e-08 m=1
+MM5 gnd A Y gnd NMOS_VTL W=5e-07 L=5e-08 m=1
+MM6 Y A gnd gnd NMOS_VTL W=5e-07 L=5e-08 m=1
+MM7 gnd A Y gnd NMOS_VTL W=5e-07 L=5e-08 m=1
+.ENDS
+
+************************************************************************
+* Library Name: fullsystem
+* Cell Name:    INVX1
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT INVX1 A Y
+*.PININFO A:B Y:B
+MM0 Y A vdd vdd PMOS_VTL W=5e-07 L=5e-08 m=1
+MM1 Y A gnd gnd NMOS_VTL W=2.5e-07 L=5e-08 m=1
+.ENDS
+
+************************************************************************
+* Library Name: fullsystem
+* Cell Name:    XOR2X1
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT XOR2X1 A B Y
+*.PININFO A:B B:B Y:B
+MM2 Y A a_18_54# vdd PMOS_VTL W=1e-06 L=5e-08 m=1
+MM1 a_18_54# a_13_43# vdd vdd PMOS_VTL W=1e-06 L=5e-08 m=1
+MM3 a_35_54# a_2_6# Y vdd PMOS_VTL W=1e-06 L=5e-08 m=1
+MM4 vdd B a_35_54# vdd PMOS_VTL W=1e-06 L=5e-08 m=1
+MM0 vdd A a_2_6# vdd PMOS_VTL W=1e-06 L=5e-08 m=1
+MM5 a_13_43# B vdd vdd PMOS_VTL W=1e-06 L=5e-08 m=1
+MM8 Y a_2_6# a_18_6# gnd NMOS_VTL W=5e-07 L=5e-08 m=1
+MM7 a_18_6# a_13_43# gnd gnd NMOS_VTL W=5e-07 L=5e-08 m=1
+MM9 a_35_6# A Y gnd NMOS_VTL W=5e-07 L=5e-08 m=1
+MM10 gnd B a_35_6# gnd NMOS_VTL W=5e-07 L=5e-08 m=1
+MM6 gnd A a_2_6# gnd NMOS_VTL W=5e-07 L=5e-08 m=1
+MM11 a_13_43# B gnd gnd NMOS_VTL W=5e-07 L=5e-08 m=1
+.ENDS
+
+************************************************************************
+* Library Name: fullsystem
+* Cell Name:    NOR2X1
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT NOR2X1 A B Y
+*.PININFO A:B B:B Y:B
+MM2 Y A gnd gnd NMOS_VTL W=2.5e-07 L=5e-08 m=1
+MM3 gnd B Y gnd NMOS_VTL W=2.5e-07 L=5e-08 m=1
+MM1 Y B a_9_54# vdd PMOS_VTL W=1e-06 L=5e-08 m=1
+MM0 a_9_54# A vdd vdd PMOS_VTL W=1e-06 L=5e-08 m=1
+.ENDS
+
+************************************************************************
+* Library Name: fullsystem
+* Cell Name:    AOI22X1
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT AOI22X1 A B C D Y
+*.PININFO A:B B:B C:B D:B Y:B
+MM5 Y B a_11_6# gnd NMOS_VTL W=5e-07 L=5e-08 m=1
+MM4 a_11_6# A gnd gnd NMOS_VTL W=5e-07 L=5e-08 m=1
+MM7 gnd C a_28_6# gnd NMOS_VTL W=5e-07 L=5e-08 m=1
+MM6 a_28_6# D Y gnd NMOS_VTL W=5e-07 L=5e-08 m=1
+MM1 a_2_54# B vdd vdd PMOS_VTL W=1e-06 L=5e-08 m=1
+MM0 vdd A a_2_54# vdd PMOS_VTL W=1e-06 L=5e-08 m=1
+MM2 Y D a_2_54# vdd PMOS_VTL W=1e-06 L=5e-08 m=1
+MM3 a_2_54# C Y vdd PMOS_VTL W=1e-06 L=5e-08 m=1
+.ENDS
+
+************************************************************************
+* Library Name: fullsystem
+* Cell Name:    INVX2
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT INVX2 A Y
+*.PININFO A:B Y:B
+MM0 Y A vdd vdd PMOS_VTL W=1e-06 L=5e-08 m=1
+MM1 Y A gnd gnd NMOS_VTL W=5e-07 L=5e-08 m=1
+.ENDS
+
+************************************************************************
+* Library Name: fullsystem
+* Cell Name:    DFFSR
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT DFFSR CLK D Q R S
+*.PININFO CLK:B D:B Q:B R:B S:B
+MM6 vdd D a_57_6# vdd PMOS_VTL W=5e-07 L=5e-08 m=1
+MM8 a_47_71# CLK vdd vdd PMOS_VTL W=5e-07 L=5e-08 m=1
+MM15 vdd a_122_6# Q vdd PMOS_VTL W=5e-07 L=5e-08 m=1
+MM0 a_2_6# R vdd vdd PMOS_VTL W=5e-07 L=5e-08 m=1
+MM1 vdd a_10_61# a_2_6# vdd PMOS_VTL W=5e-07 L=5e-08 m=1
+MM12 vdd R a_122_6# vdd PMOS_VTL W=5e-07 L=5e-08 m=1
+MM11 a_122_6# a_105_6# vdd vdd PMOS_VTL W=5e-07 L=5e-08 m=1
+MM4 a_23_27# a_47_71# a_2_6# vdd PMOS_VTL W=2.5e-07 L=5e-08 m=1
+MM2 a_10_61# a_23_27# vdd vdd PMOS_VTL W=5e-07 L=5e-08 m=1
+MM7 vdd a_47_71# a_47_4# vdd PMOS_VTL W=5e-07 L=5e-08 m=1
+MM9 a_105_6# a_47_71# a_10_61# vdd PMOS_VTL W=2.5e-07 L=5e-08 m=1
+MM3 vdd S a_10_61# vdd PMOS_VTL W=5e-07 L=5e-08 m=1
+MM5 a_57_6# a_47_4# a_23_27# vdd PMOS_VTL W=2.5e-07 L=5e-08 m=1
+MM10 a_113_6# a_47_4# a_105_6# vdd PMOS_VTL W=2.5e-07 L=5e-08 m=1
+MM13 a_113_6# a_122_6# vdd vdd PMOS_VTL W=5e-07 L=5e-08 m=1
+MM14 vdd S a_113_6# vdd PMOS_VTL W=5e-07 L=5e-08 m=1
+MM16 a_10_6# R a_2_6# gnd NMOS_VTL W=5e-07 L=5e-08 m=1
+MM17 gnd a_10_61# a_10_6# gnd NMOS_VTL W=5e-07 L=5e-08 m=1
+MM28 gnd R a_130_6# gnd NMOS_VTL W=5e-07 L=5e-08 m=1
+MM27 a_130_6# a_105_6# a_122_6# gnd NMOS_VTL W=5e-07 L=5e-08 m=1
+MM18 a_26_6# a_23_27# gnd gnd NMOS_VTL W=5e-07 L=5e-08 m=1
+MM19 a_10_61# S a_26_6# gnd NMOS_VTL W=5e-07 L=5e-08 m=1
+MM30 a_113_6# S a_146_6# gnd NMOS_VTL W=5e-07 L=5e-08 m=1
+MM29 a_146_6# a_122_6# gnd gnd NMOS_VTL W=5e-07 L=5e-08 m=1
+MM22 gnd D a_57_6# gnd NMOS_VTL W=2.5e-07 L=5e-08 m=1
+MM24 a_47_71# CLK gnd gnd NMOS_VTL W=2.5e-07 L=5e-08 m=1
+MM31 gnd a_122_6# Q gnd NMOS_VTL W=2.5e-07 L=5e-08 m=1
+MM25 a_105_6# a_47_4# a_10_61# gnd NMOS_VTL W=2.5e-07 L=5e-08 m=1
+MM20 a_23_27# a_47_4# a_2_6# gnd NMOS_VTL W=2.5e-07 L=5e-08 m=1
+MM23 gnd a_47_71# a_47_4# gnd NMOS_VTL W=2.5e-07 L=5e-08 m=1
+MM21 a_57_6# a_47_71# a_23_27# gnd NMOS_VTL W=2.5e-07 L=5e-08 m=1
+MM26 a_113_6# a_47_71# a_105_6# gnd NMOS_VTL W=2.5e-07 L=5e-08 m=1
+.ENDS
+
+************************************************************************
+* Library Name: fullsystem
+* Cell Name:    OR2X2
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT OR2X2 A B Y
+*.PININFO A:B B:B Y:B
+MM0 a_9_54# A a_2_54# vdd PMOS_VTL W=1e-06 L=5e-08 m=1
+MM1 vdd B a_9_54# vdd PMOS_VTL W=1e-06 L=5e-08 m=1
+MM2 Y a_2_54# vdd vdd PMOS_VTL W=1e-06 L=5e-08 m=1
+MM4 gnd B a_2_54# gnd NMOS_VTL W=2.5e-07 L=5e-08 m=1
+MM3 a_2_54# A gnd gnd NMOS_VTL W=2.5e-07 L=5e-08 m=1
+MM5 Y a_2_54# gnd gnd NMOS_VTL W=5e-07 L=5e-08 m=1
+.ENDS
+
+************************************************************************
+* Library Name: fullsystem
+* Cell Name:    AND2X2
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT AND2X2 A B Y
+*.PININFO A:B B:B Y:B
+MM0 a_2_6# A vdd vdd PMOS_VTL W=5e-07 L=5e-08 m=1
+MM1 vdd B a_2_6# vdd PMOS_VTL W=5e-07 L=5e-08 m=1
+MM2 Y a_2_6# vdd vdd PMOS_VTL W=1e-06 L=5e-08 m=1
+MM3 a_9_6# A a_2_6# gnd NMOS_VTL W=5e-07 L=5e-08 m=1
+MM4 gnd B a_9_6# gnd NMOS_VTL W=5e-07 L=5e-08 m=1
+MM5 Y a_2_6# gnd gnd NMOS_VTL W=5e-07 L=5e-08 m=1
+.ENDS
+
+************************************************************************
+* Library Name: fullsystem
+* Cell Name:    BUFX2
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT BUFX2 A Y
+*.PININFO A:B Y:B
+MM0 vdd A a_2_6# vdd PMOS_VTL W=5e-07 L=5e-08 m=1
+MM1 Y a_2_6# vdd vdd PMOS_VTL W=1e-06 L=5e-08 m=1
+MM2 gnd A a_2_6# gnd NMOS_VTL W=2.5e-07 L=5e-08 m=1
+MM3 Y a_2_6# gnd gnd NMOS_VTL W=5e-07 L=5e-08 m=1
+.ENDS
+
+************************************************************************
+* Library Name: fullsystem
+* Cell Name:    fullsystem
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT fullsystem clk1 clk2 rcv ready reset1 reset2 start
+*.PININFO clk1:I clk2:I reset1:I reset2:I start:I rcv:O ready:O
+Xclk2__L2_I0 clk2__L1_N0 clk2__L2_N0 / INVX4
+Xclk1__L2_I0 clk1__L1_N0 clk1__L2_N0 / INVX4
+Xclk2__L1_I0 clk2 clk2__L1_N0 / INVX8
+Xclk1__L1_I0 clk1 clk1__L1_N0 / INVX8
+XU14 talker_str_1xfsm_unitxstate_regx0x talker_str_1xfsm_unitxn6 / INVX1
+XU13 rcv talker_str_1xfsm_unitxn7 / INVX1
+XU8 n6 n7 / INVX1
+XFE_OCP_RBC1_reset1 reset1 FE_OCP_RBN1_reset1 / INVX1
+Xtalker_str_1xfsm_unitxU13 talker_str_1xfsm_unitxstate_regx1x 
++ talker_str_1xfsm_unitxstate_regx0x talker_str_1xfsm_unitxn8 / XOR2X1
+Xtalker_str_1xfsm_unitxU12 talker_str_1xfsm_unitxstate_regx0x 
++ talker_str_1xfsm_unitxn8 ready / NOR2X1
+Xtalker_str_1xfsm_unitxU11 talker_str_1xfsm_unitxstate_regx0x 
++ talker_str_1xfsm_unitxn7 start talker_str_1xfsm_unitxn6 
++ talker_str_1xfsm_unitxn9 / AOI22X1
+Xtalker_str_1xfsm_unitxU5 reset2 talker_str_1xfsm_unitxn4 / INVX2
+Xtalker_str_1xsync_unitxmeta_reg_reg clk2__L2_N0 ack_out 
++ talker_str_1xsync_unitxmeta_reg talker_str_1xfsm_unitxn4 vdd! / DFFSR
+Xtalker_str_1xsync_unitxsync_reg_reg clk2__L2_N0 
++ talker_str_1xsync_unitxmeta_reg n14 talker_str_1xfsm_unitxn4 vdd! / DFFSR
+Xlistener_str_1xfsm_unitxack_buf_reg_reg clk1__L2_N0 listener_str_1xreq_sync 
++ ack_out FE_OCP_RBN1_reset1 vdd! / DFFSR
+Xlistener_str_1xsync_unitxmeta_reg_reg clk1__L2_N0 req_in 
++ listener_str_1xsync_unitxmeta_reg FE_OCP_RBN1_reset1 vdd! / DFFSR
+Xlistener_str_1xsync_unitxsync_reg_reg clk1__L2_N0 
++ listener_str_1xsync_unitxmeta_reg listener_str_1xreq_sync FE_OCP_RBN1_reset1 
++ vdd! / DFFSR
+Xtalker_str_1xfsm_unitxstate_reg_regx0x clk2__L2_N0 n7 
++ talker_str_1xfsm_unitxstate_regx0x talker_str_1xfsm_unitxn4 vdd! / DFFSR
+Xtalker_str_1xfsm_unitxstate_reg_regx1x clk2__L2_N0 
++ talker_str_1xfsm_unitxstate_nextx1x talker_str_1xfsm_unitxstate_regx1x 
++ talker_str_1xfsm_unitxn4 vdd! / DFFSR
+Xtalker_str_1xfsm_unitxreq_buf_reg_reg clk2__L2_N0 n7 req_in 
++ talker_str_1xfsm_unitxn4 vdd! / DFFSR
+XU1 talker_str_1xfsm_unitxstate_regx1x talker_str_1xfsm_unitxn9 n6 / OR2X2
+XU7 rcv talker_str_1xfsm_unitxn8 talker_str_1xfsm_unitxstate_nextx1x / AND2X2
+XU10 n14 rcv / BUFX2
+.ENDS
+

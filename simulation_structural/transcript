@@ -1,0 +1,339 @@
+# //  ModelSim SE-64 6.5f Jun 16 2010 Linux 4.3.0-040300rc6-lowlatency
+# //
+# //  Copyright 1991-2010 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+vcom -reportprogress 300 -work work /media/ntfsdrive1/workspace/ProjectDIC2/simulation/talker_str.vhd
+# Model Technology ModelSim SE-64 vcom 6.5f Compiler 2010.06 Jun 16 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity talker_str
+# -- Compiling architecture str_arch of talker_str
+vcom -reportprogress 300 -work work /media/ntfsdrive1/workspace/ProjectDIC2/simulation/talker_fsm.vhd
+# Model Technology ModelSim SE-64 vcom 6.5f Compiler 2010.06 Jun 16 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity talker_fsm
+# -- Compiling architecture arch of talker_fsm
+vcom -reportprogress 300 -work work /media/ntfsdrive1/workspace/ProjectDIC2/simulation/synchronizer.vhd
+# Model Technology ModelSim SE-64 vcom 6.5f Compiler 2010.06 Jun 16 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity synchronizer
+# -- Compiling architecture two_ff_arch of synchronizer
+vcom -reportprogress 300 -work work /media/ntfsdrive1/workspace/ProjectDIC2/simulation/listener_str.vhd
+# Model Technology ModelSim SE-64 vcom 6.5f Compiler 2010.06 Jun 16 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity listener_str
+# -- Compiling architecture str_arch of listener_str
+vcom -reportprogress 300 -work work /media/ntfsdrive1/workspace/ProjectDIC2/simulation/listener_fsm.vhd
+# Model Technology ModelSim SE-64 vcom 6.5f Compiler 2010.06 Jun 16 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity listener_fsm
+# -- Compiling architecture arch of listener_fsm
+vcom -reportprogress 300 -work work /media/ntfsdrive1/workspace/ProjectDIC2/simulation/fullsystem_tb.vhd
+# Model Technology ModelSim SE-64 vcom 6.5f Compiler 2010.06 Jun 16 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity fullsystem_tb
+# -- Compiling architecture test of fullsystem_tb
+# ** Warning: [4] /media/ntfsdrive1/workspace/ProjectDIC2/simulation/fullsystem_tb.vhd(44): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] /media/ntfsdrive1/workspace/ProjectDIC2/simulation/fullsystem_tb.vhd(45): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: (vcom-13) Recompile work.fullsystem because ieee.std_logic_1164 has changed.
+# ** Error: /media/ntfsdrive1/workspace/ProjectDIC2/simulation/fullsystem_tb.vhd(50): (vcom-1195) Cannot find expanded name "work.fullsystem".
+# ** Error: /media/ntfsdrive1/workspace/ProjectDIC2/simulation/fullsystem_tb.vhd(50): Unknown expanded name.
+# ** Error: /media/ntfsdrive1/workspace/ProjectDIC2/simulation/fullsystem_tb.vhd(95): VHDL Compiler exiting
+vcom -reportprogress 300 -work work /media/ntfsdrive1/workspace/ProjectDIC2/simulation/fullsystem.vhd
+# Model Technology ModelSim SE-64 vcom 6.5f Compiler 2010.06 Jun 16 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity fullsystem
+# -- Compiling architecture fullsystem_str of fullsystem
+vcom -reportprogress 300 -work work /media/ntfsdrive1/workspace/ProjectDIC2/simulation/fullsystem_tb.vhd
+# Model Technology ModelSim SE-64 vcom 6.5f Compiler 2010.06 Jun 16 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity fullsystem_tb
+# -- Compiling architecture test of fullsystem_tb
+# ** Warning: [4] /media/ntfsdrive1/workspace/ProjectDIC2/simulation/fullsystem_tb.vhd(44): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] /media/ntfsdrive1/workspace/ProjectDIC2/simulation/fullsystem_tb.vhd(45): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# -- Loading entity fullsystem
+vcom -reportprogress 300 -work work /media/ntfsdrive1/workspace/ProjectDIC2/simulation/fullsystem_tb.vhd
+# Model Technology ModelSim SE-64 vcom 6.5f Compiler 2010.06 Jun 16 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity fullsystem_tb
+# -- Compiling architecture test of fullsystem_tb
+# -- Loading entity fullsystem
+# ** Warning: [4] /media/ntfsdrive1/workspace/ProjectDIC2/simulation/fullsystem_tb.vhd(59): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] /media/ntfsdrive1/workspace/ProjectDIC2/simulation/fullsystem_tb.vhd(61): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] /media/ntfsdrive1/workspace/ProjectDIC2/simulation/fullsystem_tb.vhd(68): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] /media/ntfsdrive1/workspace/ProjectDIC2/simulation/fullsystem_tb.vhd(70): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+vcom -reportprogress 300 -work work /media/ntfsdrive1/workspace/ProjectDIC2/simulation/fullsystem_tb.vhd
+# Model Technology ModelSim SE-64 vcom 6.5f Compiler 2010.06 Jun 16 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity fullsystem_tb
+# -- Compiling architecture test of fullsystem_tb
+# -- Loading entity fullsystem
+# ** Warning: [4] /media/ntfsdrive1/workspace/ProjectDIC2/simulation/fullsystem_tb.vhd(59): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] /media/ntfsdrive1/workspace/ProjectDIC2/simulation/fullsystem_tb.vhd(61): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] /media/ntfsdrive1/workspace/ProjectDIC2/simulation/fullsystem_tb.vhd(68): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] /media/ntfsdrive1/workspace/ProjectDIC2/simulation/fullsystem_tb.vhd(70): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+vcom -reportprogress 300 -work work /media/ntfsdrive1/workspace/ProjectDIC2/simulation/fullsystem_tb.vhd
+# Model Technology ModelSim SE-64 vcom 6.5f Compiler 2010.06 Jun 16 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity fullsystem_tb
+# -- Compiling architecture test of fullsystem_tb
+# -- Loading entity fullsystem
+vcom -reportprogress 300 -work work /media/ntfsdrive1/workspace/ProjectDIC2/simulation/fullsystem_tb.vhd
+# Model Technology ModelSim SE-64 vcom 6.5f Compiler 2010.06 Jun 16 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity fullsystem_tb
+# -- Compiling architecture test of fullsystem_tb
+# -- Loading entity fullsystem
+vcom -reportprogress 300 -work work /media/ntfsdrive1/workspace/ProjectDIC2/simulation/fullsystem_tb.vhd
+# Model Technology ModelSim SE-64 vcom 6.5f Compiler 2010.06 Jun 16 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity fullsystem_tb
+# -- Compiling architecture test of fullsystem_tb
+# -- Loading entity fullsystem
+vsim work.fullsystem_tb(test)
+# vsim work.fullsystem_tb(test) 
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading work.fullsystem_tb(test)#1
+add wave -r sim:/fullsystem_tb/*
+run 100
+vcom -reportprogress 300 -work work /media/ntfsdrive1/workspace/ProjectDIC2/simulation/fullsystem_tb.vhd
+# Model Technology ModelSim SE-64 vcom 6.5f Compiler 2010.06 Jun 16 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity fullsystem_tb
+# -- Compiling architecture test of fullsystem_tb
+# -- Loading entity fullsystem
+vcom -reportprogress 300 -work work /media/ntfsdrive1/workspace/ProjectDIC2/simulation/fullsystem_tb.vhd
+# Model Technology ModelSim SE-64 vcom 6.5f Compiler 2010.06 Jun 16 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity fullsystem_tb
+# -- Compiling architecture test of fullsystem_tb
+# -- Loading entity fullsystem
+vsim work.fullsystem_tb(test)
+# vsim work.fullsystem_tb(test) 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading work.fullsystem_tb(test)#1
+add wave -r sim:/fullsystem_tb/*
+run 300
+vcom -reportprogress 300 -work work /media/ntfsdrive1/workspace/ProjectDIC2/simulation/fullsystem_tb.vhd
+# Model Technology ModelSim SE-64 vcom 6.5f Compiler 2010.06 Jun 16 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity fullsystem_tb
+# -- Compiling architecture test of fullsystem_tb
+# -- Loading entity fullsystem
+vsim work.fullsystem_tb(test)
+# vsim work.fullsystem_tb(test) 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading work.fullsystem_tb(test)#1
+add wave -r sim:/fullsystem_tb/*
+run 200
+vcom -reportprogress 300 -work work /media/ntfsdrive1/workspace/ProjectDIC2/simulation/talker_fsm.vhd
+# Model Technology ModelSim SE-64 vcom 6.5f Compiler 2010.06 Jun 16 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity talker_fsm
+# ** Error: /media/ntfsdrive1/workspace/ProjectDIC2/simulation/talker_fsm.vhd(10): (vcom-1136) Unknown identifier "ack_sync_out".
+# ** Error: /media/ntfsdrive1/workspace/ProjectDIC2/simulation/talker_fsm.vhd(10): Bad resolution function (std_logic) for type (error).
+# ** Error: /media/ntfsdrive1/workspace/ProjectDIC2/simulation/talker_fsm.vhd(10): near ":": expecting ';' or ')'
+vcom -reportprogress 300 -work work /media/ntfsdrive1/workspace/ProjectDIC2/simulation/talker_fsm.vhd
+# Model Technology ModelSim SE-64 vcom 6.5f Compiler 2010.06 Jun 16 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity talker_fsm
+# -- Compiling architecture arch of talker_fsm
+vcom -reportprogress 300 -work work /media/ntfsdrive1/workspace/ProjectDIC2/simulation/talker_str.vhd
+# Model Technology ModelSim SE-64 vcom 6.5f Compiler 2010.06 Jun 16 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity talker_str
+# -- Compiling architecture str_arch of talker_str
+# ** Error: /media/ntfsdrive1/workspace/ProjectDIC2/simulation/talker_str.vhd(49): near ";": expecting ',' or ')'
+# ** Error: /media/ntfsdrive1/workspace/ProjectDIC2/simulation/talker_str.vhd(54): VHDL Compiler exiting
+vcom -reportprogress 300 -work work /media/ntfsdrive1/workspace/ProjectDIC2/simulation/talker_str.vhd
+# Model Technology ModelSim SE-64 vcom 6.5f Compiler 2010.06 Jun 16 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity talker_str
+# -- Compiling architecture str_arch of talker_str
+vcom -reportprogress 300 -work work /media/ntfsdrive1/workspace/ProjectDIC2/simulation/fullsystem.vhd
+# Model Technology ModelSim SE-64 vcom 6.5f Compiler 2010.06 Jun 16 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity fullsystem
+# -- Compiling architecture fullsystem_str of fullsystem
+# ** Error: /media/ntfsdrive1/workspace/ProjectDIC2/simulation/fullsystem.vhd(24): (vcom-1294) Declaration with designator "ack_out" already exists in this region.
+# ** Error: /media/ntfsdrive1/workspace/ProjectDIC2/simulation/fullsystem.vhd(66): VHDL Compiler exiting
+vcom -reportprogress 300 -work work /media/ntfsdrive1/workspace/ProjectDIC2/simulation/fullsystem.vhd
+# Model Technology ModelSim SE-64 vcom 6.5f Compiler 2010.06 Jun 16 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity fullsystem
+# -- Compiling architecture fullsystem_str of fullsystem
+# ** Error: /media/ntfsdrive1/workspace/ProjectDIC2/simulation/fullsystem.vhd(63): Cannot read output "ack_out".
+# ** Error: /media/ntfsdrive1/workspace/ProjectDIC2/simulation/fullsystem.vhd(65): VHDL Compiler exiting
+vcom -reportprogress 300 -work work /media/ntfsdrive1/workspace/ProjectDIC2/simulation/talker_str.vhd
+# Model Technology ModelSim SE-64 vcom 6.5f Compiler 2010.06 Jun 16 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity talker_str
+# -- Compiling architecture str_arch of talker_str
+vcom -reportprogress 300 -work work /media/ntfsdrive1/workspace/ProjectDIC2/simulation/talker_fsm.vhd
+# Model Technology ModelSim SE-64 vcom 6.5f Compiler 2010.06 Jun 16 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity talker_fsm
+# -- Compiling architecture arch of talker_fsm
+vcom -reportprogress 300 -work work /media/ntfsdrive1/workspace/ProjectDIC2/simulation/fullsystem.vhd
+# Model Technology ModelSim SE-64 vcom 6.5f Compiler 2010.06 Jun 16 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity fullsystem
+# -- Compiling architecture fullsystem_str of fullsystem
+# ** Error: /media/ntfsdrive1/workspace/ProjectDIC2/simulation/fullsystem.vhd(63): Cannot read output "ack_out".
+# ** Error: /media/ntfsdrive1/workspace/ProjectDIC2/simulation/fullsystem.vhd(65): VHDL Compiler exiting
+vcom -reportprogress 300 -work work /media/ntfsdrive1/workspace/ProjectDIC2/simulation/listener_fsm.vhd
+# Model Technology ModelSim SE-64 vcom 6.5f Compiler 2010.06 Jun 16 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity listener_fsm
+# -- Compiling architecture arch of listener_fsm
+vcom -reportprogress 300 -work work /media/ntfsdrive1/workspace/ProjectDIC2/simulation/listener_str.vhd
+# Model Technology ModelSim SE-64 vcom 6.5f Compiler 2010.06 Jun 16 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity listener_str
+# -- Compiling architecture str_arch of listener_str
+vcom -reportprogress 300 -work work /media/ntfsdrive1/workspace/ProjectDIC2/simulation/fullsystem.vhd
+# Model Technology ModelSim SE-64 vcom 6.5f Compiler 2010.06 Jun 16 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity fullsystem
+# -- Compiling architecture fullsystem_str of fullsystem
+# ** Error: /media/ntfsdrive1/workspace/ProjectDIC2/simulation/fullsystem.vhd(63): Cannot read output "ack_out".
+# ** Error: /media/ntfsdrive1/workspace/ProjectDIC2/simulation/fullsystem.vhd(65): VHDL Compiler exiting
+vcom -reportprogress 300 -work work /media/ntfsdrive1/workspace/ProjectDIC2/simulation/talker_fsm.vhd
+# Model Technology ModelSim SE-64 vcom 6.5f Compiler 2010.06 Jun 16 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity talker_fsm
+# -- Compiling architecture arch of talker_fsm
+vcom -reportprogress 300 -work work /media/ntfsdrive1/workspace/ProjectDIC2/simulation/talker_str.vhd
+# Model Technology ModelSim SE-64 vcom 6.5f Compiler 2010.06 Jun 16 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity talker_str
+# -- Compiling architecture str_arch of talker_str
+vcom -reportprogress 300 -work work /media/ntfsdrive1/workspace/ProjectDIC2/simulation/fullsystem.vhd
+# Model Technology ModelSim SE-64 vcom 6.5f Compiler 2010.06 Jun 16 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity fullsystem
+# -- Compiling architecture fullsystem_str of fullsystem
+# ** Error: /media/ntfsdrive1/workspace/ProjectDIC2/simulation/fullsystem.vhd(63): Cannot read output "ack_out".
+# ** Error: /media/ntfsdrive1/workspace/ProjectDIC2/simulation/fullsystem.vhd(65): VHDL Compiler exiting
+vcom -reportprogress 300 -work work /media/ntfsdrive1/workspace/ProjectDIC2/simulation/talker_fsm.vhd
+# Model Technology ModelSim SE-64 vcom 6.5f Compiler 2010.06 Jun 16 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity talker_fsm
+# -- Compiling architecture arch of talker_fsm
+vcom -reportprogress 300 -work work /media/ntfsdrive1/workspace/ProjectDIC2/simulation/talker_str.vhd
+# Model Technology ModelSim SE-64 vcom 6.5f Compiler 2010.06 Jun 16 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity talker_str
+# -- Compiling architecture str_arch of talker_str
+vcom -reportprogress 300 -work work /media/ntfsdrive1/workspace/ProjectDIC2/simulation/fullsystem.vhd
+# Model Technology ModelSim SE-64 vcom 6.5f Compiler 2010.06 Jun 16 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity fullsystem
+# ** Error: /media/ntfsdrive1/workspace/ProjectDIC2/simulation/fullsystem.vhd(16): near ")": expecting "IDENTIFIER"
+vcom -reportprogress 300 -work work /media/ntfsdrive1/workspace/ProjectDIC2/simulation/fullsystem.vhd
+# Model Technology ModelSim SE-64 vcom 6.5f Compiler 2010.06 Jun 16 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity fullsystem
+# -- Compiling architecture fullsystem_str of fullsystem
+# ** Error: /media/ntfsdrive1/workspace/ProjectDIC2/simulation/fullsystem.vhd(60): near ";": expecting ',' or ')'
+# ** Error: /media/ntfsdrive1/workspace/ProjectDIC2/simulation/fullsystem.vhd(65): VHDL Compiler exiting
+vcom -reportprogress 300 -work work /media/ntfsdrive1/workspace/ProjectDIC2/simulation/fullsystem.vhd
+# Model Technology ModelSim SE-64 vcom 6.5f Compiler 2010.06 Jun 16 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity fullsystem
+# -- Compiling architecture fullsystem_str of fullsystem
+vcom -reportprogress 300 -work work /media/ntfsdrive1/workspace/ProjectDIC2/simulation/fullsystem_tb.vhd
+# Model Technology ModelSim SE-64 vcom 6.5f Compiler 2010.06 Jun 16 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity fullsystem_tb
+# -- Compiling architecture test of fullsystem_tb
+# -- Loading entity fullsystem
+vsim work.fullsystem_tb(test)
+# vsim work.fullsystem_tb(test) 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading work.fullsystem_tb(test)#1
+add wave -r sim:/fullsystem_tb/*
+run 200
+vcom -reportprogress 300 -work work /media/ntfsdrive1/workspace/ProjectDIC2/simulation/talker_fsm.vhd
+# Model Technology ModelSim SE-64 vcom 6.5f Compiler 2010.06 Jun 16 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity talker_fsm
+# -- Compiling architecture arch of talker_fsm
+vcom -reportprogress 300 -work work /media/ntfsdrive1/workspace/ProjectDIC2/simulation/talker_str.vhd
+# Model Technology ModelSim SE-64 vcom 6.5f Compiler 2010.06 Jun 16 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity talker_str
+# -- Compiling architecture str_arch of talker_str
+vcom -reportprogress 300 -work work /media/ntfsdrive1/workspace/ProjectDIC2/simulation/fullsystem.vhd
+# Model Technology ModelSim SE-64 vcom 6.5f Compiler 2010.06 Jun 16 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity fullsystem
+# -- Compiling architecture fullsystem_str of fullsystem
+vcom -reportprogress 300 -work work /media/ntfsdrive1/workspace/ProjectDIC2/simulation/fullsystem_tb.vhd
+# Model Technology ModelSim SE-64 vcom 6.5f Compiler 2010.06 Jun 16 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity fullsystem_tb
+# -- Compiling architecture test of fullsystem_tb
+# -- Loading entity fullsystem
+vsim work.fullsystem_tb(test)
+# vsim work.fullsystem_tb(test) 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading work.fullsystem_tb(test)#1
+add wave -r sim:/fullsystem_tb/*
+run 200

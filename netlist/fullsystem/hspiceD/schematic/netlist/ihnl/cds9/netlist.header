@@ -1,0 +1,5 @@
+
+** Library name: fullsystem
+** Cell name: AND2X2
+** View name: schematic
+.subckt AND2X2 a b y

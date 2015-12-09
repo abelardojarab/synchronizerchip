@@ -1,0 +1,549 @@
+(DELAYFILE
+(SDFVERSION "OVI 1.0")
+(DESIGN "fullsystem")
+(DATE "Sun Dec  6 12:14:39 2015")
+(VENDOR "gscl45nm")
+(PROGRAM "Synopsys Design Compiler cmos")
+(VERSION "B-2008.09")
+(DIVIDER /)
+(VOLTAGE 1.10:1.10:1.10)
+(PROCESS)
+(TEMPERATURE 27.00:27.00:27.00)
+(TIMESCALE 1ns)
+(CELL
+  (CELLTYPE "fullsystem")
+  (INSTANCE)
+  (DELAY
+    (ABSOLUTE
+    (INTERCONNECT talker_str_1xfsm_unitxreq_buf_reg_reg/Q U24/A (0.000:0.000:0.000))
+    (INTERCONNECT U22/Y U23/A (0.000:0.000:0.000))
+    (INTERCONNECT U24/Y U22/A (0.000:0.000:0.000))
+    (INTERCONNECT listener_str_1xsync_unitxsync_reg_reg/Q U21/A (0.000:0.000:0.000))
+    (INTERCONNECT U19/Y U20/A (0.000:0.000:0.000))
+    (INTERCONNECT U21/Y U19/A (0.000:0.000:0.000))
+    (INTERCONNECT listener_str_1xsync_unitxmeta_reg_reg/Q U18/A (0.000:0.000:0.000))
+    (INTERCONNECT U16/Y U17/A (0.000:0.000:0.000))
+    (INTERCONNECT U18/Y U16/A (0.000:0.000:0.000))
+    (INTERCONNECT listener_str_1xfsm_unitxack_buf_reg_reg/Q U15/A (0.000:0.000:0.000))
+    (INTERCONNECT U5/Y U6/A (0.000:0.000:0.000))
+    (INTERCONNECT U15/Y U5/A (0.000:0.000:0.000))
+    (INTERCONNECT talker_str_1xsync_unitxmeta_reg_reg/Q U4/A (0.000:0.000:0.000))
+    (INTERCONNECT U2/Y U3/A (0.000:0.000:0.000))
+    (INTERCONNECT U4/Y U2/A (0.000:0.000:0.000))
+    (INTERCONNECT U6/Y talker_str_1xsync_unitxmeta_reg_reg/D (0.000:0.000:0.000))
+    (INTERCONNECT clk2 talker_str_1xsync_unitxmeta_reg_reg/CLK (0.000:0.000:0.000))
+    (INTERCONNECT talker_str_1xfsm_unitxU5/Y talker_str_1xsync_unitxmeta_reg_reg/R (0.000:0.000:0.000))
+    (INTERCONNECT U3/Y talker_str_1xsync_unitxsync_reg_reg/D (0.000:0.000:0.000))
+    (INTERCONNECT clk2 talker_str_1xsync_unitxsync_reg_reg/CLK (0.000:0.000:0.000))
+    (INTERCONNECT talker_str_1xfsm_unitxU5/Y talker_str_1xsync_unitxsync_reg_reg/R (0.000:0.000:0.000))
+    (INTERCONNECT U20/Y listener_str_1xfsm_unitxack_buf_reg_reg/D (0.000:0.000:0.000))
+    (INTERCONNECT clk1 listener_str_1xfsm_unitxack_buf_reg_reg/CLK (0.000:0.000:0.000))
+    (INTERCONNECT listener_str_1xsync_unitxU4/Y listener_str_1xfsm_unitxack_buf_reg_reg/R (0.000:0.000:0.000))
+    (INTERCONNECT U23/Y listener_str_1xsync_unitxmeta_reg_reg/D (0.000:0.000:0.000))
+    (INTERCONNECT clk1 listener_str_1xsync_unitxmeta_reg_reg/CLK (0.000:0.000:0.000))
+    (INTERCONNECT listener_str_1xsync_unitxU4/Y listener_str_1xsync_unitxmeta_reg_reg/R (0.000:0.000:0.000))
+    (INTERCONNECT U17/Y listener_str_1xsync_unitxsync_reg_reg/D (0.000:0.000:0.000))
+    (INTERCONNECT clk1 listener_str_1xsync_unitxsync_reg_reg/CLK (0.000:0.000:0.000))
+    (INTERCONNECT listener_str_1xsync_unitxU4/Y listener_str_1xsync_unitxsync_reg_reg/R (0.000:0.000:0.000))
+    (INTERCONNECT U12/Y U14/A (0.000:0.000:0.000))
+    (INTERCONNECT U10/Y U13/A (0.000:0.000:0.000))
+    (INTERCONNECT talker_str_1xfsm_unitxstate_reg_regx0x/Q U12/A (0.000:0.000:0.000))
+    (INTERCONNECT talker_str_1xfsm_unitxstate_reg_regx1x/Q U11/A (0.000:0.000:0.000))
+    (INTERCONNECT talker_str_1xsync_unitxsync_reg_reg/Q U10/A (0.000:0.000:0.000))
+    (INTERCONNECT talker_str_1xfsm_unitxU11/Y U9/A (0.000:0.000:0.000))
+    (INTERCONNECT U1/Y U8/A (0.000:0.000:0.000))
+    (INTERCONNECT U10/Y U7/A (0.000:0.000:0.000))
+    (INTERCONNECT talker_str_1xfsm_unitxU13/Y U7/B (0.000:0.000:0.000))
+    (INTERCONNECT U11/Y U1/A (0.000:0.000:0.000))
+    (INTERCONNECT U9/Y U1/B (0.000:0.000:0.000))
+    (INTERCONNECT U8/Y talker_str_1xfsm_unitxstate_reg_regx0x/D (0.000:0.000:0.000))
+    (INTERCONNECT clk2 talker_str_1xfsm_unitxstate_reg_regx0x/CLK (0.000:0.000:0.000))
+    (INTERCONNECT talker_str_1xfsm_unitxU5/Y talker_str_1xfsm_unitxstate_reg_regx0x/R (0.000:0.000:0.000))
+    (INTERCONNECT U7/Y talker_str_1xfsm_unitxstate_reg_regx1x/D (0.000:0.000:0.000))
+    (INTERCONNECT clk2 talker_str_1xfsm_unitxstate_reg_regx1x/CLK (0.000:0.000:0.000))
+    (INTERCONNECT talker_str_1xfsm_unitxU5/Y talker_str_1xfsm_unitxstate_reg_regx1x/R (0.000:0.000:0.000))
+    (INTERCONNECT U8/Y talker_str_1xfsm_unitxreq_buf_reg_reg/D (0.000:0.000:0.000))
+    (INTERCONNECT clk2 talker_str_1xfsm_unitxreq_buf_reg_reg/CLK (0.000:0.000:0.000))
+    (INTERCONNECT talker_str_1xfsm_unitxU5/Y talker_str_1xfsm_unitxreq_buf_reg_reg/R (0.000:0.000:0.000))
+    (INTERCONNECT reset2 talker_str_1xfsm_unitxU5/A (0.000:0.000:0.000))
+    (INTERCONNECT U12/Y talker_str_1xfsm_unitxU11/A (0.000:0.000:0.000))
+    (INTERCONNECT U13/Y talker_str_1xfsm_unitxU11/B (0.000:0.000:0.000))
+    (INTERCONNECT start talker_str_1xfsm_unitxU11/C (0.000:0.000:0.000))
+    (INTERCONNECT U14/Y talker_str_1xfsm_unitxU11/D (0.000:0.000:0.000))
+    (INTERCONNECT U12/Y talker_str_1xfsm_unitxU12/A (0.000:0.000:0.000))
+    (INTERCONNECT talker_str_1xfsm_unitxU13/Y talker_str_1xfsm_unitxU12/B (0.000:0.000:0.000))
+    (INTERCONNECT U11/Y talker_str_1xfsm_unitxU13/A (0.000:0.000:0.000))
+    (INTERCONNECT U12/Y talker_str_1xfsm_unitxU13/B (0.000:0.000:0.000))
+    (INTERCONNECT reset1 listener_str_1xsync_unitxU4/A (0.000:0.000:0.000))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "BUFX2")
+  (INSTANCE U24)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH A Y (0.031:0.032:0.032) (0.030:0.032:0.032))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "INVX1")
+  (INSTANCE U23)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH A Y (0.000:0.000:0.000) (0.013:0.013:0.013))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "INVX1")
+  (INSTANCE U22)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH A Y (-0.005:-0.005:-0.005) (0.013:0.013:0.013))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "BUFX2")
+  (INSTANCE U21)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH A Y (0.031:0.032:0.032) (0.030:0.032:0.032))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "INVX1")
+  (INSTANCE U20)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH A Y (0.000:0.000:0.000) (0.013:0.013:0.013))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "INVX1")
+  (INSTANCE U19)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH A Y (-0.005:-0.005:-0.005) (0.013:0.013:0.013))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "BUFX2")
+  (INSTANCE U18)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH A Y (0.031:0.032:0.032) (0.030:0.032:0.032))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "INVX1")
+  (INSTANCE U17)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH A Y (0.000:0.000:0.000) (0.013:0.013:0.013))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "INVX1")
+  (INSTANCE U16)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH A Y (-0.005:-0.005:-0.005) (0.013:0.013:0.013))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "BUFX2")
+  (INSTANCE U15)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH A Y (0.031:0.032:0.032) (0.030:0.032:0.032))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "INVX1")
+  (INSTANCE U6)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH A Y (0.000:0.000:0.000) (0.013:0.013:0.013))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "INVX1")
+  (INSTANCE U5)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH A Y (-0.005:-0.005:-0.005) (0.013:0.013:0.013))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "BUFX2")
+  (INSTANCE U4)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH A Y (0.031:0.032:0.032) (0.030:0.032:0.032))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "INVX1")
+  (INSTANCE U3)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH A Y (0.000:0.000:0.000) (0.013:0.013:0.013))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "INVX1")
+  (INSTANCE U2)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH A Y (-0.005:-0.005:-0.005) (0.013:0.013:0.013))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "DFFSR")
+  (INSTANCE talker_str_1xsync_unitxmeta_reg_reg)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH CLK Q (0.109:0.109:0.109) (0.115:0.115:0.115))
+    (IOPATH R Q (0.040:0.040:0.040) (0.064:0.064:0.064))
+    (IOPATH S Q (0.079:0.079:0.079) ())
+    )
+  )
+  (TIMINGCHECK
+    (WIDTH (posedge CLK) (0.262:0.262:0.262))
+    (WIDTH (negedge CLK) (0.126:0.126:0.126))
+    (HOLD D (posedge CLK) (-0.045:-0.016:-0.016))
+    (SETUP D (posedge CLK) (0.070:0.070:0.070))
+    (RECOVERY R (posedge CLK) (-0.803:-0.803:-0.803))
+    (HOLD R (posedge CLK) (0.180:0.180:0.180))
+    (RECOVERY S (posedge CLK) (-0.016:-0.016:-0.016))
+    (HOLD S (posedge CLK) (0.117:0.117:0.117))
+    (WIDTH (negedge R) (0.142:0.142:0.142))
+    (RECOVERY S (posedge R) (0.093:0.093:0.093))
+    (WIDTH (negedge S) (0.214:0.214:0.214))
+    (RECOVERY R (posedge S) (0.003:0.003:0.003))
+  )
+)
+(CELL
+  (CELLTYPE "DFFSR")
+  (INSTANCE talker_str_1xsync_unitxsync_reg_reg)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH CLK Q (0.109:0.109:0.109) (0.115:0.115:0.115))
+    (IOPATH R Q (0.040:0.040:0.040) (0.064:0.064:0.064))
+    (IOPATH S Q (0.079:0.079:0.079) ())
+    )
+  )
+  (TIMINGCHECK
+    (WIDTH (posedge CLK) (0.262:0.262:0.262))
+    (WIDTH (negedge CLK) (0.126:0.126:0.126))
+    (HOLD D (posedge CLK) (-0.045:-0.016:-0.016))
+    (SETUP D (posedge CLK) (0.070:0.070:0.070))
+    (RECOVERY R (posedge CLK) (-0.803:-0.803:-0.803))
+    (HOLD R (posedge CLK) (0.180:0.180:0.180))
+    (RECOVERY S (posedge CLK) (-0.016:-0.016:-0.016))
+    (HOLD S (posedge CLK) (0.117:0.117:0.117))
+    (WIDTH (negedge R) (0.142:0.142:0.142))
+    (RECOVERY S (posedge R) (0.093:0.093:0.093))
+    (WIDTH (negedge S) (0.214:0.214:0.214))
+    (RECOVERY R (posedge S) (0.003:0.003:0.003))
+  )
+)
+(CELL
+  (CELLTYPE "DFFSR")
+  (INSTANCE listener_str_1xfsm_unitxack_buf_reg_reg)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH CLK Q (0.109:0.109:0.109) (0.115:0.115:0.115))
+    (IOPATH R Q (0.039:0.039:0.039) (0.057:0.057:0.057))
+    (IOPATH S Q (0.079:0.079:0.079) ())
+    )
+  )
+  (TIMINGCHECK
+    (WIDTH (posedge CLK) (0.262:0.262:0.262))
+    (WIDTH (negedge CLK) (0.126:0.126:0.126))
+    (HOLD D (posedge CLK) (-0.045:-0.016:-0.016))
+    (SETUP D (posedge CLK) (0.070:0.070:0.070))
+    (RECOVERY R (posedge CLK) (-1.059:-1.059:-1.059))
+    (HOLD R (posedge CLK) (0.197:0.197:0.197))
+    (RECOVERY S (posedge CLK) (-0.016:-0.016:-0.016))
+    (HOLD S (posedge CLK) (0.117:0.117:0.117))
+    (WIDTH (negedge R) (0.142:0.142:0.142))
+    (RECOVERY S (posedge R) (0.114:0.114:0.114))
+    (WIDTH (negedge S) (0.214:0.214:0.214))
+    (RECOVERY R (posedge S) (-0.022:-0.022:-0.022))
+  )
+)
+(CELL
+  (CELLTYPE "DFFSR")
+  (INSTANCE listener_str_1xsync_unitxmeta_reg_reg)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH CLK Q (0.109:0.109:0.109) (0.115:0.115:0.115))
+    (IOPATH R Q (0.039:0.039:0.039) (0.057:0.057:0.057))
+    (IOPATH S Q (0.079:0.079:0.079) ())
+    )
+  )
+  (TIMINGCHECK
+    (WIDTH (posedge CLK) (0.262:0.262:0.262))
+    (WIDTH (negedge CLK) (0.126:0.126:0.126))
+    (HOLD D (posedge CLK) (-0.045:-0.016:-0.016))
+    (SETUP D (posedge CLK) (0.070:0.070:0.070))
+    (RECOVERY R (posedge CLK) (-1.059:-1.059:-1.059))
+    (HOLD R (posedge CLK) (0.197:0.197:0.197))
+    (RECOVERY S (posedge CLK) (-0.016:-0.016:-0.016))
+    (HOLD S (posedge CLK) (0.117:0.117:0.117))
+    (WIDTH (negedge R) (0.142:0.142:0.142))
+    (RECOVERY S (posedge R) (0.114:0.114:0.114))
+    (WIDTH (negedge S) (0.214:0.214:0.214))
+    (RECOVERY R (posedge S) (-0.022:-0.022:-0.022))
+  )
+)
+(CELL
+  (CELLTYPE "DFFSR")
+  (INSTANCE listener_str_1xsync_unitxsync_reg_reg)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH CLK Q (0.109:0.109:0.109) (0.115:0.115:0.115))
+    (IOPATH R Q (0.039:0.039:0.039) (0.057:0.057:0.057))
+    (IOPATH S Q (0.079:0.079:0.079) ())
+    )
+  )
+  (TIMINGCHECK
+    (WIDTH (posedge CLK) (0.262:0.262:0.262))
+    (WIDTH (negedge CLK) (0.126:0.126:0.126))
+    (HOLD D (posedge CLK) (-0.045:-0.016:-0.016))
+    (SETUP D (posedge CLK) (0.070:0.070:0.070))
+    (RECOVERY R (posedge CLK) (-1.059:-1.059:-1.059))
+    (HOLD R (posedge CLK) (0.197:0.197:0.197))
+    (RECOVERY S (posedge CLK) (-0.016:-0.016:-0.016))
+    (HOLD S (posedge CLK) (0.117:0.117:0.117))
+    (WIDTH (negedge R) (0.142:0.142:0.142))
+    (RECOVERY S (posedge R) (0.114:0.114:0.114))
+    (WIDTH (negedge S) (0.214:0.214:0.214))
+    (RECOVERY R (posedge S) (-0.022:-0.022:-0.022))
+  )
+)
+(CELL
+  (CELLTYPE "INVX1")
+  (INSTANCE U14)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH A Y (0.005:0.005:0.005) (0.022:0.023:0.023))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "INVX1")
+  (INSTANCE U13)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH A Y (-0.000:0.001:0.001) (0.017:0.017:0.017))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "BUFX2")
+  (INSTANCE U12)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH A Y (0.048:0.048:0.048) (0.041:0.043:0.043))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "BUFX2")
+  (INSTANCE U11)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH A Y (0.041:0.042:0.042) (0.037:0.039:0.039))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "BUFX2")
+  (INSTANCE U10)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH A Y (0.035:0.035:0.035) (0.032:0.035:0.035))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "BUFX2")
+  (INSTANCE U9)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH A Y (0.034:0.036:0.036) (0.031:0.038:0.038))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "INVX1")
+  (INSTANCE U8)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH A Y (0.006:0.007:0.007) (0.019:0.022:0.022))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "AND2X1")
+  (INSTANCE U7)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH A Y (0.030:0.030:0.030) (0.030:0.031:0.031))
+    (IOPATH B Y (0.039:0.039:0.039) (0.044:0.045:0.045))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "OR2X1")
+  (INSTANCE U1)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH A Y (0.037:0.037:0.037) (0.038:0.039:0.039))
+    (IOPATH B Y (0.047:0.047:0.047) (0.046:0.047:0.047))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "DFFSR")
+  (INSTANCE talker_str_1xfsm_unitxstate_reg_regx0x)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH CLK Q (0.109:0.109:0.109) (0.115:0.115:0.115))
+    (IOPATH R Q (0.040:0.040:0.040) (0.064:0.064:0.064))
+    (IOPATH S Q (0.079:0.079:0.079) ())
+    )
+  )
+  (TIMINGCHECK
+    (WIDTH (posedge CLK) (0.262:0.262:0.262))
+    (WIDTH (negedge CLK) (0.126:0.126:0.126))
+    (HOLD D (posedge CLK) (-0.047:-0.016:-0.016))
+    (SETUP D (posedge CLK) (0.070:0.070:0.070))
+    (RECOVERY R (posedge CLK) (-0.803:-0.803:-0.803))
+    (HOLD R (posedge CLK) (0.180:0.180:0.180))
+    (RECOVERY S (posedge CLK) (-0.016:-0.016:-0.016))
+    (HOLD S (posedge CLK) (0.117:0.117:0.117))
+    (WIDTH (negedge R) (0.142:0.142:0.142))
+    (RECOVERY S (posedge R) (0.093:0.093:0.093))
+    (WIDTH (negedge S) (0.214:0.214:0.214))
+    (RECOVERY R (posedge S) (0.003:0.003:0.003))
+  )
+)
+(CELL
+  (CELLTYPE "DFFSR")
+  (INSTANCE talker_str_1xfsm_unitxstate_reg_regx1x)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH CLK Q (0.109:0.109:0.109) (0.115:0.115:0.115))
+    (IOPATH R Q (0.040:0.040:0.040) (0.064:0.064:0.064))
+    (IOPATH S Q (0.079:0.079:0.079) ())
+    )
+  )
+  (TIMINGCHECK
+    (WIDTH (posedge CLK) (0.262:0.262:0.262))
+    (WIDTH (negedge CLK) (0.126:0.126:0.126))
+    (HOLD D (posedge CLK) (-0.042:-0.007:-0.007))
+    (SETUP D (posedge CLK) (0.075:0.080:0.080))
+    (RECOVERY R (posedge CLK) (-0.803:-0.803:-0.803))
+    (HOLD R (posedge CLK) (0.180:0.180:0.180))
+    (RECOVERY S (posedge CLK) (-0.016:-0.016:-0.016))
+    (HOLD S (posedge CLK) (0.117:0.117:0.117))
+    (WIDTH (negedge R) (0.142:0.142:0.142))
+    (RECOVERY S (posedge R) (0.093:0.093:0.093))
+    (WIDTH (negedge S) (0.214:0.214:0.214))
+    (RECOVERY R (posedge S) (0.003:0.003:0.003))
+  )
+)
+(CELL
+  (CELLTYPE "DFFSR")
+  (INSTANCE talker_str_1xfsm_unitxreq_buf_reg_reg)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH CLK Q (0.109:0.109:0.109) (0.115:0.115:0.115))
+    (IOPATH R Q (0.040:0.040:0.040) (0.064:0.064:0.064))
+    (IOPATH S Q (0.079:0.079:0.079) ())
+    )
+  )
+  (TIMINGCHECK
+    (WIDTH (posedge CLK) (0.262:0.262:0.262))
+    (WIDTH (negedge CLK) (0.126:0.126:0.126))
+    (HOLD D (posedge CLK) (-0.047:-0.016:-0.016))
+    (SETUP D (posedge CLK) (0.070:0.070:0.070))
+    (RECOVERY R (posedge CLK) (-0.803:-0.803:-0.803))
+    (HOLD R (posedge CLK) (0.180:0.180:0.180))
+    (RECOVERY S (posedge CLK) (-0.016:-0.016:-0.016))
+    (HOLD S (posedge CLK) (0.117:0.117:0.117))
+    (WIDTH (negedge R) (0.142:0.142:0.142))
+    (RECOVERY S (posedge R) (0.093:0.093:0.093))
+    (WIDTH (negedge S) (0.214:0.214:0.214))
+    (RECOVERY R (posedge S) (0.003:0.003:0.003))
+  )
+)
+(CELL
+  (CELLTYPE "INVX1")
+  (INSTANCE talker_str_1xfsm_unitxU5)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH A Y (0.074:0.074:0.074) (0.060:0.060:0.060))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "AOI22X1")
+  (INSTANCE talker_str_1xfsm_unitxU11)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH A Y (0.046:0.047:0.047) (0.036:0.036:0.036))
+    (IOPATH B Y (0.038:0.038:0.038) (0.023:0.023:0.023))
+    (IOPATH C Y (0.033:0.033:0.033) (0.014:0.014:0.014))
+    (IOPATH D Y (0.026:0.026:0.026) (0.011:0.011:0.011))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "NOR2X1")
+  (INSTANCE talker_str_1xfsm_unitxU12)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH A Y (0.023:0.023:0.023) (0.014:0.015:0.015))
+    (IOPATH B Y (0.022:0.024:0.024) (0.020:0.020:0.020))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "XOR2X1")
+  (INSTANCE talker_str_1xfsm_unitxU13)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH A Y (0.040:0.042:0.042) (0.032:0.034:0.034))
+    (IOPATH B Y (0.057:0.059:0.059) (0.035:0.038:0.038))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "INVX1")
+  (INSTANCE listener_str_1xsync_unitxU4)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH A Y (0.042:0.042:0.042) (0.039:0.039:0.039))
+    )
+  )
+)
+)

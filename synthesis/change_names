@@ -1,0 +1,36 @@
+
+Design          Type    Object                  New Name
+--------------------------------------------------------------------------------
+Warning: The specified replacement character (x) is conflicting with the specified set of allow characters.   (UCN-3)
+fullsystem      cell    listener_str_1/sync_unit/U4 listener_str_1xsync_unitxU4
+fullsystem      cell    talker_str_1/fsm_unit/U13 talker_str_1xfsm_unitxU13
+fullsystem      cell    talker_str_1/fsm_unit/U12 talker_str_1xfsm_unitxU12
+fullsystem      cell    talker_str_1/fsm_unit/U11 talker_str_1xfsm_unitxU11
+fullsystem      cell    talker_str_1/fsm_unit/U6 talker_str_1xfsm_unitxU6
+fullsystem      cell    talker_str_1/fsm_unit/U5 talker_str_1xfsm_unitxU5
+fullsystem      cell    talker_str_1/fsm_unit/U4 talker_str_1xfsm_unitxU4
+fullsystem      cell    talker_str_1/fsm_unit/U3 talker_str_1xfsm_unitxU3
+fullsystem      cell    talker_str_1/fsm_unit/req_buf_reg_reg talker_str_1xfsm_unitxreq_buf_reg_reg
+fullsystem      cell    talker_str_1/fsm_unit/state_reg_reg[1] talker_str_1xfsm_unitxstate_reg_regx1x
+fullsystem      cell    talker_str_1/fsm_unit/state_reg_reg[0] talker_str_1xfsm_unitxstate_reg_regx0x
+fullsystem      cell    listener_str_1/sync_unit/sync_reg_reg listener_str_1xsync_unitxsync_reg_reg
+fullsystem      cell    listener_str_1/sync_unit/meta_reg_reg listener_str_1xsync_unitxmeta_reg_reg
+fullsystem      cell    listener_str_1/fsm_unit/ack_buf_reg_reg listener_str_1xfsm_unitxack_buf_reg_reg
+fullsystem      cell    talker_str_1/sync_unit/sync_reg_reg talker_str_1xsync_unitxsync_reg_reg
+fullsystem      cell    talker_str_1/sync_unit/meta_reg_reg talker_str_1xsync_unitxmeta_reg_reg
+fullsystem      net     listener_str_1/req_sync listener_str_1xreq_sync
+fullsystem      net     listener_str_1/sync_unit/n2 listener_str_1xsync_unitxn2
+fullsystem      net     listener_str_1/sync_unit/meta_reg listener_str_1xsync_unitxmeta_reg
+fullsystem      net     talker_str_1/fsm_unit/n9 talker_str_1xfsm_unitxn9
+fullsystem      net     talker_str_1/fsm_unit/n8 talker_str_1xfsm_unitxn8
+fullsystem      net     talker_str_1/fsm_unit/n7 talker_str_1xfsm_unitxn7
+fullsystem      net     talker_str_1/fsm_unit/n6 talker_str_1xfsm_unitxn6
+fullsystem      net     talker_str_1/fsm_unit/n5 talker_str_1xfsm_unitxn5
+fullsystem      net     talker_str_1/fsm_unit/n4 talker_str_1xfsm_unitxn4
+fullsystem      net     talker_str_1/fsm_unit/n3 talker_str_1xfsm_unitxn3
+fullsystem      net     talker_str_1/fsm_unit/n2 talker_str_1xfsm_unitxn2
+fullsystem      net     talker_str_1/fsm_unit/state_next[1] talker_str_1xfsm_unitxstate_nextx1x
+fullsystem      net     talker_str_1/fsm_unit/state_reg[0] talker_str_1xfsm_unitxstate_regx0x
+fullsystem      net     talker_str_1/fsm_unit/state_reg[1] talker_str_1xfsm_unitxstate_regx1x
+fullsystem      net     talker_str_1/sync_unit/meta_reg talker_str_1xsync_unitxmeta_reg
+1
