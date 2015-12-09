@@ -1,16 +1,16 @@
 //
-//  Rule file generated on Mon Dec 07 12:45:39 PST 2015
+//  Rule file generated on Wed Dec 09 13:07:56 PST 2015
 //     by Calibre Interactive - LVS (v2013.3_28.19)
 //
 //      *** PLEASE DO NOT MODIFY THIS FILE ***
 //
 //
 
-LAYOUT PATH  "/media/ntfsdrive1/workspace/ProjectDIC2/runset_lvs/fullsystem.gds"
+LAYOUT PATH  "/media/ntfsdrive1/workspace/synchronizerchip/runset_lvs/fullsystem.gds"
 LAYOUT PRIMARY "fullsystem"
 LAYOUT SYSTEM GDSII
 
-SOURCE PATH "/media/ntfsdrive1/workspace/ProjectDIC2/runset_lvs/fullsystem.sp"
+SOURCE PATH "/media/ntfsdrive1/workspace/synchronizerchip/runset_lvs/fullsystem_tb.sp"
 SOURCE PRIMARY "fullsystem"
 SOURCE SYSTEM SPICE
 
@@ -40,7 +40,7 @@ VIRTUAL CONNECT REPORT NO
 
 LVS EXECUTE ERC YES
 ERC RESULTS DATABASE "erc.results"
-ERC SUMMARY REPORT "erc.summary" REPLACE HIER
+ERC SUMMARY REPORT "erc.summary" REPLACE 
 ERC CELL NAME YES CELL SPACE XFORM
 ERC MAXIMUM RESULTS 1000
 ERC MAXIMUM VERTEX 4096

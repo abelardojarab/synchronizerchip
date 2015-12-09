@@ -1,9 +1,5 @@
 # Automagically generated file: Please do not edit!
-lvs_ExtfVersion 3
-lvs_ExtRunTimes 1449521140 1449521141
-lvs_ExtOutFile RUNDIR /media/ntfsdrive1/workspace/ProjectDIC2/runset_lvs
-lvs_ExtOutFile RULES_FILE /media/ntfsdrive1/workspace/ProjectDIC2/runset_lvs/_calibreLVS.rul_
-lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0 0}
-lvs_ExtInfoDfmSummary {0}
-lvs_ExtOutFile LAYOUT_NETLIST /media/ntfsdrive1/workspace/ProjectDIC2/runset_pex/fullsystem.sp
-lvs_ExtOutFile EXTRACTION_REPORT lvs.report.ext
+lvs_ExtfVersion 1
+lvs_ExtOutFile RUNDIR /media/ntfsdrive1/workspace/synchronizerchip/runset_lvs
+lvs_ExtOutFile RULES_FILE /media/ntfsdrive1/workspace/synchronizerchip/runset_lvs/_calibreLVS.rul_
+lvs_ExtRunTimes 1449695277 1449695277

@@ -1,9 +1,7 @@
 # Automagically generated file: Please do not edit!
-lvs_LvsOutFile RUNDIR /media/ntfsdrive1/workspace/ProjectDIC2/runset_lvs
-lvs_LvsfVersion 2
-lvs_LvsInputSummary {0 0 0}
-lvs_LvsComparisonSummary {5 1 5 0}
+lvs_LvsOutFile RUNDIR /media/ntfsdrive1/workspace/synchronizerchip/runset_lvs
+lvs_LvsfVersion 1
 lvs_LvsOutFile LVS_REPORT lvs.report
-lvs_LvsOutFile SOURCE_NETLIST /media/ntfsdrive1/workspace/ProjectDIC2/runset_lvs/fullsystem.sp
-lvs_LvsOutFile RULES_FILE /media/ntfsdrive1/workspace/ProjectDIC2/runset_lvs/_calibreLVS.rul_
-lvs_LvsRunTimes 1449521141 1449521141
+lvs_LvsOutFile SOURCE_NETLIST /media/ntfsdrive1/workspace/synchronizerchip/runset_lvs/fullsystem_tb.sp
+lvs_LvsOutFile RULES_FILE /media/ntfsdrive1/workspace/synchronizerchip/runset_lvs/_calibreLVS.rul_
+lvs_LvsRunTimes 1449695277 1449695278
