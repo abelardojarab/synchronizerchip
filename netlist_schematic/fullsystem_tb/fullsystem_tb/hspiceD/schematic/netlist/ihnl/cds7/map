@@ -1,0 +1,47 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  repList "hspiceD spice cmos_sch cmos.sch schematic"
+  stopList "hspiceD spice"
+  hierDelim "^"
+ )
+( net
+( "VDD!" "vdd!" )
+ )
+( inst
+( "U5" "xu5" )
+( "U1" "xu1" )
+( "talker_str_1xsync_unitxsync_reg_reg" "xtalker_str_1xsync_unitxsync_reg_reg" )
+( "talker_str_1xfsm_unitxU13" "xtalker_str_1xfsm_unitxu13" )
+( "talker_str_1xfsm_unitxU11" "xtalker_str_1xfsm_unitxu11" )
+( "U20" "xu20" )
+( "U23" "xu23" )
+( "U2" "xu2" )
+( "talker_str_1xfsm_unitxU12" "xtalker_str_1xfsm_unitxu12" )
+( "U19" "xu19" )
+( "talker_str_1xfsm_unitxU5" "xtalker_str_1xfsm_unitxu5" )
+( "talker_str_1xfsm_unitxreq_buf_reg_reg" "xtalker_str_1xfsm_unitxreq_buf_reg_reg" )
+( "U14" "xu14" )
+( "talker_str_1xfsm_unitxstate_reg_regx0x" "xtalker_str_1xfsm_unitxstate_reg_regx0x" )
+( "U13" "xu13" )
+( "listener_str_1xsync_unitxU4" "xlistener_str_1xsync_unitxu4" )
+( "U7" "xu7" )
+( "listener_str_1xfsm_unitxack_buf_reg_reg" "xlistener_str_1xfsm_unitxack_buf_reg_reg" )
+( "U8" "xu8" )
+( "listener_str_1xsync_unitxmeta_reg_reg" "xlistener_str_1xsync_unitxmeta_reg_reg" )
+( "talker_str_1xsync_unitxmeta_reg_reg" "xtalker_str_1xsync_unitxmeta_reg_reg" )
+( "U6" "xu6" )
+( "U16" "xu16" )
+( "listener_str_1xsync_unitxsync_reg_reg" "xlistener_str_1xsync_unitxsync_reg_reg" )
+( "U3" "xu3" )
+( "talker_str_1xfsm_unitxstate_reg_regx1x" "xtalker_str_1xfsm_unitxstate_reg_regx1x" )
+( "U22" "xu22" )
+( "U17" "xu17" )
+ )
+( model
+ )
+( term
+ )
+( param
+ )
+ )

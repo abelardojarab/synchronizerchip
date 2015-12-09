@@ -1,0 +1,30 @@
+xtalker_str_1xfsm_unitxu12 talker_str_1xfsm_unitxstate_regx0x talker_str_1xfsm_unitxn8 ready net70 net71 NOR2X1
+xtalker_str_1xfsm_unitxu13 talker_str_1xfsm_unitxstate_regx1x talker_str_1xfsm_unitxstate_regx0x talker_str_1xfsm_unitxn8 net72 net73 XOR2X1
+xtalker_str_1xsync_unitxmeta_reg_reg clk2 n19 talker_str_1xsync_unitxmeta_reg talker_str_1xfsm_unitxn4 vdd! DFFSR
+xtalker_str_1xsync_unitxsync_reg_reg clk2 n16 rcv talker_str_1xfsm_unitxn4 vdd! DFFSR
+xlistener_str_1xsync_unitxsync_reg_reg clk1 n22 listener_str_1xreq_sync listener_str_1xsync_unitxn2 vdd! DFFSR
+xlistener_str_1xfsm_unitxack_buf_reg_reg clk1 n25 ack_out listener_str_1xsync_unitxn2 vdd! DFFSR
+xlistener_str_1xsync_unitxmeta_reg_reg clk1 n28 listener_str_1xsync_unitxmeta_reg listener_str_1xsync_unitxn2 vdd! DFFSR
+xtalker_str_1xfsm_unitxreq_buf_reg_reg clk2 n7 req_in talker_str_1xfsm_unitxn4 vdd! DFFSR
+xtalker_str_1xfsm_unitxstate_reg_regx1x clk2 talker_str_1xfsm_unitxstate_nextx1x talker_str_1xfsm_unitxstate_regx1x talker_str_1xfsm_unitxn4 vdd! DFFSR
+xtalker_str_1xfsm_unitxstate_reg_regx0x clk2 n7 talker_str_1xfsm_unitxstate_regx0x talker_str_1xfsm_unitxn4 vdd! DFFSR
+xu13 rcv talker_str_1xfsm_unitxn7 net74 net75 INVX1
+xu8 n6 n7 net76 net77 INVX1
+xu14 talker_str_1xfsm_unitxstate_regx0x talker_str_1xfsm_unitxn6 net78 net79 INVX1
+xu6 n18 n19 net80 net81 INVX1
+xu5 ack_out n18 net82 net83 INVX1
+xu2 talker_str_1xsync_unitxmeta_reg n15 net84 net85 INVX1
+xu3 n15 n16 net86 net87 INVX1
+xu20 n24 n25 net88 net89 INVX1
+xu19 listener_str_1xreq_sync n24 net90 net91 INVX1
+xu17 n21 n22 net92 net93 INVX1
+xu23 n27 n28 net94 net95 INVX1
+xu22 req_in n27 net96 net97 INVX1
+xu16 listener_str_1xsync_unitxmeta_reg n21 net98 net99 INVX1
+xtalker_str_1xfsm_unitxu5 reset2 talker_str_1xfsm_unitxn4 net100 net101 INVX1
+xlistener_str_1xsync_unitxu4 reset1 listener_str_1xsync_unitxn2 net102 net103 INVX1
+xu7 rcv talker_str_1xfsm_unitxn8 talker_str_1xfsm_unitxstate_nextx1x net104 net105 AND2X2
+xtalker_str_1xfsm_unitxu11 talker_str_1xfsm_unitxstate_regx0x talker_str_1xfsm_unitxn7 start talker_str_1xfsm_unitxn6 talker_str_1xfsm_unitxn9 AOI22X1
+xu1 talker_str_1xfsm_unitxstate_regx1x talker_str_1xfsm_unitxn9 n6 net106 net107 OR2X2
+.ends fullsystem
+** End of subcircuit definition.

@@ -1,0 +1,42 @@
+//
+//  Rule file generated on Wed Dec 09 13:59:22 PST 2015
+//     by Calibre Interactive - PEX (v2013.3_28.19)
+//
+//      *** PLEASE DO NOT MODIFY THIS FILE ***
+//
+//
+
+LAYOUT PATH  "/media/ntfsdrive1/workspace/synchronizerchip/runset_pex/fullsystem.gds"
+LAYOUT PRIMARY "fullsystem"
+LAYOUT SYSTEM GDSII
+
+SOURCE PATH "/media/ntfsdrive1/workspace/synchronizerchip/runset_pex/fullsystem_tb.sp"
+SOURCE PRIMARY "fullsystem"
+SOURCE SYSTEM SPICE
+
+MASK SVDB DIRECTORY "svdb" QUERY XRC
+
+LVS REPORT "lvs.report"
+
+PEX NETLIST "/media/ntfsdrive1/workspace/synchronizerchip/runset_pex/fullsystem_extracted.sp" HSPICE 1 LAYOUTNAMES 
+PEX REDUCE ANALOG NO
+PEX NETLIST UPPERCASE KEYWORDS NO
+PEX NETLIST VIRTUAL CONNECT NO
+PEX NETLIST NOXREF NET NAMES YES
+PEX NETLIST MUTUAL RESISTANCE YES
+LVS REPORT OPTION NONE
+LVS FILTER UNUSED OPTION NONE SOURCE
+LVS FILTER UNUSED OPTION NONE LAYOUT
+
+LVS RECOGNIZE GATES ALL
+
+
+
+VIRTUAL CONNECT COLON NO
+VIRTUAL CONNECT REPORT NO
+
+DRC ICSTATION YES
+
+
+INCLUDE "/opt/FreePDK45/ncsu_basekit/techfile/calibre/calibrexRC.rul"
+

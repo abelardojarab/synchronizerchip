@@ -1,0 +1,5 @@
+
+** Library name: fullsystem
+** Cell name: fullsystem_tb
+** View name: schematic
+xfullsystem net7 net6 net5 net4 net3 net2 net1 fullsystem

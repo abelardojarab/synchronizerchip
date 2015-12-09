@@ -24,7 +24,7 @@ RULE FILE:                /media/ntfsdrive1/workspace/synchronizerchip/runset_lv
 RULE FILE TITLE:          LVS Rule File for FreePDK45
 LVS MODE:                 Mask
 RULE FILE NAME:           /media/ntfsdrive1/workspace/synchronizerchip/runset_lvs/_calibreLVS.rul_
-CREATION TIME:            Wed Dec  9 13:49:47 2015
+CREATION TIME:            Wed Dec  9 13:51:39 2015
 CURRENT DIRECTORY:        /media/ntfsdrive1/workspace/synchronizerchip/runset_lvs
 USER NAME:                abelardojara
 CALIBRE VERSION:          v2013.3_28.19    Tue Sep 3 16:45:04 PDT 2013

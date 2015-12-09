@@ -1,0 +1,8 @@
+//OK 
+//NUMBER_OF_HEADER_LINES: 6
+//VERSION: 1
+//TOKEN_DELIMITER: "
+//TOKEN_SEPARATOR: " "
+//FORMAT: "time" "calibre version" "command line"
+"Wed Dec  9 13:59:37 2015 " "v2013.3_28.19" "-xrc -pdb -rcc -turbo 1 /media/ntfsdrive1/workspace/synchronizerchip/runset_pex/_calibrexRC.rul_"
+"Wed Dec  9 13:59:48 2015 " "v2013.3_28.19" "-xrc -fmt -all /media/ntfsdrive1/workspace/synchronizerchip/runset_pex/_calibrexRC.rul_"

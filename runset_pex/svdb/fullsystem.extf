@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 3
+lvs_ExtRunTimes 1449698370 1449698372
+lvs_ExtOutFile RUNDIR /media/ntfsdrive1/workspace/synchronizerchip/runset_pex
+lvs_ExtOutFile RULES_FILE /media/ntfsdrive1/workspace/synchronizerchip/runset_pex/_calibrexRC.rul_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST svdb/fullsystem.sp
+lvs_ExtOutFile EXTRACTION_REPORT lvs.report.ext

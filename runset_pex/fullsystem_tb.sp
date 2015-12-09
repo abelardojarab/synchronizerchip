@@ -1,0 +1,1 @@
+../netlist_schematic/fullsystem_tb.sp

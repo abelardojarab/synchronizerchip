@@ -1,10 +1,10 @@
 *pexRulesFile: $PDK_DIR/ncsu_basekit/techfile/calibre/calibrexRC.rul
-*pexRunDir: /media/ntfsdrive1/workspace/ProjectDIC2/runsets_pex
-*pexLayoutPaths: /media/ntfsdrive1/workspace/ProjectDIC2/runsets_pex/fullsystem.gds
+*pexRunDir: /media/ntfsdrive1/workspace/synchronizerchip/runset_pex
+*pexLayoutPaths: /media/ntfsdrive1/workspace/synchronizerchip/runset_pex/fullsystem.gds
 *pexLayoutPrimary: fullsystem
-*pexSourcePath: fullsystem.sp
+*pexSourcePath: fullsystem_tb.sp
 *pexSourcePrimary: fullsystem
-*pexPexNetlistFile: /media/ntfsdrive1/workspace/ProjectDIC2/runsets_pex/extracted.sp
+*pexPexNetlistFile: /media/ntfsdrive1/workspace/synchronizerchip/runset_pex/fullsystem_extracted.sp
 *pexPexNetlistFormat: HSPICE
 *pexPexNetlistNameSource: LAYOUTNAMES
 *cmnUseCBforRVE: 0

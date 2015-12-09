@@ -4,4 +4,4 @@ lvs_LvsfVersion 1
 lvs_LvsOutFile LVS_REPORT lvs.report
 lvs_LvsOutFile SOURCE_NETLIST /media/ntfsdrive1/workspace/synchronizerchip/runset_lvs/fullsystem_tb.sp
 lvs_LvsOutFile RULES_FILE /media/ntfsdrive1/workspace/synchronizerchip/runset_lvs/_calibreLVS.rul_
-lvs_LvsRunTimes 1449697787 1449697787
+lvs_LvsRunTimes 1449697899 1449697899

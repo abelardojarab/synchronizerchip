@@ -1,0 +1,8 @@
+"freepdk45_cells.INVX1.schematic.termorder" (("A" "Y" "gnd" "vdd") ("A" "Y" "gnd" "vdd"))
+"freepdk45_cells.XOR2X1.schematic.termorder" (("A" "B" "Y" "gnd" "vdd") ("A" "B" "Y" "gnd" "vdd"))
+"freepdk45_cells.OR2X2.schematic.termorder" (("A" "B" "Y" "gnd" "vdd") ("A" "B" "Y" "gnd" "vdd"))
+"fullsystem.fullsystem.schematic.termorder" (("clk1" "clk2" "reset1" "reset2" "start" "ready" "rcv") ("clk1" "clk2" "rcv" "ready" "reset1" "reset2" "start"))
+"fullsystem.AOI22X1.schematic.termorder" nil
+"fullsystem.DFFSR.schematic.termorder" nil
+"freepdk45_cells.AND2X2.schematic.termorder" (("A" "B" "Y" "gnd" "vdd") ("A" "B" "Y" "gnd" "vdd"))
+"freepdk45_cells.NOR2X1.schematic.termorder" (("A" "B" "Y" "gnd" "vdd") ("A" "B" "Y" "gnd" "vdd"))

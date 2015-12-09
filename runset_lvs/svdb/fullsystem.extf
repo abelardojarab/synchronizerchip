@@ -2,4 +2,4 @@
 lvs_ExtfVersion 1
 lvs_ExtOutFile RUNDIR /media/ntfsdrive1/workspace/synchronizerchip/runset_lvs
 lvs_ExtOutFile RULES_FILE /media/ntfsdrive1/workspace/synchronizerchip/runset_lvs/_calibreLVS.rul_
-lvs_ExtRunTimes 1449697787 1449697787
+lvs_ExtRunTimes 1449697898 1449697899
