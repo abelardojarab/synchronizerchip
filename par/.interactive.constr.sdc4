@@ -1,3 +1,0 @@
-set_propagated_clock [list \
-  [get_ports {clk1}] \
-  [get_ports {clk2}]]
