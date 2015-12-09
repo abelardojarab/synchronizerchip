@@ -16,4 +16,4 @@ setLibraryUnit -cap 1pf
 set init_pwr_net {vdd}
 set init_gnd_net {gnd}
 set init_assign_buffer {0}
-set init_mmmc_file encounter.mmmc
+set init_mmmc_file encounter_mmmc.tcl

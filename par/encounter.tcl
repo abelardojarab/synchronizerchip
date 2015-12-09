@@ -6,7 +6,7 @@
 # loadConfig ./encounter.conf
 
 # New approach
-source encounter.global
+source encounter_global.tcl
 init_design
 
 # Create Initial Floorplan
