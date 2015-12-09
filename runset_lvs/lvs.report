@@ -1,4 +1,10 @@
 
+LVS Netlist Compiler - Errors and Warnings for "/media/ntfsdrive1/workspace/synchronizerchip/runset_lvs/fullsystem_tb.sp"
+-------------------------------------------------------------------------------------------------------------------------
+
+Warning: .END ignored in file "/media/ntfsdrive1/workspace/synchronizerchip/runset_lvs/fullsystem_tb.sp" at line 175
+
+
 
 
                   ##################################################
@@ -18,7 +24,7 @@ RULE FILE:                /media/ntfsdrive1/workspace/synchronizerchip/runset_lv
 RULE FILE TITLE:          LVS Rule File for FreePDK45
 LVS MODE:                 Mask
 RULE FILE NAME:           /media/ntfsdrive1/workspace/synchronizerchip/runset_lvs/_calibreLVS.rul_
-CREATION TIME:            Wed Dec  9 13:07:58 2015
+CREATION TIME:            Wed Dec  9 13:49:47 2015
 CURRENT DIRECTORY:        /media/ntfsdrive1/workspace/synchronizerchip/runset_lvs
 USER NAME:                abelardojara
 CALIBRE VERSION:          v2013.3_28.19    Tue Sep 3 16:45:04 PDT 2013
@@ -38,11 +44,7 @@ CALIBRE VERSION:          v2013.3_28.19    Tue Sep 3 16:45:04 PDT 2013
 
   Error:    Different numbers of ports (see below).
   Error:    Different numbers of nets (see below).
-  Error:    Different numbers of instances (see below).
   Error:    Connectivity errors.
-  Error:    Property errors.
-  Warning:  Unbalanced smashed mosfets were matched.
-  Warning:  Ambiguity points were found and resolved arbitrarily.
 
 --------------------------------------------------------------------------------------------------------------
 
@@ -51,14 +53,14 @@ INITIAL NUMBERS OF OBJECTS
 
                 Layout    Source         Component Type
                 ------    ------         --------------
- Ports:              0         7    *
+ Ports:              0         9    *
 
- Nets:             153       194    *
+ Nets:             153       209    *
 
- Instances:        161       165    *    mn (4 pins)
-                   161       165    *    mp (4 pins)
+ Instances:        161       161         mn (4 pins)
+                   161       161         mp (4 pins)
                 ------    ------
- Total Inst:       322       330
+ Total Inst:       322       322
 
 
 NUMBERS OF OBJECTS AFTER TRANSFORMATION
@@ -66,17 +68,17 @@ NUMBERS OF OBJECTS AFTER TRANSFORMATION
 
                 Layout    Source         Component Type
                 ------    ------         --------------
- Ports:              0         7    *
+ Ports:              0         8    *
 
- Nets:             111       152    *
+ Nets:             111       166    *
 
- Instances:         87        83    *    mn (4 pins)
-                   149       145    *    mp (4 pins)
+ Instances:         87        87         mn (4 pins)
+                   149       149         mp (4 pins)
                     37        37         SMN2 (4 pins)
                      4         4         SMP2 (4 pins)
                      1         1         SPMP_2_2 (6 pins)
                 ------    ------
- Total Inst:       278       270
+ Total Inst:       278       278
 
 
        * = Number of objects in layout different from number in source.
@@ -101,373 +103,203 @@ LEGEND:
 DISC#  LAYOUT NAME                                               SOURCE NAME
 **************************************************************************************************************
 
-  1    Net 5(21.628,31.282)                                      clk1__l2_n0
-       --------------------------                                --------------------------
-       
-       ** missing connection **                                  clk1__l2_i0/m3:s
-       ** missing connection **                                  clk1__l2_i0/m1:s
-       
+  1    Net 1(2.570,20.075)                                       ** no similar net **
 
 --------------------------------------------------------------------------------------------------------------
 
-  2    Net 12(21.497,30.780)                                     listener_str_1xfsm_unitxack_buf_reg_reg/A_47_71__
-       --------------------------                                --------------------------
-       
-       191(24.062,31.690):G                                      ** missing connection **
-       
-       ** missing connection **                                  listener_str_1xfsm_unitxack_buf_reg_reg/m26:g
-       
+  2    Net 2(12.570,22.545)                                      ** no similar net **
 
 --------------------------------------------------------------------------------------------------------------
 
-  3    Net 14(21.878,28.210)                                     listener_str_1xsync_unitxmeta_reg_reg/A_47_71__
-       --------------------------                                --------------------------
-       
-       196(24.442,28.100):G                                      ** missing connection **
-       
-       ** missing connection **                                  listener_str_1xsync_unitxmeta_reg_reg/m26:g
-       
+  3    ** no similar net **                                      VDD!
 
 --------------------------------------------------------------------------------------------------------------
 
-  4    Net 54(22.328,28.190)                                     listener_str_1xsync_unitxmeta_reg_reg/A_57_6__
-       --------------------------                                --------------------------
-       
-       168(22.242,28.205):D                                      ** missing connection **
-       6(22.242,28.735):D                                        ** missing connection **
-       
-       ** missing connection **                                  listener_str_1xsync_unitxmeta_reg_reg/m22:s
-       ** missing connection **                                  listener_str_1xsync_unitxmeta_reg_reg/m6:s
-       
+  4    ** no similar net **                                      net70
 
 --------------------------------------------------------------------------------------------------------------
 
-  5    Net 8(22.163,26.945)                                      CLK1
-       --------------------------                                --------------------------
-       
-       180(23.062,27.122):D                                      ** missing connection **
-       19(23.062,25.760):D                                       ** missing connection **
-       
-       169(22.302,27.122):G                                      ** unmatched connection **
-       7(22.302,25.760):G                                        ** unmatched connection **
-       
-       ** unmatched connection **                                clk1__l1_i0/m7:g
-       ** unmatched connection **                                clk1__l1_i0/m3:g
-       
+  5    ** no similar net **                                      net71
 
 --------------------------------------------------------------------------------------------------------------
 
-  6    Net 11(22.352,25.712)                                     talker_str_1xsync_unitxmeta_reg
-       --------------------------                                --------------------------
-       
-       169(22.302,27.122):D                                      ** missing connection **
-       7(22.302,25.760):D                                        ** missing connection **
-       
-       ** missing connection **                                  talker_str_1xsync_unitxmeta_reg_reg/m31:s
-       ** missing connection **                                  talker_str_1xsync_unitxmeta_reg_reg/m15:s
-       
+  6    ** no similar net **                                      net73
 
 --------------------------------------------------------------------------------------------------------------
 
-  7    Net 10(22.387,23.587)                                     clk2__l2_n0
-       --------------------------                                --------------------------
-       
-       ** missing connection **                                  clk2__l2_i0/m3:s
-       ** missing connection **                                  clk2__l2_i0/m1:s
-       
+  7    ** no similar net **                                      net72
 
 --------------------------------------------------------------------------------------------------------------
 
-  8    Net 16(22.922,26.948)                                     clk1__l1_n0
-       --------------------------                                --------------------------
-       
-       214(25.645,27.727):D                                      ** missing connection **
-       52(25.497,28.863):D                                       ** missing connection **
-       
-       ** missing connection **                                  clk1__l1_i0/m7:s
-       ** missing connection **                                  clk1__l1_i0/m3:s
-       
+  8    ** no similar net **                                      talker_str_1xsync_unitxmeta_reg_reg/VDD
 
 --------------------------------------------------------------------------------------------------------------
 
-  9    Net 64(23.902,30.698)                                     listener_str_1xfsm_unitxack_buf_reg_reg/A_105_6__
-       --------------------------                                --------------------------
-       
-       (SMN2):input                                              ** missing connection **
-         204(24.863,31.690):G
-       
-       
-       191(24.062,31.690):S                                      ** missing connection **
-       44(24.863,30.677):G                                       ** missing connection **
-       
-       
-       
-       ** missing connection **                                  (SMN2):input
-                                                                   listener_str_1xfsm_unitxack_buf_reg_reg/m27:g
-       
-       
-       ** missing connection **                                  listener_str_1xfsm_unitxack_buf_reg_reg/m26:s
-       ** missing connection **                                  listener_str_1xfsm_unitxack_buf_reg_reg/m11:g
-       
+  9    ** no similar net **                                      talker_str_1xsync_unitxmeta_reg_reg/GND
 
 --------------------------------------------------------------------------------------------------------------
 
- 10    Net 65(24.108,30.828)                                     listener_str_1xsync_unitxmeta_reg_reg/A_113_6__
-       --------------------------                                --------------------------
-       
-       30(24.003,30.927):D                                       ** missing connection **
-       
-       ** missing connection **                                  listener_str_1xsync_unitxmeta_reg_reg/m10:d
-       
+ 10    ** no similar net **                                      talker_str_1xsync_unitxsync_reg_reg/VDD
 
 --------------------------------------------------------------------------------------------------------------
 
- 11    Net 66(24.282,28.867)                                     listener_str_1xsync_unitxsync_reg_reg/A_105_6__
-       --------------------------                                --------------------------
-       
-       196(24.442,28.100):S                                      ** missing connection **
-       193(24.122,28.100):D                                      ** missing connection **
-       34(24.383,28.863):S                                       ** missing connection **
-       31(24.192,28.863):D                                       ** missing connection **
-       
-       ** missing connection **                                  listener_str_1xsync_unitxsync_reg_reg/m26:s
-       ** missing connection **                                  listener_str_1xsync_unitxsync_reg_reg/m25:d
-       ** missing connection **                                  listener_str_1xsync_unitxsync_reg_reg/m10:s
-       ** missing connection **                                  listener_str_1xsync_unitxsync_reg_reg/m9:d
-       
+ 11    ** no similar net **                                      talker_str_1xsync_unitxsync_reg_reg/GND
 
 --------------------------------------------------------------------------------------------------------------
 
- 12    Net 68(24.488,28.867)                                     listener_str_1xsync_unitxsync_reg_reg/A_113_6__
-       --------------------------                                --------------------------
-       
-       196(24.442,28.100):D                                      ** missing connection **
-       34(24.383,28.863):D                                       ** missing connection **
-       
-       ** missing connection **                                  listener_str_1xsync_unitxsync_reg_reg/m26:d
-       ** missing connection **                                  listener_str_1xsync_unitxsync_reg_reg/m10:d
-       
+ 12    ** no similar net **                                      listener_str_1xsync_unitxsync_reg_reg/VDD
 
 --------------------------------------------------------------------------------------------------------------
 
- 13    Net 18(24.442,33.028)                                     listener_str_1xsync_unitxmeta_reg
-       --------------------------                                --------------------------
-       
-       211(25.343,32.667):D                                      ** missing connection **
-       199(24.582,32.667):G                                      ** missing connection **
-       50(25.343,33.780):D                                       ** missing connection **
-       39(24.582,33.780):G                                       ** missing connection **
-       
-       ** missing connection **                                  listener_str_1xsync_unitxsync_reg_reg/m22:g
-       ** missing connection **                                  listener_str_1xsync_unitxsync_reg_reg/m6:g
-       ** missing connection **                                  listener_str_1xsync_unitxmeta_reg_reg/m31:s
-       ** missing connection **                                  listener_str_1xsync_unitxmeta_reg_reg/m15:s
-       
+ 13    ** no similar net **                                      listener_str_1xsync_unitxsync_reg_reg/GND
 
 --------------------------------------------------------------------------------------------------------------
 
- 14    Net 20(25.198,33.028)                                     listener_str_1xreq_sync
-       --------------------------                                --------------------------
-       
-       211(25.343,32.667):G                                      ** missing connection **
-       209(25.265,32.062):D                                      ** missing connection **
-       50(25.343,33.780):G                                       ** missing connection **
-       46(25.117,30.677):D                                       ** missing connection **
-       
-       ** missing connection **                                  listener_str_1xsync_unitxsync_reg_reg/m31:s
-       ** missing connection **                                  listener_str_1xsync_unitxsync_reg_reg/m15:s
-       ** missing connection **                                  listener_str_1xfsm_unitxack_buf_reg_reg/m22:g
-       ** missing connection **                                  listener_str_1xfsm_unitxack_buf_reg_reg/m6:g
-       
+ 14    ** no similar net **                                      listener_str_1xfsm_unitxack_buf_reg_reg/VDD
 
 --------------------------------------------------------------------------------------------------------------
 
- 15    Net 21(25.203,22.005)                                     u10/A_2_6__
-       --------------------------                                --------------------------
-       
-       210(25.343,22.183):G                                      ** missing connection **
-       49(25.343,20.820):G                                       ** missing connection **
-       
-       ** missing connection **                                  u10/m3:g
-       ** missing connection **                                  u10/m1:g
-       
+ 15    ** no similar net **                                      listener_str_1xfsm_unitxack_buf_reg_reg/GND
 
 --------------------------------------------------------------------------------------------------------------
 
- 16    Net 28(27.517,31.378)                                     clk2__l1_n0
-       --------------------------                                --------------------------
-       
-       226(27.562,31.585):G                                      ** missing connection **
-       64(27.562,30.805):G                                       ** missing connection **
-       
-       ** missing connection **                                  clk2__l2_i0/m3:g
-       ** missing connection **                                  clk2__l2_i0/m1:g
-       
+ 16    ** no similar net **                                      listener_str_1xsync_unitxmeta_reg_reg/VDD
 
 --------------------------------------------------------------------------------------------------------------
 
- 17    Net 27(27.483,23.148)                                     CLK2
-       --------------------------                                --------------------------
-       
-       250(29.523,22.183):D                                      ** missing connection **
-       90(29.523,20.820):D                                       ** missing connection **
-       
+ 17    ** no similar net **                                      listener_str_1xsync_unitxmeta_reg_reg/GND
 
 --------------------------------------------------------------------------------------------------------------
 
- 18    Net 39(29.383,25.707)                                     RCV
-       --------------------------                                --------------------------
-       
-       249(29.445,27.122):D                                      ** missing connection **
-       86(29.297,25.738):D                                       ** missing connection **
-       
-       ** missing connection **                                  u10/m3:d
-       ** missing connection **                                  u10/m1:d
-       
+ 18    ** no similar net **                                      talker_str_1xfsm_unitxreq_buf_reg_reg/VDD
 
 --------------------------------------------------------------------------------------------------------------
 
- 19    Net 90(30.113,31.555)                                     listener_str_1xfsm_unitxack_buf_reg_reg/A_122_6__
-       --------------------------                                --------------------------
-       
-       268(30.965,32.062):G                                      ** missing connection **
-       105(30.817,30.677):G                                      ** missing connection **
-       
-       ** missing connection **                                  listener_str_1xfsm_unitxack_buf_reg_reg/m31:g
-       ** missing connection **                                  listener_str_1xfsm_unitxack_buf_reg_reg/m15:g
-       
+ 19    ** no similar net **                                      talker_str_1xfsm_unitxreq_buf_reg_reg/GND
 
 --------------------------------------------------------------------------------------------------------------
 
- 20    Net 89(29.808,30.828)                                     listener_str_1xfsm_unitxack_buf_reg_reg/A_113_6__
-       --------------------------                                --------------------------
-       
-       254(29.762,31.690):D                                      ** missing connection **
-       93(29.703,30.927):D                                       ** missing connection **
-       
-       ** missing connection **                                  listener_str_1xfsm_unitxack_buf_reg_reg/m26:d
-       ** missing connection **                                  listener_str_1xfsm_unitxack_buf_reg_reg/m10:d
-       
+ 20    ** no similar net **                                      talker_str_1xfsm_unitxstate_reg_regx1x/VDD
 
 --------------------------------------------------------------------------------------------------------------
 
- 21    Net 3(20.642,33.028)                                      ** no similar net **
+ 21    ** no similar net **                                      talker_str_1xfsm_unitxstate_reg_regx1x/GND
 
 --------------------------------------------------------------------------------------------------------------
 
- 22    Net 1(2.570,20.075)                                       ** no similar net **
+ 22    ** no similar net **                                      talker_str_1xfsm_unitxstate_reg_regx0x/VDD
 
 --------------------------------------------------------------------------------------------------------------
 
- 23    Net 4(20.832,32.708)                                      ** no similar net **
+ 23    ** no similar net **                                      talker_str_1xfsm_unitxstate_reg_regx0x/GND
 
 --------------------------------------------------------------------------------------------------------------
 
- 24    Net 6(21.593,32.708)                                      ** no similar net **
+ 24    ** no similar net **                                      net75
 
 --------------------------------------------------------------------------------------------------------------
 
- 25    Net 9(22.198,28.277)                                      ** no similar net **
+ 25    ** no similar net **                                      net74
 
 --------------------------------------------------------------------------------------------------------------
 
- 26    Net 2(12.570,22.545)                                      ** no similar net **
+ 26    ** no similar net **                                      net77
 
 --------------------------------------------------------------------------------------------------------------
 
- 27    Net 87(29.602,30.698)                                     ** no similar net **
+ 27    ** no similar net **                                      net76
 
 --------------------------------------------------------------------------------------------------------------
 
- 28    ** no similar net **                                      clk2__l2_i0/VDD
+ 28    ** no similar net **                                      net79
 
 --------------------------------------------------------------------------------------------------------------
 
- 29    ** no similar net **                                      clk2__l2_i0/GND
+ 29    ** no similar net **                                      net78
 
 --------------------------------------------------------------------------------------------------------------
 
- 30    ** no similar net **                                      clk1__l2_i0/VDD
+ 30    ** no similar net **                                      net81
 
 --------------------------------------------------------------------------------------------------------------
 
- 31    ** no similar net **                                      clk1__l2_i0/GND
+ 31    ** no similar net **                                      net80
 
 --------------------------------------------------------------------------------------------------------------
 
- 32    ** no similar net **                                      clk2__l1_i0/VDD
+ 32    ** no similar net **                                      net83
 
 --------------------------------------------------------------------------------------------------------------
 
- 33    ** no similar net **                                      clk2__l1_i0/GND
+ 33    ** no similar net **                                      net82
 
 --------------------------------------------------------------------------------------------------------------
 
- 34    ** no similar net **                                      clk1__l1_i0/VDD
+ 34    ** no similar net **                                      net85
 
 --------------------------------------------------------------------------------------------------------------
 
- 35    ** no similar net **                                      clk1__l1_i0/GND
+ 35    ** no similar net **                                      net84
 
 --------------------------------------------------------------------------------------------------------------
 
- 36    ** no similar net **                                      u14/VDD
+ 36    ** no similar net **                                      net87
 
 --------------------------------------------------------------------------------------------------------------
 
- 37    ** no similar net **                                      u14/GND
+ 37    ** no similar net **                                      net86
 
 --------------------------------------------------------------------------------------------------------------
 
- 38    ** no similar net **                                      u13/VDD
+ 38    ** no similar net **                                      net89
 
 --------------------------------------------------------------------------------------------------------------
 
- 39    ** no similar net **                                      u13/GND
+ 39    ** no similar net **                                      net88
 
 --------------------------------------------------------------------------------------------------------------
 
- 40    ** no similar net **                                      u8/VDD
+ 40    ** no similar net **                                      net91
 
 --------------------------------------------------------------------------------------------------------------
 
- 41    ** no similar net **                                      u8/GND
+ 41    ** no similar net **                                      net90
 
 --------------------------------------------------------------------------------------------------------------
 
- 42    ** no similar net **                                      fe_ocp_rbc1_reset1/VDD
+ 42    ** no similar net **                                      net93
 
 --------------------------------------------------------------------------------------------------------------
 
- 43    ** no similar net **                                      fe_ocp_rbc1_reset1/GND
+ 43    ** no similar net **                                      net92
 
 --------------------------------------------------------------------------------------------------------------
 
- 44    ** no similar net **                                      talker_str_1xfsm_unitxu13/VDD
+ 44    ** no similar net **                                      net95
 
 --------------------------------------------------------------------------------------------------------------
 
- 45    ** no similar net **                                      talker_str_1xfsm_unitxu13/GND
+ 45    ** no similar net **                                      net94
 
 --------------------------------------------------------------------------------------------------------------
 
- 46    ** no similar net **                                      talker_str_1xfsm_unitxu12/GND
+ 46    ** no similar net **                                      net97
 
 --------------------------------------------------------------------------------------------------------------
 
- 47    ** no similar net **                                      talker_str_1xfsm_unitxu12/VDD
+ 47    ** no similar net **                                      net96
 
 --------------------------------------------------------------------------------------------------------------
 
- 48    ** no similar net **                                      talker_str_1xfsm_unitxu11/GND
+ 48    ** no similar net **                                      net99
 
 --------------------------------------------------------------------------------------------------------------
 
- 49    ** no similar net **                                      talker_str_1xfsm_unitxu11/VDD
+ 49    ** no similar net **                                      net98
 
 --------------------------------------------------------------------------------------------------------------
 
- 50    ** no similar net **                                      talker_str_1xfsm_unitxu5/VDD
+ 50    ** no similar net **                                      net101
 
 
 **************************************************************************************************************
@@ -483,6 +315,7 @@ DISC#  LAYOUT NAME                                               SOURCE NAME
  55    ** missing port **                                        RESET1 on net: RESET1
  56    ** missing port **                                        CLK2 on net: CLK2
  57    ** missing port **                                        CLK1 on net: CLK1
+ 58    ** missing port **                                        VDD! on net: VDD!
 
 
 **************************************************************************************************************
@@ -491,381 +324,353 @@ DISC#  LAYOUT NAME                                               SOURCE NAME
 DISC#  LAYOUT NAME                                               SOURCE NAME
 **************************************************************************************************************
 
- 58    99(30.470,28.672)  mp(PMOS_VTL)                           talker_str_1xfsm_unitxu11/m2  mp(PMOS_VTL)
+ 59    99(30.470,28.672)  mp(PMOS_VTL)                           talker_str_1xfsm_unitxu11/m2  mp(PMOS_VTL)
          G: 37(28.812,27.767)                                      g: talker_str_1xfsm_unitxn6
          b: 1(2.570,20.075)                                        ** no similar net **
          ** no similar net **                                      b: talker_str_1xfsm_unitxu11/VDD
 
 --------------------------------------------------------------------------------------------------------------
 
- 59    97(30.280,28.672)  mp(PMOS_VTL)                           talker_str_1xfsm_unitxu11/m3  mp(PMOS_VTL)
+ 60    97(30.280,28.672)  mp(PMOS_VTL)                           talker_str_1xfsm_unitxu11/m3  mp(PMOS_VTL)
          G: 38(30.052,28.317)                                      g: START
          b: 1(2.570,20.075)                                        ** no similar net **
          ** no similar net **                                      b: talker_str_1xfsm_unitxu11/VDD
 
 --------------------------------------------------------------------------------------------------------------
 
- 60    108(30.850,28.672)  mp(PMOS_VTL)                          talker_str_1xfsm_unitxu11/m0  mp(PMOS_VTL)
+ 61    108(30.850,28.672)  mp(PMOS_VTL)                          talker_str_1xfsm_unitxu11/m0  mp(PMOS_VTL)
          G: 32(28.622,28.087)                                      g: talker_str_1xfsm_unitxstate_regx0x
          b: 1(2.570,20.075)                                        ** no similar net **
          ** no similar net **                                      b: talker_str_1xfsm_unitxu11/VDD
 
 --------------------------------------------------------------------------------------------------------------
 
- 61    103(30.660,28.672)  mp(PMOS_VTL)                          talker_str_1xfsm_unitxu11/m1  mp(PMOS_VTL)
+ 62    103(30.660,28.672)  mp(PMOS_VTL)                          talker_str_1xfsm_unitxu11/m1  mp(PMOS_VTL)
          G: 41(30.688,28.317)                                      g: talker_str_1xfsm_unitxn7
          b: 1(2.570,20.075)                                        ** no similar net **
          ** no similar net **                                      b: talker_str_1xfsm_unitxu11/VDD
 
 --------------------------------------------------------------------------------------------------------------
 
- 62    132(32.560,23.900)  mp(PMOS_VTL)                          u1/m0  mp(PMOS_VTL)
+ 63    132(32.560,23.900)  mp(PMOS_VTL)                          u1/m0  mp(PMOS_VTL)
          G: 48(32.138,32.657)                                      g: talker_str_1xfsm_unitxstate_regx1x
          b: 1(2.570,20.075)                                        ** no similar net **
-         ** no similar net **                                      b: u1/VDD
+         ** no similar net **                                      b: net107
 
 --------------------------------------------------------------------------------------------------------------
 
- 63    134(32.750,23.900)  mp(PMOS_VTL)                          u1/m1  mp(PMOS_VTL)
+ 64    134(32.750,23.900)  mp(PMOS_VTL)                          u1/m1  mp(PMOS_VTL)
          G: 40(30.367,27.680)                                      g: talker_str_1xfsm_unitxn9
          b: 1(2.570,20.075)                                        ** no similar net **
-         ** no similar net **                                      b: u1/VDD
+         ** no similar net **                                      b: net107
 
 --------------------------------------------------------------------------------------------------------------
 
- 64    146(33.700,33.163)  mp(PMOS_VTL)                          talker_str_1xfsm_unitxu12/m0  mp(PMOS_VTL)
+ 65    146(33.700,33.163)  mp(PMOS_VTL)                          talker_str_1xfsm_unitxu12/m0  mp(PMOS_VTL)
          G: 32(28.622,28.087)                                      g: talker_str_1xfsm_unitxstate_regx0x
          b: 1(2.570,20.075)                                        ** no similar net **
-         ** no similar net **                                      b: talker_str_1xfsm_unitxu12/VDD
+         ** no similar net **                                      b: net71
 
 --------------------------------------------------------------------------------------------------------------
 
- 65    151(33.890,33.163)  mp(PMOS_VTL)                          talker_str_1xfsm_unitxu12/m1  mp(PMOS_VTL)
+ 66    151(33.890,33.163)  mp(PMOS_VTL)                          talker_str_1xfsm_unitxu12/m1  mp(PMOS_VTL)
          G: 42(31.578,28.468)                                      g: talker_str_1xfsm_unitxn8
          b: 1(2.570,20.075)                                        ** no similar net **
-         ** no similar net **                                      b: talker_str_1xfsm_unitxu12/VDD
+         ** no similar net **                                      b: net71
 
 --------------------------------------------------------------------------------------------------------------
 
- 66    175(22.712,31.585)  mn(NMOS_VTL)                          listener_str_1xfsm_unitxack_buf_reg_reg/m16  mn(NMOS_VTL)
-         G: 19(22.642,30.540)                                      g: fe_ocp_rbn1_reset1
+ 67    175(22.712,31.585)  mn(NMOS_VTL)                          listener_str_1xsync_unitxsync_reg_reg/m16  mn(NMOS_VTL)
+         G: 19(22.642,30.540)                                      g: listener_str_1xsync_unitxn2
+         b: 2(12.570,22.545)                                       ** no similar net **
+         ** no similar net **                                      b: listener_str_1xsync_unitxsync_reg_reg/GND
+
+--------------------------------------------------------------------------------------------------------------
+
+ 68    179(22.902,31.585)  mn(NMOS_VTL)                          listener_str_1xsync_unitxsync_reg_reg/m17  mn(NMOS_VTL)
+         G: 58(22.883,31.285)                                      g: listener_str_1xsync_unitxsync_reg_reg/A_10_61__
+         b: 2(12.570,22.545)                                       ** no similar net **
+         ** no similar net **                                      b: listener_str_1xsync_unitxsync_reg_reg/GND
+
+--------------------------------------------------------------------------------------------------------------
+
+ 69    181(23.093,27.955)  mn(NMOS_VTL)                          listener_str_1xfsm_unitxack_buf_reg_reg/m16  mn(NMOS_VTL)
+         G: 19(22.642,30.540)                                      g: listener_str_1xsync_unitxn2
          b: 2(12.570,22.545)                                       ** no similar net **
          ** no similar net **                                      b: listener_str_1xfsm_unitxack_buf_reg_reg/GND
 
 --------------------------------------------------------------------------------------------------------------
 
- 67    179(22.902,31.585)  mn(NMOS_VTL)                          listener_str_1xfsm_unitxack_buf_reg_reg/m17  mn(NMOS_VTL)
-         G: 58(22.883,31.285)                                      g: listener_str_1xfsm_unitxack_buf_reg_reg/A_10_61__
+ 70    183(23.282,27.955)  mn(NMOS_VTL)                          listener_str_1xfsm_unitxack_buf_reg_reg/m17  mn(NMOS_VTL)
+         G: 61(23.262,28.490)                                      g: listener_str_1xfsm_unitxack_buf_reg_reg/A_10_61__
          b: 2(12.570,22.545)                                       ** no similar net **
          ** no similar net **                                      b: listener_str_1xfsm_unitxack_buf_reg_reg/GND
 
 --------------------------------------------------------------------------------------------------------------
 
- 68    181(23.093,27.955)  mn(NMOS_VTL)                          listener_str_1xsync_unitxmeta_reg_reg/m16  mn(NMOS_VTL)
-         G: 19(22.642,30.540)                                      g: fe_ocp_rbn1_reset1
+ 71    184(23.312,31.585)  mn(NMOS_VTL)                          listener_str_1xsync_unitxsync_reg_reg/m18  mn(NMOS_VTL)
+         G: 53(22.277,31.180)                                      g: listener_str_1xsync_unitxsync_reg_reg/A_23_27__
          b: 2(12.570,22.545)                                       ** no similar net **
-         ** no similar net **                                      b: listener_str_1xsync_unitxmeta_reg_reg/GND
+         ** no similar net **                                      b: listener_str_1xsync_unitxsync_reg_reg/GND
 
 --------------------------------------------------------------------------------------------------------------
 
- 69    183(23.282,27.955)  mn(NMOS_VTL)                          listener_str_1xsync_unitxmeta_reg_reg/m17  mn(NMOS_VTL)
-         G: 61(23.262,28.490)                                      g: listener_str_1xsync_unitxmeta_reg_reg/A_10_61__
+ 72    185(23.473,23.015)  mn(NMOS_VTL)                          talker_str_1xsync_unitxmeta_reg_reg/m16  mn(NMOS_VTL)
+         G: 22(23.402,24.425)                                      g: talker_str_1xfsm_unitxn4
          b: 2(12.570,22.545)                                       ** no similar net **
-         ** no similar net **                                      b: listener_str_1xsync_unitxmeta_reg_reg/GND
+         ** no similar net **                                      b: talker_str_1xsync_unitxmeta_reg_reg/GND
 
 --------------------------------------------------------------------------------------------------------------
 
- 70    184(23.312,31.585)  mn(NMOS_VTL)                          listener_str_1xfsm_unitxack_buf_reg_reg/m18  mn(NMOS_VTL)
-         G: 53(22.277,31.180)                                      g: listener_str_1xfsm_unitxack_buf_reg_reg/A_23_27__
+ 73    187(23.663,23.015)  mn(NMOS_VTL)                          talker_str_1xsync_unitxmeta_reg_reg/m17  mn(NMOS_VTL)
+         G: 63(23.642,23.550)                                      g: talker_str_1xsync_unitxmeta_reg_reg/A_10_61__
+         b: 2(12.570,22.545)                                       ** no similar net **
+         ** no similar net **                                      b: talker_str_1xsync_unitxmeta_reg_reg/GND
+
+--------------------------------------------------------------------------------------------------------------
+
+ 74    188(23.692,27.955)  mn(NMOS_VTL)                          listener_str_1xfsm_unitxack_buf_reg_reg/m18  mn(NMOS_VTL)
+         G: 56(22.657,28.210)                                      g: listener_str_1xfsm_unitxack_buf_reg_reg/A_23_27__
          b: 2(12.570,22.545)                                       ** no similar net **
          ** no similar net **                                      b: listener_str_1xfsm_unitxack_buf_reg_reg/GND
 
 --------------------------------------------------------------------------------------------------------------
 
- 71    185(23.473,23.015)  mn(NMOS_VTL)                          talker_str_1xsync_unitxsync_reg_reg/m16  mn(NMOS_VTL)
-         G: 22(23.402,24.425)                                      g: talker_str_1xfsm_unitxn4
+ 75    192(24.073,23.015)  mn(NMOS_VTL)                          talker_str_1xsync_unitxmeta_reg_reg/m18  mn(NMOS_VTL)
+         G: 60(23.038,23.270)                                      g: talker_str_1xsync_unitxmeta_reg_reg/A_23_27__
          b: 2(12.570,22.545)                                       ** no similar net **
-         ** no similar net **                                      b: talker_str_1xsync_unitxsync_reg_reg/GND
+         ** no similar net **                                      b: talker_str_1xsync_unitxmeta_reg_reg/GND
 
 --------------------------------------------------------------------------------------------------------------
 
- 72    187(23.663,23.015)  mn(NMOS_VTL)                          talker_str_1xsync_unitxsync_reg_reg/m17  mn(NMOS_VTL)
-         G: 63(23.642,23.550)                                      g: talker_str_1xsync_unitxsync_reg_reg/A_10_61__
-         b: 2(12.570,22.545)                                       ** no similar net **
-         ** no similar net **                                      b: talker_str_1xsync_unitxsync_reg_reg/GND
-
---------------------------------------------------------------------------------------------------------------
-
- 73    188(23.692,27.955)  mn(NMOS_VTL)                          listener_str_1xsync_unitxmeta_reg_reg/m18  mn(NMOS_VTL)
-         G: 56(22.657,28.210)                                      g: listener_str_1xsync_unitxmeta_reg_reg/A_23_27__
-         b: 2(12.570,22.545)                                       ** no similar net **
-         ** no similar net **                                      b: listener_str_1xsync_unitxmeta_reg_reg/GND
-
---------------------------------------------------------------------------------------------------------------
-
- 74    192(24.073,23.015)  mn(NMOS_VTL)                          talker_str_1xsync_unitxsync_reg_reg/m18  mn(NMOS_VTL)
-         G: 60(23.038,23.270)                                      g: talker_str_1xsync_unitxsync_reg_reg/A_23_27__
-         b: 2(12.570,22.545)                                       ** no similar net **
-         ** no similar net **                                      b: talker_str_1xsync_unitxsync_reg_reg/GND
-
---------------------------------------------------------------------------------------------------------------
-
- 75    197(24.442,31.690)  mn(NMOS_VTL)                          listener_str_1xsync_unitxmeta_reg_reg/m29  mn(NMOS_VTL)
-         G: 67(24.413,31.555)                                      g: listener_str_1xsync_unitxmeta_reg_reg/A_122_6__
-         b: 2(12.570,22.545)                                       ** no similar net **
-         ** no similar net **                                      b: listener_str_1xsync_unitxmeta_reg_reg/GND
-
---------------------------------------------------------------------------------------------------------------
-
- 76    203(24.823,27.850)  mn(NMOS_VTL)                          listener_str_1xsync_unitxsync_reg_reg/m29  mn(NMOS_VTL)
-         G: 70(24.793,28.420)                                      g: listener_str_1xsync_unitxsync_reg_reg/A_122_6__
+ 76    197(24.442,31.690)  mn(NMOS_VTL)                          listener_str_1xsync_unitxsync_reg_reg/m29  mn(NMOS_VTL)
+         G: 67(24.413,31.555)                                      g: listener_str_1xsync_unitxsync_reg_reg/A_122_6__
          b: 2(12.570,22.545)                                       ** no similar net **
          ** no similar net **                                      b: listener_str_1xsync_unitxsync_reg_reg/GND
 
 --------------------------------------------------------------------------------------------------------------
 
- 77    201(24.672,31.690)  mn(NMOS_VTL)                          listener_str_1xsync_unitxmeta_reg_reg/m28  mn(NMOS_VTL)
-         G: 19(22.642,30.540)                                      g: fe_ocp_rbn1_reset1
+ 77    203(24.823,27.850)  mn(NMOS_VTL)                          listener_str_1xfsm_unitxack_buf_reg_reg/m29  mn(NMOS_VTL)
+         G: 70(24.793,28.420)                                      g: listener_str_1xfsm_unitxack_buf_reg_reg/A_122_6__
          b: 2(12.570,22.545)                                       ** no similar net **
-         ** no similar net **                                      b: listener_str_1xsync_unitxmeta_reg_reg/GND
+         ** no similar net **                                      b: listener_str_1xfsm_unitxack_buf_reg_reg/GND
 
 --------------------------------------------------------------------------------------------------------------
 
- 78    204(24.863,31.690)  mn(NMOS_VTL)                          listener_str_1xsync_unitxmeta_reg_reg/m27  mn(NMOS_VTL)
-         G: 64(23.902,30.698)                                      ** listener_str_1xfsm_unitxack_buf_reg_reg/A_105_6__ **
-         b: 2(12.570,22.545)                                       ** no similar net **
-         ** no similar net **                                      g: listener_str_1xsync_unitxmeta_reg_reg/A_105_6__
-         ** no similar net **                                      b: listener_str_1xsync_unitxmeta_reg_reg/GND
-
---------------------------------------------------------------------------------------------------------------
-
- 79    207(25.203,22.910)  mn(NMOS_VTL)                          talker_str_1xsync_unitxsync_reg_reg/m29  mn(NMOS_VTL)
-         G: 72(25.172,23.480)                                      g: talker_str_1xsync_unitxsync_reg_reg/A_122_6__
-         b: 2(12.570,22.545)                                       ** no similar net **
-         ** no similar net **                                      b: talker_str_1xsync_unitxsync_reg_reg/GND
-
---------------------------------------------------------------------------------------------------------------
-
- 80    206(25.052,27.850)  mn(NMOS_VTL)                          listener_str_1xsync_unitxsync_reg_reg/m28  mn(NMOS_VTL)
-         G: 19(22.642,30.540)                                      g: fe_ocp_rbn1_reset1
+ 78    201(24.672,31.690)  mn(NMOS_VTL)                          listener_str_1xsync_unitxsync_reg_reg/m28  mn(NMOS_VTL)
+         G: 19(22.642,30.540)                                      g: listener_str_1xsync_unitxn2
          b: 2(12.570,22.545)                                       ** no similar net **
          ** no similar net **                                      b: listener_str_1xsync_unitxsync_reg_reg/GND
 
 --------------------------------------------------------------------------------------------------------------
 
- 81    208(25.242,27.850)  mn(NMOS_VTL)                          listener_str_1xsync_unitxsync_reg_reg/m27  mn(NMOS_VTL)
-         G: 66(24.282,28.867)                                      g: listener_str_1xsync_unitxsync_reg_reg/A_105_6__
+ 79    204(24.863,31.690)  mn(NMOS_VTL)                          listener_str_1xsync_unitxsync_reg_reg/m27  mn(NMOS_VTL)
+         G: 64(23.902,30.698)                                      g: listener_str_1xsync_unitxsync_reg_reg/A_105_6__
          b: 2(12.570,22.545)                                       ** no similar net **
          ** no similar net **                                      b: listener_str_1xsync_unitxsync_reg_reg/GND
 
 --------------------------------------------------------------------------------------------------------------
 
- 82    212(25.433,22.910)  mn(NMOS_VTL)                          talker_str_1xsync_unitxsync_reg_reg/m28  mn(NMOS_VTL)
-         G: 22(23.402,24.425)                                      g: talker_str_1xfsm_unitxn4
+ 80    207(25.203,22.910)  mn(NMOS_VTL)                          talker_str_1xsync_unitxmeta_reg_reg/m29  mn(NMOS_VTL)
+         G: 72(25.172,23.480)                                      g: talker_str_1xsync_unitxmeta_reg_reg/A_122_6__
          b: 2(12.570,22.545)                                       ** no similar net **
-         ** no similar net **                                      b: talker_str_1xsync_unitxsync_reg_reg/GND
+         ** no similar net **                                      b: talker_str_1xsync_unitxmeta_reg_reg/GND
 
 --------------------------------------------------------------------------------------------------------------
 
- 83    213(25.622,22.910)  mn(NMOS_VTL)                          talker_str_1xsync_unitxsync_reg_reg/m27  mn(NMOS_VTL)
-         G: 69(24.663,23.927)                                      g: talker_str_1xsync_unitxsync_reg_reg/A_105_6__
+ 81    206(25.052,27.850)  mn(NMOS_VTL)                          listener_str_1xfsm_unitxack_buf_reg_reg/m28  mn(NMOS_VTL)
+         G: 19(22.642,30.540)                                      g: listener_str_1xsync_unitxn2
          b: 2(12.570,22.545)                                       ** no similar net **
-         ** no similar net **                                      b: talker_str_1xsync_unitxsync_reg_reg/GND
+         ** no similar net **                                      b: listener_str_1xfsm_unitxack_buf_reg_reg/GND
 
 --------------------------------------------------------------------------------------------------------------
 
- 84    222(26.892,26.645)  mn(NMOS_VTL)                          talker_str_1xsync_unitxmeta_reg_reg/m16  mn(NMOS_VTL)
+ 82    208(25.242,27.850)  mn(NMOS_VTL)                          listener_str_1xfsm_unitxack_buf_reg_reg/m27  mn(NMOS_VTL)
+         G: 66(24.282,28.867)                                      g: listener_str_1xfsm_unitxack_buf_reg_reg/A_105_6__
+         b: 2(12.570,22.545)                                       ** no similar net **
+         ** no similar net **                                      b: listener_str_1xfsm_unitxack_buf_reg_reg/GND
+
+--------------------------------------------------------------------------------------------------------------
+
+ 83    212(25.433,22.910)  mn(NMOS_VTL)                          talker_str_1xsync_unitxmeta_reg_reg/m28  mn(NMOS_VTL)
          G: 22(23.402,24.425)                                      g: talker_str_1xfsm_unitxn4
          b: 2(12.570,22.545)                                       ** no similar net **
          ** no similar net **                                      b: talker_str_1xsync_unitxmeta_reg_reg/GND
 
 --------------------------------------------------------------------------------------------------------------
 
- 85    223(27.082,26.645)  mn(NMOS_VTL)                          talker_str_1xsync_unitxmeta_reg_reg/m17  mn(NMOS_VTL)
-         G: 76(27.062,26.345)                                      g: talker_str_1xsync_unitxmeta_reg_reg/A_10_61__
+ 84    213(25.622,22.910)  mn(NMOS_VTL)                          talker_str_1xsync_unitxmeta_reg_reg/m27  mn(NMOS_VTL)
+         G: 69(24.663,23.927)                                      g: talker_str_1xsync_unitxmeta_reg_reg/A_105_6__
          b: 2(12.570,22.545)                                       ** no similar net **
          ** no similar net **                                      b: talker_str_1xsync_unitxmeta_reg_reg/GND
 
 --------------------------------------------------------------------------------------------------------------
 
- 86    225(27.492,26.645)  mn(NMOS_VTL)                          talker_str_1xsync_unitxmeta_reg_reg/m18  mn(NMOS_VTL)
-         G: 74(26.457,26.240)                                      g: talker_str_1xsync_unitxmeta_reg_reg/A_23_27__
-         b: 2(12.570,22.545)                                       ** no similar net **
-         ** no similar net **                                      b: talker_str_1xsync_unitxmeta_reg_reg/GND
-
---------------------------------------------------------------------------------------------------------------
-
- 87    234(28.413,31.585)  mn(NMOS_VTL)                          listener_str_1xsync_unitxsync_reg_reg/m16  mn(NMOS_VTL)
-         G: 19(22.642,30.540)                                      g: fe_ocp_rbn1_reset1
-         b: 2(12.570,22.545)                                       ** no similar net **
-         ** no similar net **                                      b: listener_str_1xsync_unitxsync_reg_reg/GND
-
---------------------------------------------------------------------------------------------------------------
-
- 88    237(28.602,31.585)  mn(NMOS_VTL)                          listener_str_1xsync_unitxsync_reg_reg/m17  mn(NMOS_VTL)
-         G: 82(28.582,31.285)                                      g: listener_str_1xsync_unitxsync_reg_reg/A_10_61__
-         b: 2(12.570,22.545)                                       ** no similar net **
-         ** no similar net **                                      b: listener_str_1xsync_unitxsync_reg_reg/GND
-
---------------------------------------------------------------------------------------------------------------
-
- 89    238(28.622,26.750)  mn(NMOS_VTL)                          talker_str_1xsync_unitxmeta_reg_reg/m29  mn(NMOS_VTL)
-         G: 83(28.593,26.615)                                      g: talker_str_1xsync_unitxmeta_reg_reg/A_122_6__
-         b: 2(12.570,22.545)                                       ** no similar net **
-         ** no similar net **                                      b: talker_str_1xsync_unitxmeta_reg_reg/GND
-
---------------------------------------------------------------------------------------------------------------
-
- 90    241(28.852,26.750)  mn(NMOS_VTL)                          talker_str_1xsync_unitxmeta_reg_reg/m28  mn(NMOS_VTL)
+ 85    222(26.892,26.645)  mn(NMOS_VTL)                          talker_str_1xsync_unitxsync_reg_reg/m16  mn(NMOS_VTL)
          G: 22(23.402,24.425)                                      g: talker_str_1xfsm_unitxn4
          b: 2(12.570,22.545)                                       ** no similar net **
-         ** no similar net **                                      b: talker_str_1xsync_unitxmeta_reg_reg/GND
+         ** no similar net **                                      b: talker_str_1xsync_unitxsync_reg_reg/GND
 
 --------------------------------------------------------------------------------------------------------------
 
- 91    245(29.043,26.750)  mn(NMOS_VTL)                          talker_str_1xsync_unitxmeta_reg_reg/m27  mn(NMOS_VTL)
-         G: 79(28.082,25.758)                                      g: talker_str_1xsync_unitxmeta_reg_reg/A_105_6__
+ 86    223(27.082,26.645)  mn(NMOS_VTL)                          talker_str_1xsync_unitxsync_reg_reg/m17  mn(NMOS_VTL)
+         G: 76(27.062,26.345)                                      g: talker_str_1xsync_unitxsync_reg_reg/A_10_61__
          b: 2(12.570,22.545)                                       ** no similar net **
-         ** no similar net **                                      b: talker_str_1xsync_unitxmeta_reg_reg/GND
+         ** no similar net **                                      b: talker_str_1xsync_unitxsync_reg_reg/GND
 
 --------------------------------------------------------------------------------------------------------------
 
- 92    244(29.012,31.585)  mn(NMOS_VTL)                          listener_str_1xsync_unitxsync_reg_reg/m18  mn(NMOS_VTL)
-         G: 78(27.977,31.180)                                      g: listener_str_1xsync_unitxsync_reg_reg/A_23_27__
+ 87    225(27.492,26.645)  mn(NMOS_VTL)                          talker_str_1xsync_unitxsync_reg_reg/m18  mn(NMOS_VTL)
+         G: 74(26.457,26.240)                                      g: talker_str_1xsync_unitxsync_reg_reg/A_23_27__
          b: 2(12.570,22.545)                                       ** no similar net **
-         ** no similar net **                                      b: listener_str_1xsync_unitxsync_reg_reg/GND
+         ** no similar net **                                      b: talker_str_1xsync_unitxsync_reg_reg/GND
 
 --------------------------------------------------------------------------------------------------------------
 
- 93    252(29.552,23.015)  mn(NMOS_VTL)                          talker_str_1xfsm_unitxreq_buf_reg_reg/m16  mn(NMOS_VTL)
+ 88    234(28.413,31.585)  mn(NMOS_VTL)                          listener_str_1xsync_unitxmeta_reg_reg/m16  mn(NMOS_VTL)
+         G: 19(22.642,30.540)                                      g: listener_str_1xsync_unitxn2
+         b: 2(12.570,22.545)                                       ** no similar net **
+         ** no similar net **                                      b: listener_str_1xsync_unitxmeta_reg_reg/GND
+
+--------------------------------------------------------------------------------------------------------------
+
+ 89    237(28.602,31.585)  mn(NMOS_VTL)                          listener_str_1xsync_unitxmeta_reg_reg/m17  mn(NMOS_VTL)
+         G: 82(28.582,31.285)                                      g: listener_str_1xsync_unitxmeta_reg_reg/A_10_61__
+         b: 2(12.570,22.545)                                       ** no similar net **
+         ** no similar net **                                      b: listener_str_1xsync_unitxmeta_reg_reg/GND
+
+--------------------------------------------------------------------------------------------------------------
+
+ 90    238(28.622,26.750)  mn(NMOS_VTL)                          talker_str_1xsync_unitxsync_reg_reg/m29  mn(NMOS_VTL)
+         G: 83(28.593,26.615)                                      g: talker_str_1xsync_unitxsync_reg_reg/A_122_6__
+         b: 2(12.570,22.545)                                       ** no similar net **
+         ** no similar net **                                      b: talker_str_1xsync_unitxsync_reg_reg/GND
+
+--------------------------------------------------------------------------------------------------------------
+
+ 91    241(28.852,26.750)  mn(NMOS_VTL)                          talker_str_1xsync_unitxsync_reg_reg/m28  mn(NMOS_VTL)
+         G: 22(23.402,24.425)                                      g: talker_str_1xfsm_unitxn4
+         b: 2(12.570,22.545)                                       ** no similar net **
+         ** no similar net **                                      b: talker_str_1xsync_unitxsync_reg_reg/GND
+
+--------------------------------------------------------------------------------------------------------------
+
+ 92    245(29.043,26.750)  mn(NMOS_VTL)                          talker_str_1xsync_unitxsync_reg_reg/m27  mn(NMOS_VTL)
+         G: 79(28.082,25.758)                                      g: talker_str_1xsync_unitxsync_reg_reg/A_105_6__
+         b: 2(12.570,22.545)                                       ** no similar net **
+         ** no similar net **                                      b: talker_str_1xsync_unitxsync_reg_reg/GND
+
+--------------------------------------------------------------------------------------------------------------
+
+ 93    244(29.012,31.585)  mn(NMOS_VTL)                          listener_str_1xsync_unitxmeta_reg_reg/m18  mn(NMOS_VTL)
+         G: 78(27.977,31.180)                                      g: listener_str_1xsync_unitxmeta_reg_reg/A_23_27__
+         b: 2(12.570,22.545)                                       ** no similar net **
+         ** no similar net **                                      b: listener_str_1xsync_unitxmeta_reg_reg/GND
+
+--------------------------------------------------------------------------------------------------------------
+
+ 94    252(29.552,23.015)  mn(NMOS_VTL)                          talker_str_1xfsm_unitxreq_buf_reg_reg/m16  mn(NMOS_VTL)
          G: 22(23.402,24.425)                                      g: talker_str_1xfsm_unitxn4
          b: 2(12.570,22.545)                                       ** no similar net **
          ** no similar net **                                      b: talker_str_1xfsm_unitxreq_buf_reg_reg/GND
 
 --------------------------------------------------------------------------------------------------------------
 
- 94    253(29.742,23.015)  mn(NMOS_VTL)                          talker_str_1xfsm_unitxreq_buf_reg_reg/m17  mn(NMOS_VTL)
+ 95    253(29.742,23.015)  mn(NMOS_VTL)                          talker_str_1xfsm_unitxreq_buf_reg_reg/m17  mn(NMOS_VTL)
          G: 88(29.723,23.550)                                      g: talker_str_1xfsm_unitxreq_buf_reg_reg/A_10_61__
          b: 2(12.570,22.545)                                       ** no similar net **
          ** no similar net **                                      b: talker_str_1xfsm_unitxreq_buf_reg_reg/GND
 
 --------------------------------------------------------------------------------------------------------------
 
- 95    256(30.142,31.690)  mn(NMOS_VTL)                          listener_str_1xfsm_unitxack_buf_reg_reg/m29  mn(NMOS_VTL)
-         G: 90(30.113,31.555)                                      g: listener_str_1xfsm_unitxack_buf_reg_reg/A_122_6__
+ 96    256(30.142,31.690)  mn(NMOS_VTL)                          listener_str_1xsync_unitxmeta_reg_reg/m29  mn(NMOS_VTL)
+         G: 90(30.113,31.555)                                      g: listener_str_1xsync_unitxmeta_reg_reg/A_122_6__
          b: 2(12.570,22.545)                                       ** no similar net **
-         ** no similar net **                                      b: listener_str_1xfsm_unitxack_buf_reg_reg/GND
+         ** no similar net **                                      b: listener_str_1xsync_unitxmeta_reg_reg/GND
 
 --------------------------------------------------------------------------------------------------------------
 
- 96    257(30.152,23.015)  mn(NMOS_VTL)                          talker_str_1xfsm_unitxreq_buf_reg_reg/m18  mn(NMOS_VTL)
+ 97    257(30.152,23.015)  mn(NMOS_VTL)                          talker_str_1xfsm_unitxreq_buf_reg_reg/m18  mn(NMOS_VTL)
          G: 85(29.117,23.270)                                      g: talker_str_1xfsm_unitxreq_buf_reg_reg/A_23_27__
          b: 2(12.570,22.545)                                       ** no similar net **
          ** no similar net **                                      b: talker_str_1xfsm_unitxreq_buf_reg_reg/GND
 
 --------------------------------------------------------------------------------------------------------------
 
- 97    260(30.372,31.690)  mn(NMOS_VTL)                          listener_str_1xfsm_unitxack_buf_reg_reg/m28  mn(NMOS_VTL)
-         G: 19(22.642,30.540)                                      g: fe_ocp_rbn1_reset1
+ 98    260(30.372,31.690)  mn(NMOS_VTL)                          listener_str_1xsync_unitxmeta_reg_reg/m28  mn(NMOS_VTL)
+         G: 19(22.642,30.540)                                      g: listener_str_1xsync_unitxn2
          b: 2(12.570,22.545)                                       ** no similar net **
-         ** no similar net **                                      b: listener_str_1xfsm_unitxack_buf_reg_reg/GND
+         ** no similar net **                                      b: listener_str_1xsync_unitxmeta_reg_reg/GND
 
 --------------------------------------------------------------------------------------------------------------
 
- 98    262(30.562,31.690)  mn(NMOS_VTL)                          listener_str_1xfsm_unitxack_buf_reg_reg/m27  mn(NMOS_VTL)
-         G: 87(29.602,30.698)                                      ** no similar net **
+ 99    262(30.562,31.690)  mn(NMOS_VTL)                          listener_str_1xsync_unitxmeta_reg_reg/m27  mn(NMOS_VTL)
+         G: 87(29.602,30.698)                                      g: listener_str_1xsync_unitxmeta_reg_reg/A_105_6__
          b: 2(12.570,22.545)                                       ** no similar net **
-         ** 64(23.902,30.698) **                                   g: listener_str_1xfsm_unitxack_buf_reg_reg/A_105_6__
-         ** no similar net **                                      b: listener_str_1xfsm_unitxack_buf_reg_reg/GND
+         ** no similar net **                                      b: listener_str_1xsync_unitxmeta_reg_reg/GND
 
 --------------------------------------------------------------------------------------------------------------
 
- 99    270(31.282,22.910)  mn(NMOS_VTL)                          talker_str_1xfsm_unitxreq_buf_reg_reg/m29  mn(NMOS_VTL)
+100    270(31.282,22.910)  mn(NMOS_VTL)                          talker_str_1xfsm_unitxreq_buf_reg_reg/m29  mn(NMOS_VTL)
          G: 95(31.253,23.480)                                      g: talker_str_1xfsm_unitxreq_buf_reg_reg/A_122_6__
          b: 2(12.570,22.545)                                       ** no similar net **
          ** no similar net **                                      b: talker_str_1xfsm_unitxreq_buf_reg_reg/GND
 
 --------------------------------------------------------------------------------------------------------------
 
-100    271(31.328,27.747)  mn(NMOS_VTL)                          u7/m3  mn(NMOS_VTL)
+101    271(31.328,27.747)  mn(NMOS_VTL)                          u7/m3  mn(NMOS_VTL)
          G: 39(29.383,25.707)                                      g: RCV
          b: 2(12.570,22.545)                                       ** no similar net **
-         ** no similar net **                                      b: u7/GND
+         ** no similar net **                                      b: net104
 
 --------------------------------------------------------------------------------------------------------------
 
-101    275(31.517,27.747)  mn(NMOS_VTL)                          u7/m4  mn(NMOS_VTL)
+102    275(31.517,27.747)  mn(NMOS_VTL)                          u7/m4  mn(NMOS_VTL)
          G: 42(31.578,28.468)                                      g: talker_str_1xfsm_unitxn8
          b: 2(12.570,22.545)                                       ** no similar net **
-         ** no similar net **                                      b: u7/GND
+         ** no similar net **                                      b: net104
 
 --------------------------------------------------------------------------------------------------------------
 
-102    274(31.512,22.910)  mn(NMOS_VTL)                          talker_str_1xfsm_unitxreq_buf_reg_reg/m28  mn(NMOS_VTL)
+103    274(31.512,22.910)  mn(NMOS_VTL)                          talker_str_1xfsm_unitxreq_buf_reg_reg/m28  mn(NMOS_VTL)
          G: 22(23.402,24.425)                                      g: talker_str_1xfsm_unitxn4
          b: 2(12.570,22.545)                                       ** no similar net **
          ** no similar net **                                      b: talker_str_1xfsm_unitxreq_buf_reg_reg/GND
 
 --------------------------------------------------------------------------------------------------------------
 
-103    277(31.703,22.910)  mn(NMOS_VTL)                          talker_str_1xfsm_unitxreq_buf_reg_reg/m27  mn(NMOS_VTL)
+104    277(31.703,22.910)  mn(NMOS_VTL)                          talker_str_1xfsm_unitxreq_buf_reg_reg/m27  mn(NMOS_VTL)
          G: 92(30.742,23.927)                                      g: talker_str_1xfsm_unitxreq_buf_reg_reg/A_105_6__
          b: 2(12.570,22.545)                                       ** no similar net **
          ** no similar net **                                      b: talker_str_1xfsm_unitxreq_buf_reg_reg/GND
 
 --------------------------------------------------------------------------------------------------------------
 
-104    293(32.593,26.645)  mn(NMOS_VTL)                          talker_str_1xfsm_unitxstate_reg_regx0x/m16  mn(NMOS_VTL)
+105    293(32.593,26.645)  mn(NMOS_VTL)                          talker_str_1xfsm_unitxstate_reg_regx0x/m16  mn(NMOS_VTL)
          G: 22(23.402,24.425)                                      g: talker_str_1xfsm_unitxn4
          b: 2(12.570,22.545)                                       ** no similar net **
          ** no similar net **                                      b: talker_str_1xfsm_unitxstate_reg_regx0x/GND
 
 --------------------------------------------------------------------------------------------------------------
 
-105    296(32.782,26.645)  mn(NMOS_VTL)                          talker_str_1xfsm_unitxstate_reg_regx0x/m17  mn(NMOS_VTL)
+106    296(32.782,26.645)  mn(NMOS_VTL)                          talker_str_1xfsm_unitxstate_reg_regx0x/m17  mn(NMOS_VTL)
          G: 105(32.763,26.345)                                     g: talker_str_1xfsm_unitxstate_reg_regx0x/A_10_61__
          b: 2(12.570,22.545)                                       ** no similar net **
          ** no similar net **                                      b: talker_str_1xfsm_unitxstate_reg_regx0x/GND
 
 --------------------------------------------------------------------------------------------------------------
 
-106    294(32.593,31.585)  mn(NMOS_VTL)                          talker_str_1xfsm_unitxstate_reg_regx1x/m16  mn(NMOS_VTL)
+107    294(32.593,31.585)  mn(NMOS_VTL)                          talker_str_1xfsm_unitxstate_reg_regx1x/m16  mn(NMOS_VTL)
          G: 22(23.402,24.425)                                      g: talker_str_1xfsm_unitxn4
          b: 2(12.570,22.545)                                       ** no similar net **
          ** no similar net **                                      b: talker_str_1xfsm_unitxstate_reg_regx1x/GND
 
 --------------------------------------------------------------------------------------------------------------
 
-107    297(32.782,31.585)  mn(NMOS_VTL)                          talker_str_1xfsm_unitxstate_reg_regx1x/m17  mn(NMOS_VTL)
+108    297(32.782,31.585)  mn(NMOS_VTL)                          talker_str_1xfsm_unitxstate_reg_regx1x/m17  mn(NMOS_VTL)
          G: 106(32.763,31.285)                                     g: talker_str_1xfsm_unitxstate_reg_regx1x/A_10_61__
          b: 2(12.570,22.545)                                       ** no similar net **
          ** no similar net **                                      b: talker_str_1xfsm_unitxstate_reg_regx1x/GND
-
-
-
-**************************************************************************************************************
-                                      PROPERTY ERRORS
-
-DISC#  LAYOUT                                                    SOURCE                      ERROR
-**************************************************************************************************************
-
-108    66(27.622,23.900)  mp(PMOS_VTL)                           clk2__l1_i0/m3  mp(PMOS_VTL)
-       w: 0.5 u                                                  w: 4 u                       3.5 u
-
-109    137(32.943,28.840)  mp(PMOS_VTL)                          talker_str_1xfsm_unitxu5/m0  mp(PMOS_VTL)
-       w: 0.5 u                                                  w: 1 u                       0.5 u
-
-110    227(27.622,22.788)  mn(NMOS_VTL)                          clk2__l1_i0/m7  mn(NMOS_VTL)
-       w: 0.25 u                                                 w: 2 u                      1.75 u
-
-111    298(32.943,27.727)  mn(NMOS_VTL)                          talker_str_1xfsm_unitxu5/m1  mn(NMOS_VTL)
-       w: 0.25 u                                                 w: 0.5 u                    0.25 u
-
-112    19(23.062,25.760)  mp(PMOS_VTL)                           clk1__l2_i0/m1  mp(PMOS_VTL)
-       w: 0.5 u                                                  w: 2 u                       1.5 u
-
-113    180(23.062,27.122)  mn(NMOS_VTL)                          clk1__l2_i0/m3  mn(NMOS_VTL)
-       w: 0.25 u                                                 w: 1 u                      0.75 u
 
 
 
@@ -973,426 +778,22 @@ o LVS Setup:
                   Matched    Matched    Unmatched    Unmatched    Component
                    Layout     Source       Layout       Source    Type
                   -------    -------    ---------    ---------    ---------
-   Ports:               0          0            0            7
+   Ports:               0          0            0            8
 
-   Nets:              104        104            7           48
+   Nets:              109        109            2           57
 
-   Instances:          79         79            8            4    mn(NMOS_VTL)
-                      142        142            7            3    mp(PMOS_VTL)
+   Instances:          87         87            0            0    mn(NMOS_VTL)
+                      149        149            0            0    mp(PMOS_VTL)
                        37         37            0            0    SMN2
                         4          4            0            0    SMP2
                         1          1            0            0    SPMP_2_2
                   -------    -------    ---------    ---------
-   Total Inst:        263        263           15            7
+   Total Inst:        278        278            0            0
 
 
 o Statistics:
 
-   24 source mos transistors were reduced to 8.
-     16 mos transistors were deleted by parallel reduction.
-
-   5 nets were matched arbitrarily.
-
-
-o Ambiguity Resolution Points:
-
-      (Each one of the following objects belongs to a group of indistinguishable objects.
-       The listed objects were matched arbitrarily by the Ambiguity Resolution feature of LVS.
-       Arbitrary matching may be prevented by assigning names to these objects or to adjacent nets).
-
-       Layout                                                    Source
-       ------                                                    ------
-
-                                     Nets
-                                     ----
-
-       77(27.648,31.117)                                         listener_str_1xsync_unitxsync_reg_reg/A_57_6__
-       70(24.793,28.420)                                         listener_str_1xsync_unitxsync_reg_reg/A_122_6__
-       20(25.198,33.028)                                         listener_str_1xreq_sync
-       18(24.442,33.028)                                         listener_str_1xsync_unitxmeta_reg
-       16(22.922,26.948)                                         clk1__l1_n0
-
-
-
-o Matched Mosfets Which Have Been Unequally Reduced:
-
-       227(27.622,22.788)                                        clk2__l1_i0/m7
-       ** missing smashed mosfet **                              clk2__l1_i0/m4
-       ** missing smashed mosfet **                              clk2__l1_i0/m5
-       ** missing smashed mosfet **                              clk2__l1_i0/m6
-
-       180(23.062,27.122)                                        clk1__l2_i0/m3
-       ** missing smashed mosfet **                              clk1__l2_i0/m2
-
-       66(27.622,23.900)                                         clk2__l1_i0/m3
-       ** missing smashed mosfet **                              clk2__l1_i0/m0
-       ** missing smashed mosfet **                              clk2__l1_i0/m1
-       ** missing smashed mosfet **                              clk2__l1_i0/m2
-
-       19(23.062,25.760)                                         clk1__l2_i0/m1
-       ** missing smashed mosfet **                              clk1__l2_i0/m0
-
-
-
-**************************************************************************************************************
-                             DETAILED INSTANCE CONNECTIONS
-
-       LAYOUT NAME                                               SOURCE NAME
-**************************************************************************************************************
-
-          (This section contains detailed information about connections of
-           matched instances that are involved in net discrepancies).
-
---------------------------------------------------------------------------------------------------------------
-
-       100(30.562,30.677)  mp(PMOS_VTL)                          listener_str_1xfsm_unitxack_buf_reg_reg/m11  mp(PMOS_VTL)
-         S: 90(30.113,31.555)                                      d: listener_str_1xfsm_unitxack_buf_reg_reg/A_122_6__
-         G: 87(29.602,30.698)                                      ** no similar net **
-         D: 1(2.570,20.075)                                        ** no similar net **
-         b: 1(2.570,20.075)                                        ** no similar net **
-         ** 64(23.902,30.698) **                                   g: listener_str_1xfsm_unitxack_buf_reg_reg/A_105_6__
-         ** no similar net **                                      s: listener_str_1xfsm_unitxack_buf_reg_reg/VDD
-         ** no similar net **                                      b: listener_str_1xfsm_unitxack_buf_reg_reg/VDD
-
---------------------------------------------------------------------------------------------------------------
-
-       44(24.863,30.677)  mp(PMOS_VTL)                           listener_str_1xsync_unitxmeta_reg_reg/m11  mp(PMOS_VTL)
-         S: 67(24.413,31.555)                                      d: listener_str_1xsync_unitxmeta_reg_reg/A_122_6__
-         G: 64(23.902,30.698)                                      ** listener_str_1xfsm_unitxack_buf_reg_reg/A_105_6__ **
-         D: 1(2.570,20.075)                                        ** no similar net **
-         b: 1(2.570,20.075)                                        ** no similar net **
-         ** no similar net **                                      g: listener_str_1xsync_unitxmeta_reg_reg/A_105_6__
-         ** no similar net **                                      s: listener_str_1xsync_unitxmeta_reg_reg/VDD
-         ** no similar net **                                      b: listener_str_1xsync_unitxmeta_reg_reg/VDD
-
---------------------------------------------------------------------------------------------------------------
-
-       3(21.863,30.805)  mp(PMOS_VTL)                            listener_str_1xfsm_unitxack_buf_reg_reg/m6  mp(PMOS_VTL)
-         D: 52(21.948,31.117)                                      s: listener_str_1xfsm_unitxack_buf_reg_reg/A_57_6__
-         G: 6(21.593,32.708)                                       ** no similar net **
-         S: 1(2.570,20.075)                                        ** no similar net **
-         b: 1(2.570,20.075)                                        ** no similar net **
-         ** 20(25.198,33.028) **                                   g: listener_str_1xreq_sync
-         ** no similar net **                                      d: listener_str_1xfsm_unitxack_buf_reg_reg/VDD
-         ** no similar net **                                      b: listener_str_1xfsm_unitxack_buf_reg_reg/VDD
-
---------------------------------------------------------------------------------------------------------------
-
-       19(23.062,25.760)  mp(PMOS_VTL)                           clk1__l2_i0/m1  mp(PMOS_VTL)
-         G: 16(22.922,26.948)                                      g: clk1__l1_n0
-         S: 1(2.570,20.075)                                        ** no similar net **
-         D: 8(22.163,26.945)                                       ** CLK1 **
-         b: 1(2.570,20.075)                                        ** no similar net **
-         ** 5(21.628,31.282) **                                    s: clk1__l2_n0
-         ** no similar net **                                      d: clk1__l2_i0/VDD
-         ** no similar net **                                      b: clk1__l2_i0/VDD
-
---------------------------------------------------------------------------------------------------------------
-
-       30(24.003,30.927)  mp(PMOS_VTL)                           listener_str_1xfsm_unitxack_buf_reg_reg/m10  mp(PMOS_VTL)
-         G: 7(22.073,30.297)                                       g: listener_str_1xfsm_unitxack_buf_reg_reg/A_47_4__
-         S: 64(23.902,30.698)                                      s: listener_str_1xfsm_unitxack_buf_reg_reg/A_105_6__
-         D: 65(24.108,30.828)                                      ** listener_str_1xsync_unitxmeta_reg_reg/A_113_6__ **
-         b: 1(2.570,20.075)                                        ** no similar net **
-         ** 89(29.808,30.828) **                                   d: listener_str_1xfsm_unitxack_buf_reg_reg/A_113_6__
-         ** no similar net **                                      b: listener_str_1xfsm_unitxack_buf_reg_reg/VDD
-
---------------------------------------------------------------------------------------------------------------
-
-       31(24.192,28.863)  mp(PMOS_VTL)                           listener_str_1xsync_unitxmeta_reg_reg/m9  mp(PMOS_VTL)
-         G: 14(21.878,28.210)                                      g: listener_str_1xsync_unitxmeta_reg_reg/A_47_71__
-         S: 61(23.262,28.490)                                      s: listener_str_1xsync_unitxmeta_reg_reg/A_10_61__
-         D: 66(24.282,28.867)                                      ** listener_str_1xsync_unitxsync_reg_reg/A_105_6__ **
-         b: 1(2.570,20.075)                                        ** no similar net **
-         ** no similar net **                                      d: listener_str_1xsync_unitxmeta_reg_reg/A_105_6__
-         ** no similar net **                                      b: listener_str_1xsync_unitxmeta_reg_reg/VDD
-
---------------------------------------------------------------------------------------------------------------
-
-       34(24.383,28.863)  mp(PMOS_VTL)                           listener_str_1xsync_unitxmeta_reg_reg/m10  mp(PMOS_VTL)
-         G: 13(22.453,29.117)                                      g: listener_str_1xsync_unitxmeta_reg_reg/A_47_4__
-         S: 66(24.282,28.867)                                      ** listener_str_1xsync_unitxsync_reg_reg/A_105_6__ **
-         D: 68(24.488,28.867)                                      ** listener_str_1xsync_unitxsync_reg_reg/A_113_6__ **
-         b: 1(2.570,20.075)                                        ** no similar net **
-         ** no similar net **                                      s: listener_str_1xsync_unitxmeta_reg_reg/A_105_6__
-         ** 65(24.108,30.828) **                                   d: listener_str_1xsync_unitxmeta_reg_reg/A_113_6__
-         ** no similar net **                                      b: listener_str_1xsync_unitxmeta_reg_reg/VDD
-
---------------------------------------------------------------------------------------------------------------
-
-       46(25.117,30.677)  mp(PMOS_VTL)                           listener_str_1xsync_unitxmeta_reg_reg/m15  mp(PMOS_VTL)
-         G: 67(24.413,31.555)                                      g: listener_str_1xsync_unitxmeta_reg_reg/A_122_6__
-         S: 1(2.570,20.075)                                        ** no similar net **
-         D: 20(25.198,33.028)                                      ** listener_str_1xreq_sync **
-         b: 1(2.570,20.075)                                        ** no similar net **
-         ** 18(24.442,33.028) **                                   s: listener_str_1xsync_unitxmeta_reg
-         ** no similar net **                                      d: listener_str_1xsync_unitxmeta_reg_reg/VDD
-         ** no similar net **                                      b: listener_str_1xsync_unitxmeta_reg_reg/VDD
-
---------------------------------------------------------------------------------------------------------------
-
-       49(25.343,20.820)  mp(PMOS_VTL)                           listener_str_1xfsm_unitxack_buf_reg_reg/m15  mp(PMOS_VTL)
-         D: 23(25.392,22.188)                                      s: ack_out
-         G: 21(25.203,22.005)                                      ** u10/A_2_6__ **
-         S: 1(2.570,20.075)                                        ** no similar net **
-         b: 1(2.570,20.075)                                        ** no similar net **
-         ** 90(30.113,31.555) **                                   g: listener_str_1xfsm_unitxack_buf_reg_reg/A_122_6__
-         ** no similar net **                                      d: listener_str_1xfsm_unitxack_buf_reg_reg/VDD
-         ** no similar net **                                      b: listener_str_1xfsm_unitxack_buf_reg_reg/VDD
-
---------------------------------------------------------------------------------------------------------------
-
-       52(25.497,28.863)  mp(PMOS_VTL)                           listener_str_1xsync_unitxsync_reg_reg/m15  mp(PMOS_VTL)
-         G: 70(24.793,28.420)                                      g: listener_str_1xsync_unitxsync_reg_reg/A_122_6__
-         S: 1(2.570,20.075)                                        ** no similar net **
-         D: 16(22.922,26.948)                                      ** clk1__l1_n0 **
-         b: 1(2.570,20.075)                                        ** no similar net **
-         ** 20(25.198,33.028) **                                   s: listener_str_1xreq_sync
-         ** no similar net **                                      d: listener_str_1xsync_unitxsync_reg_reg/VDD
-         ** no similar net **                                      b: listener_str_1xsync_unitxsync_reg_reg/VDD
-
---------------------------------------------------------------------------------------------------------------
-
-       64(27.562,30.805)  mp(PMOS_VTL)                           listener_str_1xsync_unitxsync_reg_reg/m6  mp(PMOS_VTL)
-         D: 77(27.648,31.117)                                      s: listener_str_1xsync_unitxsync_reg_reg/A_57_6__
-         G: 28(27.517,31.378)                                      ** clk2__l1_n0 **
-         S: 1(2.570,20.075)                                        ** no similar net **
-         b: 1(2.570,20.075)                                        ** no similar net **
-         ** 18(24.442,33.028) **                                   g: listener_str_1xsync_unitxmeta_reg
-         ** no similar net **                                      d: listener_str_1xsync_unitxsync_reg_reg/VDD
-         ** no similar net **                                      b: listener_str_1xsync_unitxsync_reg_reg/VDD
-
---------------------------------------------------------------------------------------------------------------
-
-       86(29.297,25.738)  mp(PMOS_VTL)                           talker_str_1xsync_unitxmeta_reg_reg/m15  mp(PMOS_VTL)
-         G: 83(28.593,26.615)                                      g: talker_str_1xsync_unitxmeta_reg_reg/A_122_6__
-         S: 1(2.570,20.075)                                        ** no similar net **
-         D: 39(29.383,25.707)                                      ** RCV **
-         b: 1(2.570,20.075)                                        ** no similar net **
-         ** 11(22.352,25.712) **                                   s: talker_str_1xsync_unitxmeta_reg
-         ** no similar net **                                      d: talker_str_1xsync_unitxmeta_reg_reg/VDD
-         ** no similar net **                                      b: talker_str_1xsync_unitxmeta_reg_reg/VDD
-
---------------------------------------------------------------------------------------------------------------
-
-       89(29.512,30.927)  mp(PMOS_VTL)                           listener_str_1xsync_unitxsync_reg_reg/m9  mp(PMOS_VTL)
-         G: 30(27.198,30.780)                                      g: listener_str_1xsync_unitxsync_reg_reg/A_47_71__
-         S: 82(28.582,31.285)                                      s: listener_str_1xsync_unitxsync_reg_reg/A_10_61__
-         D: 87(29.602,30.698)                                      ** no similar net **
-         b: 1(2.570,20.075)                                        ** no similar net **
-         ** 66(24.282,28.867) **                                   d: listener_str_1xsync_unitxsync_reg_reg/A_105_6__
-         ** no similar net **                                      b: listener_str_1xsync_unitxsync_reg_reg/VDD
-
---------------------------------------------------------------------------------------------------------------
-
-       90(29.523,20.820)  mp(PMOS_VTL)                           listener_str_1xsync_unitxmeta_reg_reg/m6  mp(PMOS_VTL)
-         G: 35(29.383,22.008)                                      g: req_in
-         S: 1(2.570,20.075)                                        ** no similar net **
-         D: 27(27.483,23.148)                                      ** CLK2 **
-         b: 1(2.570,20.075)                                        ** no similar net **
-         ** 54(22.328,28.190) **                                   s: listener_str_1xsync_unitxmeta_reg_reg/A_57_6__
-         ** no similar net **                                      d: listener_str_1xsync_unitxmeta_reg_reg/VDD
-         ** no similar net **                                      b: listener_str_1xsync_unitxmeta_reg_reg/VDD
-
---------------------------------------------------------------------------------------------------------------
-
-       93(29.703,30.927)  mp(PMOS_VTL)                           listener_str_1xsync_unitxsync_reg_reg/m10  mp(PMOS_VTL)
-         G: 29(27.773,30.297)                                      g: listener_str_1xsync_unitxsync_reg_reg/A_47_4__
-         S: 87(29.602,30.698)                                      ** no similar net **
-         D: 89(29.808,30.828)                                      ** listener_str_1xfsm_unitxack_buf_reg_reg/A_113_6__ **
-         b: 1(2.570,20.075)                                        ** no similar net **
-         ** 66(24.282,28.867) **                                   s: listener_str_1xsync_unitxsync_reg_reg/A_105_6__
-         ** 68(24.488,28.867) **                                   d: listener_str_1xsync_unitxsync_reg_reg/A_113_6__
-         ** no similar net **                                      b: listener_str_1xsync_unitxsync_reg_reg/VDD
-
---------------------------------------------------------------------------------------------------------------
-
-       164(21.863,31.585)  mn(NMOS_VTL)                          listener_str_1xfsm_unitxack_buf_reg_reg/m22  mn(NMOS_VTL)
-         D: 52(21.948,31.117)                                      s: listener_str_1xfsm_unitxack_buf_reg_reg/A_57_6__
-         G: 6(21.593,32.708)                                       ** no similar net **
-         S: 2(12.570,22.545)                                       ** no similar net **
-         b: 2(12.570,22.545)                                       ** no similar net **
-         ** 20(25.198,33.028) **                                   g: listener_str_1xreq_sync
-         ** no similar net **                                      d: listener_str_1xfsm_unitxack_buf_reg_reg/GND
-         ** no similar net **                                      b: listener_str_1xfsm_unitxack_buf_reg_reg/GND
-
---------------------------------------------------------------------------------------------------------------
-
-       180(23.062,27.122)  mn(NMOS_VTL)                          clk1__l2_i0/m3  mn(NMOS_VTL)
-         G: 16(22.922,26.948)                                      g: clk1__l1_n0
-         S: 2(12.570,22.545)                                       ** no similar net **
-         D: 8(22.163,26.945)                                       ** CLK1 **
-         b: 2(12.570,22.545)                                       ** no similar net **
-         ** 5(21.628,31.282) **                                    s: clk1__l2_n0
-         ** no similar net **                                      d: clk1__l2_i0/GND
-         ** no similar net **                                      b: clk1__l2_i0/GND
-
---------------------------------------------------------------------------------------------------------------
-
-       191(24.062,31.690)  mn(NMOS_VTL)                          listener_str_1xsync_unitxmeta_reg_reg/m26  mn(NMOS_VTL)
-         D: 65(24.108,30.828)                                      d: listener_str_1xsync_unitxmeta_reg_reg/A_113_6__
-         G: 12(21.497,30.780)                                      ** listener_str_1xfsm_unitxack_buf_reg_reg/A_47_71__ **
-         S: 64(23.902,30.698)                                      ** listener_str_1xfsm_unitxack_buf_reg_reg/A_105_6__ **
-         b: 2(12.570,22.545)                                       ** no similar net **
-         ** 14(21.878,28.210) **                                   g: listener_str_1xsync_unitxmeta_reg_reg/A_47_71__
-         ** no similar net **                                      s: listener_str_1xsync_unitxmeta_reg_reg/A_105_6__
-         ** no similar net **                                      b: listener_str_1xsync_unitxmeta_reg_reg/GND
-
---------------------------------------------------------------------------------------------------------------
-
-       193(24.122,28.100)  mn(NMOS_VTL)                          listener_str_1xsync_unitxmeta_reg_reg/m25  mn(NMOS_VTL)
-         G: 13(22.453,29.117)                                      g: listener_str_1xsync_unitxmeta_reg_reg/A_47_4__
-         S: 61(23.262,28.490)                                      s: listener_str_1xsync_unitxmeta_reg_reg/A_10_61__
-         D: 66(24.282,28.867)                                      ** listener_str_1xsync_unitxsync_reg_reg/A_105_6__ **
-         b: 2(12.570,22.545)                                       ** no similar net **
-         ** no similar net **                                      d: listener_str_1xsync_unitxmeta_reg_reg/A_105_6__
-         ** no similar net **                                      b: listener_str_1xsync_unitxmeta_reg_reg/GND
-
---------------------------------------------------------------------------------------------------------------
-
-       209(25.265,32.062)  mn(NMOS_VTL)                          listener_str_1xsync_unitxmeta_reg_reg/m31  mn(NMOS_VTL)
-         G: 67(24.413,31.555)                                      g: listener_str_1xsync_unitxmeta_reg_reg/A_122_6__
-         S: 2(12.570,22.545)                                       ** no similar net **
-         D: 20(25.198,33.028)                                      ** listener_str_1xreq_sync **
-         b: 2(12.570,22.545)                                       ** no similar net **
-         ** 18(24.442,33.028) **                                   s: listener_str_1xsync_unitxmeta_reg
-         ** no similar net **                                      d: listener_str_1xsync_unitxmeta_reg_reg/GND
-         ** no similar net **                                      b: listener_str_1xsync_unitxmeta_reg_reg/GND
-
---------------------------------------------------------------------------------------------------------------
-
-       210(25.343,22.183)  mn(NMOS_VTL)                          listener_str_1xfsm_unitxack_buf_reg_reg/m31  mn(NMOS_VTL)
-         D: 23(25.392,22.188)                                      s: ack_out
-         G: 21(25.203,22.005)                                      ** u10/A_2_6__ **
-         S: 2(12.570,22.545)                                       ** no similar net **
-         b: 2(12.570,22.545)                                       ** no similar net **
-         ** 90(30.113,31.555) **                                   g: listener_str_1xfsm_unitxack_buf_reg_reg/A_122_6__
-         ** no similar net **                                      d: listener_str_1xfsm_unitxack_buf_reg_reg/GND
-         ** no similar net **                                      b: listener_str_1xfsm_unitxack_buf_reg_reg/GND
-
---------------------------------------------------------------------------------------------------------------
-
-       214(25.645,27.727)  mn(NMOS_VTL)                          listener_str_1xsync_unitxsync_reg_reg/m31  mn(NMOS_VTL)
-         G: 70(24.793,28.420)                                      g: listener_str_1xsync_unitxsync_reg_reg/A_122_6__
-         S: 2(12.570,22.545)                                       ** no similar net **
-         D: 16(22.922,26.948)                                      ** clk1__l1_n0 **
-         b: 2(12.570,22.545)                                       ** no similar net **
-         ** 20(25.198,33.028) **                                   s: listener_str_1xreq_sync
-         ** no similar net **                                      d: listener_str_1xsync_unitxsync_reg_reg/GND
-         ** no similar net **                                      b: listener_str_1xsync_unitxsync_reg_reg/GND
-
---------------------------------------------------------------------------------------------------------------
-
-       226(27.562,31.585)  mn(NMOS_VTL)                          listener_str_1xsync_unitxsync_reg_reg/m22  mn(NMOS_VTL)
-         D: 77(27.648,31.117)                                      s: listener_str_1xsync_unitxsync_reg_reg/A_57_6__
-         G: 28(27.517,31.378)                                      ** clk2__l1_n0 **
-         S: 2(12.570,22.545)                                       ** no similar net **
-         b: 2(12.570,22.545)                                       ** no similar net **
-         ** 18(24.442,33.028) **                                   g: listener_str_1xsync_unitxmeta_reg
-         ** no similar net **                                      d: listener_str_1xsync_unitxsync_reg_reg/GND
-         ** no similar net **                                      b: listener_str_1xsync_unitxsync_reg_reg/GND
-
---------------------------------------------------------------------------------------------------------------
-
-       248(29.442,31.690)  mn(NMOS_VTL)                          listener_str_1xsync_unitxsync_reg_reg/m25  mn(NMOS_VTL)
-         G: 29(27.773,30.297)                                      g: listener_str_1xsync_unitxsync_reg_reg/A_47_4__
-         S: 82(28.582,31.285)                                      s: listener_str_1xsync_unitxsync_reg_reg/A_10_61__
-         D: 87(29.602,30.698)                                      ** no similar net **
-         b: 2(12.570,22.545)                                       ** no similar net **
-         ** 66(24.282,28.867) **                                   d: listener_str_1xsync_unitxsync_reg_reg/A_105_6__
-         ** no similar net **                                      b: listener_str_1xsync_unitxsync_reg_reg/GND
-
---------------------------------------------------------------------------------------------------------------
-
-       249(29.445,27.122)  mn(NMOS_VTL)                          talker_str_1xsync_unitxmeta_reg_reg/m31  mn(NMOS_VTL)
-         G: 83(28.593,26.615)                                      g: talker_str_1xsync_unitxmeta_reg_reg/A_122_6__
-         S: 2(12.570,22.545)                                       ** no similar net **
-         D: 39(29.383,25.707)                                      ** RCV **
-         b: 2(12.570,22.545)                                       ** no similar net **
-         ** 11(22.352,25.712) **                                   s: talker_str_1xsync_unitxmeta_reg
-         ** no similar net **                                      d: talker_str_1xsync_unitxmeta_reg_reg/GND
-         ** no similar net **                                      b: talker_str_1xsync_unitxmeta_reg_reg/GND
-
---------------------------------------------------------------------------------------------------------------
-
-       250(29.523,22.183)  mn(NMOS_VTL)                          listener_str_1xsync_unitxmeta_reg_reg/m22  mn(NMOS_VTL)
-         G: 35(29.383,22.008)                                      g: req_in
-         S: 2(12.570,22.545)                                       ** no similar net **
-         D: 27(27.483,23.148)                                      ** CLK2 **
-         b: 2(12.570,22.545)                                       ** no similar net **
-         ** 54(22.328,28.190) **                                   s: listener_str_1xsync_unitxmeta_reg_reg/A_57_6__
-         ** no similar net **                                      d: listener_str_1xsync_unitxmeta_reg_reg/GND
-         ** no similar net **                                      b: listener_str_1xsync_unitxmeta_reg_reg/GND
-
---------------------------------------------------------------------------------------------------------------
-
-       254(29.762,31.690)  mn(NMOS_VTL)                          listener_str_1xsync_unitxsync_reg_reg/m26  mn(NMOS_VTL)
-         G: 30(27.198,30.780)                                      g: listener_str_1xsync_unitxsync_reg_reg/A_47_71__
-         S: 87(29.602,30.698)                                      ** no similar net **
-         D: 89(29.808,30.828)                                      ** listener_str_1xfsm_unitxack_buf_reg_reg/A_113_6__ **
-         b: 2(12.570,22.545)                                       ** no similar net **
-         ** 66(24.282,28.867) **                                   s: listener_str_1xsync_unitxsync_reg_reg/A_105_6__
-         ** 68(24.488,28.867) **                                   d: listener_str_1xsync_unitxsync_reg_reg/A_113_6__
-         ** no similar net **                                      b: listener_str_1xsync_unitxsync_reg_reg/GND
-
---------------------------------------------------------------------------------------------------------------
-
-       (SMN2)                                                    (SMN2)
-         output: 67(24.413,31.555)                                 output: listener_str_1xsync_unitxmeta_reg_reg/A_122_6__
-         input: 19(22.642,30.540)                                  input: fe_ocp_rbn1_reset1
-         output: 2(12.570,22.545)                                  ** no similar net **
-         input: 64(23.902,30.698)                                  ** listener_str_1xfsm_unitxack_buf_reg_reg/A_105_6__ **
-         ** no similar net **                                      output: listener_str_1xsync_unitxmeta_reg_reg/GND
-         ** no similar net **                                      input: listener_str_1xsync_unitxmeta_reg_reg/A_105_6__
-
-       Transistors:
-         201(24.672,31.690)  mn(NMOS_VTL)                          listener_str_1xsync_unitxmeta_reg_reg/m28  mn(NMOS_VTL)
-         204(24.863,31.690)  mn(NMOS_VTL)                          listener_str_1xsync_unitxmeta_reg_reg/m27  mn(NMOS_VTL)
-
---------------------------------------------------------------------------------------------------------------
-
-       (SMN2)                                                    (SMN2)
-         output: 90(30.113,31.555)                                 output: listener_str_1xfsm_unitxack_buf_reg_reg/A_122_6__
-         input: 19(22.642,30.540)                                  input: fe_ocp_rbn1_reset1
-         output: 2(12.570,22.545)                                  ** no similar net **
-         input: 87(29.602,30.698)                                  ** no similar net **
-         ** no similar net **                                      output: listener_str_1xfsm_unitxack_buf_reg_reg/GND
-         ** 64(23.902,30.698) **                                   input: listener_str_1xfsm_unitxack_buf_reg_reg/A_105_6__
-
-       Transistors:
-         260(30.372,31.690)  mn(NMOS_VTL)                          listener_str_1xfsm_unitxack_buf_reg_reg/m28  mn(NMOS_VTL)
-         262(30.562,31.690)  mn(NMOS_VTL)                          listener_str_1xfsm_unitxack_buf_reg_reg/m27  mn(NMOS_VTL)
-
-
-
-**************************************************************************************************************
-                                  UNMATCHED OBJECTS
-       LAYOUT                                                    SOURCE
-**************************************************************************************************************
-
-       0(20.782,33.780)  mp(PMOS_VTL)                            ** unmatched instance **
-       1(21.543,33.780)  mp(PMOS_VTL)                            ** unmatched instance **
-       6(22.242,28.735)  mp(PMOS_VTL)                            ** unmatched instance **
-       7(22.302,25.760)  mp(PMOS_VTL)                            ** unmatched instance **
-       39(24.582,33.780)  mp(PMOS_VTL)                           ** unmatched instance **
-       50(25.343,33.780)  mp(PMOS_VTL)                           ** unmatched instance **
-       105(30.817,30.677)  mp(PMOS_VTL)                          ** unmatched instance **
-       161(20.782,32.667)  mn(NMOS_VTL)                          ** unmatched instance **
-       162(21.543,32.667)  mn(NMOS_VTL)                          ** unmatched instance **
-       168(22.242,28.205)  mn(NMOS_VTL)                          ** unmatched instance **
-       169(22.302,27.122)  mn(NMOS_VTL)                          ** unmatched instance **
-       196(24.442,28.100)  mn(NMOS_VTL)                          ** unmatched instance **
-       199(24.582,32.667)  mn(NMOS_VTL)                          ** unmatched instance **
-       211(25.343,32.667)  mn(NMOS_VTL)                          ** unmatched instance **
-       268(30.965,32.062)  mn(NMOS_VTL)                          ** unmatched instance **
-
-       ** unmatched instance **                                  clk2__l2_i0/m1  mp(PMOS_VTL)
-       ** unmatched instance **                                  clk2__l2_i0/m3  mn(NMOS_VTL)
-       ** unmatched instance **                                  clk1__l1_i0/m3  mp(PMOS_VTL)
-       ** unmatched instance **                                  clk1__l1_i0/m7  mn(NMOS_VTL)
-       ** unmatched instance **                                  listener_str_1xfsm_unitxack_buf_reg_reg/m26  mn(NMOS_VTL)
-       ** unmatched instance **                                  u10/m1  mp(PMOS_VTL)
-       ** unmatched instance **                                  u10/m3  mn(NMOS_VTL)
+   1 passthrough source net was deleted.
 
 
 **************************************************************************************************************

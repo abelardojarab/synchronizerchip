@@ -2,326 +2,156 @@
 # FILE: svdb/fullsystem.dv
 dv_start unmatched
 dv_cell {fullsystem} {fullsystem} unmatched
-dv_obj_count -transformed_nets {111 152} -transformed_inst {278 270} -transformed_port {0 7}
+dv_obj_count -transformed_nets {111 166} -transformed_inst {278 278} -transformed_port {0 8}
 dv_discrep 1 {Incorrect Nets}
-dv_discrep_line {Net } -lnet {5} {} -lloc {(21.628,31.282)} {                                      } -snet {clk1__l2_n0} {}
-dv_discrep_line {--------------------------                                --------------------------}
-dv_discrep_line {}
-dv_discrep_line {** missing connection **                                  } -sdev {clk1__l2_i0/m3} {:}  {s} {}
-dv_discrep_line {** missing connection **                                  } -sdev {clk1__l2_i0/m1} {:}  {s} {}
-dv_discrep_line {}
-dv_discrep_line {}
-dv_discrep 2 {Incorrect Nets}
-dv_discrep_line {Net } -lnet {12} {} -lloc {(21.497,30.780)} {                                     } -snet {listener_str_1xfsm_unitxack_buf_reg_reg/A_47_71__} {}
-dv_discrep_line {--------------------------                                --------------------------}
-dv_discrep_line {}
-dv_discrep_line {} -ldev {191} {} -lloc {(24.062,31.690)} {:}  {G} {                                      ** missing connection **}
-dv_discrep_line {}
-dv_discrep_line {** missing connection **                                  } -sdev {listener_str_1xfsm_unitxack_buf_reg_reg/m26} {:}  {g} {}
-dv_discrep_line {}
-dv_discrep_line {}
-dv_discrep 3 {Incorrect Nets}
-dv_discrep_line {Net } -lnet {14} {} -lloc {(21.878,28.210)} {                                     } -snet {listener_str_1xsync_unitxmeta_reg_reg/A_47_71__} {}
-dv_discrep_line {--------------------------                                --------------------------}
-dv_discrep_line {}
-dv_discrep_line {} -ldev {196} {} -lloc {(24.442,28.100)} {:}  {G} {                                      ** missing connection **}
-dv_discrep_line {}
-dv_discrep_line {** missing connection **                                  } -sdev {listener_str_1xsync_unitxmeta_reg_reg/m26} {:}  {g} {}
-dv_discrep_line {}
-dv_discrep_line {}
-dv_discrep 4 {Incorrect Nets}
-dv_discrep_line {Net } -lnet {54} {} -lloc {(22.328,28.190)} {                                     } -snet {listener_str_1xsync_unitxmeta_reg_reg/A_57_6__} {}
-dv_discrep_line {--------------------------                                --------------------------}
-dv_discrep_line {}
-dv_discrep_line {} -ldev {168} {} -lloc {(22.242,28.205)} {:}  {D} {                                      ** missing connection **}
-dv_discrep_line {} -ldev {6} {} -lloc {(22.242,28.735)} {:}  {D} {                                        ** missing connection **}
-dv_discrep_line {}
-dv_discrep_line {** missing connection **                                  } -sdev {listener_str_1xsync_unitxmeta_reg_reg/m22} {:}  {s} {}
-dv_discrep_line {** missing connection **                                  } -sdev {listener_str_1xsync_unitxmeta_reg_reg/m6} {:}  {s} {}
-dv_discrep_line {}
-dv_discrep_line {}
-dv_discrep 5 {Incorrect Nets}
-dv_discrep_line {Net } -lnet {8} {} -lloc {(22.163,26.945)} {                                      } -snet {CLK1} {}
-dv_discrep_line {--------------------------                                --------------------------}
-dv_discrep_line {}
-dv_discrep_line {} -ldev {180} {} -lloc {(23.062,27.122)} {:}  {D} {                                      ** missing connection **}
-dv_discrep_line {} -ldev {19} {} -lloc {(23.062,25.760)} {:}  {D} {                                       ** missing connection **}
-dv_discrep_line {}
-dv_discrep_line {} -ldev {169} {} -lloc {(22.302,27.122)} {:}  {G} {                                      ** unmatched connection **}
-dv_discrep_line {} -ldev {7} {} -lloc {(22.302,25.760)} {:}  {G} {                                        ** unmatched connection **}
-dv_discrep_line {}
-dv_discrep_line {** unmatched connection **                                } -sdev {clk1__l1_i0/m7} {:}  {g} {}
-dv_discrep_line {** unmatched connection **                                } -sdev {clk1__l1_i0/m3} {:}  {g} {}
-dv_discrep_line {}
-dv_discrep_line {}
-dv_discrep 6 {Incorrect Nets}
-dv_discrep_line {Net } -lnet {11} {} -lloc {(22.352,25.712)} {                                     } -snet {talker_str_1xsync_unitxmeta_reg} {}
-dv_discrep_line {--------------------------                                --------------------------}
-dv_discrep_line {}
-dv_discrep_line {} -ldev {169} {} -lloc {(22.302,27.122)} {:}  {D} {                                      ** missing connection **}
-dv_discrep_line {} -ldev {7} {} -lloc {(22.302,25.760)} {:}  {D} {                                        ** missing connection **}
-dv_discrep_line {}
-dv_discrep_line {** missing connection **                                  } -sdev {talker_str_1xsync_unitxmeta_reg_reg/m31} {:}  {s} {}
-dv_discrep_line {** missing connection **                                  } -sdev {talker_str_1xsync_unitxmeta_reg_reg/m15} {:}  {s} {}
-dv_discrep_line {}
-dv_discrep_line {}
-dv_discrep 7 {Incorrect Nets}
-dv_discrep_line {Net } -lnet {10} {} -lloc {(22.387,23.587)} {                                     } -snet {clk2__l2_n0} {}
-dv_discrep_line {--------------------------                                --------------------------}
-dv_discrep_line {}
-dv_discrep_line {** missing connection **                                  } -sdev {clk2__l2_i0/m3} {:}  {s} {}
-dv_discrep_line {** missing connection **                                  } -sdev {clk2__l2_i0/m1} {:}  {s} {}
-dv_discrep_line {}
-dv_discrep_line {}
-dv_discrep 8 {Incorrect Nets}
-dv_discrep_line {Net } -lnet {16} {} -lloc {(22.922,26.948)} {                                     } -snet {clk1__l1_n0} {}
-dv_discrep_line {--------------------------                                --------------------------}
-dv_discrep_line {}
-dv_discrep_line {} -ldev {214} {} -lloc {(25.645,27.727)} {:}  {D} {                                      ** missing connection **}
-dv_discrep_line {} -ldev {52} {} -lloc {(25.497,28.863)} {:}  {D} {                                       ** missing connection **}
-dv_discrep_line {}
-dv_discrep_line {** missing connection **                                  } -sdev {clk1__l1_i0/m7} {:}  {s} {}
-dv_discrep_line {** missing connection **                                  } -sdev {clk1__l1_i0/m3} {:}  {s} {}
-dv_discrep_line {}
-dv_discrep_line {}
-dv_discrep 9 {Incorrect Nets}
-dv_discrep_line {Net } -lnet {64} {} -lloc {(23.902,30.698)} {                                     } -snet {listener_str_1xfsm_unitxack_buf_reg_reg/A_105_6__} {}
-dv_discrep_line {--------------------------                                --------------------------}
-dv_discrep_line {}
-dv_discrep_line {(SMN2):}  {input} {                                              ** missing connection **}
-dv_discrep_line {  } -ldev {204} {} -lloc {(24.863,31.690)} {:}  {G} {}
-dv_discrep_line {}
-dv_discrep_line {}
-dv_discrep_line {} -ldev {191} {} -lloc {(24.062,31.690)} {:}  {S} {                                      ** missing connection **}
-dv_discrep_line {} -ldev {44} {} -lloc {(24.863,30.677)} {:}  {G} {                                       ** missing connection **}
-dv_discrep_line {}
-dv_discrep_line {}
-dv_discrep_line {}
-dv_discrep_line {** missing connection **                                  (SMN2):}  {input} {}
-dv_discrep_line {                                                            } -sdev {listener_str_1xfsm_unitxack_buf_reg_reg/m27} {:}  {g} {}
-dv_discrep_line {}
-dv_discrep_line {}
-dv_discrep_line {** missing connection **                                  } -sdev {listener_str_1xfsm_unitxack_buf_reg_reg/m26} {:}  {s} {}
-dv_discrep_line {** missing connection **                                  } -sdev {listener_str_1xfsm_unitxack_buf_reg_reg/m11} {:}  {g} {}
-dv_discrep_line {}
-dv_discrep_line {}
-dv_discrep 10 {Incorrect Nets}
-dv_discrep_line {Net } -lnet {65} {} -lloc {(24.108,30.828)} {                                     } -snet {listener_str_1xsync_unitxmeta_reg_reg/A_113_6__} {}
-dv_discrep_line {--------------------------                                --------------------------}
-dv_discrep_line {}
-dv_discrep_line {} -ldev {30} {} -lloc {(24.003,30.927)} {:}  {D} {                                       ** missing connection **}
-dv_discrep_line {}
-dv_discrep_line {** missing connection **                                  } -sdev {listener_str_1xsync_unitxmeta_reg_reg/m10} {:}  {d} {}
-dv_discrep_line {}
-dv_discrep_line {}
-dv_discrep 11 {Incorrect Nets}
-dv_discrep_line {Net } -lnet {66} {} -lloc {(24.282,28.867)} {                                     } -snet {listener_str_1xsync_unitxsync_reg_reg/A_105_6__} {}
-dv_discrep_line {--------------------------                                --------------------------}
-dv_discrep_line {}
-dv_discrep_line {} -ldev {196} {} -lloc {(24.442,28.100)} {:}  {S} {                                      ** missing connection **}
-dv_discrep_line {} -ldev {193} {} -lloc {(24.122,28.100)} {:}  {D} {                                      ** missing connection **}
-dv_discrep_line {} -ldev {34} {} -lloc {(24.383,28.863)} {:}  {S} {                                       ** missing connection **}
-dv_discrep_line {} -ldev {31} {} -lloc {(24.192,28.863)} {:}  {D} {                                       ** missing connection **}
-dv_discrep_line {}
-dv_discrep_line {** missing connection **                                  } -sdev {listener_str_1xsync_unitxsync_reg_reg/m26} {:}  {s} {}
-dv_discrep_line {** missing connection **                                  } -sdev {listener_str_1xsync_unitxsync_reg_reg/m25} {:}  {d} {}
-dv_discrep_line {** missing connection **                                  } -sdev {listener_str_1xsync_unitxsync_reg_reg/m10} {:}  {s} {}
-dv_discrep_line {** missing connection **                                  } -sdev {listener_str_1xsync_unitxsync_reg_reg/m9} {:}  {d} {}
-dv_discrep_line {}
-dv_discrep_line {}
-dv_discrep 12 {Incorrect Nets}
-dv_discrep_line {Net } -lnet {68} {} -lloc {(24.488,28.867)} {                                     } -snet {listener_str_1xsync_unitxsync_reg_reg/A_113_6__} {}
-dv_discrep_line {--------------------------                                --------------------------}
-dv_discrep_line {}
-dv_discrep_line {} -ldev {196} {} -lloc {(24.442,28.100)} {:}  {D} {                                      ** missing connection **}
-dv_discrep_line {} -ldev {34} {} -lloc {(24.383,28.863)} {:}  {D} {                                       ** missing connection **}
-dv_discrep_line {}
-dv_discrep_line {** missing connection **                                  } -sdev {listener_str_1xsync_unitxsync_reg_reg/m26} {:}  {d} {}
-dv_discrep_line {** missing connection **                                  } -sdev {listener_str_1xsync_unitxsync_reg_reg/m10} {:}  {d} {}
-dv_discrep_line {}
-dv_discrep_line {}
-dv_discrep 13 {Incorrect Nets}
-dv_discrep_line {Net } -lnet {18} {} -lloc {(24.442,33.028)} {                                     } -snet {listener_str_1xsync_unitxmeta_reg} {}
-dv_discrep_line {--------------------------                                --------------------------}
-dv_discrep_line {}
-dv_discrep_line {} -ldev {211} {} -lloc {(25.343,32.667)} {:}  {D} {                                      ** missing connection **}
-dv_discrep_line {} -ldev {199} {} -lloc {(24.582,32.667)} {:}  {G} {                                      ** missing connection **}
-dv_discrep_line {} -ldev {50} {} -lloc {(25.343,33.780)} {:}  {D} {                                       ** missing connection **}
-dv_discrep_line {} -ldev {39} {} -lloc {(24.582,33.780)} {:}  {G} {                                       ** missing connection **}
-dv_discrep_line {}
-dv_discrep_line {** missing connection **                                  } -sdev {listener_str_1xsync_unitxsync_reg_reg/m22} {:}  {g} {}
-dv_discrep_line {** missing connection **                                  } -sdev {listener_str_1xsync_unitxsync_reg_reg/m6} {:}  {g} {}
-dv_discrep_line {** missing connection **                                  } -sdev {listener_str_1xsync_unitxmeta_reg_reg/m31} {:}  {s} {}
-dv_discrep_line {** missing connection **                                  } -sdev {listener_str_1xsync_unitxmeta_reg_reg/m15} {:}  {s} {}
-dv_discrep_line {}
-dv_discrep_line {}
-dv_discrep 14 {Incorrect Nets}
-dv_discrep_line {Net } -lnet {20} {} -lloc {(25.198,33.028)} {                                     } -snet {listener_str_1xreq_sync} {}
-dv_discrep_line {--------------------------                                --------------------------}
-dv_discrep_line {}
-dv_discrep_line {} -ldev {211} {} -lloc {(25.343,32.667)} {:}  {G} {                                      ** missing connection **}
-dv_discrep_line {} -ldev {209} {} -lloc {(25.265,32.062)} {:}  {D} {                                      ** missing connection **}
-dv_discrep_line {} -ldev {50} {} -lloc {(25.343,33.780)} {:}  {G} {                                       ** missing connection **}
-dv_discrep_line {} -ldev {46} {} -lloc {(25.117,30.677)} {:}  {D} {                                       ** missing connection **}
-dv_discrep_line {}
-dv_discrep_line {** missing connection **                                  } -sdev {listener_str_1xsync_unitxsync_reg_reg/m31} {:}  {s} {}
-dv_discrep_line {** missing connection **                                  } -sdev {listener_str_1xsync_unitxsync_reg_reg/m15} {:}  {s} {}
-dv_discrep_line {** missing connection **                                  } -sdev {listener_str_1xfsm_unitxack_buf_reg_reg/m22} {:}  {g} {}
-dv_discrep_line {** missing connection **                                  } -sdev {listener_str_1xfsm_unitxack_buf_reg_reg/m6} {:}  {g} {}
-dv_discrep_line {}
-dv_discrep_line {}
-dv_discrep 15 {Incorrect Nets}
-dv_discrep_line {Net } -lnet {21} {} -lloc {(25.203,22.005)} {                                     } -snet {u10/A_2_6__} {}
-dv_discrep_line {--------------------------                                --------------------------}
-dv_discrep_line {}
-dv_discrep_line {} -ldev {210} {} -lloc {(25.343,22.183)} {:}  {G} {                                      ** missing connection **}
-dv_discrep_line {} -ldev {49} {} -lloc {(25.343,20.820)} {:}  {G} {                                       ** missing connection **}
-dv_discrep_line {}
-dv_discrep_line {** missing connection **                                  } -sdev {u10/m3} {:}  {g} {}
-dv_discrep_line {** missing connection **                                  } -sdev {u10/m1} {:}  {g} {}
-dv_discrep_line {}
-dv_discrep_line {}
-dv_discrep 16 {Incorrect Nets}
-dv_discrep_line {Net } -lnet {28} {} -lloc {(27.517,31.378)} {                                     } -snet {clk2__l1_n0} {}
-dv_discrep_line {--------------------------                                --------------------------}
-dv_discrep_line {}
-dv_discrep_line {} -ldev {226} {} -lloc {(27.562,31.585)} {:}  {G} {                                      ** missing connection **}
-dv_discrep_line {} -ldev {64} {} -lloc {(27.562,30.805)} {:}  {G} {                                       ** missing connection **}
-dv_discrep_line {}
-dv_discrep_line {** missing connection **                                  } -sdev {clk2__l2_i0/m3} {:}  {g} {}
-dv_discrep_line {** missing connection **                                  } -sdev {clk2__l2_i0/m1} {:}  {g} {}
-dv_discrep_line {}
-dv_discrep_line {}
-dv_discrep 17 {Incorrect Nets}
-dv_discrep_line {Net } -lnet {27} {} -lloc {(27.483,23.148)} {                                     } -snet {CLK2} {}
-dv_discrep_line {--------------------------                                --------------------------}
-dv_discrep_line {}
-dv_discrep_line {} -ldev {250} {} -lloc {(29.523,22.183)} {:}  {D} {                                      ** missing connection **}
-dv_discrep_line {} -ldev {90} {} -lloc {(29.523,20.820)} {:}  {D} {                                       ** missing connection **}
-dv_discrep_line {}
-dv_discrep_line {}
-dv_discrep 18 {Incorrect Nets}
-dv_discrep_line {Net } -lnet {39} {} -lloc {(29.383,25.707)} {                                     } -snet {RCV} {}
-dv_discrep_line {--------------------------                                --------------------------}
-dv_discrep_line {}
-dv_discrep_line {} -ldev {249} {} -lloc {(29.445,27.122)} {:}  {D} {                                      ** missing connection **}
-dv_discrep_line {} -ldev {86} {} -lloc {(29.297,25.738)} {:}  {D} {                                       ** missing connection **}
-dv_discrep_line {}
-dv_discrep_line {** missing connection **                                  } -sdev {u10/m3} {:}  {d} {}
-dv_discrep_line {** missing connection **                                  } -sdev {u10/m1} {:}  {d} {}
-dv_discrep_line {}
-dv_discrep_line {}
-dv_discrep 19 {Incorrect Nets}
-dv_discrep_line {Net } -lnet {90} {} -lloc {(30.113,31.555)} {                                     } -snet {listener_str_1xfsm_unitxack_buf_reg_reg/A_122_6__} {}
-dv_discrep_line {--------------------------                                --------------------------}
-dv_discrep_line {}
-dv_discrep_line {} -ldev {268} {} -lloc {(30.965,32.062)} {:}  {G} {                                      ** missing connection **}
-dv_discrep_line {} -ldev {105} {} -lloc {(30.817,30.677)} {:}  {G} {                                      ** missing connection **}
-dv_discrep_line {}
-dv_discrep_line {** missing connection **                                  } -sdev {listener_str_1xfsm_unitxack_buf_reg_reg/m31} {:}  {g} {}
-dv_discrep_line {** missing connection **                                  } -sdev {listener_str_1xfsm_unitxack_buf_reg_reg/m15} {:}  {g} {}
-dv_discrep_line {}
-dv_discrep_line {}
-dv_discrep 20 {Incorrect Nets}
-dv_discrep_line {Net } -lnet {89} {} -lloc {(29.808,30.828)} {                                     } -snet {listener_str_1xfsm_unitxack_buf_reg_reg/A_113_6__} {}
-dv_discrep_line {--------------------------                                --------------------------}
-dv_discrep_line {}
-dv_discrep_line {} -ldev {254} {} -lloc {(29.762,31.690)} {:}  {D} {                                      ** missing connection **}
-dv_discrep_line {} -ldev {93} {} -lloc {(29.703,30.927)} {:}  {D} {                                       ** missing connection **}
-dv_discrep_line {}
-dv_discrep_line {** missing connection **                                  } -sdev {listener_str_1xfsm_unitxack_buf_reg_reg/m26} {:}  {d} {}
-dv_discrep_line {** missing connection **                                  } -sdev {listener_str_1xfsm_unitxack_buf_reg_reg/m10} {:}  {d} {}
-dv_discrep_line {}
-dv_discrep_line {}
-dv_discrep 21 {Incorrect Nets}
-dv_discrep_line {Net } -lnet {3} {} -lloc {(20.642,33.028)} {                                      ** no similar net **}
-dv_discrep_line {}
-dv_discrep 22 {Incorrect Nets}
 dv_discrep_line {Net } -lnet {1} {} -lloc {(2.570,20.075)} {                                       ** no similar net **}
 dv_discrep_line {}
-dv_discrep 23 {Incorrect Nets}
-dv_discrep_line {Net } -lnet {4} {} -lloc {(20.832,32.708)} {                                      ** no similar net **}
-dv_discrep_line {}
-dv_discrep 24 {Incorrect Nets}
-dv_discrep_line {Net } -lnet {6} {} -lloc {(21.593,32.708)} {                                      ** no similar net **}
-dv_discrep_line {}
-dv_discrep 25 {Incorrect Nets}
-dv_discrep_line {Net } -lnet {9} {} -lloc {(22.198,28.277)} {                                      ** no similar net **}
-dv_discrep_line {}
-dv_discrep 26 {Incorrect Nets}
+dv_discrep 2 {Incorrect Nets}
 dv_discrep_line {Net } -lnet {2} {} -lloc {(12.570,22.545)} {                                      ** no similar net **}
 dv_discrep_line {}
+dv_discrep 3 {Incorrect Nets}
+dv_discrep_line {** no similar net **                                      } -snet {VDD!} {}
+dv_discrep_line {}
+dv_discrep 4 {Incorrect Nets}
+dv_discrep_line {** no similar net **                                      } -snet {net70} {}
+dv_discrep_line {}
+dv_discrep 5 {Incorrect Nets}
+dv_discrep_line {** no similar net **                                      } -snet {net71} {}
+dv_discrep_line {}
+dv_discrep 6 {Incorrect Nets}
+dv_discrep_line {** no similar net **                                      } -snet {net73} {}
+dv_discrep_line {}
+dv_discrep 7 {Incorrect Nets}
+dv_discrep_line {** no similar net **                                      } -snet {net72} {}
+dv_discrep_line {}
+dv_discrep 8 {Incorrect Nets}
+dv_discrep_line {** no similar net **                                      } -snet {talker_str_1xsync_unitxmeta_reg_reg/VDD} {}
+dv_discrep_line {}
+dv_discrep 9 {Incorrect Nets}
+dv_discrep_line {** no similar net **                                      } -snet {talker_str_1xsync_unitxmeta_reg_reg/GND} {}
+dv_discrep_line {}
+dv_discrep 10 {Incorrect Nets}
+dv_discrep_line {** no similar net **                                      } -snet {talker_str_1xsync_unitxsync_reg_reg/VDD} {}
+dv_discrep_line {}
+dv_discrep 11 {Incorrect Nets}
+dv_discrep_line {** no similar net **                                      } -snet {talker_str_1xsync_unitxsync_reg_reg/GND} {}
+dv_discrep_line {}
+dv_discrep 12 {Incorrect Nets}
+dv_discrep_line {** no similar net **                                      } -snet {listener_str_1xsync_unitxsync_reg_reg/VDD} {}
+dv_discrep_line {}
+dv_discrep 13 {Incorrect Nets}
+dv_discrep_line {** no similar net **                                      } -snet {listener_str_1xsync_unitxsync_reg_reg/GND} {}
+dv_discrep_line {}
+dv_discrep 14 {Incorrect Nets}
+dv_discrep_line {** no similar net **                                      } -snet {listener_str_1xfsm_unitxack_buf_reg_reg/VDD} {}
+dv_discrep_line {}
+dv_discrep 15 {Incorrect Nets}
+dv_discrep_line {** no similar net **                                      } -snet {listener_str_1xfsm_unitxack_buf_reg_reg/GND} {}
+dv_discrep_line {}
+dv_discrep 16 {Incorrect Nets}
+dv_discrep_line {** no similar net **                                      } -snet {listener_str_1xsync_unitxmeta_reg_reg/VDD} {}
+dv_discrep_line {}
+dv_discrep 17 {Incorrect Nets}
+dv_discrep_line {** no similar net **                                      } -snet {listener_str_1xsync_unitxmeta_reg_reg/GND} {}
+dv_discrep_line {}
+dv_discrep 18 {Incorrect Nets}
+dv_discrep_line {** no similar net **                                      } -snet {talker_str_1xfsm_unitxreq_buf_reg_reg/VDD} {}
+dv_discrep_line {}
+dv_discrep 19 {Incorrect Nets}
+dv_discrep_line {** no similar net **                                      } -snet {talker_str_1xfsm_unitxreq_buf_reg_reg/GND} {}
+dv_discrep_line {}
+dv_discrep 20 {Incorrect Nets}
+dv_discrep_line {** no similar net **                                      } -snet {talker_str_1xfsm_unitxstate_reg_regx1x/VDD} {}
+dv_discrep_line {}
+dv_discrep 21 {Incorrect Nets}
+dv_discrep_line {** no similar net **                                      } -snet {talker_str_1xfsm_unitxstate_reg_regx1x/GND} {}
+dv_discrep_line {}
+dv_discrep 22 {Incorrect Nets}
+dv_discrep_line {** no similar net **                                      } -snet {talker_str_1xfsm_unitxstate_reg_regx0x/VDD} {}
+dv_discrep_line {}
+dv_discrep 23 {Incorrect Nets}
+dv_discrep_line {** no similar net **                                      } -snet {talker_str_1xfsm_unitxstate_reg_regx0x/GND} {}
+dv_discrep_line {}
+dv_discrep 24 {Incorrect Nets}
+dv_discrep_line {** no similar net **                                      } -snet {net75} {}
+dv_discrep_line {}
+dv_discrep 25 {Incorrect Nets}
+dv_discrep_line {** no similar net **                                      } -snet {net74} {}
+dv_discrep_line {}
+dv_discrep 26 {Incorrect Nets}
+dv_discrep_line {** no similar net **                                      } -snet {net77} {}
+dv_discrep_line {}
 dv_discrep 27 {Incorrect Nets}
-dv_discrep_line {Net } -lnet {87} {} -lloc {(29.602,30.698)} {                                     ** no similar net **}
+dv_discrep_line {** no similar net **                                      } -snet {net76} {}
 dv_discrep_line {}
 dv_discrep 28 {Incorrect Nets}
-dv_discrep_line {** no similar net **                                      } -snet {clk2__l2_i0/VDD} {}
+dv_discrep_line {** no similar net **                                      } -snet {net79} {}
 dv_discrep_line {}
 dv_discrep 29 {Incorrect Nets}
-dv_discrep_line {** no similar net **                                      } -snet {clk2__l2_i0/GND} {}
+dv_discrep_line {** no similar net **                                      } -snet {net78} {}
 dv_discrep_line {}
 dv_discrep 30 {Incorrect Nets}
-dv_discrep_line {** no similar net **                                      } -snet {clk1__l2_i0/VDD} {}
+dv_discrep_line {** no similar net **                                      } -snet {net81} {}
 dv_discrep_line {}
 dv_discrep 31 {Incorrect Nets}
-dv_discrep_line {** no similar net **                                      } -snet {clk1__l2_i0/GND} {}
+dv_discrep_line {** no similar net **                                      } -snet {net80} {}
 dv_discrep_line {}
 dv_discrep 32 {Incorrect Nets}
-dv_discrep_line {** no similar net **                                      } -snet {clk2__l1_i0/VDD} {}
+dv_discrep_line {** no similar net **                                      } -snet {net83} {}
 dv_discrep_line {}
 dv_discrep 33 {Incorrect Nets}
-dv_discrep_line {** no similar net **                                      } -snet {clk2__l1_i0/GND} {}
+dv_discrep_line {** no similar net **                                      } -snet {net82} {}
 dv_discrep_line {}
 dv_discrep 34 {Incorrect Nets}
-dv_discrep_line {** no similar net **                                      } -snet {clk1__l1_i0/VDD} {}
+dv_discrep_line {** no similar net **                                      } -snet {net85} {}
 dv_discrep_line {}
 dv_discrep 35 {Incorrect Nets}
-dv_discrep_line {** no similar net **                                      } -snet {clk1__l1_i0/GND} {}
+dv_discrep_line {** no similar net **                                      } -snet {net84} {}
 dv_discrep_line {}
 dv_discrep 36 {Incorrect Nets}
-dv_discrep_line {** no similar net **                                      } -snet {u14/VDD} {}
+dv_discrep_line {** no similar net **                                      } -snet {net87} {}
 dv_discrep_line {}
 dv_discrep 37 {Incorrect Nets}
-dv_discrep_line {** no similar net **                                      } -snet {u14/GND} {}
+dv_discrep_line {** no similar net **                                      } -snet {net86} {}
 dv_discrep_line {}
 dv_discrep 38 {Incorrect Nets}
-dv_discrep_line {** no similar net **                                      } -snet {u13/VDD} {}
+dv_discrep_line {** no similar net **                                      } -snet {net89} {}
 dv_discrep_line {}
 dv_discrep 39 {Incorrect Nets}
-dv_discrep_line {** no similar net **                                      } -snet {u13/GND} {}
+dv_discrep_line {** no similar net **                                      } -snet {net88} {}
 dv_discrep_line {}
 dv_discrep 40 {Incorrect Nets}
-dv_discrep_line {** no similar net **                                      } -snet {u8/VDD} {}
+dv_discrep_line {** no similar net **                                      } -snet {net91} {}
 dv_discrep_line {}
 dv_discrep 41 {Incorrect Nets}
-dv_discrep_line {** no similar net **                                      } -snet {u8/GND} {}
+dv_discrep_line {** no similar net **                                      } -snet {net90} {}
 dv_discrep_line {}
 dv_discrep 42 {Incorrect Nets}
-dv_discrep_line {** no similar net **                                      } -snet {fe_ocp_rbc1_reset1/VDD} {}
+dv_discrep_line {** no similar net **                                      } -snet {net93} {}
 dv_discrep_line {}
 dv_discrep 43 {Incorrect Nets}
-dv_discrep_line {** no similar net **                                      } -snet {fe_ocp_rbc1_reset1/GND} {}
+dv_discrep_line {** no similar net **                                      } -snet {net92} {}
 dv_discrep_line {}
 dv_discrep 44 {Incorrect Nets}
-dv_discrep_line {** no similar net **                                      } -snet {talker_str_1xfsm_unitxu13/VDD} {}
+dv_discrep_line {** no similar net **                                      } -snet {net95} {}
 dv_discrep_line {}
 dv_discrep 45 {Incorrect Nets}
-dv_discrep_line {** no similar net **                                      } -snet {talker_str_1xfsm_unitxu13/GND} {}
+dv_discrep_line {** no similar net **                                      } -snet {net94} {}
 dv_discrep_line {}
 dv_discrep 46 {Incorrect Nets}
-dv_discrep_line {** no similar net **                                      } -snet {talker_str_1xfsm_unitxu12/GND} {}
+dv_discrep_line {** no similar net **                                      } -snet {net97} {}
 dv_discrep_line {}
 dv_discrep 47 {Incorrect Nets}
-dv_discrep_line {** no similar net **                                      } -snet {talker_str_1xfsm_unitxu12/VDD} {}
+dv_discrep_line {** no similar net **                                      } -snet {net96} {}
 dv_discrep_line {}
 dv_discrep 48 {Incorrect Nets}
-dv_discrep_line {** no similar net **                                      } -snet {talker_str_1xfsm_unitxu11/GND} {}
+dv_discrep_line {** no similar net **                                      } -snet {net99} {}
 dv_discrep_line {}
 dv_discrep 49 {Incorrect Nets}
-dv_discrep_line {** no similar net **                                      } -snet {talker_str_1xfsm_unitxu11/VDD} {}
+dv_discrep_line {** no similar net **                                      } -snet {net98} {}
 dv_discrep_line {}
 dv_discrep 50 {Incorrect Nets}
-dv_discrep_line {** no similar net **                                      } -snet {talker_str_1xfsm_unitxu5/VDD} {}
+dv_discrep_line {** no similar net **                                      } -snet {net101} {}
 dv_discrep_line {}
 dv_discrep 51 {Incorrect Ports}
 dv_discrep_line {** missing port **                                        } -sport {RCV} { on net: } -snet {RCV} {}
@@ -344,676 +174,307 @@ dv_discrep_line {}
 dv_discrep 57 {Incorrect Ports}
 dv_discrep_line {** missing port **                                        } -sport {CLK1} { on net: } -snet {CLK1} {}
 dv_discrep_line {}
-dv_discrep 58 {Incorrect Instances}
+dv_discrep 58 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {VDD!} { on net: } -snet {VDD!} {}
+dv_discrep_line {}
+dv_discrep 59 {Incorrect Instances}
 dv_discrep_line {} -ldev {99} {} -lloc {(30.470,28.672)} {  mp(PMOS_VTL)                           } -sdev {talker_str_1xfsm_unitxu11/m2} {  mp(PMOS_VTL)}
 dv_discrep_line {  } -lport {G} {: } -lnet {37} {} -lloc {(28.812,27.767)} {                                      } -sport {g} {: } -snet {talker_str_1xfsm_unitxn6} {}
 dv_discrep_line {  } -lport {b} {: } -lnet {1} {} -lloc {(2.570,20.075)} {                                        ** no similar net **}
 dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {talker_str_1xfsm_unitxu11/VDD} {}
 dv_discrep_line {}
-dv_discrep 59 {Incorrect Instances}
+dv_discrep 60 {Incorrect Instances}
 dv_discrep_line {} -ldev {97} {} -lloc {(30.280,28.672)} {  mp(PMOS_VTL)                           } -sdev {talker_str_1xfsm_unitxu11/m3} {  mp(PMOS_VTL)}
 dv_discrep_line {  } -lport {G} {: } -lnet {38} {} -lloc {(30.052,28.317)} {                                      } -sport {g} {: } -snet {START} {}
 dv_discrep_line {  } -lport {b} {: } -lnet {1} {} -lloc {(2.570,20.075)} {                                        ** no similar net **}
 dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {talker_str_1xfsm_unitxu11/VDD} {}
 dv_discrep_line {}
-dv_discrep 60 {Incorrect Instances}
+dv_discrep 61 {Incorrect Instances}
 dv_discrep_line {} -ldev {108} {} -lloc {(30.850,28.672)} {  mp(PMOS_VTL)                          } -sdev {talker_str_1xfsm_unitxu11/m0} {  mp(PMOS_VTL)}
 dv_discrep_line {  } -lport {G} {: } -lnet {32} {} -lloc {(28.622,28.087)} {                                      } -sport {g} {: } -snet {talker_str_1xfsm_unitxstate_regx0x} {}
 dv_discrep_line {  } -lport {b} {: } -lnet {1} {} -lloc {(2.570,20.075)} {                                        ** no similar net **}
 dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {talker_str_1xfsm_unitxu11/VDD} {}
 dv_discrep_line {}
-dv_discrep 61 {Incorrect Instances}
+dv_discrep 62 {Incorrect Instances}
 dv_discrep_line {} -ldev {103} {} -lloc {(30.660,28.672)} {  mp(PMOS_VTL)                          } -sdev {talker_str_1xfsm_unitxu11/m1} {  mp(PMOS_VTL)}
 dv_discrep_line {  } -lport {G} {: } -lnet {41} {} -lloc {(30.688,28.317)} {                                      } -sport {g} {: } -snet {talker_str_1xfsm_unitxn7} {}
 dv_discrep_line {  } -lport {b} {: } -lnet {1} {} -lloc {(2.570,20.075)} {                                        ** no similar net **}
 dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {talker_str_1xfsm_unitxu11/VDD} {}
 dv_discrep_line {}
-dv_discrep 62 {Incorrect Instances}
+dv_discrep 63 {Incorrect Instances}
 dv_discrep_line {} -ldev {132} {} -lloc {(32.560,23.900)} {  mp(PMOS_VTL)                          } -sdev {u1/m0} {  mp(PMOS_VTL)}
 dv_discrep_line {  } -lport {G} {: } -lnet {48} {} -lloc {(32.138,32.657)} {                                      } -sport {g} {: } -snet {talker_str_1xfsm_unitxstate_regx1x} {}
 dv_discrep_line {  } -lport {b} {: } -lnet {1} {} -lloc {(2.570,20.075)} {                                        ** no similar net **}
-dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {u1/VDD} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {net107} {}
 dv_discrep_line {}
-dv_discrep 63 {Incorrect Instances}
+dv_discrep 64 {Incorrect Instances}
 dv_discrep_line {} -ldev {134} {} -lloc {(32.750,23.900)} {  mp(PMOS_VTL)                          } -sdev {u1/m1} {  mp(PMOS_VTL)}
 dv_discrep_line {  } -lport {G} {: } -lnet {40} {} -lloc {(30.367,27.680)} {                                      } -sport {g} {: } -snet {talker_str_1xfsm_unitxn9} {}
 dv_discrep_line {  } -lport {b} {: } -lnet {1} {} -lloc {(2.570,20.075)} {                                        ** no similar net **}
-dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {u1/VDD} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {net107} {}
 dv_discrep_line {}
-dv_discrep 64 {Incorrect Instances}
+dv_discrep 65 {Incorrect Instances}
 dv_discrep_line {} -ldev {146} {} -lloc {(33.700,33.163)} {  mp(PMOS_VTL)                          } -sdev {talker_str_1xfsm_unitxu12/m0} {  mp(PMOS_VTL)}
 dv_discrep_line {  } -lport {G} {: } -lnet {32} {} -lloc {(28.622,28.087)} {                                      } -sport {g} {: } -snet {talker_str_1xfsm_unitxstate_regx0x} {}
 dv_discrep_line {  } -lport {b} {: } -lnet {1} {} -lloc {(2.570,20.075)} {                                        ** no similar net **}
-dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {talker_str_1xfsm_unitxu12/VDD} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {net71} {}
 dv_discrep_line {}
-dv_discrep 65 {Incorrect Instances}
+dv_discrep 66 {Incorrect Instances}
 dv_discrep_line {} -ldev {151} {} -lloc {(33.890,33.163)} {  mp(PMOS_VTL)                          } -sdev {talker_str_1xfsm_unitxu12/m1} {  mp(PMOS_VTL)}
 dv_discrep_line {  } -lport {G} {: } -lnet {42} {} -lloc {(31.578,28.468)} {                                      } -sport {g} {: } -snet {talker_str_1xfsm_unitxn8} {}
 dv_discrep_line {  } -lport {b} {: } -lnet {1} {} -lloc {(2.570,20.075)} {                                        ** no similar net **}
-dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {talker_str_1xfsm_unitxu12/VDD} {}
-dv_discrep_line {}
-dv_discrep 66 {Incorrect Instances}
-dv_discrep_line {} -ldev {175} {} -lloc {(22.712,31.585)} {  mn(NMOS_VTL)                          } -sdev {listener_str_1xfsm_unitxack_buf_reg_reg/m16} {  mn(NMOS_VTL)}
-dv_discrep_line {  } -lport {G} {: } -lnet {19} {} -lloc {(22.642,30.540)} {                                      } -sport {g} {: } -snet {fe_ocp_rbn1_reset1} {}
-dv_discrep_line {  } -lport {b} {: } -lnet {2} {} -lloc {(12.570,22.545)} {                                       ** no similar net **}
-dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {listener_str_1xfsm_unitxack_buf_reg_reg/GND} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {net71} {}
 dv_discrep_line {}
 dv_discrep 67 {Incorrect Instances}
-dv_discrep_line {} -ldev {179} {} -lloc {(22.902,31.585)} {  mn(NMOS_VTL)                          } -sdev {listener_str_1xfsm_unitxack_buf_reg_reg/m17} {  mn(NMOS_VTL)}
-dv_discrep_line {  } -lport {G} {: } -lnet {58} {} -lloc {(22.883,31.285)} {                                      } -sport {g} {: } -snet {listener_str_1xfsm_unitxack_buf_reg_reg/A_10_61__} {}
+dv_discrep_line {} -ldev {175} {} -lloc {(22.712,31.585)} {  mn(NMOS_VTL)                          } -sdev {listener_str_1xsync_unitxsync_reg_reg/m16} {  mn(NMOS_VTL)}
+dv_discrep_line {  } -lport {G} {: } -lnet {19} {} -lloc {(22.642,30.540)} {                                      } -sport {g} {: } -snet {listener_str_1xsync_unitxn2} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {2} {} -lloc {(12.570,22.545)} {                                       ** no similar net **}
+dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {listener_str_1xsync_unitxsync_reg_reg/GND} {}
+dv_discrep_line {}
+dv_discrep 68 {Incorrect Instances}
+dv_discrep_line {} -ldev {179} {} -lloc {(22.902,31.585)} {  mn(NMOS_VTL)                          } -sdev {listener_str_1xsync_unitxsync_reg_reg/m17} {  mn(NMOS_VTL)}
+dv_discrep_line {  } -lport {G} {: } -lnet {58} {} -lloc {(22.883,31.285)} {                                      } -sport {g} {: } -snet {listener_str_1xsync_unitxsync_reg_reg/A_10_61__} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {2} {} -lloc {(12.570,22.545)} {                                       ** no similar net **}
+dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {listener_str_1xsync_unitxsync_reg_reg/GND} {}
+dv_discrep_line {}
+dv_discrep 69 {Incorrect Instances}
+dv_discrep_line {} -ldev {181} {} -lloc {(23.093,27.955)} {  mn(NMOS_VTL)                          } -sdev {listener_str_1xfsm_unitxack_buf_reg_reg/m16} {  mn(NMOS_VTL)}
+dv_discrep_line {  } -lport {G} {: } -lnet {19} {} -lloc {(22.642,30.540)} {                                      } -sport {g} {: } -snet {listener_str_1xsync_unitxn2} {}
 dv_discrep_line {  } -lport {b} {: } -lnet {2} {} -lloc {(12.570,22.545)} {                                       ** no similar net **}
 dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {listener_str_1xfsm_unitxack_buf_reg_reg/GND} {}
 dv_discrep_line {}
-dv_discrep 68 {Incorrect Instances}
-dv_discrep_line {} -ldev {181} {} -lloc {(23.093,27.955)} {  mn(NMOS_VTL)                          } -sdev {listener_str_1xsync_unitxmeta_reg_reg/m16} {  mn(NMOS_VTL)}
-dv_discrep_line {  } -lport {G} {: } -lnet {19} {} -lloc {(22.642,30.540)} {                                      } -sport {g} {: } -snet {fe_ocp_rbn1_reset1} {}
-dv_discrep_line {  } -lport {b} {: } -lnet {2} {} -lloc {(12.570,22.545)} {                                       ** no similar net **}
-dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {listener_str_1xsync_unitxmeta_reg_reg/GND} {}
-dv_discrep_line {}
-dv_discrep 69 {Incorrect Instances}
-dv_discrep_line {} -ldev {183} {} -lloc {(23.282,27.955)} {  mn(NMOS_VTL)                          } -sdev {listener_str_1xsync_unitxmeta_reg_reg/m17} {  mn(NMOS_VTL)}
-dv_discrep_line {  } -lport {G} {: } -lnet {61} {} -lloc {(23.262,28.490)} {                                      } -sport {g} {: } -snet {listener_str_1xsync_unitxmeta_reg_reg/A_10_61__} {}
-dv_discrep_line {  } -lport {b} {: } -lnet {2} {} -lloc {(12.570,22.545)} {                                       ** no similar net **}
-dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {listener_str_1xsync_unitxmeta_reg_reg/GND} {}
-dv_discrep_line {}
 dv_discrep 70 {Incorrect Instances}
-dv_discrep_line {} -ldev {184} {} -lloc {(23.312,31.585)} {  mn(NMOS_VTL)                          } -sdev {listener_str_1xfsm_unitxack_buf_reg_reg/m18} {  mn(NMOS_VTL)}
-dv_discrep_line {  } -lport {G} {: } -lnet {53} {} -lloc {(22.277,31.180)} {                                      } -sport {g} {: } -snet {listener_str_1xfsm_unitxack_buf_reg_reg/A_23_27__} {}
+dv_discrep_line {} -ldev {183} {} -lloc {(23.282,27.955)} {  mn(NMOS_VTL)                          } -sdev {listener_str_1xfsm_unitxack_buf_reg_reg/m17} {  mn(NMOS_VTL)}
+dv_discrep_line {  } -lport {G} {: } -lnet {61} {} -lloc {(23.262,28.490)} {                                      } -sport {g} {: } -snet {listener_str_1xfsm_unitxack_buf_reg_reg/A_10_61__} {}
 dv_discrep_line {  } -lport {b} {: } -lnet {2} {} -lloc {(12.570,22.545)} {                                       ** no similar net **}
 dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {listener_str_1xfsm_unitxack_buf_reg_reg/GND} {}
 dv_discrep_line {}
 dv_discrep 71 {Incorrect Instances}
-dv_discrep_line {} -ldev {185} {} -lloc {(23.473,23.015)} {  mn(NMOS_VTL)                          } -sdev {talker_str_1xsync_unitxsync_reg_reg/m16} {  mn(NMOS_VTL)}
-dv_discrep_line {  } -lport {G} {: } -lnet {22} {} -lloc {(23.402,24.425)} {                                      } -sport {g} {: } -snet {talker_str_1xfsm_unitxn4} {}
+dv_discrep_line {} -ldev {184} {} -lloc {(23.312,31.585)} {  mn(NMOS_VTL)                          } -sdev {listener_str_1xsync_unitxsync_reg_reg/m18} {  mn(NMOS_VTL)}
+dv_discrep_line {  } -lport {G} {: } -lnet {53} {} -lloc {(22.277,31.180)} {                                      } -sport {g} {: } -snet {listener_str_1xsync_unitxsync_reg_reg/A_23_27__} {}
 dv_discrep_line {  } -lport {b} {: } -lnet {2} {} -lloc {(12.570,22.545)} {                                       ** no similar net **}
-dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {talker_str_1xsync_unitxsync_reg_reg/GND} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {listener_str_1xsync_unitxsync_reg_reg/GND} {}
 dv_discrep_line {}
 dv_discrep 72 {Incorrect Instances}
-dv_discrep_line {} -ldev {187} {} -lloc {(23.663,23.015)} {  mn(NMOS_VTL)                          } -sdev {talker_str_1xsync_unitxsync_reg_reg/m17} {  mn(NMOS_VTL)}
-dv_discrep_line {  } -lport {G} {: } -lnet {63} {} -lloc {(23.642,23.550)} {                                      } -sport {g} {: } -snet {talker_str_1xsync_unitxsync_reg_reg/A_10_61__} {}
+dv_discrep_line {} -ldev {185} {} -lloc {(23.473,23.015)} {  mn(NMOS_VTL)                          } -sdev {talker_str_1xsync_unitxmeta_reg_reg/m16} {  mn(NMOS_VTL)}
+dv_discrep_line {  } -lport {G} {: } -lnet {22} {} -lloc {(23.402,24.425)} {                                      } -sport {g} {: } -snet {talker_str_1xfsm_unitxn4} {}
 dv_discrep_line {  } -lport {b} {: } -lnet {2} {} -lloc {(12.570,22.545)} {                                       ** no similar net **}
-dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {talker_str_1xsync_unitxsync_reg_reg/GND} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {talker_str_1xsync_unitxmeta_reg_reg/GND} {}
 dv_discrep_line {}
 dv_discrep 73 {Incorrect Instances}
-dv_discrep_line {} -ldev {188} {} -lloc {(23.692,27.955)} {  mn(NMOS_VTL)                          } -sdev {listener_str_1xsync_unitxmeta_reg_reg/m18} {  mn(NMOS_VTL)}
-dv_discrep_line {  } -lport {G} {: } -lnet {56} {} -lloc {(22.657,28.210)} {                                      } -sport {g} {: } -snet {listener_str_1xsync_unitxmeta_reg_reg/A_23_27__} {}
+dv_discrep_line {} -ldev {187} {} -lloc {(23.663,23.015)} {  mn(NMOS_VTL)                          } -sdev {talker_str_1xsync_unitxmeta_reg_reg/m17} {  mn(NMOS_VTL)}
+dv_discrep_line {  } -lport {G} {: } -lnet {63} {} -lloc {(23.642,23.550)} {                                      } -sport {g} {: } -snet {talker_str_1xsync_unitxmeta_reg_reg/A_10_61__} {}
 dv_discrep_line {  } -lport {b} {: } -lnet {2} {} -lloc {(12.570,22.545)} {                                       ** no similar net **}
-dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {listener_str_1xsync_unitxmeta_reg_reg/GND} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {talker_str_1xsync_unitxmeta_reg_reg/GND} {}
 dv_discrep_line {}
 dv_discrep 74 {Incorrect Instances}
-dv_discrep_line {} -ldev {192} {} -lloc {(24.073,23.015)} {  mn(NMOS_VTL)                          } -sdev {talker_str_1xsync_unitxsync_reg_reg/m18} {  mn(NMOS_VTL)}
-dv_discrep_line {  } -lport {G} {: } -lnet {60} {} -lloc {(23.038,23.270)} {                                      } -sport {g} {: } -snet {talker_str_1xsync_unitxsync_reg_reg/A_23_27__} {}
+dv_discrep_line {} -ldev {188} {} -lloc {(23.692,27.955)} {  mn(NMOS_VTL)                          } -sdev {listener_str_1xfsm_unitxack_buf_reg_reg/m18} {  mn(NMOS_VTL)}
+dv_discrep_line {  } -lport {G} {: } -lnet {56} {} -lloc {(22.657,28.210)} {                                      } -sport {g} {: } -snet {listener_str_1xfsm_unitxack_buf_reg_reg/A_23_27__} {}
 dv_discrep_line {  } -lport {b} {: } -lnet {2} {} -lloc {(12.570,22.545)} {                                       ** no similar net **}
-dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {talker_str_1xsync_unitxsync_reg_reg/GND} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {listener_str_1xfsm_unitxack_buf_reg_reg/GND} {}
 dv_discrep_line {}
 dv_discrep 75 {Incorrect Instances}
-dv_discrep_line {} -ldev {197} {} -lloc {(24.442,31.690)} {  mn(NMOS_VTL)                          } -sdev {listener_str_1xsync_unitxmeta_reg_reg/m29} {  mn(NMOS_VTL)}
-dv_discrep_line {  } -lport {G} {: } -lnet {67} {} -lloc {(24.413,31.555)} {                                      } -sport {g} {: } -snet {listener_str_1xsync_unitxmeta_reg_reg/A_122_6__} {}
+dv_discrep_line {} -ldev {192} {} -lloc {(24.073,23.015)} {  mn(NMOS_VTL)                          } -sdev {talker_str_1xsync_unitxmeta_reg_reg/m18} {  mn(NMOS_VTL)}
+dv_discrep_line {  } -lport {G} {: } -lnet {60} {} -lloc {(23.038,23.270)} {                                      } -sport {g} {: } -snet {talker_str_1xsync_unitxmeta_reg_reg/A_23_27__} {}
 dv_discrep_line {  } -lport {b} {: } -lnet {2} {} -lloc {(12.570,22.545)} {                                       ** no similar net **}
-dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {listener_str_1xsync_unitxmeta_reg_reg/GND} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {talker_str_1xsync_unitxmeta_reg_reg/GND} {}
 dv_discrep_line {}
 dv_discrep 76 {Incorrect Instances}
-dv_discrep_line {} -ldev {203} {} -lloc {(24.823,27.850)} {  mn(NMOS_VTL)                          } -sdev {listener_str_1xsync_unitxsync_reg_reg/m29} {  mn(NMOS_VTL)}
-dv_discrep_line {  } -lport {G} {: } -lnet {70} {} -lloc {(24.793,28.420)} {                                      } -sport {g} {: } -snet {listener_str_1xsync_unitxsync_reg_reg/A_122_6__} {}
+dv_discrep_line {} -ldev {197} {} -lloc {(24.442,31.690)} {  mn(NMOS_VTL)                          } -sdev {listener_str_1xsync_unitxsync_reg_reg/m29} {  mn(NMOS_VTL)}
+dv_discrep_line {  } -lport {G} {: } -lnet {67} {} -lloc {(24.413,31.555)} {                                      } -sport {g} {: } -snet {listener_str_1xsync_unitxsync_reg_reg/A_122_6__} {}
 dv_discrep_line {  } -lport {b} {: } -lnet {2} {} -lloc {(12.570,22.545)} {                                       ** no similar net **}
 dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {listener_str_1xsync_unitxsync_reg_reg/GND} {}
 dv_discrep_line {}
 dv_discrep 77 {Incorrect Instances}
-dv_discrep_line {} -ldev {201} {} -lloc {(24.672,31.690)} {  mn(NMOS_VTL)                          } -sdev {listener_str_1xsync_unitxmeta_reg_reg/m28} {  mn(NMOS_VTL)}
-dv_discrep_line {  } -lport {G} {: } -lnet {19} {} -lloc {(22.642,30.540)} {                                      } -sport {g} {: } -snet {fe_ocp_rbn1_reset1} {}
+dv_discrep_line {} -ldev {203} {} -lloc {(24.823,27.850)} {  mn(NMOS_VTL)                          } -sdev {listener_str_1xfsm_unitxack_buf_reg_reg/m29} {  mn(NMOS_VTL)}
+dv_discrep_line {  } -lport {G} {: } -lnet {70} {} -lloc {(24.793,28.420)} {                                      } -sport {g} {: } -snet {listener_str_1xfsm_unitxack_buf_reg_reg/A_122_6__} {}
 dv_discrep_line {  } -lport {b} {: } -lnet {2} {} -lloc {(12.570,22.545)} {                                       ** no similar net **}
-dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {listener_str_1xsync_unitxmeta_reg_reg/GND} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {listener_str_1xfsm_unitxack_buf_reg_reg/GND} {}
 dv_discrep_line {}
 dv_discrep 78 {Incorrect Instances}
-dv_discrep_line {} -ldev {204} {} -lloc {(24.863,31.690)} {  mn(NMOS_VTL)                          } -sdev {listener_str_1xsync_unitxmeta_reg_reg/m27} {  mn(NMOS_VTL)}
-dv_discrep_line {  } -lport {G} {: } -lnet {64} {} -lloc {(23.902,30.698)} {                                      ** } -snet {listener_str_1xfsm_unitxack_buf_reg_reg/A_105_6__} { **}
+dv_discrep_line {} -ldev {201} {} -lloc {(24.672,31.690)} {  mn(NMOS_VTL)                          } -sdev {listener_str_1xsync_unitxsync_reg_reg/m28} {  mn(NMOS_VTL)}
+dv_discrep_line {  } -lport {G} {: } -lnet {19} {} -lloc {(22.642,30.540)} {                                      } -sport {g} {: } -snet {listener_str_1xsync_unitxn2} {}
 dv_discrep_line {  } -lport {b} {: } -lnet {2} {} -lloc {(12.570,22.545)} {                                       ** no similar net **}
-dv_discrep_line {  ** no similar net **                                      } -sport {g} {: } -snet {listener_str_1xsync_unitxmeta_reg_reg/A_105_6__} {}
-dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {listener_str_1xsync_unitxmeta_reg_reg/GND} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {listener_str_1xsync_unitxsync_reg_reg/GND} {}
 dv_discrep_line {}
 dv_discrep 79 {Incorrect Instances}
-dv_discrep_line {} -ldev {207} {} -lloc {(25.203,22.910)} {  mn(NMOS_VTL)                          } -sdev {talker_str_1xsync_unitxsync_reg_reg/m29} {  mn(NMOS_VTL)}
-dv_discrep_line {  } -lport {G} {: } -lnet {72} {} -lloc {(25.172,23.480)} {                                      } -sport {g} {: } -snet {talker_str_1xsync_unitxsync_reg_reg/A_122_6__} {}
+dv_discrep_line {} -ldev {204} {} -lloc {(24.863,31.690)} {  mn(NMOS_VTL)                          } -sdev {listener_str_1xsync_unitxsync_reg_reg/m27} {  mn(NMOS_VTL)}
+dv_discrep_line {  } -lport {G} {: } -lnet {64} {} -lloc {(23.902,30.698)} {                                      } -sport {g} {: } -snet {listener_str_1xsync_unitxsync_reg_reg/A_105_6__} {}
 dv_discrep_line {  } -lport {b} {: } -lnet {2} {} -lloc {(12.570,22.545)} {                                       ** no similar net **}
-dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {talker_str_1xsync_unitxsync_reg_reg/GND} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {listener_str_1xsync_unitxsync_reg_reg/GND} {}
 dv_discrep_line {}
 dv_discrep 80 {Incorrect Instances}
-dv_discrep_line {} -ldev {206} {} -lloc {(25.052,27.850)} {  mn(NMOS_VTL)                          } -sdev {listener_str_1xsync_unitxsync_reg_reg/m28} {  mn(NMOS_VTL)}
-dv_discrep_line {  } -lport {G} {: } -lnet {19} {} -lloc {(22.642,30.540)} {                                      } -sport {g} {: } -snet {fe_ocp_rbn1_reset1} {}
+dv_discrep_line {} -ldev {207} {} -lloc {(25.203,22.910)} {  mn(NMOS_VTL)                          } -sdev {talker_str_1xsync_unitxmeta_reg_reg/m29} {  mn(NMOS_VTL)}
+dv_discrep_line {  } -lport {G} {: } -lnet {72} {} -lloc {(25.172,23.480)} {                                      } -sport {g} {: } -snet {talker_str_1xsync_unitxmeta_reg_reg/A_122_6__} {}
 dv_discrep_line {  } -lport {b} {: } -lnet {2} {} -lloc {(12.570,22.545)} {                                       ** no similar net **}
-dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {listener_str_1xsync_unitxsync_reg_reg/GND} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {talker_str_1xsync_unitxmeta_reg_reg/GND} {}
 dv_discrep_line {}
 dv_discrep 81 {Incorrect Instances}
-dv_discrep_line {} -ldev {208} {} -lloc {(25.242,27.850)} {  mn(NMOS_VTL)                          } -sdev {listener_str_1xsync_unitxsync_reg_reg/m27} {  mn(NMOS_VTL)}
-dv_discrep_line {  } -lport {G} {: } -lnet {66} {} -lloc {(24.282,28.867)} {                                      } -sport {g} {: } -snet {listener_str_1xsync_unitxsync_reg_reg/A_105_6__} {}
+dv_discrep_line {} -ldev {206} {} -lloc {(25.052,27.850)} {  mn(NMOS_VTL)                          } -sdev {listener_str_1xfsm_unitxack_buf_reg_reg/m28} {  mn(NMOS_VTL)}
+dv_discrep_line {  } -lport {G} {: } -lnet {19} {} -lloc {(22.642,30.540)} {                                      } -sport {g} {: } -snet {listener_str_1xsync_unitxn2} {}
 dv_discrep_line {  } -lport {b} {: } -lnet {2} {} -lloc {(12.570,22.545)} {                                       ** no similar net **}
-dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {listener_str_1xsync_unitxsync_reg_reg/GND} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {listener_str_1xfsm_unitxack_buf_reg_reg/GND} {}
 dv_discrep_line {}
 dv_discrep 82 {Incorrect Instances}
-dv_discrep_line {} -ldev {212} {} -lloc {(25.433,22.910)} {  mn(NMOS_VTL)                          } -sdev {talker_str_1xsync_unitxsync_reg_reg/m28} {  mn(NMOS_VTL)}
-dv_discrep_line {  } -lport {G} {: } -lnet {22} {} -lloc {(23.402,24.425)} {                                      } -sport {g} {: } -snet {talker_str_1xfsm_unitxn4} {}
+dv_discrep_line {} -ldev {208} {} -lloc {(25.242,27.850)} {  mn(NMOS_VTL)                          } -sdev {listener_str_1xfsm_unitxack_buf_reg_reg/m27} {  mn(NMOS_VTL)}
+dv_discrep_line {  } -lport {G} {: } -lnet {66} {} -lloc {(24.282,28.867)} {                                      } -sport {g} {: } -snet {listener_str_1xfsm_unitxack_buf_reg_reg/A_105_6__} {}
 dv_discrep_line {  } -lport {b} {: } -lnet {2} {} -lloc {(12.570,22.545)} {                                       ** no similar net **}
-dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {talker_str_1xsync_unitxsync_reg_reg/GND} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {listener_str_1xfsm_unitxack_buf_reg_reg/GND} {}
 dv_discrep_line {}
 dv_discrep 83 {Incorrect Instances}
-dv_discrep_line {} -ldev {213} {} -lloc {(25.622,22.910)} {  mn(NMOS_VTL)                          } -sdev {talker_str_1xsync_unitxsync_reg_reg/m27} {  mn(NMOS_VTL)}
-dv_discrep_line {  } -lport {G} {: } -lnet {69} {} -lloc {(24.663,23.927)} {                                      } -sport {g} {: } -snet {talker_str_1xsync_unitxsync_reg_reg/A_105_6__} {}
+dv_discrep_line {} -ldev {212} {} -lloc {(25.433,22.910)} {  mn(NMOS_VTL)                          } -sdev {talker_str_1xsync_unitxmeta_reg_reg/m28} {  mn(NMOS_VTL)}
+dv_discrep_line {  } -lport {G} {: } -lnet {22} {} -lloc {(23.402,24.425)} {                                      } -sport {g} {: } -snet {talker_str_1xfsm_unitxn4} {}
 dv_discrep_line {  } -lport {b} {: } -lnet {2} {} -lloc {(12.570,22.545)} {                                       ** no similar net **}
-dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {talker_str_1xsync_unitxsync_reg_reg/GND} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {talker_str_1xsync_unitxmeta_reg_reg/GND} {}
 dv_discrep_line {}
 dv_discrep 84 {Incorrect Instances}
-dv_discrep_line {} -ldev {222} {} -lloc {(26.892,26.645)} {  mn(NMOS_VTL)                          } -sdev {talker_str_1xsync_unitxmeta_reg_reg/m16} {  mn(NMOS_VTL)}
-dv_discrep_line {  } -lport {G} {: } -lnet {22} {} -lloc {(23.402,24.425)} {                                      } -sport {g} {: } -snet {talker_str_1xfsm_unitxn4} {}
+dv_discrep_line {} -ldev {213} {} -lloc {(25.622,22.910)} {  mn(NMOS_VTL)                          } -sdev {talker_str_1xsync_unitxmeta_reg_reg/m27} {  mn(NMOS_VTL)}
+dv_discrep_line {  } -lport {G} {: } -lnet {69} {} -lloc {(24.663,23.927)} {                                      } -sport {g} {: } -snet {talker_str_1xsync_unitxmeta_reg_reg/A_105_6__} {}
 dv_discrep_line {  } -lport {b} {: } -lnet {2} {} -lloc {(12.570,22.545)} {                                       ** no similar net **}
 dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {talker_str_1xsync_unitxmeta_reg_reg/GND} {}
 dv_discrep_line {}
 dv_discrep 85 {Incorrect Instances}
-dv_discrep_line {} -ldev {223} {} -lloc {(27.082,26.645)} {  mn(NMOS_VTL)                          } -sdev {talker_str_1xsync_unitxmeta_reg_reg/m17} {  mn(NMOS_VTL)}
-dv_discrep_line {  } -lport {G} {: } -lnet {76} {} -lloc {(27.062,26.345)} {                                      } -sport {g} {: } -snet {talker_str_1xsync_unitxmeta_reg_reg/A_10_61__} {}
-dv_discrep_line {  } -lport {b} {: } -lnet {2} {} -lloc {(12.570,22.545)} {                                       ** no similar net **}
-dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {talker_str_1xsync_unitxmeta_reg_reg/GND} {}
-dv_discrep_line {}
-dv_discrep 86 {Incorrect Instances}
-dv_discrep_line {} -ldev {225} {} -lloc {(27.492,26.645)} {  mn(NMOS_VTL)                          } -sdev {talker_str_1xsync_unitxmeta_reg_reg/m18} {  mn(NMOS_VTL)}
-dv_discrep_line {  } -lport {G} {: } -lnet {74} {} -lloc {(26.457,26.240)} {                                      } -sport {g} {: } -snet {talker_str_1xsync_unitxmeta_reg_reg/A_23_27__} {}
-dv_discrep_line {  } -lport {b} {: } -lnet {2} {} -lloc {(12.570,22.545)} {                                       ** no similar net **}
-dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {talker_str_1xsync_unitxmeta_reg_reg/GND} {}
-dv_discrep_line {}
-dv_discrep 87 {Incorrect Instances}
-dv_discrep_line {} -ldev {234} {} -lloc {(28.413,31.585)} {  mn(NMOS_VTL)                          } -sdev {listener_str_1xsync_unitxsync_reg_reg/m16} {  mn(NMOS_VTL)}
-dv_discrep_line {  } -lport {G} {: } -lnet {19} {} -lloc {(22.642,30.540)} {                                      } -sport {g} {: } -snet {fe_ocp_rbn1_reset1} {}
-dv_discrep_line {  } -lport {b} {: } -lnet {2} {} -lloc {(12.570,22.545)} {                                       ** no similar net **}
-dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {listener_str_1xsync_unitxsync_reg_reg/GND} {}
-dv_discrep_line {}
-dv_discrep 88 {Incorrect Instances}
-dv_discrep_line {} -ldev {237} {} -lloc {(28.602,31.585)} {  mn(NMOS_VTL)                          } -sdev {listener_str_1xsync_unitxsync_reg_reg/m17} {  mn(NMOS_VTL)}
-dv_discrep_line {  } -lport {G} {: } -lnet {82} {} -lloc {(28.582,31.285)} {                                      } -sport {g} {: } -snet {listener_str_1xsync_unitxsync_reg_reg/A_10_61__} {}
-dv_discrep_line {  } -lport {b} {: } -lnet {2} {} -lloc {(12.570,22.545)} {                                       ** no similar net **}
-dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {listener_str_1xsync_unitxsync_reg_reg/GND} {}
-dv_discrep_line {}
-dv_discrep 89 {Incorrect Instances}
-dv_discrep_line {} -ldev {238} {} -lloc {(28.622,26.750)} {  mn(NMOS_VTL)                          } -sdev {talker_str_1xsync_unitxmeta_reg_reg/m29} {  mn(NMOS_VTL)}
-dv_discrep_line {  } -lport {G} {: } -lnet {83} {} -lloc {(28.593,26.615)} {                                      } -sport {g} {: } -snet {talker_str_1xsync_unitxmeta_reg_reg/A_122_6__} {}
-dv_discrep_line {  } -lport {b} {: } -lnet {2} {} -lloc {(12.570,22.545)} {                                       ** no similar net **}
-dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {talker_str_1xsync_unitxmeta_reg_reg/GND} {}
-dv_discrep_line {}
-dv_discrep 90 {Incorrect Instances}
-dv_discrep_line {} -ldev {241} {} -lloc {(28.852,26.750)} {  mn(NMOS_VTL)                          } -sdev {talker_str_1xsync_unitxmeta_reg_reg/m28} {  mn(NMOS_VTL)}
+dv_discrep_line {} -ldev {222} {} -lloc {(26.892,26.645)} {  mn(NMOS_VTL)                          } -sdev {talker_str_1xsync_unitxsync_reg_reg/m16} {  mn(NMOS_VTL)}
 dv_discrep_line {  } -lport {G} {: } -lnet {22} {} -lloc {(23.402,24.425)} {                                      } -sport {g} {: } -snet {talker_str_1xfsm_unitxn4} {}
 dv_discrep_line {  } -lport {b} {: } -lnet {2} {} -lloc {(12.570,22.545)} {                                       ** no similar net **}
-dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {talker_str_1xsync_unitxmeta_reg_reg/GND} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {talker_str_1xsync_unitxsync_reg_reg/GND} {}
+dv_discrep_line {}
+dv_discrep 86 {Incorrect Instances}
+dv_discrep_line {} -ldev {223} {} -lloc {(27.082,26.645)} {  mn(NMOS_VTL)                          } -sdev {talker_str_1xsync_unitxsync_reg_reg/m17} {  mn(NMOS_VTL)}
+dv_discrep_line {  } -lport {G} {: } -lnet {76} {} -lloc {(27.062,26.345)} {                                      } -sport {g} {: } -snet {talker_str_1xsync_unitxsync_reg_reg/A_10_61__} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {2} {} -lloc {(12.570,22.545)} {                                       ** no similar net **}
+dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {talker_str_1xsync_unitxsync_reg_reg/GND} {}
+dv_discrep_line {}
+dv_discrep 87 {Incorrect Instances}
+dv_discrep_line {} -ldev {225} {} -lloc {(27.492,26.645)} {  mn(NMOS_VTL)                          } -sdev {talker_str_1xsync_unitxsync_reg_reg/m18} {  mn(NMOS_VTL)}
+dv_discrep_line {  } -lport {G} {: } -lnet {74} {} -lloc {(26.457,26.240)} {                                      } -sport {g} {: } -snet {talker_str_1xsync_unitxsync_reg_reg/A_23_27__} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {2} {} -lloc {(12.570,22.545)} {                                       ** no similar net **}
+dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {talker_str_1xsync_unitxsync_reg_reg/GND} {}
+dv_discrep_line {}
+dv_discrep 88 {Incorrect Instances}
+dv_discrep_line {} -ldev {234} {} -lloc {(28.413,31.585)} {  mn(NMOS_VTL)                          } -sdev {listener_str_1xsync_unitxmeta_reg_reg/m16} {  mn(NMOS_VTL)}
+dv_discrep_line {  } -lport {G} {: } -lnet {19} {} -lloc {(22.642,30.540)} {                                      } -sport {g} {: } -snet {listener_str_1xsync_unitxn2} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {2} {} -lloc {(12.570,22.545)} {                                       ** no similar net **}
+dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {listener_str_1xsync_unitxmeta_reg_reg/GND} {}
+dv_discrep_line {}
+dv_discrep 89 {Incorrect Instances}
+dv_discrep_line {} -ldev {237} {} -lloc {(28.602,31.585)} {  mn(NMOS_VTL)                          } -sdev {listener_str_1xsync_unitxmeta_reg_reg/m17} {  mn(NMOS_VTL)}
+dv_discrep_line {  } -lport {G} {: } -lnet {82} {} -lloc {(28.582,31.285)} {                                      } -sport {g} {: } -snet {listener_str_1xsync_unitxmeta_reg_reg/A_10_61__} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {2} {} -lloc {(12.570,22.545)} {                                       ** no similar net **}
+dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {listener_str_1xsync_unitxmeta_reg_reg/GND} {}
+dv_discrep_line {}
+dv_discrep 90 {Incorrect Instances}
+dv_discrep_line {} -ldev {238} {} -lloc {(28.622,26.750)} {  mn(NMOS_VTL)                          } -sdev {talker_str_1xsync_unitxsync_reg_reg/m29} {  mn(NMOS_VTL)}
+dv_discrep_line {  } -lport {G} {: } -lnet {83} {} -lloc {(28.593,26.615)} {                                      } -sport {g} {: } -snet {talker_str_1xsync_unitxsync_reg_reg/A_122_6__} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {2} {} -lloc {(12.570,22.545)} {                                       ** no similar net **}
+dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {talker_str_1xsync_unitxsync_reg_reg/GND} {}
 dv_discrep_line {}
 dv_discrep 91 {Incorrect Instances}
-dv_discrep_line {} -ldev {245} {} -lloc {(29.043,26.750)} {  mn(NMOS_VTL)                          } -sdev {talker_str_1xsync_unitxmeta_reg_reg/m27} {  mn(NMOS_VTL)}
-dv_discrep_line {  } -lport {G} {: } -lnet {79} {} -lloc {(28.082,25.758)} {                                      } -sport {g} {: } -snet {talker_str_1xsync_unitxmeta_reg_reg/A_105_6__} {}
+dv_discrep_line {} -ldev {241} {} -lloc {(28.852,26.750)} {  mn(NMOS_VTL)                          } -sdev {talker_str_1xsync_unitxsync_reg_reg/m28} {  mn(NMOS_VTL)}
+dv_discrep_line {  } -lport {G} {: } -lnet {22} {} -lloc {(23.402,24.425)} {                                      } -sport {g} {: } -snet {talker_str_1xfsm_unitxn4} {}
 dv_discrep_line {  } -lport {b} {: } -lnet {2} {} -lloc {(12.570,22.545)} {                                       ** no similar net **}
-dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {talker_str_1xsync_unitxmeta_reg_reg/GND} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {talker_str_1xsync_unitxsync_reg_reg/GND} {}
 dv_discrep_line {}
 dv_discrep 92 {Incorrect Instances}
-dv_discrep_line {} -ldev {244} {} -lloc {(29.012,31.585)} {  mn(NMOS_VTL)                          } -sdev {listener_str_1xsync_unitxsync_reg_reg/m18} {  mn(NMOS_VTL)}
-dv_discrep_line {  } -lport {G} {: } -lnet {78} {} -lloc {(27.977,31.180)} {                                      } -sport {g} {: } -snet {listener_str_1xsync_unitxsync_reg_reg/A_23_27__} {}
+dv_discrep_line {} -ldev {245} {} -lloc {(29.043,26.750)} {  mn(NMOS_VTL)                          } -sdev {talker_str_1xsync_unitxsync_reg_reg/m27} {  mn(NMOS_VTL)}
+dv_discrep_line {  } -lport {G} {: } -lnet {79} {} -lloc {(28.082,25.758)} {                                      } -sport {g} {: } -snet {talker_str_1xsync_unitxsync_reg_reg/A_105_6__} {}
 dv_discrep_line {  } -lport {b} {: } -lnet {2} {} -lloc {(12.570,22.545)} {                                       ** no similar net **}
-dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {listener_str_1xsync_unitxsync_reg_reg/GND} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {talker_str_1xsync_unitxsync_reg_reg/GND} {}
 dv_discrep_line {}
 dv_discrep 93 {Incorrect Instances}
+dv_discrep_line {} -ldev {244} {} -lloc {(29.012,31.585)} {  mn(NMOS_VTL)                          } -sdev {listener_str_1xsync_unitxmeta_reg_reg/m18} {  mn(NMOS_VTL)}
+dv_discrep_line {  } -lport {G} {: } -lnet {78} {} -lloc {(27.977,31.180)} {                                      } -sport {g} {: } -snet {listener_str_1xsync_unitxmeta_reg_reg/A_23_27__} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {2} {} -lloc {(12.570,22.545)} {                                       ** no similar net **}
+dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {listener_str_1xsync_unitxmeta_reg_reg/GND} {}
+dv_discrep_line {}
+dv_discrep 94 {Incorrect Instances}
 dv_discrep_line {} -ldev {252} {} -lloc {(29.552,23.015)} {  mn(NMOS_VTL)                          } -sdev {talker_str_1xfsm_unitxreq_buf_reg_reg/m16} {  mn(NMOS_VTL)}
 dv_discrep_line {  } -lport {G} {: } -lnet {22} {} -lloc {(23.402,24.425)} {                                      } -sport {g} {: } -snet {talker_str_1xfsm_unitxn4} {}
 dv_discrep_line {  } -lport {b} {: } -lnet {2} {} -lloc {(12.570,22.545)} {                                       ** no similar net **}
 dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {talker_str_1xfsm_unitxreq_buf_reg_reg/GND} {}
 dv_discrep_line {}
-dv_discrep 94 {Incorrect Instances}
+dv_discrep 95 {Incorrect Instances}
 dv_discrep_line {} -ldev {253} {} -lloc {(29.742,23.015)} {  mn(NMOS_VTL)                          } -sdev {talker_str_1xfsm_unitxreq_buf_reg_reg/m17} {  mn(NMOS_VTL)}
 dv_discrep_line {  } -lport {G} {: } -lnet {88} {} -lloc {(29.723,23.550)} {                                      } -sport {g} {: } -snet {talker_str_1xfsm_unitxreq_buf_reg_reg/A_10_61__} {}
 dv_discrep_line {  } -lport {b} {: } -lnet {2} {} -lloc {(12.570,22.545)} {                                       ** no similar net **}
 dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {talker_str_1xfsm_unitxreq_buf_reg_reg/GND} {}
 dv_discrep_line {}
-dv_discrep 95 {Incorrect Instances}
-dv_discrep_line {} -ldev {256} {} -lloc {(30.142,31.690)} {  mn(NMOS_VTL)                          } -sdev {listener_str_1xfsm_unitxack_buf_reg_reg/m29} {  mn(NMOS_VTL)}
-dv_discrep_line {  } -lport {G} {: } -lnet {90} {} -lloc {(30.113,31.555)} {                                      } -sport {g} {: } -snet {listener_str_1xfsm_unitxack_buf_reg_reg/A_122_6__} {}
-dv_discrep_line {  } -lport {b} {: } -lnet {2} {} -lloc {(12.570,22.545)} {                                       ** no similar net **}
-dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {listener_str_1xfsm_unitxack_buf_reg_reg/GND} {}
-dv_discrep_line {}
 dv_discrep 96 {Incorrect Instances}
+dv_discrep_line {} -ldev {256} {} -lloc {(30.142,31.690)} {  mn(NMOS_VTL)                          } -sdev {listener_str_1xsync_unitxmeta_reg_reg/m29} {  mn(NMOS_VTL)}
+dv_discrep_line {  } -lport {G} {: } -lnet {90} {} -lloc {(30.113,31.555)} {                                      } -sport {g} {: } -snet {listener_str_1xsync_unitxmeta_reg_reg/A_122_6__} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {2} {} -lloc {(12.570,22.545)} {                                       ** no similar net **}
+dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {listener_str_1xsync_unitxmeta_reg_reg/GND} {}
+dv_discrep_line {}
+dv_discrep 97 {Incorrect Instances}
 dv_discrep_line {} -ldev {257} {} -lloc {(30.152,23.015)} {  mn(NMOS_VTL)                          } -sdev {talker_str_1xfsm_unitxreq_buf_reg_reg/m18} {  mn(NMOS_VTL)}
 dv_discrep_line {  } -lport {G} {: } -lnet {85} {} -lloc {(29.117,23.270)} {                                      } -sport {g} {: } -snet {talker_str_1xfsm_unitxreq_buf_reg_reg/A_23_27__} {}
 dv_discrep_line {  } -lport {b} {: } -lnet {2} {} -lloc {(12.570,22.545)} {                                       ** no similar net **}
 dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {talker_str_1xfsm_unitxreq_buf_reg_reg/GND} {}
 dv_discrep_line {}
-dv_discrep 97 {Incorrect Instances}
-dv_discrep_line {} -ldev {260} {} -lloc {(30.372,31.690)} {  mn(NMOS_VTL)                          } -sdev {listener_str_1xfsm_unitxack_buf_reg_reg/m28} {  mn(NMOS_VTL)}
-dv_discrep_line {  } -lport {G} {: } -lnet {19} {} -lloc {(22.642,30.540)} {                                      } -sport {g} {: } -snet {fe_ocp_rbn1_reset1} {}
-dv_discrep_line {  } -lport {b} {: } -lnet {2} {} -lloc {(12.570,22.545)} {                                       ** no similar net **}
-dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {listener_str_1xfsm_unitxack_buf_reg_reg/GND} {}
-dv_discrep_line {}
 dv_discrep 98 {Incorrect Instances}
-dv_discrep_line {} -ldev {262} {} -lloc {(30.562,31.690)} {  mn(NMOS_VTL)                          } -sdev {listener_str_1xfsm_unitxack_buf_reg_reg/m27} {  mn(NMOS_VTL)}
-dv_discrep_line {  } -lport {G} {: } -lnet {87} {} -lloc {(29.602,30.698)} {                                      ** no similar net **}
+dv_discrep_line {} -ldev {260} {} -lloc {(30.372,31.690)} {  mn(NMOS_VTL)                          } -sdev {listener_str_1xsync_unitxmeta_reg_reg/m28} {  mn(NMOS_VTL)}
+dv_discrep_line {  } -lport {G} {: } -lnet {19} {} -lloc {(22.642,30.540)} {                                      } -sport {g} {: } -snet {listener_str_1xsync_unitxn2} {}
 dv_discrep_line {  } -lport {b} {: } -lnet {2} {} -lloc {(12.570,22.545)} {                                       ** no similar net **}
-dv_discrep_line {  ** } -lnet {64} {} -lloc {(23.902,30.698)} { **                                   } -sport {g} {: } -snet {listener_str_1xfsm_unitxack_buf_reg_reg/A_105_6__} {}
-dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {listener_str_1xfsm_unitxack_buf_reg_reg/GND} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {listener_str_1xsync_unitxmeta_reg_reg/GND} {}
 dv_discrep_line {}
 dv_discrep 99 {Incorrect Instances}
+dv_discrep_line {} -ldev {262} {} -lloc {(30.562,31.690)} {  mn(NMOS_VTL)                          } -sdev {listener_str_1xsync_unitxmeta_reg_reg/m27} {  mn(NMOS_VTL)}
+dv_discrep_line {  } -lport {G} {: } -lnet {87} {} -lloc {(29.602,30.698)} {                                      } -sport {g} {: } -snet {listener_str_1xsync_unitxmeta_reg_reg/A_105_6__} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {2} {} -lloc {(12.570,22.545)} {                                       ** no similar net **}
+dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {listener_str_1xsync_unitxmeta_reg_reg/GND} {}
+dv_discrep_line {}
+dv_discrep 100 {Incorrect Instances}
 dv_discrep_line {} -ldev {270} {} -lloc {(31.282,22.910)} {  mn(NMOS_VTL)                          } -sdev {talker_str_1xfsm_unitxreq_buf_reg_reg/m29} {  mn(NMOS_VTL)}
 dv_discrep_line {  } -lport {G} {: } -lnet {95} {} -lloc {(31.253,23.480)} {                                      } -sport {g} {: } -snet {talker_str_1xfsm_unitxreq_buf_reg_reg/A_122_6__} {}
 dv_discrep_line {  } -lport {b} {: } -lnet {2} {} -lloc {(12.570,22.545)} {                                       ** no similar net **}
 dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {talker_str_1xfsm_unitxreq_buf_reg_reg/GND} {}
 dv_discrep_line {}
-dv_discrep 100 {Incorrect Instances}
+dv_discrep 101 {Incorrect Instances}
 dv_discrep_line {} -ldev {271} {} -lloc {(31.328,27.747)} {  mn(NMOS_VTL)                          } -sdev {u7/m3} {  mn(NMOS_VTL)}
 dv_discrep_line {  } -lport {G} {: } -lnet {39} {} -lloc {(29.383,25.707)} {                                      } -sport {g} {: } -snet {RCV} {}
 dv_discrep_line {  } -lport {b} {: } -lnet {2} {} -lloc {(12.570,22.545)} {                                       ** no similar net **}
-dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {u7/GND} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {net104} {}
 dv_discrep_line {}
-dv_discrep 101 {Incorrect Instances}
+dv_discrep 102 {Incorrect Instances}
 dv_discrep_line {} -ldev {275} {} -lloc {(31.517,27.747)} {  mn(NMOS_VTL)                          } -sdev {u7/m4} {  mn(NMOS_VTL)}
 dv_discrep_line {  } -lport {G} {: } -lnet {42} {} -lloc {(31.578,28.468)} {                                      } -sport {g} {: } -snet {talker_str_1xfsm_unitxn8} {}
 dv_discrep_line {  } -lport {b} {: } -lnet {2} {} -lloc {(12.570,22.545)} {                                       ** no similar net **}
-dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {u7/GND} {}
+dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {net104} {}
 dv_discrep_line {}
-dv_discrep 102 {Incorrect Instances}
+dv_discrep 103 {Incorrect Instances}
 dv_discrep_line {} -ldev {274} {} -lloc {(31.512,22.910)} {  mn(NMOS_VTL)                          } -sdev {talker_str_1xfsm_unitxreq_buf_reg_reg/m28} {  mn(NMOS_VTL)}
 dv_discrep_line {  } -lport {G} {: } -lnet {22} {} -lloc {(23.402,24.425)} {                                      } -sport {g} {: } -snet {talker_str_1xfsm_unitxn4} {}
 dv_discrep_line {  } -lport {b} {: } -lnet {2} {} -lloc {(12.570,22.545)} {                                       ** no similar net **}
 dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {talker_str_1xfsm_unitxreq_buf_reg_reg/GND} {}
 dv_discrep_line {}
-dv_discrep 103 {Incorrect Instances}
+dv_discrep 104 {Incorrect Instances}
 dv_discrep_line {} -ldev {277} {} -lloc {(31.703,22.910)} {  mn(NMOS_VTL)                          } -sdev {talker_str_1xfsm_unitxreq_buf_reg_reg/m27} {  mn(NMOS_VTL)}
 dv_discrep_line {  } -lport {G} {: } -lnet {92} {} -lloc {(30.742,23.927)} {                                      } -sport {g} {: } -snet {talker_str_1xfsm_unitxreq_buf_reg_reg/A_105_6__} {}
 dv_discrep_line {  } -lport {b} {: } -lnet {2} {} -lloc {(12.570,22.545)} {                                       ** no similar net **}
 dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {talker_str_1xfsm_unitxreq_buf_reg_reg/GND} {}
 dv_discrep_line {}
-dv_discrep 104 {Incorrect Instances}
+dv_discrep 105 {Incorrect Instances}
 dv_discrep_line {} -ldev {293} {} -lloc {(32.593,26.645)} {  mn(NMOS_VTL)                          } -sdev {talker_str_1xfsm_unitxstate_reg_regx0x/m16} {  mn(NMOS_VTL)}
 dv_discrep_line {  } -lport {G} {: } -lnet {22} {} -lloc {(23.402,24.425)} {                                      } -sport {g} {: } -snet {talker_str_1xfsm_unitxn4} {}
 dv_discrep_line {  } -lport {b} {: } -lnet {2} {} -lloc {(12.570,22.545)} {                                       ** no similar net **}
 dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {talker_str_1xfsm_unitxstate_reg_regx0x/GND} {}
 dv_discrep_line {}
-dv_discrep 105 {Incorrect Instances}
+dv_discrep 106 {Incorrect Instances}
 dv_discrep_line {} -ldev {296} {} -lloc {(32.782,26.645)} {  mn(NMOS_VTL)                          } -sdev {talker_str_1xfsm_unitxstate_reg_regx0x/m17} {  mn(NMOS_VTL)}
 dv_discrep_line {  } -lport {G} {: } -lnet {105} {} -lloc {(32.763,26.345)} {                                     } -sport {g} {: } -snet {talker_str_1xfsm_unitxstate_reg_regx0x/A_10_61__} {}
 dv_discrep_line {  } -lport {b} {: } -lnet {2} {} -lloc {(12.570,22.545)} {                                       ** no similar net **}
 dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {talker_str_1xfsm_unitxstate_reg_regx0x/GND} {}
 dv_discrep_line {}
-dv_discrep 106 {Incorrect Instances}
+dv_discrep 107 {Incorrect Instances}
 dv_discrep_line {} -ldev {294} {} -lloc {(32.593,31.585)} {  mn(NMOS_VTL)                          } -sdev {talker_str_1xfsm_unitxstate_reg_regx1x/m16} {  mn(NMOS_VTL)}
 dv_discrep_line {  } -lport {G} {: } -lnet {22} {} -lloc {(23.402,24.425)} {                                      } -sport {g} {: } -snet {talker_str_1xfsm_unitxn4} {}
 dv_discrep_line {  } -lport {b} {: } -lnet {2} {} -lloc {(12.570,22.545)} {                                       ** no similar net **}
 dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {talker_str_1xfsm_unitxstate_reg_regx1x/GND} {}
 dv_discrep_line {}
-dv_discrep 107 {Incorrect Instances}
+dv_discrep 108 {Incorrect Instances}
 dv_discrep_line {} -ldev {297} {} -lloc {(32.782,31.585)} {  mn(NMOS_VTL)                          } -sdev {talker_str_1xfsm_unitxstate_reg_regx1x/m17} {  mn(NMOS_VTL)}
 dv_discrep_line {  } -lport {G} {: } -lnet {106} {} -lloc {(32.763,31.285)} {                                     } -sport {g} {: } -snet {talker_str_1xfsm_unitxstate_reg_regx1x/A_10_61__} {}
 dv_discrep_line {  } -lport {b} {: } -lnet {2} {} -lloc {(12.570,22.545)} {                                       ** no similar net **}
 dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {talker_str_1xfsm_unitxstate_reg_regx1x/GND} {}
-dv_discrep_line {}
-dv_discrep 108 {Property Errors}
-dv_discrep_line {} -ldev {66} {} -lloc {(27.622,23.900)} {  mp(PMOS_VTL)                           } -sdev {clk2__l1_i0/m3} {  mp(PMOS_VTL)}
-dv_discrep_line {}  {w} {: }  {0.5 u} {                                                  }  {w} {: }  {4 u} {                }  {       3.5 u} {}
-dv_discrep_line {}
-dv_discrep 109 {Property Errors}
-dv_discrep_line {} -ldev {137} {} -lloc {(32.943,28.840)} {  mp(PMOS_VTL)                          } -sdev {talker_str_1xfsm_unitxu5/m0} {  mp(PMOS_VTL)}
-dv_discrep_line {}  {w} {: }  {0.5 u} {                                                  }  {w} {: }  {1 u} {                }  {       0.5 u} {}
-dv_discrep_line {}
-dv_discrep 110 {Property Errors}
-dv_discrep_line {} -ldev {227} {} -lloc {(27.622,22.788)} {  mn(NMOS_VTL)                          } -sdev {clk2__l1_i0/m7} {  mn(NMOS_VTL)}
-dv_discrep_line {}  {w} {: }  {0.25 u} {                                                 }  {w} {: }  {2 u} {                }  {      1.75 u} {}
-dv_discrep_line {}
-dv_discrep 111 {Property Errors}
-dv_discrep_line {} -ldev {298} {} -lloc {(32.943,27.727)} {  mn(NMOS_VTL)                          } -sdev {talker_str_1xfsm_unitxu5/m1} {  mn(NMOS_VTL)}
-dv_discrep_line {}  {w} {: }  {0.25 u} {                                                 }  {w} {: }  {0.5 u} {              }  {      0.25 u} {}
-dv_discrep_line {}
-dv_discrep 112 {Property Errors}
-dv_discrep_line {} -ldev {19} {} -lloc {(23.062,25.760)} {  mp(PMOS_VTL)                           } -sdev {clk1__l2_i0/m1} {  mp(PMOS_VTL)}
-dv_discrep_line {}  {w} {: }  {0.5 u} {                                                  }  {w} {: }  {2 u} {                }  {       1.5 u} {}
-dv_discrep_line {}
-dv_discrep 113 {Property Errors}
-dv_discrep_line {} -ldev {180} {} -lloc {(23.062,27.122)} {  mn(NMOS_VTL)                          } -sdev {clk1__l2_i0/m3} {  mn(NMOS_VTL)}
-dv_discrep_line {}  {w} {: }  {0.25 u} {                                                 }  {w} {: }  {1 u} {                }  {      0.75 u} {}
-dv_discrep_line {}
-dv_discrep -1 {Detailed Instance Connections}
-dv_discrep_line {}
-dv_discrep_line {} -ldev {100} {} -lloc {(30.562,30.677)} {  mp(PMOS_VTL)                          } -sdev {listener_str_1xfsm_unitxack_buf_reg_reg/m11} {  mp(PMOS_VTL)}
-dv_discrep_line {  } -lport {S} {: } -lnet {90} {} -lloc {(30.113,31.555)} {                                      } -sport {d} {: } -snet {listener_str_1xfsm_unitxack_buf_reg_reg/A_122_6__} {}
-dv_discrep_line {  } -lport {G} {: } -lnet {87} {} -lloc {(29.602,30.698)} {                                      ** no similar net **}
-dv_discrep_line {  } -lport {D} {: } -lnet {1} {} -lloc {(2.570,20.075)} {                                        ** no similar net **}
-dv_discrep_line {  } -lport {b} {: } -lnet {1} {} -lloc {(2.570,20.075)} {                                        ** no similar net **}
-dv_discrep_line {  ** } -lnet {64} {} -lloc {(23.902,30.698)} { **                                   } -sport {g} {: } -snet {listener_str_1xfsm_unitxack_buf_reg_reg/A_105_6__} {}
-dv_discrep_line {  ** no similar net **                                      } -sport {s} {: } -snet {listener_str_1xfsm_unitxack_buf_reg_reg/VDD} {}
-dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {listener_str_1xfsm_unitxack_buf_reg_reg/VDD} {}
-dv_discrep_line {}
-dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
-dv_discrep_line {}
-dv_discrep_line {} -ldev {44} {} -lloc {(24.863,30.677)} {  mp(PMOS_VTL)                           } -sdev {listener_str_1xsync_unitxmeta_reg_reg/m11} {  mp(PMOS_VTL)}
-dv_discrep_line {  } -lport {S} {: } -lnet {67} {} -lloc {(24.413,31.555)} {                                      } -sport {d} {: } -snet {listener_str_1xsync_unitxmeta_reg_reg/A_122_6__} {}
-dv_discrep_line {  } -lport {G} {: } -lnet {64} {} -lloc {(23.902,30.698)} {                                      ** } -snet {listener_str_1xfsm_unitxack_buf_reg_reg/A_105_6__} { **}
-dv_discrep_line {  } -lport {D} {: } -lnet {1} {} -lloc {(2.570,20.075)} {                                        ** no similar net **}
-dv_discrep_line {  } -lport {b} {: } -lnet {1} {} -lloc {(2.570,20.075)} {                                        ** no similar net **}
-dv_discrep_line {  ** no similar net **                                      } -sport {g} {: } -snet {listener_str_1xsync_unitxmeta_reg_reg/A_105_6__} {}
-dv_discrep_line {  ** no similar net **                                      } -sport {s} {: } -snet {listener_str_1xsync_unitxmeta_reg_reg/VDD} {}
-dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {listener_str_1xsync_unitxmeta_reg_reg/VDD} {}
-dv_discrep_line {}
-dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
-dv_discrep_line {}
-dv_discrep_line {} -ldev {3} {} -lloc {(21.863,30.805)} {  mp(PMOS_VTL)                            } -sdev {listener_str_1xfsm_unitxack_buf_reg_reg/m6} {  mp(PMOS_VTL)}
-dv_discrep_line {  } -lport {D} {: } -lnet {52} {} -lloc {(21.948,31.117)} {                                      } -sport {s} {: } -snet {listener_str_1xfsm_unitxack_buf_reg_reg/A_57_6__} {}
-dv_discrep_line {  } -lport {G} {: } -lnet {6} {} -lloc {(21.593,32.708)} {                                       ** no similar net **}
-dv_discrep_line {  } -lport {S} {: } -lnet {1} {} -lloc {(2.570,20.075)} {                                        ** no similar net **}
-dv_discrep_line {  } -lport {b} {: } -lnet {1} {} -lloc {(2.570,20.075)} {                                        ** no similar net **}
-dv_discrep_line {  ** } -lnet {20} {} -lloc {(25.198,33.028)} { **                                   } -sport {g} {: } -snet {listener_str_1xreq_sync} {}
-dv_discrep_line {  ** no similar net **                                      } -sport {d} {: } -snet {listener_str_1xfsm_unitxack_buf_reg_reg/VDD} {}
-dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {listener_str_1xfsm_unitxack_buf_reg_reg/VDD} {}
-dv_discrep_line {}
-dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
-dv_discrep_line {}
-dv_discrep_line {} -ldev {19} {} -lloc {(23.062,25.760)} {  mp(PMOS_VTL)                           } -sdev {clk1__l2_i0/m1} {  mp(PMOS_VTL)}
-dv_discrep_line {  } -lport {G} {: } -lnet {16} {} -lloc {(22.922,26.948)} {                                      } -sport {g} {: } -snet {clk1__l1_n0} {}
-dv_discrep_line {  } -lport {S} {: } -lnet {1} {} -lloc {(2.570,20.075)} {                                        ** no similar net **}
-dv_discrep_line {  } -lport {D} {: } -lnet {8} {} -lloc {(22.163,26.945)} {                                       ** } -snet {CLK1} { **}
-dv_discrep_line {  } -lport {b} {: } -lnet {1} {} -lloc {(2.570,20.075)} {                                        ** no similar net **}
-dv_discrep_line {  ** } -lnet {5} {} -lloc {(21.628,31.282)} { **                                    } -sport {s} {: } -snet {clk1__l2_n0} {}
-dv_discrep_line {  ** no similar net **                                      } -sport {d} {: } -snet {clk1__l2_i0/VDD} {}
-dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {clk1__l2_i0/VDD} {}
-dv_discrep_line {}
-dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
-dv_discrep_line {}
-dv_discrep_line {} -ldev {30} {} -lloc {(24.003,30.927)} {  mp(PMOS_VTL)                           } -sdev {listener_str_1xfsm_unitxack_buf_reg_reg/m10} {  mp(PMOS_VTL)}
-dv_discrep_line {  } -lport {G} {: } -lnet {7} {} -lloc {(22.073,30.297)} {                                       } -sport {g} {: } -snet {listener_str_1xfsm_unitxack_buf_reg_reg/A_47_4__} {}
-dv_discrep_line {  } -lport {S} {: } -lnet {64} {} -lloc {(23.902,30.698)} {                                      } -sport {s} {: } -snet {listener_str_1xfsm_unitxack_buf_reg_reg/A_105_6__} {}
-dv_discrep_line {  } -lport {D} {: } -lnet {65} {} -lloc {(24.108,30.828)} {                                      ** } -snet {listener_str_1xsync_unitxmeta_reg_reg/A_113_6__} { **}
-dv_discrep_line {  } -lport {b} {: } -lnet {1} {} -lloc {(2.570,20.075)} {                                        ** no similar net **}
-dv_discrep_line {  ** } -lnet {89} {} -lloc {(29.808,30.828)} { **                                   } -sport {d} {: } -snet {listener_str_1xfsm_unitxack_buf_reg_reg/A_113_6__} {}
-dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {listener_str_1xfsm_unitxack_buf_reg_reg/VDD} {}
-dv_discrep_line {}
-dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
-dv_discrep_line {}
-dv_discrep_line {} -ldev {31} {} -lloc {(24.192,28.863)} {  mp(PMOS_VTL)                           } -sdev {listener_str_1xsync_unitxmeta_reg_reg/m9} {  mp(PMOS_VTL)}
-dv_discrep_line {  } -lport {G} {: } -lnet {14} {} -lloc {(21.878,28.210)} {                                      } -sport {g} {: } -snet {listener_str_1xsync_unitxmeta_reg_reg/A_47_71__} {}
-dv_discrep_line {  } -lport {S} {: } -lnet {61} {} -lloc {(23.262,28.490)} {                                      } -sport {s} {: } -snet {listener_str_1xsync_unitxmeta_reg_reg/A_10_61__} {}
-dv_discrep_line {  } -lport {D} {: } -lnet {66} {} -lloc {(24.282,28.867)} {                                      ** } -snet {listener_str_1xsync_unitxsync_reg_reg/A_105_6__} { **}
-dv_discrep_line {  } -lport {b} {: } -lnet {1} {} -lloc {(2.570,20.075)} {                                        ** no similar net **}
-dv_discrep_line {  ** no similar net **                                      } -sport {d} {: } -snet {listener_str_1xsync_unitxmeta_reg_reg/A_105_6__} {}
-dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {listener_str_1xsync_unitxmeta_reg_reg/VDD} {}
-dv_discrep_line {}
-dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
-dv_discrep_line {}
-dv_discrep_line {} -ldev {34} {} -lloc {(24.383,28.863)} {  mp(PMOS_VTL)                           } -sdev {listener_str_1xsync_unitxmeta_reg_reg/m10} {  mp(PMOS_VTL)}
-dv_discrep_line {  } -lport {G} {: } -lnet {13} {} -lloc {(22.453,29.117)} {                                      } -sport {g} {: } -snet {listener_str_1xsync_unitxmeta_reg_reg/A_47_4__} {}
-dv_discrep_line {  } -lport {S} {: } -lnet {66} {} -lloc {(24.282,28.867)} {                                      ** } -snet {listener_str_1xsync_unitxsync_reg_reg/A_105_6__} { **}
-dv_discrep_line {  } -lport {D} {: } -lnet {68} {} -lloc {(24.488,28.867)} {                                      ** } -snet {listener_str_1xsync_unitxsync_reg_reg/A_113_6__} { **}
-dv_discrep_line {  } -lport {b} {: } -lnet {1} {} -lloc {(2.570,20.075)} {                                        ** no similar net **}
-dv_discrep_line {  ** no similar net **                                      } -sport {s} {: } -snet {listener_str_1xsync_unitxmeta_reg_reg/A_105_6__} {}
-dv_discrep_line {  ** } -lnet {65} {} -lloc {(24.108,30.828)} { **                                   } -sport {d} {: } -snet {listener_str_1xsync_unitxmeta_reg_reg/A_113_6__} {}
-dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {listener_str_1xsync_unitxmeta_reg_reg/VDD} {}
-dv_discrep_line {}
-dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
-dv_discrep_line {}
-dv_discrep_line {} -ldev {46} {} -lloc {(25.117,30.677)} {  mp(PMOS_VTL)                           } -sdev {listener_str_1xsync_unitxmeta_reg_reg/m15} {  mp(PMOS_VTL)}
-dv_discrep_line {  } -lport {G} {: } -lnet {67} {} -lloc {(24.413,31.555)} {                                      } -sport {g} {: } -snet {listener_str_1xsync_unitxmeta_reg_reg/A_122_6__} {}
-dv_discrep_line {  } -lport {S} {: } -lnet {1} {} -lloc {(2.570,20.075)} {                                        ** no similar net **}
-dv_discrep_line {  } -lport {D} {: } -lnet {20} {} -lloc {(25.198,33.028)} {                                      ** } -snet {listener_str_1xreq_sync} { **}
-dv_discrep_line {  } -lport {b} {: } -lnet {1} {} -lloc {(2.570,20.075)} {                                        ** no similar net **}
-dv_discrep_line {  ** } -lnet {18} {} -lloc {(24.442,33.028)} { **                                   } -sport {s} {: } -snet {listener_str_1xsync_unitxmeta_reg} {}
-dv_discrep_line {  ** no similar net **                                      } -sport {d} {: } -snet {listener_str_1xsync_unitxmeta_reg_reg/VDD} {}
-dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {listener_str_1xsync_unitxmeta_reg_reg/VDD} {}
-dv_discrep_line {}
-dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
-dv_discrep_line {}
-dv_discrep_line {} -ldev {49} {} -lloc {(25.343,20.820)} {  mp(PMOS_VTL)                           } -sdev {listener_str_1xfsm_unitxack_buf_reg_reg/m15} {  mp(PMOS_VTL)}
-dv_discrep_line {  } -lport {D} {: } -lnet {23} {} -lloc {(25.392,22.188)} {                                      } -sport {s} {: } -snet {ack_out} {}
-dv_discrep_line {  } -lport {G} {: } -lnet {21} {} -lloc {(25.203,22.005)} {                                      ** } -snet {u10/A_2_6__} { **}
-dv_discrep_line {  } -lport {S} {: } -lnet {1} {} -lloc {(2.570,20.075)} {                                        ** no similar net **}
-dv_discrep_line {  } -lport {b} {: } -lnet {1} {} -lloc {(2.570,20.075)} {                                        ** no similar net **}
-dv_discrep_line {  ** } -lnet {90} {} -lloc {(30.113,31.555)} { **                                   } -sport {g} {: } -snet {listener_str_1xfsm_unitxack_buf_reg_reg/A_122_6__} {}
-dv_discrep_line {  ** no similar net **                                      } -sport {d} {: } -snet {listener_str_1xfsm_unitxack_buf_reg_reg/VDD} {}
-dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {listener_str_1xfsm_unitxack_buf_reg_reg/VDD} {}
-dv_discrep_line {}
-dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
-dv_discrep_line {}
-dv_discrep_line {} -ldev {52} {} -lloc {(25.497,28.863)} {  mp(PMOS_VTL)                           } -sdev {listener_str_1xsync_unitxsync_reg_reg/m15} {  mp(PMOS_VTL)}
-dv_discrep_line {  } -lport {G} {: } -lnet {70} {} -lloc {(24.793,28.420)} {                                      } -sport {g} {: } -snet {listener_str_1xsync_unitxsync_reg_reg/A_122_6__} {}
-dv_discrep_line {  } -lport {S} {: } -lnet {1} {} -lloc {(2.570,20.075)} {                                        ** no similar net **}
-dv_discrep_line {  } -lport {D} {: } -lnet {16} {} -lloc {(22.922,26.948)} {                                      ** } -snet {clk1__l1_n0} { **}
-dv_discrep_line {  } -lport {b} {: } -lnet {1} {} -lloc {(2.570,20.075)} {                                        ** no similar net **}
-dv_discrep_line {  ** } -lnet {20} {} -lloc {(25.198,33.028)} { **                                   } -sport {s} {: } -snet {listener_str_1xreq_sync} {}
-dv_discrep_line {  ** no similar net **                                      } -sport {d} {: } -snet {listener_str_1xsync_unitxsync_reg_reg/VDD} {}
-dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {listener_str_1xsync_unitxsync_reg_reg/VDD} {}
-dv_discrep_line {}
-dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
-dv_discrep_line {}
-dv_discrep_line {} -ldev {64} {} -lloc {(27.562,30.805)} {  mp(PMOS_VTL)                           } -sdev {listener_str_1xsync_unitxsync_reg_reg/m6} {  mp(PMOS_VTL)}
-dv_discrep_line {  } -lport {D} {: } -lnet {77} {} -lloc {(27.648,31.117)} {                                      } -sport {s} {: } -snet {listener_str_1xsync_unitxsync_reg_reg/A_57_6__} {}
-dv_discrep_line {  } -lport {G} {: } -lnet {28} {} -lloc {(27.517,31.378)} {                                      ** } -snet {clk2__l1_n0} { **}
-dv_discrep_line {  } -lport {S} {: } -lnet {1} {} -lloc {(2.570,20.075)} {                                        ** no similar net **}
-dv_discrep_line {  } -lport {b} {: } -lnet {1} {} -lloc {(2.570,20.075)} {                                        ** no similar net **}
-dv_discrep_line {  ** } -lnet {18} {} -lloc {(24.442,33.028)} { **                                   } -sport {g} {: } -snet {listener_str_1xsync_unitxmeta_reg} {}
-dv_discrep_line {  ** no similar net **                                      } -sport {d} {: } -snet {listener_str_1xsync_unitxsync_reg_reg/VDD} {}
-dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {listener_str_1xsync_unitxsync_reg_reg/VDD} {}
-dv_discrep_line {}
-dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
-dv_discrep_line {}
-dv_discrep_line {} -ldev {86} {} -lloc {(29.297,25.738)} {  mp(PMOS_VTL)                           } -sdev {talker_str_1xsync_unitxmeta_reg_reg/m15} {  mp(PMOS_VTL)}
-dv_discrep_line {  } -lport {G} {: } -lnet {83} {} -lloc {(28.593,26.615)} {                                      } -sport {g} {: } -snet {talker_str_1xsync_unitxmeta_reg_reg/A_122_6__} {}
-dv_discrep_line {  } -lport {S} {: } -lnet {1} {} -lloc {(2.570,20.075)} {                                        ** no similar net **}
-dv_discrep_line {  } -lport {D} {: } -lnet {39} {} -lloc {(29.383,25.707)} {                                      ** } -snet {RCV} { **}
-dv_discrep_line {  } -lport {b} {: } -lnet {1} {} -lloc {(2.570,20.075)} {                                        ** no similar net **}
-dv_discrep_line {  ** } -lnet {11} {} -lloc {(22.352,25.712)} { **                                   } -sport {s} {: } -snet {talker_str_1xsync_unitxmeta_reg} {}
-dv_discrep_line {  ** no similar net **                                      } -sport {d} {: } -snet {talker_str_1xsync_unitxmeta_reg_reg/VDD} {}
-dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {talker_str_1xsync_unitxmeta_reg_reg/VDD} {}
-dv_discrep_line {}
-dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
-dv_discrep_line {}
-dv_discrep_line {} -ldev {89} {} -lloc {(29.512,30.927)} {  mp(PMOS_VTL)                           } -sdev {listener_str_1xsync_unitxsync_reg_reg/m9} {  mp(PMOS_VTL)}
-dv_discrep_line {  } -lport {G} {: } -lnet {30} {} -lloc {(27.198,30.780)} {                                      } -sport {g} {: } -snet {listener_str_1xsync_unitxsync_reg_reg/A_47_71__} {}
-dv_discrep_line {  } -lport {S} {: } -lnet {82} {} -lloc {(28.582,31.285)} {                                      } -sport {s} {: } -snet {listener_str_1xsync_unitxsync_reg_reg/A_10_61__} {}
-dv_discrep_line {  } -lport {D} {: } -lnet {87} {} -lloc {(29.602,30.698)} {                                      ** no similar net **}
-dv_discrep_line {  } -lport {b} {: } -lnet {1} {} -lloc {(2.570,20.075)} {                                        ** no similar net **}
-dv_discrep_line {  ** } -lnet {66} {} -lloc {(24.282,28.867)} { **                                   } -sport {d} {: } -snet {listener_str_1xsync_unitxsync_reg_reg/A_105_6__} {}
-dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {listener_str_1xsync_unitxsync_reg_reg/VDD} {}
-dv_discrep_line {}
-dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
-dv_discrep_line {}
-dv_discrep_line {} -ldev {90} {} -lloc {(29.523,20.820)} {  mp(PMOS_VTL)                           } -sdev {listener_str_1xsync_unitxmeta_reg_reg/m6} {  mp(PMOS_VTL)}
-dv_discrep_line {  } -lport {G} {: } -lnet {35} {} -lloc {(29.383,22.008)} {                                      } -sport {g} {: } -snet {req_in} {}
-dv_discrep_line {  } -lport {S} {: } -lnet {1} {} -lloc {(2.570,20.075)} {                                        ** no similar net **}
-dv_discrep_line {  } -lport {D} {: } -lnet {27} {} -lloc {(27.483,23.148)} {                                      ** } -snet {CLK2} { **}
-dv_discrep_line {  } -lport {b} {: } -lnet {1} {} -lloc {(2.570,20.075)} {                                        ** no similar net **}
-dv_discrep_line {  ** } -lnet {54} {} -lloc {(22.328,28.190)} { **                                   } -sport {s} {: } -snet {listener_str_1xsync_unitxmeta_reg_reg/A_57_6__} {}
-dv_discrep_line {  ** no similar net **                                      } -sport {d} {: } -snet {listener_str_1xsync_unitxmeta_reg_reg/VDD} {}
-dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {listener_str_1xsync_unitxmeta_reg_reg/VDD} {}
-dv_discrep_line {}
-dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
-dv_discrep_line {}
-dv_discrep_line {} -ldev {93} {} -lloc {(29.703,30.927)} {  mp(PMOS_VTL)                           } -sdev {listener_str_1xsync_unitxsync_reg_reg/m10} {  mp(PMOS_VTL)}
-dv_discrep_line {  } -lport {G} {: } -lnet {29} {} -lloc {(27.773,30.297)} {                                      } -sport {g} {: } -snet {listener_str_1xsync_unitxsync_reg_reg/A_47_4__} {}
-dv_discrep_line {  } -lport {S} {: } -lnet {87} {} -lloc {(29.602,30.698)} {                                      ** no similar net **}
-dv_discrep_line {  } -lport {D} {: } -lnet {89} {} -lloc {(29.808,30.828)} {                                      ** } -snet {listener_str_1xfsm_unitxack_buf_reg_reg/A_113_6__} { **}
-dv_discrep_line {  } -lport {b} {: } -lnet {1} {} -lloc {(2.570,20.075)} {                                        ** no similar net **}
-dv_discrep_line {  ** } -lnet {66} {} -lloc {(24.282,28.867)} { **                                   } -sport {s} {: } -snet {listener_str_1xsync_unitxsync_reg_reg/A_105_6__} {}
-dv_discrep_line {  ** } -lnet {68} {} -lloc {(24.488,28.867)} { **                                   } -sport {d} {: } -snet {listener_str_1xsync_unitxsync_reg_reg/A_113_6__} {}
-dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {listener_str_1xsync_unitxsync_reg_reg/VDD} {}
-dv_discrep_line {}
-dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
-dv_discrep_line {}
-dv_discrep_line {} -ldev {164} {} -lloc {(21.863,31.585)} {  mn(NMOS_VTL)                          } -sdev {listener_str_1xfsm_unitxack_buf_reg_reg/m22} {  mn(NMOS_VTL)}
-dv_discrep_line {  } -lport {D} {: } -lnet {52} {} -lloc {(21.948,31.117)} {                                      } -sport {s} {: } -snet {listener_str_1xfsm_unitxack_buf_reg_reg/A_57_6__} {}
-dv_discrep_line {  } -lport {G} {: } -lnet {6} {} -lloc {(21.593,32.708)} {                                       ** no similar net **}
-dv_discrep_line {  } -lport {S} {: } -lnet {2} {} -lloc {(12.570,22.545)} {                                       ** no similar net **}
-dv_discrep_line {  } -lport {b} {: } -lnet {2} {} -lloc {(12.570,22.545)} {                                       ** no similar net **}
-dv_discrep_line {  ** } -lnet {20} {} -lloc {(25.198,33.028)} { **                                   } -sport {g} {: } -snet {listener_str_1xreq_sync} {}
-dv_discrep_line {  ** no similar net **                                      } -sport {d} {: } -snet {listener_str_1xfsm_unitxack_buf_reg_reg/GND} {}
-dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {listener_str_1xfsm_unitxack_buf_reg_reg/GND} {}
-dv_discrep_line {}
-dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
-dv_discrep_line {}
-dv_discrep_line {} -ldev {180} {} -lloc {(23.062,27.122)} {  mn(NMOS_VTL)                          } -sdev {clk1__l2_i0/m3} {  mn(NMOS_VTL)}
-dv_discrep_line {  } -lport {G} {: } -lnet {16} {} -lloc {(22.922,26.948)} {                                      } -sport {g} {: } -snet {clk1__l1_n0} {}
-dv_discrep_line {  } -lport {S} {: } -lnet {2} {} -lloc {(12.570,22.545)} {                                       ** no similar net **}
-dv_discrep_line {  } -lport {D} {: } -lnet {8} {} -lloc {(22.163,26.945)} {                                       ** } -snet {CLK1} { **}
-dv_discrep_line {  } -lport {b} {: } -lnet {2} {} -lloc {(12.570,22.545)} {                                       ** no similar net **}
-dv_discrep_line {  ** } -lnet {5} {} -lloc {(21.628,31.282)} { **                                    } -sport {s} {: } -snet {clk1__l2_n0} {}
-dv_discrep_line {  ** no similar net **                                      } -sport {d} {: } -snet {clk1__l2_i0/GND} {}
-dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {clk1__l2_i0/GND} {}
-dv_discrep_line {}
-dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
-dv_discrep_line {}
-dv_discrep_line {} -ldev {191} {} -lloc {(24.062,31.690)} {  mn(NMOS_VTL)                          } -sdev {listener_str_1xsync_unitxmeta_reg_reg/m26} {  mn(NMOS_VTL)}
-dv_discrep_line {  } -lport {D} {: } -lnet {65} {} -lloc {(24.108,30.828)} {                                      } -sport {d} {: } -snet {listener_str_1xsync_unitxmeta_reg_reg/A_113_6__} {}
-dv_discrep_line {  } -lport {G} {: } -lnet {12} {} -lloc {(21.497,30.780)} {                                      ** } -snet {listener_str_1xfsm_unitxack_buf_reg_reg/A_47_71__} { **}
-dv_discrep_line {  } -lport {S} {: } -lnet {64} {} -lloc {(23.902,30.698)} {                                      ** } -snet {listener_str_1xfsm_unitxack_buf_reg_reg/A_105_6__} { **}
-dv_discrep_line {  } -lport {b} {: } -lnet {2} {} -lloc {(12.570,22.545)} {                                       ** no similar net **}
-dv_discrep_line {  ** } -lnet {14} {} -lloc {(21.878,28.210)} { **                                   } -sport {g} {: } -snet {listener_str_1xsync_unitxmeta_reg_reg/A_47_71__} {}
-dv_discrep_line {  ** no similar net **                                      } -sport {s} {: } -snet {listener_str_1xsync_unitxmeta_reg_reg/A_105_6__} {}
-dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {listener_str_1xsync_unitxmeta_reg_reg/GND} {}
-dv_discrep_line {}
-dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
-dv_discrep_line {}
-dv_discrep_line {} -ldev {193} {} -lloc {(24.122,28.100)} {  mn(NMOS_VTL)                          } -sdev {listener_str_1xsync_unitxmeta_reg_reg/m25} {  mn(NMOS_VTL)}
-dv_discrep_line {  } -lport {G} {: } -lnet {13} {} -lloc {(22.453,29.117)} {                                      } -sport {g} {: } -snet {listener_str_1xsync_unitxmeta_reg_reg/A_47_4__} {}
-dv_discrep_line {  } -lport {S} {: } -lnet {61} {} -lloc {(23.262,28.490)} {                                      } -sport {s} {: } -snet {listener_str_1xsync_unitxmeta_reg_reg/A_10_61__} {}
-dv_discrep_line {  } -lport {D} {: } -lnet {66} {} -lloc {(24.282,28.867)} {                                      ** } -snet {listener_str_1xsync_unitxsync_reg_reg/A_105_6__} { **}
-dv_discrep_line {  } -lport {b} {: } -lnet {2} {} -lloc {(12.570,22.545)} {                                       ** no similar net **}
-dv_discrep_line {  ** no similar net **                                      } -sport {d} {: } -snet {listener_str_1xsync_unitxmeta_reg_reg/A_105_6__} {}
-dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {listener_str_1xsync_unitxmeta_reg_reg/GND} {}
-dv_discrep_line {}
-dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
-dv_discrep_line {}
-dv_discrep_line {} -ldev {209} {} -lloc {(25.265,32.062)} {  mn(NMOS_VTL)                          } -sdev {listener_str_1xsync_unitxmeta_reg_reg/m31} {  mn(NMOS_VTL)}
-dv_discrep_line {  } -lport {G} {: } -lnet {67} {} -lloc {(24.413,31.555)} {                                      } -sport {g} {: } -snet {listener_str_1xsync_unitxmeta_reg_reg/A_122_6__} {}
-dv_discrep_line {  } -lport {S} {: } -lnet {2} {} -lloc {(12.570,22.545)} {                                       ** no similar net **}
-dv_discrep_line {  } -lport {D} {: } -lnet {20} {} -lloc {(25.198,33.028)} {                                      ** } -snet {listener_str_1xreq_sync} { **}
-dv_discrep_line {  } -lport {b} {: } -lnet {2} {} -lloc {(12.570,22.545)} {                                       ** no similar net **}
-dv_discrep_line {  ** } -lnet {18} {} -lloc {(24.442,33.028)} { **                                   } -sport {s} {: } -snet {listener_str_1xsync_unitxmeta_reg} {}
-dv_discrep_line {  ** no similar net **                                      } -sport {d} {: } -snet {listener_str_1xsync_unitxmeta_reg_reg/GND} {}
-dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {listener_str_1xsync_unitxmeta_reg_reg/GND} {}
-dv_discrep_line {}
-dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
-dv_discrep_line {}
-dv_discrep_line {} -ldev {210} {} -lloc {(25.343,22.183)} {  mn(NMOS_VTL)                          } -sdev {listener_str_1xfsm_unitxack_buf_reg_reg/m31} {  mn(NMOS_VTL)}
-dv_discrep_line {  } -lport {D} {: } -lnet {23} {} -lloc {(25.392,22.188)} {                                      } -sport {s} {: } -snet {ack_out} {}
-dv_discrep_line {  } -lport {G} {: } -lnet {21} {} -lloc {(25.203,22.005)} {                                      ** } -snet {u10/A_2_6__} { **}
-dv_discrep_line {  } -lport {S} {: } -lnet {2} {} -lloc {(12.570,22.545)} {                                       ** no similar net **}
-dv_discrep_line {  } -lport {b} {: } -lnet {2} {} -lloc {(12.570,22.545)} {                                       ** no similar net **}
-dv_discrep_line {  ** } -lnet {90} {} -lloc {(30.113,31.555)} { **                                   } -sport {g} {: } -snet {listener_str_1xfsm_unitxack_buf_reg_reg/A_122_6__} {}
-dv_discrep_line {  ** no similar net **                                      } -sport {d} {: } -snet {listener_str_1xfsm_unitxack_buf_reg_reg/GND} {}
-dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {listener_str_1xfsm_unitxack_buf_reg_reg/GND} {}
-dv_discrep_line {}
-dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
-dv_discrep_line {}
-dv_discrep_line {} -ldev {214} {} -lloc {(25.645,27.727)} {  mn(NMOS_VTL)                          } -sdev {listener_str_1xsync_unitxsync_reg_reg/m31} {  mn(NMOS_VTL)}
-dv_discrep_line {  } -lport {G} {: } -lnet {70} {} -lloc {(24.793,28.420)} {                                      } -sport {g} {: } -snet {listener_str_1xsync_unitxsync_reg_reg/A_122_6__} {}
-dv_discrep_line {  } -lport {S} {: } -lnet {2} {} -lloc {(12.570,22.545)} {                                       ** no similar net **}
-dv_discrep_line {  } -lport {D} {: } -lnet {16} {} -lloc {(22.922,26.948)} {                                      ** } -snet {clk1__l1_n0} { **}
-dv_discrep_line {  } -lport {b} {: } -lnet {2} {} -lloc {(12.570,22.545)} {                                       ** no similar net **}
-dv_discrep_line {  ** } -lnet {20} {} -lloc {(25.198,33.028)} { **                                   } -sport {s} {: } -snet {listener_str_1xreq_sync} {}
-dv_discrep_line {  ** no similar net **                                      } -sport {d} {: } -snet {listener_str_1xsync_unitxsync_reg_reg/GND} {}
-dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {listener_str_1xsync_unitxsync_reg_reg/GND} {}
-dv_discrep_line {}
-dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
-dv_discrep_line {}
-dv_discrep_line {} -ldev {226} {} -lloc {(27.562,31.585)} {  mn(NMOS_VTL)                          } -sdev {listener_str_1xsync_unitxsync_reg_reg/m22} {  mn(NMOS_VTL)}
-dv_discrep_line {  } -lport {D} {: } -lnet {77} {} -lloc {(27.648,31.117)} {                                      } -sport {s} {: } -snet {listener_str_1xsync_unitxsync_reg_reg/A_57_6__} {}
-dv_discrep_line {  } -lport {G} {: } -lnet {28} {} -lloc {(27.517,31.378)} {                                      ** } -snet {clk2__l1_n0} { **}
-dv_discrep_line {  } -lport {S} {: } -lnet {2} {} -lloc {(12.570,22.545)} {                                       ** no similar net **}
-dv_discrep_line {  } -lport {b} {: } -lnet {2} {} -lloc {(12.570,22.545)} {                                       ** no similar net **}
-dv_discrep_line {  ** } -lnet {18} {} -lloc {(24.442,33.028)} { **                                   } -sport {g} {: } -snet {listener_str_1xsync_unitxmeta_reg} {}
-dv_discrep_line {  ** no similar net **                                      } -sport {d} {: } -snet {listener_str_1xsync_unitxsync_reg_reg/GND} {}
-dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {listener_str_1xsync_unitxsync_reg_reg/GND} {}
-dv_discrep_line {}
-dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
-dv_discrep_line {}
-dv_discrep_line {} -ldev {248} {} -lloc {(29.442,31.690)} {  mn(NMOS_VTL)                          } -sdev {listener_str_1xsync_unitxsync_reg_reg/m25} {  mn(NMOS_VTL)}
-dv_discrep_line {  } -lport {G} {: } -lnet {29} {} -lloc {(27.773,30.297)} {                                      } -sport {g} {: } -snet {listener_str_1xsync_unitxsync_reg_reg/A_47_4__} {}
-dv_discrep_line {  } -lport {S} {: } -lnet {82} {} -lloc {(28.582,31.285)} {                                      } -sport {s} {: } -snet {listener_str_1xsync_unitxsync_reg_reg/A_10_61__} {}
-dv_discrep_line {  } -lport {D} {: } -lnet {87} {} -lloc {(29.602,30.698)} {                                      ** no similar net **}
-dv_discrep_line {  } -lport {b} {: } -lnet {2} {} -lloc {(12.570,22.545)} {                                       ** no similar net **}
-dv_discrep_line {  ** } -lnet {66} {} -lloc {(24.282,28.867)} { **                                   } -sport {d} {: } -snet {listener_str_1xsync_unitxsync_reg_reg/A_105_6__} {}
-dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {listener_str_1xsync_unitxsync_reg_reg/GND} {}
-dv_discrep_line {}
-dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
-dv_discrep_line {}
-dv_discrep_line {} -ldev {249} {} -lloc {(29.445,27.122)} {  mn(NMOS_VTL)                          } -sdev {talker_str_1xsync_unitxmeta_reg_reg/m31} {  mn(NMOS_VTL)}
-dv_discrep_line {  } -lport {G} {: } -lnet {83} {} -lloc {(28.593,26.615)} {                                      } -sport {g} {: } -snet {talker_str_1xsync_unitxmeta_reg_reg/A_122_6__} {}
-dv_discrep_line {  } -lport {S} {: } -lnet {2} {} -lloc {(12.570,22.545)} {                                       ** no similar net **}
-dv_discrep_line {  } -lport {D} {: } -lnet {39} {} -lloc {(29.383,25.707)} {                                      ** } -snet {RCV} { **}
-dv_discrep_line {  } -lport {b} {: } -lnet {2} {} -lloc {(12.570,22.545)} {                                       ** no similar net **}
-dv_discrep_line {  ** } -lnet {11} {} -lloc {(22.352,25.712)} { **                                   } -sport {s} {: } -snet {talker_str_1xsync_unitxmeta_reg} {}
-dv_discrep_line {  ** no similar net **                                      } -sport {d} {: } -snet {talker_str_1xsync_unitxmeta_reg_reg/GND} {}
-dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {talker_str_1xsync_unitxmeta_reg_reg/GND} {}
-dv_discrep_line {}
-dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
-dv_discrep_line {}
-dv_discrep_line {} -ldev {250} {} -lloc {(29.523,22.183)} {  mn(NMOS_VTL)                          } -sdev {listener_str_1xsync_unitxmeta_reg_reg/m22} {  mn(NMOS_VTL)}
-dv_discrep_line {  } -lport {G} {: } -lnet {35} {} -lloc {(29.383,22.008)} {                                      } -sport {g} {: } -snet {req_in} {}
-dv_discrep_line {  } -lport {S} {: } -lnet {2} {} -lloc {(12.570,22.545)} {                                       ** no similar net **}
-dv_discrep_line {  } -lport {D} {: } -lnet {27} {} -lloc {(27.483,23.148)} {                                      ** } -snet {CLK2} { **}
-dv_discrep_line {  } -lport {b} {: } -lnet {2} {} -lloc {(12.570,22.545)} {                                       ** no similar net **}
-dv_discrep_line {  ** } -lnet {54} {} -lloc {(22.328,28.190)} { **                                   } -sport {s} {: } -snet {listener_str_1xsync_unitxmeta_reg_reg/A_57_6__} {}
-dv_discrep_line {  ** no similar net **                                      } -sport {d} {: } -snet {listener_str_1xsync_unitxmeta_reg_reg/GND} {}
-dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {listener_str_1xsync_unitxmeta_reg_reg/GND} {}
-dv_discrep_line {}
-dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
-dv_discrep_line {}
-dv_discrep_line {} -ldev {254} {} -lloc {(29.762,31.690)} {  mn(NMOS_VTL)                          } -sdev {listener_str_1xsync_unitxsync_reg_reg/m26} {  mn(NMOS_VTL)}
-dv_discrep_line {  } -lport {G} {: } -lnet {30} {} -lloc {(27.198,30.780)} {                                      } -sport {g} {: } -snet {listener_str_1xsync_unitxsync_reg_reg/A_47_71__} {}
-dv_discrep_line {  } -lport {S} {: } -lnet {87} {} -lloc {(29.602,30.698)} {                                      ** no similar net **}
-dv_discrep_line {  } -lport {D} {: } -lnet {89} {} -lloc {(29.808,30.828)} {                                      ** } -snet {listener_str_1xfsm_unitxack_buf_reg_reg/A_113_6__} { **}
-dv_discrep_line {  } -lport {b} {: } -lnet {2} {} -lloc {(12.570,22.545)} {                                       ** no similar net **}
-dv_discrep_line {  ** } -lnet {66} {} -lloc {(24.282,28.867)} { **                                   } -sport {s} {: } -snet {listener_str_1xsync_unitxsync_reg_reg/A_105_6__} {}
-dv_discrep_line {  ** } -lnet {68} {} -lloc {(24.488,28.867)} { **                                   } -sport {d} {: } -snet {listener_str_1xsync_unitxsync_reg_reg/A_113_6__} {}
-dv_discrep_line {  ** no similar net **                                      } -sport {b} {: } -snet {listener_str_1xsync_unitxsync_reg_reg/GND} {}
-dv_discrep_line {}
-dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
-dv_discrep_line {}
-dv_discrep_line {(SMN2)                                                    (SMN2)}
-dv_discrep_line {  } -lport {output} {: } -lnet {67} {} -lloc {(24.413,31.555)} {                                 } -sport {output} {: } -snet {listener_str_1xsync_unitxmeta_reg_reg/A_122_6__} {}
-dv_discrep_line {  } -lport {input} {: } -lnet {19} {} -lloc {(22.642,30.540)} {                                  } -sport {input} {: } -snet {fe_ocp_rbn1_reset1} {}
-dv_discrep_line {  } -lport {output} {: } -lnet {2} {} -lloc {(12.570,22.545)} {                                  ** no similar net **}
-dv_discrep_line {  } -lport {input} {: } -lnet {64} {} -lloc {(23.902,30.698)} {                                  ** } -snet {listener_str_1xfsm_unitxack_buf_reg_reg/A_105_6__} { **}
-dv_discrep_line {  ** no similar net **                                      } -sport {output} {: } -snet {listener_str_1xsync_unitxmeta_reg_reg/GND} {}
-dv_discrep_line {  ** no similar net **                                      } -sport {input} {: } -snet {listener_str_1xsync_unitxmeta_reg_reg/A_105_6__} {}
-dv_discrep_line {}
-dv_discrep_line {Transistors:}
-dv_discrep_line {  } -ldev {201} {} -lloc {(24.672,31.690)} {  mn(NMOS_VTL)                          } -sdev {listener_str_1xsync_unitxmeta_reg_reg/m28} {  mn(NMOS_VTL)}
-dv_discrep_line {  } -ldev {204} {} -lloc {(24.863,31.690)} {  mn(NMOS_VTL)                          } -sdev {listener_str_1xsync_unitxmeta_reg_reg/m27} {  mn(NMOS_VTL)}
-dv_discrep_line {}
-dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
-dv_discrep_line {}
-dv_discrep_line {(SMN2)                                                    (SMN2)}
-dv_discrep_line {  } -lport {output} {: } -lnet {90} {} -lloc {(30.113,31.555)} {                                 } -sport {output} {: } -snet {listener_str_1xfsm_unitxack_buf_reg_reg/A_122_6__} {}
-dv_discrep_line {  } -lport {input} {: } -lnet {19} {} -lloc {(22.642,30.540)} {                                  } -sport {input} {: } -snet {fe_ocp_rbn1_reset1} {}
-dv_discrep_line {  } -lport {output} {: } -lnet {2} {} -lloc {(12.570,22.545)} {                                  ** no similar net **}
-dv_discrep_line {  } -lport {input} {: } -lnet {87} {} -lloc {(29.602,30.698)} {                                  ** no similar net **}
-dv_discrep_line {  ** no similar net **                                      } -sport {output} {: } -snet {listener_str_1xfsm_unitxack_buf_reg_reg/GND} {}
-dv_discrep_line {  ** } -lnet {64} {} -lloc {(23.902,30.698)} { **                                   } -sport {input} {: } -snet {listener_str_1xfsm_unitxack_buf_reg_reg/A_105_6__} {}
-dv_discrep_line {}
-dv_discrep_line {Transistors:}
-dv_discrep_line {  } -ldev {260} {} -lloc {(30.372,31.690)} {  mn(NMOS_VTL)                          } -sdev {listener_str_1xfsm_unitxack_buf_reg_reg/m28} {  mn(NMOS_VTL)}
-dv_discrep_line {  } -ldev {262} {} -lloc {(30.562,31.690)} {  mn(NMOS_VTL)                          } -sdev {listener_str_1xfsm_unitxack_buf_reg_reg/m27} {  mn(NMOS_VTL)}
-dv_discrep_line {}
-dv_discrep -3 {Unmatched Objects}
-dv_discrep_line {}
-dv_discrep_line {} -ldev {0} {} -lloc {(20.782,33.780)} {  mp(PMOS_VTL)                            ** unmatched instance **}
-dv_discrep_line {} -ldev {1} {} -lloc {(21.543,33.780)} {  mp(PMOS_VTL)                            ** unmatched instance **}
-dv_discrep_line {} -ldev {6} {} -lloc {(22.242,28.735)} {  mp(PMOS_VTL)                            ** unmatched instance **}
-dv_discrep_line {} -ldev {7} {} -lloc {(22.302,25.760)} {  mp(PMOS_VTL)                            ** unmatched instance **}
-dv_discrep_line {} -ldev {39} {} -lloc {(24.582,33.780)} {  mp(PMOS_VTL)                           ** unmatched instance **}
-dv_discrep_line {} -ldev {50} {} -lloc {(25.343,33.780)} {  mp(PMOS_VTL)                           ** unmatched instance **}
-dv_discrep_line {} -ldev {105} {} -lloc {(30.817,30.677)} {  mp(PMOS_VTL)                          ** unmatched instance **}
-dv_discrep_line {} -ldev {161} {} -lloc {(20.782,32.667)} {  mn(NMOS_VTL)                          ** unmatched instance **}
-dv_discrep_line {} -ldev {162} {} -lloc {(21.543,32.667)} {  mn(NMOS_VTL)                          ** unmatched instance **}
-dv_discrep_line {} -ldev {168} {} -lloc {(22.242,28.205)} {  mn(NMOS_VTL)                          ** unmatched instance **}
-dv_discrep_line {} -ldev {169} {} -lloc {(22.302,27.122)} {  mn(NMOS_VTL)                          ** unmatched instance **}
-dv_discrep_line {} -ldev {196} {} -lloc {(24.442,28.100)} {  mn(NMOS_VTL)                          ** unmatched instance **}
-dv_discrep_line {} -ldev {199} {} -lloc {(24.582,32.667)} {  mn(NMOS_VTL)                          ** unmatched instance **}
-dv_discrep_line {} -ldev {211} {} -lloc {(25.343,32.667)} {  mn(NMOS_VTL)                          ** unmatched instance **}
-dv_discrep_line {} -ldev {268} {} -lloc {(30.965,32.062)} {  mn(NMOS_VTL)                          ** unmatched instance **}
-dv_discrep_line {}
-dv_discrep_line {** unmatched instance **                                  } -sdev {clk2__l2_i0/m1} {  mp(PMOS_VTL)}
-dv_discrep_line {** unmatched instance **                                  } -sdev {clk2__l2_i0/m3} {  mn(NMOS_VTL)}
-dv_discrep_line {** unmatched instance **                                  } -sdev {clk1__l1_i0/m3} {  mp(PMOS_VTL)}
-dv_discrep_line {** unmatched instance **                                  } -sdev {clk1__l1_i0/m7} {  mn(NMOS_VTL)}
-dv_discrep_line {** unmatched instance **                                  } -sdev {listener_str_1xfsm_unitxack_buf_reg_reg/m26} {  mn(NMOS_VTL)}
-dv_discrep_line {** unmatched instance **                                  } -sdev {u10/m1} {  mp(PMOS_VTL)}
-dv_discrep_line {** unmatched instance **                                  } -sdev {u10/m3} {  mn(NMOS_VTL)}
 dv_discrep_line {}
 dv_end
