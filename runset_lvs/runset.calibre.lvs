@@ -4,9 +4,11 @@
 *lvsLayoutPrimary: fullsystem
 *lvsSourcePath: fullsystem_tb.sp
 *lvsSourcePrimary: fullsystem
-*lvsSpiceFile: /media/ntfsdrive1/workspace/ProjectDIC2/runset_pex/fullsystem.sp
+*lvsSpiceFile: /media/ntfsdrive1/workspace/synchronizerchip/runset_lvs/fullsystem_extracted.sp
 *cmnRunHier: 0
-*cmnV2LVS_LastTranslation: 1449509596987634
 *cmnSlaveHosts: {use {}} {hostName {}} {cpuCount {}} {a32a64 {}} {rsh {}} {maxMem {}} {workingDir {}} {layerDir {}} {mgcLibPath {}} {launchName {}}
 *cmnLSFSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
 *cmnGridSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
+*cmnFDILayoutLibraryPath: /media/ntfsdrive1/workspace/synchronizerchip/layout/cds.lib
+*cmnFDILayoutLibrary: fullsystem
+*cmnFDILayoutView: layout
